@@ -1,10 +1,44 @@
-<ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+<ion-header class="header">
+	<ion-navbar>
+		<ion-grid>
+			<ion-row>
+				<ion-col col-2 class="col-logo">
+					<img src="assets/img/logo-white.png" />
+				</ion-col>
+				<ion-col col-4>
+					<ion-item>        
+						<ion-label> <ion-icon name="search"></ion-icon></ion-label>
+						<ion-input clearInput type="text"></ion-input>
+					</ion-item>
+				</ion-col>
+				<ion-col class="no-padding" col-4>
+					<ion-row>
+						<ion-col text-right col-10>
+							<button class="button-user" ion-button clear>
+								Catherine Ramos
+								<ion-icon class="arrow-user" name="ios-arrow-down"></ion-icon>              
+							</button>
+						</ion-col>
+						<ion-col text-left class="no-padding" col-2>
+							<img src="../assets/img/user.png" class="img-user" />
+						</ion-col>
+					</ion-row>
+				</ion-col>
+				<ion-col text-center col-2>
+					<button class="notification-button margin-right-20" ion-button clear>
+						<ion-icon name="ios-notifications-outline">
+							<ion-badge class="notifications-badge badge-blue">3</ion-badge>
+						</ion-icon>              
+					</button>
+					<button class="notification-button" ion-button clear>
+						<ion-icon name="ios-cart-outline">
+							<ion-badge class="notifications-badge badge-green">17</ion-badge>
+						</ion-icon>              
+					</button>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+	</ion-navbar>
 </ion-header>
 
 <ion-content padding>

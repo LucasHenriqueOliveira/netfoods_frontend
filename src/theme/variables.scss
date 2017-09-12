@@ -23,8 +23,6 @@ $app-direction: ltr;
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
 
-
-
 // Named Color Variables
 // --------------------------------------------------
 // Named colors makes it easy to reuse colors on various components.
@@ -40,6 +38,8 @@ $colors: (
   light:      #f4f4f4,
   dark:       #222
 );
+
+$toolbar-background: #B52C26;
 
 
 // App iOS Variables
@@ -71,6 +71,11 @@ $colors: (
 // default are overridden.
 
 @import "ionic.theme.default";
+$text-input-md-highlight-color-invalid: transparent;
+$text-input-md-highlight-color-valid: transparent;
+$text-input-md-show-invalid-highlight: transparent;
+$text-input-md-highlight-color: transparent;
+$text-input-md-show-valid-highlight: transparent;
 
 
 // Ionicons
