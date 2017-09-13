@@ -1,8 +1,4 @@
 page-home {
-    ion-app {
-        font-family: "GothamHTF-Book" !important;
-    }
-
     .grid {
         padding: 0;
     }
@@ -100,7 +96,51 @@ page-home {
         border: 5px solid #BC413B;
     }
 
-    .no-padding {
-        padding: 0;
+    .menu {
+        height: 100%;
+        position: fixed;
+        background-color: #303030;
+        top: 63px;
+    }
+
+    .menu ion-item {
+        background-color: #303030;
+        color: #989898;
+        padding-left: 0;
+    }
+
+    .menu .current {
+        border-left: 7px solid #A82923;
+        font-weight: bold;
+        color: #FFF;
+    }
+
+    .menu .current ion-icon {
+        color: #A82923;
+    }
+
+    .menu .input-wrapper {
+        padding-left: 30px;
+    }
+
+    .menu .current .input-wrapper {
+        padding-left: 22px;
+    }
+
+    .menu .item-inner {
+        border-bottom: none !important;
+    }
+
+    .menu ion-list {
+        margin-top: 15px;
+    }
+
+    .menu ion-icon {
+        padding-right: 7px;
+    }
+
+    .content {
+        position: absolute;
+        right: 0;
     }
 }

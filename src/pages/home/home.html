@@ -11,7 +11,7 @@
 						<ion-input clearInput type="text"></ion-input>
 					</ion-item>
 				</ion-col>
-				<ion-col class="no-padding" col-4>
+				<ion-col no-padding col-4>
 					<ion-row>
 						<ion-col text-right col-10>
 							<button class="button-user" ion-button clear>
@@ -19,7 +19,7 @@
 								<ion-icon class="arrow-user" name="ios-arrow-down"></ion-icon>              
 							</button>
 						</ion-col>
-						<ion-col text-left class="no-padding" col-2>
+						<ion-col text-left no-padding col-2>
 							<img src="../assets/img/user.png" class="img-user" />
 						</ion-col>
 					</ion-row>
@@ -41,12 +41,37 @@
 	</ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+<ion-content>
+	<ion-grid no-padding>
+		<ion-row>
+			<ion-col class="menu" col-2>
+				<ion-list>
+					<ion-item class="current" text-wrap>
+						<ion-icon name="ios-stats-outline"></ion-icon> Dashboard
+					</ion-item>
+					<ion-item text-wrap>
+						<ion-icon name="ios-paper-outline"></ion-icon> Mercado
+					</ion-item>
+					<ion-item text-wrap>
+						<ion-icon name="ios-cart-outline"></ion-icon> Compra Rápida
+					</ion-item>
+					<ion-item text-wrap>
+						<ion-icon name="ios-create-outline"></ion-icon> Pedidos
+					</ion-item>
+					<ion-item text-wrap>
+						<ion-icon name="ios-home-outline"></ion-icon> Fornecedores
+					</ion-item>
+					<ion-item text-wrap>
+						<ion-icon name="ios-chatbubbles-outline"></ion-icon> Mensagens
+					</ion-item>
+					<ion-item text-wrap>
+						<ion-icon name="ios-settings-outline"></ion-icon> Configurações
+					</ion-item>
+				</ion-list>
+			</ion-col>
+			<ion-col class="content" col-10>
+				
+			</ion-col>
+		</ion-row>
+	</ion-grid>
 </ion-content>
