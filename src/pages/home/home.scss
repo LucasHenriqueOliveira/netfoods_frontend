@@ -36,24 +36,23 @@ page-home {
         margin-left: 20px;
     }
 
-    .notification-button {            
+    .header .notification-button {            
         position: relative;
-        width: 42px;
+        width: auto;
         top:1px;
         right: 1px;
         overflow: visible!important;
     }
 
-    .notification-button ion-icon {
+    .header .notification-button ion-icon {
         font-size: 32px;
         color: #fff;
     }
 
-    .notifications-badge {
+    .header .notifications-badge {
         position: absolute;
-        top: -3px;
-        right: -3px;
-        border-radius: 100%;
+        padding: 3px 6px;
+        border-radius: 50%;
     }
 
     .badge-blue {
@@ -66,16 +65,20 @@ page-home {
 
     ion-badge {
         padding: 3px 3px;
+        font-family: Roboto, "Helvetica Neue", sans-serif !important;
     }
 
     .badge {
         top: 0;
-        left: 22px;
+        right: 5px;
+    }
+
+    .header .badge-cart-header {
         right: 0;
     }
 
-    .margin-right-20 {
-        margin-right: 20px;
+    .margin-right-10 {
+        margin-right: 10px;
     }
 
     .button-user {
@@ -137,6 +140,12 @@ page-home {
 
     .menu ion-icon {
         padding-right: 7px;
+    }
+
+    .menu ion-badge {
+        padding: 2px 5px;
+        border-radius: 50%;
+        margin-left: 10px;
     }
 
     .content {
