@@ -46,32 +46,93 @@
 		<ion-row>
 			<ion-col class="menu" col-2>
 				<ion-list>
-					<ion-item class="current" text-wrap>
+					<ion-item (click)="go()" class="current" text-wrap>
 						<ion-icon name="ios-stats-outline"></ion-icon> Dashboard
 					</ion-item>
-					<ion-item text-wrap>
+					<ion-item (click)="go()" text-wrap>
 						<ion-icon name="ios-paper-outline"></ion-icon> Mercado
 					</ion-item>
-					<ion-item text-wrap>
+					<ion-item (click)="go()" text-wrap>
 						<ion-icon name="ios-cart-outline"></ion-icon> Compra Rápida
 					</ion-item>
-					<ion-item text-wrap>
+					<ion-item (click)="go()" text-wrap>
 						<ion-icon name="ios-create-outline"></ion-icon> Pedidos
 					</ion-item>
-					<ion-item text-wrap>
+					<ion-item (click)="go()" text-wrap>
 						<ion-icon name="ios-home-outline"></ion-icon> Fornecedores
 					</ion-item>
-					<ion-item text-wrap>
+					<ion-item (click)="go()" text-wrap>
 						<ion-icon name="ios-chatbubbles-outline"></ion-icon> Mensagens
 						<ion-badge class="badge-blue">3</ion-badge>
 					</ion-item>
-					<ion-item text-wrap>
+					<ion-item (click)="go()" text-wrap>
 						<ion-icon name="ios-settings-outline"></ion-icon> Configurações
 					</ion-item>
 				</ion-list>
 			</ion-col>
 			<ion-col class="content" col-10>
-				
+				<ion-row>
+					<ion-col col-9>
+						
+					</ion-col>
+					<ion-col class="content-right" col-3>
+						<ion-row class="margin-top-10">
+							<ion-col col-5 text-center class="orders-label">
+								<span>Pedidos</span>
+							</ion-col>
+							<ion-col col-7>
+								<fieldset>
+									<legend>Filtros</legend>
+									<div class="circle_green"></div>
+									<span>
+										Em Processo <ion-icon name="ios-arrow-down"></ion-icon>
+									</span>
+								</fieldset>
+							</ion-col>
+						</ion-row>
+						<ion-row *ngFor="let pedido of pedidos">
+							<ion-col class="order">
+								<ion-row>
+									<ion-col class="order-text">	
+										Ordem
+									</ion-col>
+									<div class="order-box-color box-blue"></div>
+								</ion-row>
+								<ion-row>
+									<ion-col col-8 class="order-number no-padding-top">	
+										{{pedido.number}}
+									</ion-col>
+									<ion-col col-4 text-right class="order-actions no-padding-top">	
+										<ion-icon name="md-create"></ion-icon>
+										<ion-icon name="ios-trash-outline"></ion-icon>
+									</ion-col>
+								</ion-row>
+								<ion-row>
+									<ion-col class="no-padding-top">	
+										<span class="order-label">Valor</span><br/>
+										<span class="order-value">{{pedido.value}}</span>
+									</ion-col>
+									<ion-col class="no-padding-top">	
+										<span class="order-label">Data</span><br/>
+										<span class="order-value">{{pedido.date}}</span>
+									</ion-col>
+								</ion-row>
+								<ion-row>
+									<ion-col class="no-padding-top">	
+										<span class="order-label">Cliente</span><br/>
+										<span class="order-value">{{pedido.client}}</span>
+									</ion-col>
+								</ion-row>
+								<ion-row>
+									<ion-col text-right class="order-details">	
+										<span>Mais Detalhes</span> 
+										<ion-icon name="ios-arrow-forward"></ion-icon>
+									</ion-col>
+								</ion-row>
+							</ion-col>
+						</ion-row>
+					</ion-col>
+				</ion-row>
 			</ion-col>
 		</ion-row>
 	</ion-grid>
