@@ -13,6 +13,9 @@ import { OrdersComponent } from '../components/orders/orders';
 import { HeaderComponent } from '../components/header/header';
 import { SidemenuComponent } from '../components/sidemenu/sidemenu';
 import { DashboardComponent } from '../components/dashboard/dashboard';
+import { ProvidersComponent } from '../components/providers/providers';
+import { ActivitiesComponent } from '../components/activities/activities';
+import { ProductsComponent } from '../components/products/products';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { DashboardComponent } from '../components/dashboard/dashboard';
     OrdersComponent,
     HeaderComponent,
     SidemenuComponent,
-    DashboardComponent
+    DashboardComponent,
+    ProvidersComponent,
+    ActivitiesComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

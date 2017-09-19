@@ -1,0 +1,39 @@
+<ion-row>
+	<ion-col class="reports-label" col-10>
+		Fornecedores
+	</ion-col>
+	<ion-col class="reports-icon" col-2>
+		<ion-icon name="ios-more"></ion-icon>
+	</ion-col>
+</ion-row>
+<ion-row class="report" *ngFor="let provider of providers">
+	<ion-col class="report-box">
+		<ion-row>
+			<ion-col class="report-label">
+				{{provider.name}}
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col>
+				<span class="report-label-text">Valor Gasto</span>
+				<span class="report-number">{{provider.value_expense}}</span>
+			</ion-col>
+			<ion-col>
+				<span class="report-label-text">Último Pedido</span>
+				<span class="report-number">{{provider.last_order}}</span>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col>
+				<span class="report-label-text">Marketshare</span>
+				<span class="report-number">{{provider.marketshare}}</span>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col text-right class="report-details">
+				<span>Acessar Loja</span> 
+				<ion-icon name="ios-arrow-forward"></ion-icon>
+			</ion-col>
+		</ion-row>
+	</ion-col>
+</ion-row>

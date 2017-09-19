@@ -12,11 +12,7 @@ import { Component } from '@angular/core';
 })
 export class SidemenuComponent {
 
-  text: string;
-
   constructor() {
-    console.log('Hello SidemenuComponent Component');
-    this.text = 'Hello World';
   }
 
 }

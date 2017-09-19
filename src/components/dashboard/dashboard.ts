@@ -11,8 +11,6 @@ import { Component } from '@angular/core';
   templateUrl: 'dashboard.html'
 })
 export class DashboardComponent {
-
-	date: any;
 	  
 	orders = [{
 		number: "ORD.048922",
@@ -288,8 +286,8 @@ export class DashboardComponent {
     ];
     public radarChartType:string = 'radar';
 
-  constructor() {
-    this.date = new Date();
-  }
+  	constructor() {
+	
+  	}
 
 }

@@ -1,0 +1,33 @@
+<ion-row>
+	<ion-col class="reports-label" col-10>
+		Atividades
+	</ion-col>
+	<ion-col class="reports-icon" col-2>
+		<ion-icon name="ios-more"></ion-icon>
+	</ion-col>
+</ion-row>
+<ion-row>
+	<ion-col class="reports-date">Hoje, {{date | date: 'dd'}} de {{date | date: 'MMMM'}}</ion-col>
+</ion-row>
+<ion-row class="activities" *ngFor="let activity of activities">
+	<ion-col class="activities-box">
+		<ion-row>
+			<ion-col>
+				<span class="activities-label-text">{{activity.name}}</span>
+				<span class="activities-subtitle">ID: {{activity.id}}</span>
+			</ion-col>
+			<ion-col text-right>
+				<span class="activities-label-value">{{activity.value}}</span>
+				<ion-icon class="down" *ngIf="activity.arrow == 'down'" name="md-arrow-round-down"></ion-icon>
+				<ion-icon class="up" *ngIf="activity.arrow == 'up'" name="md-arrow-round-up"></ion-icon>
+				<span class="activities-subtitle">{{activity.date}}</span>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col text-right class="activities-details">
+				<span>Mais Detalhes</span> 
+				<ion-icon name="ios-arrow-forward"></ion-icon>
+			</ion-col>
+		</ion-row>
+	</ion-col>
+</ion-row>
