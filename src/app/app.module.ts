@@ -9,12 +9,20 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { ChartsModule } from 'ng2-charts';
+import { OrdersComponent } from '../components/orders/orders';
+import { HeaderComponent } from '../components/header/header';
+import { SidemenuComponent } from '../components/sidemenu/sidemenu';
+import { DashboardComponent } from '../components/dashboard/dashboard';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    OrdersComponent,
+    HeaderComponent,
+    SidemenuComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
