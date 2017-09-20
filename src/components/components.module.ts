@@ -6,6 +6,7 @@ import { DashboardComponent } from './dashboard/dashboard';
 import { ProvidersComponent } from './providers/providers';
 import { ActivitiesComponent } from './activities/activities';
 import { ProductsComponent } from './products/products';
+import { PopoverComponent } from './popover/popover';
 @NgModule({
 	declarations: [OrdersComponent,
     HeaderComponent,
@@ -13,7 +14,8 @@ import { ProductsComponent } from './products/products';
     DashboardComponent,
     ProvidersComponent,
     ActivitiesComponent,
-    ProductsComponent],
+    ProductsComponent,
+    PopoverComponent],
 	imports: [],
 	exports: [OrdersComponent,
     HeaderComponent,
@@ -21,6 +23,7 @@ import { ProductsComponent } from './products/products';
     DashboardComponent,
     ProvidersComponent,
     ActivitiesComponent,
-    ProductsComponent]
+    ProductsComponent,
+    PopoverComponent]
 })
 export class ComponentsModule {}

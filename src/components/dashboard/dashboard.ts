@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { PopoverController } from 'ionic-angular';
+import { PopoverComponent } from '../popover/popover';
 
 /**
  * Generated class for the DashboardComponent component.
@@ -286,8 +288,15 @@ export class DashboardComponent {
     ];
     public radarChartType:string = 'radar';
 
-  	constructor() {
+  	constructor(private popoverCtrl: PopoverController) {
 	
-  	}
+    }
+    
+    presentPopover(ev) {
+      let popover = this.popoverCtrl.create(PopoverComponent, { menu: 'teste'});
+      popover.present({
+        ev: ev
+      });
+    }
 
 }

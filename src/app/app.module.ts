@@ -16,6 +16,7 @@ import { DashboardComponent } from '../components/dashboard/dashboard';
 import { ProvidersComponent } from '../components/providers/providers';
 import { ActivitiesComponent } from '../components/activities/activities';
 import { ProductsComponent } from '../components/products/products';
+import { PopoverComponent } from '../components/popover/popover';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ProductsComponent } from '../components/products/products';
     DashboardComponent,
     ProvidersComponent,
     ActivitiesComponent,
-    ProductsComponent
+    ProductsComponent,
+    PopoverComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,8 @@ import { ProductsComponent } from '../components/products/products';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    PopoverComponent
   ],
   providers: [
     StatusBar,

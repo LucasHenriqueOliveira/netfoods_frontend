@@ -656,3 +656,46 @@ legend {
 .activities .down {
     color: #B72827;
 }
+
+.no-chart-view {
+    overflow: hidden;
+    border-color: rgba(0,0,0,.4);
+    padding: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.no-chart-view .content-chart {
+    filter: blur(2px);
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    z-index: 99;
+}
+
+.no-chart-view .no-chart-monitoring {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.4;
+    filter: blur(0);
+}
+
+.no-chart-view .text-no-chart {
+    position: absolute;
+    text-align: center;
+    z-index: 101;
+    width: 80%;
+    top: 40%;
+    left: 14%;
+    font-size: 18px;
+    color: #fff;
+}
+
+.ion-ios-more {
+    cursor: pointer;
+}
