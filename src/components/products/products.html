@@ -5,7 +5,7 @@
 	<ion-col col-4>
 		<ion-item class="products-search">        
 			<ion-label> <ion-icon name="search"></ion-icon></ion-label>
-			<ion-input clearInput type="text" placeholder="Buscar"></ion-input>
+			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>
 		</ion-item>
 	</ion-col>
 	<ion-col col-2>
@@ -22,10 +22,12 @@
 </ion-row>
 <ion-row>
 	<ion-col class="quantity-total">
-		150 produtos encontrados
+		<span *ngIf="qtd_items == 1">{{qtd_items}} produto encontrado</span>
+		<span *ngIf="qtd_items > 1">{{qtd_items}} produtos encontrados</span>
+		<span *ngIf="!qtd_items">Nenhum produto encontrado!</span>
 	</ion-col>
 </ion-row>
-<ion-row class="product" *ngFor="let product of products">
+<ion-row class="product" *ngFor="let product of items">
 	<ion-col class="product-box">
 		<ion-row>
 			<ion-col col-1>
