@@ -3,7 +3,7 @@
 		Fornecedores
 	</ion-col>
 	<ion-col class="reports-icon" col-2>
-		<ion-icon name="ios-more"></ion-icon>
+		<ion-icon name="ios-more" (click)="presentPopover($event)"></ion-icon>
 	</ion-col>
 </ion-row>
 <ion-row class="report" *ngFor="let provider of providers">

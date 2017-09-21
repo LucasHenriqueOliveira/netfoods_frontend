@@ -1,23 +1,20 @@
 <ion-row>
-	<ion-col class="products-label" col-5>
-		Produtos mais Comprados
+	<ion-col class="products-label" col-6>
+		{{title}}
 	</ion-col>
-	<ion-col col-4>
+	<ion-col [class.col-4]="source == 'dashboard'">
 		<ion-item class="products-search">        
 			<ion-label> <ion-icon name="search"></ion-icon></ion-label>
 			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>
 		</ion-item>
 	</ion-col>
-	<ion-col col-2>
+	<ion-col col-2 *ngIf="source == 'dashboard'">
 		<fieldset>
 			<legend>Filtros</legend>
 			<span>
 				Semana <ion-icon name="ios-arrow-down"></ion-icon>
 			</span>
 		</fieldset>
-	</ion-col>
-	<ion-col class="products-icon" col-1>
-		<ion-icon name="ios-more" (click)="presentPopover($event)"></ion-icon>
 	</ion-col>
 </ion-row>
 <ion-row>
@@ -33,24 +30,22 @@
 			<ion-col col-1>
 				<img [src]="product.image" />
 			</ion-col>
-			<ion-col col-4>
+			<ion-col [class.col-4]="source == 'dashboard'">
 				<ion-row>
 					<ion-col class="product-name">
 						{{product.name}}
 					</ion-col>
 				</ion-row>
 				<ion-row>
-					<ion-col class="product-code">
-						Cód.: {{product.code}}
-					</ion-col>
+					<ion-col *ngIf="source == 'dashboard'" class="product-code">Cód.: {{product.code}}</ion-col>
+					<ion-col *ngIf="source == 'mercado'" class="product-current-value">{{product.current_value}} <span>p/ unidade</span></ion-col>
 				</ion-row>
 				<ion-row>
-					<ion-col class="product-group">
-						{{product.group}}
-					</ion-col>
+					<ion-col *ngIf="source == 'dashboard'" class="product-group">{{product.group}}</ion-col>
+					<ion-col *ngIf="source == 'mercado'" class="product-group-value">{{product.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>
 				</ion-row>
 			</ion-col>
-			<ion-col col-2>
+			<ion-col *ngIf="source == 'dashboard'" col-2>
 				<ion-row>
 					<ion-col text-right class="product-label">Valor Atual</ion-col>
 				</ion-row>
@@ -61,7 +56,7 @@
 					<ion-col text-right class="product-label">Valor Médio</ion-col>
 				</ion-row>
 			</ion-col>
-			<ion-col col-2>
+			<ion-col *ngIf="source == 'dashboard'" col-2>
 				<ion-row>
 					<ion-col class="product-current-value down no-padding-top"
 					[class.down]="product.arrow == 'down'" [class.up]="product.arrow == 'up'">
@@ -77,7 +72,7 @@
 					<ion-col class="product-average-value">{{product.average_value}}</ion-col>
 				</ion-row>
 			</ion-col>
-			<ion-col col-3 class="product-cart-quantity">
+			<ion-col class="product-cart-quantity">
 				<ion-row>
 					<ion-col>
 						<span class="product-quantity">
@@ -90,7 +85,7 @@
 						</span>
 					</ion-col>
 				</ion-row>
-				<ion-row>
+				<ion-row *ngIf="source == 'dashboard'">
 					<ion-col>
 						<span class="product-price-history">
 							Ver Histórico de Preço

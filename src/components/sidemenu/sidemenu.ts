@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavController, Events } from 'ionic-angular';
 
 /**
  * Generated class for the SidemenuComponent component.
@@ -12,7 +13,13 @@ import { Component } from '@angular/core';
 })
 export class SidemenuComponent {
 
-  constructor() {
-  }
+	sidemenu: string = 'dashboard';
 
+	constructor(public navCtrl: NavController, public events: Events) {
+	}
+
+	go(menu: string) {
+		this.sidemenu = menu;
+		this.events.publish('sidemenu', this.sidemenu);
+	}
 }

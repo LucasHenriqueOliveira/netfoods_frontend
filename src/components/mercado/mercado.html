@@ -1,0 +1,29 @@
+<ion-col class="content market" no-padding col-10>
+	<submenu></submenu>
+
+	<ion-row>
+		<ion-col col-7>
+			<ion-row>
+				<ion-col class="market-title">
+					Ofertas da Semana
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col>
+					<ion-slides>
+						<ion-slide *ngFor="let slide of images">
+							<img [src]="slide.image">
+						</ion-slide>
+					</ion-slides>
+				</ion-col>
+			</ion-row>
+		</ion-col>
+		<ion-col col-5>
+			<ion-row class="products no-margin-top">
+				<ion-col class="products-box" no-padding>
+					<products [products]="products" source="mercado" title="Ofertas do Dia"></products>
+				</ion-col>
+			</ion-row>
+		</ion-col>
+	</ion-row>
+</ion-col>

@@ -1,6 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { PopoverController } from 'ionic-angular';
-import { PopoverComponent } from '../popover/popover';
 
 /**
  * Generated class for the ProductsComponent component.
@@ -15,11 +13,13 @@ import { PopoverComponent } from '../popover/popover';
 export class ProductsComponent {
 
 	@Input() products: any
+	@Input() title: string
+	@Input() source: string
 	private items: any;
 	private inputItem: string = '';
 	private qtd_items: number;
 
-	constructor(private popoverCtrl: PopoverController) {
+	constructor() {
 		
 	}
 
@@ -47,13 +47,6 @@ export class ProductsComponent {
 		  })
 		  this.qtd_items = this.items.length;
 		}
-	}
-
-	presentPopover(ev) {
-		let popover = this.popoverCtrl.create(PopoverComponent, { menu: 'teste'});
-			popover.present({
-			ev: ev
-		});
 	}
 
 }

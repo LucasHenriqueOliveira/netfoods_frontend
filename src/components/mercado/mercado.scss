@@ -1,0 +1,59 @@
+mercado {
+    .submenu {
+        color: #999;
+        -webkit-box-shadow: 0px 3px 7px 0px #e0e0e0;
+        box-shadow: 2px 2px 4px 0px #e0e0e0;
+    }
+
+    .submenu ion-icon {
+        display: block;
+        font-size: 30px;
+    }
+
+    .submenu ion-col {
+        text-align: center;
+        font-size: 10px;
+        padding-top: 7px;
+        cursor: pointer;
+    }
+
+    .submenu .current {
+        background-color: #A82923;
+        color: #FFF;
+    }
+
+    .swiper-pagination {
+        display: block !important;
+        text-align: right;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    ion-slides {
+        padding-left: 10px;
+    }
+
+    ion-slide img {
+        border-radius: 4px;
+    }
+
+    .swiper-pagination-bullet {
+        background: #FFF !important;
+        opacity: 1 !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #2A87A6 !important;
+        -webkit-box-shadow: 0px 3px 7px 0px #e0e0e0 !important;
+        box-shadow: 0px 1px 10px 1px #2A87A6 !important;
+    }
+
+    .products .products-box {
+        border: none;
+        box-shadow: none;
+    }
+
+    .product .product-cart-quantity {
+        margin-top: 12px;
+    }
+}

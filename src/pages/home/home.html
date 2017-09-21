@@ -11,8 +11,8 @@
 			<!-- Component sidemenu -->
 			<sidemenu></sidemenu>
 
-			<!-- Component dashboard -->
-			<dashboard></dashboard>
+			<dashboard *ngIf="menu == 'dashboard'"></dashboard>
+			<mercado *ngIf="menu == 'mercado'"></mercado>
 		</ion-row>
 	</ion-grid>
 </ion-content>

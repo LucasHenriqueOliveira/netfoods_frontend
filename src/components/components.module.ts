@@ -7,6 +7,8 @@ import { ProvidersComponent } from './providers/providers';
 import { ActivitiesComponent } from './activities/activities';
 import { ProductsComponent } from './products/products';
 import { PopoverComponent } from './popover/popover';
+import { MercadoComponent } from './mercado/mercado';
+import { SubmenuComponent } from './submenu/submenu';
 @NgModule({
 	declarations: [OrdersComponent,
     HeaderComponent,
@@ -15,7 +17,9 @@ import { PopoverComponent } from './popover/popover';
     ProvidersComponent,
     ActivitiesComponent,
     ProductsComponent,
-    PopoverComponent],
+    PopoverComponent,
+    MercadoComponent,
+    SubmenuComponent],
 	imports: [],
 	exports: [OrdersComponent,
     HeaderComponent,
@@ -24,6 +28,8 @@ import { PopoverComponent } from './popover/popover';
     ProvidersComponent,
     ActivitiesComponent,
     ProductsComponent,
-    PopoverComponent]
+    PopoverComponent,
+    MercadoComponent,
+    SubmenuComponent]
 })
 export class ComponentsModule {}
