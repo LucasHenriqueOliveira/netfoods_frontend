@@ -2,14 +2,14 @@
 	<submenu></submenu>
 
 	<ion-row>
-		<ion-col col-7>
+		<ion-col col-7 class="padding-top-10">
 			<ion-row>
 				<ion-col class="market-title">
 					Ofertas da Semana
 				</ion-col>
 			</ion-row>
 			<ion-row>
-				<ion-col>
+				<ion-col class="padding-top-35">
 					<ion-slides>
 						<ion-slide *ngFor="let slide of images">
 							<img [src]="slide.image">
@@ -20,10 +20,19 @@
 		</ion-col>
 		<ion-col col-5>
 			<ion-row class="products no-margin-top">
-				<ion-col class="products-box" no-padding>
-					<products [products]="products" source="mercado" title="Ofertas do Dia"></products>
+				<ion-col class="products-box products-offers-day" no-padding>
+					<products [products]="products" source="market" title="Ofertas do Dia"></products>
 				</ion-col>
 			</ion-row>
 		</ion-col>
 	</ion-row>
+
+	<ion-row class="margin-left-8">
+		<ion-col class="market-title">
+			Produtos Recomendados
+		</ion-col>
+	</ion-row>
+	
+	<recommended-products [recommended_products]="recommended_products"></recommended-products>
+	
 </ion-col>

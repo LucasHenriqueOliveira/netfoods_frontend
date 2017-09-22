@@ -1,0 +1,46 @@
+<ion-row class="recommended-products-list">
+	<ion-col class="recommended-products" *ngFor="let recommended_product of recommended_products">
+		<ion-row>
+			<ion-col class="recommended-products-group" col-9>
+				<ion-icon name="ios-cube-outline"></ion-icon> Caixa c/ 10 uni.
+			</ion-col>
+			<ion-col text-right>
+				<ion-icon name="ios-heart-outline"></ion-icon>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col text-center>
+				<img [src]="recommended_product.image">
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="recommended-products-group-name no-padding-top">
+				{{recommended_product.group}}
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="recommended-products-type">
+				<span>{{recommended_product.name}}</span>
+				<span>{{recommended_product.group | uppercase}} {{recommended_product.size}}</span>
+			</ion-col>
+		</ion-row>
+		<ion-row class="padding-top-10">
+			<ion-col class="recommended-products-group-value">{{recommended_product.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="recommended-products-current-value">{{recommended_product.unit_value}} <span>p/ unidade</span></ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="recommended-products-quantity-label">
+				<span class="recommended-products-quantity">
+					<ion-icon name="md-remove"></ion-icon>
+					<span>01</span>
+					<ion-icon name="md-add" class="icon-plus"></ion-icon>
+				</span>
+				<span class="recommended-products-cart">
+					<ion-icon name="cart"></ion-icon> Adicionar
+				</span>
+			</ion-col>
+		</ion-row>
+	</ion-col>
+</ion-row>

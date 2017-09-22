@@ -38,11 +38,11 @@
 				</ion-row>
 				<ion-row>
 					<ion-col *ngIf="source == 'dashboard'" class="product-code">Cód.: {{product.code}}</ion-col>
-					<ion-col *ngIf="source == 'mercado'" class="product-current-value">{{product.current_value}} <span>p/ unidade</span></ion-col>
+					<ion-col *ngIf="source == 'market'" class="product-current-value">{{product.current_value}} <span>p/ unidade</span></ion-col>
 				</ion-row>
 				<ion-row>
 					<ion-col *ngIf="source == 'dashboard'" class="product-group">{{product.group}}</ion-col>
-					<ion-col *ngIf="source == 'mercado'" class="product-group-value">{{product.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>
+					<ion-col *ngIf="source == 'market'" class="product-group-value">{{product.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>
 				</ion-row>
 			</ion-col>
 			<ion-col *ngIf="source == 'dashboard'" col-2>

@@ -47,6 +47,18 @@
     padding-left: 0 !important;
 }
 
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.padding-top-35 {
+    padding-top: 35px;
+}
+
+.margin-left-8 {
+    margin-left: 8px;
+}
+
 .header .item-input {
     color: #FFF;
 }
@@ -348,7 +360,8 @@ legend {
 .product .product-box,
 .reports .reports-box,
 .report .report-box,
-.activities .activities-box {
+.activities .activities-box,
+.market .recommended-products {
     padding: 5px;
     border: 1px solid #F8F8FA;
     margin: 0 7px;
@@ -499,7 +512,8 @@ legend {
     margin-top: 6px;
 }
 
-.product .product-cart {
+.product .product-cart,
+.market .recommended-products-cart {
     border-radius: 4px;
     background-color: #73B440;
     color: #FFF;
@@ -528,20 +542,23 @@ legend {
     padding-left: 6px;
 }
 
-.product .product-quantity {
+.product .product-quantity,
+.market .recommended-products-quantity {
     border: 1px solid #E6EAEF;
     border-right: none;
     border-radius: 4px;
     padding: 6px;
 }
 
-.product .product-quantity ion-icon {
+.product .product-quantity ion-icon,
+.market .recommended-products-quantity ion-icon {
     color: #73B440;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.product .product-quantity .icon-plus {
+.product .product-quantity .icon-plus,
+.market .recommended-products-quantity .icon-plus {
     padding-right: 5px;
 }
 
@@ -717,20 +734,25 @@ legend {
 }
 
 .product .product-current-value,
-.product .product-group-value {
+.product .product-group-value,
+.market .recommended-products-group-value,
+.market .recommended-products-current-value {
     font-size: 14px;
     padding-top: 0;
     color: #73B440;
     font-weight: bold;
 }
 
-.product .product-group-value {
+.product .product-group-value,
+.market .recommended-products-current-value {
     color: #999;
     font-size: 12px;
 }
 
 .product .product-current-value span,
-.product .product-group-value span {
+.product .product-group-value span,
+.market .recommended-products-group-value span,
+.market .recommended-products-current-value span{
     font-size: 11px;
     color: #999;
     font-weight: normal;

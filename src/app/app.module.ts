@@ -16,8 +16,9 @@ import { ProvidersComponent } from '../components/providers/providers';
 import { ActivitiesComponent } from '../components/activities/activities';
 import { ProductsComponent } from '../components/products/products';
 import { PopoverComponent } from '../components/popover/popover';
-import { MercadoComponent } from '../components/mercado/mercado';
+import { MarketComponent } from '../components/market/market';
 import { SubmenuComponent } from '../components/submenu/submenu';
+import { RecommendedProductsComponent } from '../components/recommended-products/recommended-products';
 
 @NgModule({
   declarations: [
@@ -30,9 +31,10 @@ import { SubmenuComponent } from '../components/submenu/submenu';
     ProvidersComponent,
     ActivitiesComponent,
     ProductsComponent,
-    MercadoComponent,
+    MarketComponent,
     PopoverComponent,
-    SubmenuComponent
+    SubmenuComponent,
+    RecommendedProductsComponent
   ],
   imports: [
     BrowserModule,
