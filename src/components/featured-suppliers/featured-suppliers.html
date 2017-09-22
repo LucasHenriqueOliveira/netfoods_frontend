@@ -1,0 +1,15 @@
+<ion-row class="featured-suppliers">
+	<ion-col class="margin-top-25">
+		<ion-row text-center>
+			<ion-col class="featured-suppliers-title">Fornecedores em Destaque</ion-col>
+		</ion-row>
+		<ion-row text-center>
+			<ion-col class="featured-suppliers-subtitle">Acesse a loja do fornecedor, veja suas qualificações, converse com a empresa e faça seu pedido</ion-col>
+		</ion-row>
+		<ion-row class="featured-suppliers-images margin-top-25 margin-bottom-10">
+			<ion-col *ngFor="let featured_supplier of featured_suppliers">
+				<img [src]="featured_supplier.image">
+			</ion-col>
+		</ion-row>
+	</ion-col>
+</ion-row>

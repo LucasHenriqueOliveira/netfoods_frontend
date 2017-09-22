@@ -6,27 +6,27 @@
 		<ion-icon name="ios-more" (click)="presentPopover($event)"></ion-icon>
 	</ion-col>
 </ion-row>
-<ion-row class="report" *ngFor="let provider of providers">
+<ion-row class="report" *ngFor="let supplier of suppliers">
 	<ion-col class="report-box">
 		<ion-row>
 			<ion-col class="report-label">
-				{{provider.name}}
+				{{supplier.name}}
 			</ion-col>
 		</ion-row>
 		<ion-row>
 			<ion-col>
 				<span class="report-label-text">Valor Gasto</span>
-				<span class="report-number">{{provider.value_expense}}</span>
+				<span class="report-number">{{supplier.value_expense}}</span>
 			</ion-col>
 			<ion-col>
 				<span class="report-label-text">Último Pedido</span>
-				<span class="report-number">{{provider.last_order}}</span>
+				<span class="report-number">{{supplier.last_order}}</span>
 			</ion-col>
 		</ion-row>
 		<ion-row>
 			<ion-col>
 				<span class="report-label-text">Marketshare</span>
-				<span class="report-number">{{provider.marketshare}}</span>
+				<span class="report-number">{{supplier.marketshare}}</span>
 			</ion-col>
 		</ion-row>
 		<ion-row>

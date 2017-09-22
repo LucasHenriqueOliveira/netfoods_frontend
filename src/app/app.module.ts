@@ -12,13 +12,14 @@ import { OrdersComponent } from '../components/orders/orders';
 import { HeaderComponent } from '../components/header/header';
 import { SidemenuComponent } from '../components/sidemenu/sidemenu';
 import { DashboardComponent } from '../components/dashboard/dashboard';
-import { ProvidersComponent } from '../components/providers/providers';
+import { SuppliersComponent } from '../components/suppliers/suppliers';
 import { ActivitiesComponent } from '../components/activities/activities';
 import { ProductsComponent } from '../components/products/products';
 import { PopoverComponent } from '../components/popover/popover';
 import { MarketComponent } from '../components/market/market';
 import { SubmenuComponent } from '../components/submenu/submenu';
 import { RecommendedProductsComponent } from '../components/recommended-products/recommended-products';
+import { FeaturedSuppliersComponent } from '../components/featured-suppliers/featured-suppliers';
 
 @NgModule({
   declarations: [
@@ -28,13 +29,14 @@ import { RecommendedProductsComponent } from '../components/recommended-products
     HeaderComponent,
     SidemenuComponent,
     DashboardComponent,
-    ProvidersComponent,
+    SuppliersComponent,
     ActivitiesComponent,
     ProductsComponent,
     MarketComponent,
     PopoverComponent,
     SubmenuComponent,
-    RecommendedProductsComponent
+    RecommendedProductsComponent,
+    FeaturedSuppliersComponent
   ],
   imports: [
     BrowserModule,

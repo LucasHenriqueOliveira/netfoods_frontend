@@ -147,7 +147,7 @@ export class DashboardComponent {
       image: "../assets/img/vinho_tinto.jpg"
     }];
   
-    providers = [{
+    suppliers = [{
       name: "Grupo PA",
       value_expense: "R$85.000",
       last_order: "R$15.500",

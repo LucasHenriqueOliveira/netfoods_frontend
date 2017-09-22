@@ -3,18 +3,18 @@ import { PopoverController } from 'ionic-angular';
 import { PopoverComponent } from '../popover/popover';
 
 /**
- * Generated class for the ProvidersComponent component.
+ * Generated class for the SuppliersComponent component.
  *
  * See https://angular.io/api/core/Component for more info on Angular
  * Components.
  */
 @Component({
-  selector: 'providers',
-  templateUrl: 'providers.html'
+  selector: 'suppliers',
+  templateUrl: 'suppliers.html'
 })
-export class ProvidersComponent {
+export class SuppliersComponent {
 
-  @Input() providers: any
+  @Input() suppliers: any
 
   constructor(private popoverCtrl: PopoverController) {
     

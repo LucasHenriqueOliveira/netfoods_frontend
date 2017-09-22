@@ -120,12 +120,40 @@ export class MarketComponent {
 		image: "../assets/img/recommends-products5.png"
 	}];
 
-	constructor() {
+	featured_suppliers = [{
+		name: "Produto Orgânico Brasil",
+		image: "../assets/img/featured-suppliers1.png"
+	},
+	{
+		name: "Grupo Bimbo",
+		image: "../assets/img/featured-suppliers2.png"
+	},
+	{
+		name: "Kelloggs",
+		image: "../assets/img/featured-suppliers3.png"
+	},
+	{
+		name: "Kimberly-Clark",
+		image: "../assets/img/featured-suppliers4.png"
+	},
+	{
+		name: "Unilever",
+		image: "../assets/img/featured-suppliers5.png"
+	}];
 
+	constructor() {
+		
+	}
+
+	ionViewDidEnter() {
+		this.slides.update();
 	}
 
 	ngAfterViewInit() {
 		this.slides.startAutoplay();
+		this.slides.autoplay = "5000";
+		this.slides.loop = true;
+		this.slides.initialSlide = 0;
 	}
 
 }

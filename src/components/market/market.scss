@@ -80,6 +80,7 @@ market {
 
     .market .recommended-products-list {
         margin: 10px 14px;
+        margin-bottom: 35px;
     }
 
     .market .recommended-products-group {
@@ -144,5 +145,24 @@ market {
 
     .market .recommended-products-cart ion-icon {
         padding-right: 3px;
+    }
+
+    .market .featured-suppliers {
+        background-color: #F8F8FA;
+    }
+
+    .market .featured-suppliers-title {
+        font-size: 19px;
+    }
+
+    .market .featured-suppliers-subtitle {
+        font-size: 12px;
+        padding-top: 0;
+    }
+
+    .market .featured-suppliers-images ion-col {
+        background-color: #FFF;
+        padding: 5px;
+        margin: 0 7px;
     }
 }
