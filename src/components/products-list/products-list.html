@@ -1,0 +1,98 @@
+<ion-row class="margin-left-8">
+	<ion-col [class.padding-top-35]="type == 'top-selling-products'" class="market-title">
+		{{title}}
+	</ion-col>
+</ion-row>
+
+<ion-row class="products-list-list">
+	<ion-col class="products-list" *ngFor="let product_list of products_list | slice:0:5; let i=index">
+		<ion-row>
+			<ion-col class="products-list-group" col-9>
+				<ion-icon name="ios-cube-outline"></ion-icon> Caixa c/ 10 uni.
+			</ion-col>
+			<ion-col text-right>
+				<ion-icon name="ios-heart-outline"></ion-icon>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col text-center>
+				<img [src]="product_list.image">
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="products-list-group-name no-padding-top">
+				{{product_list.group}}
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="products-list-type">
+				<span>{{product_list.name}}</span>
+				<span>{{product_list.group | uppercase}} {{product_list.size}}</span>
+			</ion-col>
+		</ion-row>
+		<ion-row class="padding-top-10">
+			<ion-col class="products-list-group-value">{{product_list.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="products-list-current-value">{{product_list.unit_value}} <span>p/ unidade</span></ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="products-list-quantity-label">
+				<span class="products-list-quantity">
+					<ion-icon name="md-remove"></ion-icon>
+					<span>01</span>
+					<ion-icon name="md-add" class="icon-plus"></ion-icon>
+				</span>
+				<span class="products-list-cart">
+					<ion-icon name="cart"></ion-icon> Adicionar
+				</span>
+			</ion-col>
+		</ion-row>
+	</ion-col>
+</ion-row>
+<ion-row class="products-list-list">
+	<ion-col class="products-list" *ngFor="let product_list of products_list | slice:5:10; let i=index">
+		<ion-row>
+			<ion-col class="products-list-group" col-9>
+				<ion-icon name="ios-cube-outline"></ion-icon> Caixa c/ 10 uni.
+			</ion-col>
+			<ion-col text-right>
+				<ion-icon name="ios-heart-outline"></ion-icon>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col text-center>
+				<img [src]="product_list.image">
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="products-list-group-name no-padding-top">
+				{{product_list.group}}
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="products-list-type">
+				<span>{{product_list.name}}</span>
+				<span>{{product_list.group | uppercase}} {{product_list.size}}</span>
+			</ion-col>
+		</ion-row>
+		<ion-row class="padding-top-10">
+			<ion-col class="products-list-group-value">{{product_list.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="products-list-current-value">{{product_list.unit_value}} <span>p/ unidade</span></ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="products-list-quantity-label">
+				<span class="products-list-quantity">
+					<ion-icon name="md-remove"></ion-icon>
+					<span>01</span>
+					<ion-icon name="md-add" class="icon-plus"></ion-icon>
+				</span>
+				<span class="products-list-cart">
+					<ion-icon name="cart"></ion-icon> Adicionar
+				</span>
+			</ion-col>
+		</ion-row>
+	</ion-col>
+</ion-row>

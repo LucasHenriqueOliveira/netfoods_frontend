@@ -18,7 +18,7 @@ import { ProductsComponent } from '../components/products/products';
 import { PopoverComponent } from '../components/popover/popover';
 import { MarketComponent } from '../components/market/market';
 import { SubmenuComponent } from '../components/submenu/submenu';
-import { RecommendedProductsComponent } from '../components/recommended-products/recommended-products';
+import { ProductsListComponent } from '../components/products-list/products-list';
 import { FeaturedSuppliersComponent } from '../components/featured-suppliers/featured-suppliers';
 
 @NgModule({
@@ -35,7 +35,7 @@ import { FeaturedSuppliersComponent } from '../components/featured-suppliers/fea
     MarketComponent,
     PopoverComponent,
     SubmenuComponent,
-    RecommendedProductsComponent,
+    ProductsListComponent,
     FeaturedSuppliersComponent
   ],
   imports: [

@@ -9,7 +9,7 @@ import { ProductsComponent } from './products/products';
 import { PopoverComponent } from './popover/popover';
 import { MarketComponent } from './market/market';
 import { SubmenuComponent } from './submenu/submenu';
-import { RecommendedProductsComponent } from './recommended-products/recommended-products';
+import { ProductsListComponent } from './products-list/products-list';
 import { FeaturedSuppliersComponent } from './featured-suppliers/featured-suppliers';
 @NgModule({
 	declarations: [OrdersComponent,
@@ -22,7 +22,7 @@ import { FeaturedSuppliersComponent } from './featured-suppliers/featured-suppli
     PopoverComponent,
     MarketComponent,
     SubmenuComponent,
-    RecommendedProductsComponent,
+    ProductsListComponent,
     FeaturedSuppliersComponent],
 	imports: [],
 	exports: [OrdersComponent,
@@ -35,7 +35,7 @@ import { FeaturedSuppliersComponent } from './featured-suppliers/featured-suppli
     ProductsComponent,
     PopoverComponent,
     SubmenuComponent,
-    RecommendedProductsComponent,
+    ProductsListComponent,
     FeaturedSuppliersComponent]
 })
 export class ComponentsModule {}

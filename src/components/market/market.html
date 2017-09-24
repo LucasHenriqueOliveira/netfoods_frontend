@@ -26,15 +26,11 @@
 			</ion-row>
 		</ion-col>
 	</ion-row>
-
-	<ion-row class="margin-left-8">
-		<ion-col class="market-title">
-			Produtos Recomendados
-		</ion-col>
-	</ion-row>
 	
-	<recommended-products [recommended_products]="recommended_products"></recommended-products>
+	<products-list [products_list]="recommended_products" type="recommended-products" title="Produtos Recomendados"></products-list>
 
 	<featured-suppliers [featured_suppliers]="featured_suppliers"></featured-suppliers>
+
+	<products-list [products_list]="top_selling_products" type="top-selling-products" title="Produtos Mais Vendidos"></products-list>
 	
 </ion-col>
