@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { Slides } from 'ionic-angular';
+import { Slides, Events } from 'ionic-angular';
 
 /**
  * Generated class for the MarketComponent component.
@@ -222,8 +222,12 @@ export class MarketComponent {
 		image: "../assets/img/recommends-products5.png"
 	}];
 
-	constructor() {
-		
+	submenu: string = '';
+	
+	constructor(public events: Events) {
+		events.subscribe('submenu', (submenu) => {
+			this.submenu = submenu;
+		});
 	}
 
 	ionViewDidEnter() {

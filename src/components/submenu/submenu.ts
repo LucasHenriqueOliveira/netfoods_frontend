@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Events } from 'ionic-angular';
 
 /**
  * Generated class for the SubmenuComponent component.
@@ -7,12 +8,19 @@ import { Component } from '@angular/core';
  * Components.
  */
 @Component({
-  selector: 'submenu',
-  templateUrl: 'submenu.html'
+  	selector: 'submenu',
+  	templateUrl: 'submenu.html'
 })
 export class SubmenuComponent {
   
-  constructor() {
-  }
+	submenu: string = '';
+	
+	constructor(public events: Events) {
+	}
+
+	go(menu: string) {
+		this.submenu = menu;
+		this.events.publish('submenu', this.submenu);
+	}
 
 }
