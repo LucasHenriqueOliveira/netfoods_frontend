@@ -24,75 +24,77 @@
 		<span *ngIf="!qtd_items">Nenhum produto encontrado!</span>
 	</ion-col>
 </ion-row>
-<ion-row class="product" *ngFor="let product of items">
-	<ion-col class="product-box">
-		<ion-row>
-			<ion-col col-1>
-				<img [src]="product.image" />
-			</ion-col>
-			<ion-col [class.col-4]="source == 'dashboard'">
-				<ion-row>
-					<ion-col class="product-name">
-						{{product.name}}
-					</ion-col>
-				</ion-row>
-				<ion-row>
-					<ion-col *ngIf="source == 'dashboard'" class="product-code">Cód.: {{product.code}}</ion-col>
-					<ion-col *ngIf="source == 'market'" class="product-current-value">{{product.current_value}} <span>p/ unidade</span></ion-col>
-				</ion-row>
-				<ion-row>
-					<ion-col *ngIf="source == 'dashboard'" class="product-group">{{product.group}}</ion-col>
-					<ion-col *ngIf="source == 'market'" class="product-group-value">{{product.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>
-				</ion-row>
-			</ion-col>
-			<ion-col *ngIf="source == 'dashboard'" col-2>
-				<ion-row>
-					<ion-col text-right class="product-label">Valor Atual</ion-col>
-				</ion-row>
-				<ion-row>
-					<ion-col text-right class="product-label">Valor Anterior</ion-col>
-				</ion-row>
-				<ion-row>
-					<ion-col text-right class="product-label">Valor Médio</ion-col>
-				</ion-row>
-			</ion-col>
-			<ion-col *ngIf="source == 'dashboard'" col-2>
-				<ion-row>
-					<ion-col class="product-current-value down no-padding-top"
-					[class.down]="product.arrow == 'down'" [class.up]="product.arrow == 'up'">
-						{{product.current_value}} 
-						<ion-icon *ngIf="product.arrow == 'down'" name="md-arrow-round-down"></ion-icon>
-						<ion-icon *ngIf="product.arrow == 'up'" name="md-arrow-round-up"></ion-icon>
-					</ion-col>
-				</ion-row>
-				<ion-row>
-					<ion-col class="product-previous-value">{{product.previous_value}}</ion-col>
-				</ion-row>
-				<ion-row>
-					<ion-col class="product-average-value">{{product.average_value}}</ion-col>
-				</ion-row>
-			</ion-col>
-			<ion-col class="product-cart-quantity">
-				<ion-row>
-					<ion-col>
-						<span class="product-quantity">
-							<ion-icon name="md-remove"></ion-icon>
-							<span>01</span>
-							<ion-icon name="md-add" class="icon-plus"></ion-icon>
-						</span>
-						<span class="product-cart">
-							<ion-icon name="cart"></ion-icon>
-						</span>
-					</ion-col>
-				</ion-row>
-				<ion-row *ngIf="source == 'dashboard'">
-					<ion-col>
-						<span class="product-price-history">
-							Ver Histórico de Preço
-						</span>
-					</ion-col>
-				</ion-row>
-			</ion-col>
-		</ion-row>
-	</ion-col>
-</ion-row>
+<div class="products-offers-day">
+	<ion-row class="product" *ngFor="let product of items">
+		<ion-col class="product-box">
+			<ion-row>
+				<ion-col col-1>
+					<img [src]="product.image" />
+				</ion-col>
+				<ion-col [class.col-4]="source == 'dashboard'">
+					<ion-row>
+						<ion-col class="product-name">
+							{{product.name}}
+						</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col *ngIf="source == 'dashboard'" class="product-code">Cód.: {{product.code}}</ion-col>
+						<ion-col *ngIf="source == 'market'" class="product-current-value">{{product.current_value}} <span>p/ unidade</span></ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col *ngIf="source == 'dashboard'" class="product-group">{{product.group}}</ion-col>
+						<ion-col *ngIf="source == 'market'" class="product-group-value">{{product.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>
+					</ion-row>
+				</ion-col>
+				<ion-col *ngIf="source == 'dashboard'" col-2>
+					<ion-row>
+						<ion-col text-right class="product-label">Valor Atual</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col text-right class="product-label">Valor Anterior</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col text-right class="product-label">Valor Médio</ion-col>
+					</ion-row>
+				</ion-col>
+				<ion-col *ngIf="source == 'dashboard'" col-2>
+					<ion-row>
+						<ion-col class="product-current-value down no-padding-top"
+						[class.down]="product.arrow == 'down'" [class.up]="product.arrow == 'up'">
+							{{product.current_value}} 
+							<ion-icon *ngIf="product.arrow == 'down'" name="md-arrow-round-down"></ion-icon>
+							<ion-icon *ngIf="product.arrow == 'up'" name="md-arrow-round-up"></ion-icon>
+						</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col class="product-previous-value">{{product.previous_value}}</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col class="product-average-value">{{product.average_value}}</ion-col>
+					</ion-row>
+				</ion-col>
+				<ion-col class="product-cart-quantity">
+					<ion-row>
+						<ion-col>
+							<span class="product-quantity">
+								<ion-icon name="md-remove"></ion-icon>
+								<span>01</span>
+								<ion-icon name="md-add" class="icon-plus"></ion-icon>
+							</span>
+							<span class="product-cart">
+								<ion-icon name="cart"></ion-icon>
+							</span>
+						</ion-col>
+					</ion-row>
+					<ion-row *ngIf="source == 'dashboard'">
+						<ion-col>
+							<span class="product-price-history">
+								Ver Histórico de Preço
+							</span>
+						</ion-col>
+					</ion-row>
+				</ion-col>
+			</ion-row>
+		</ion-col>
+	</ion-row>
+</div>
