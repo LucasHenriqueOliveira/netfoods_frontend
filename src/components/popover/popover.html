@@ -1,11 +1,6 @@
 <ion-list>
-	<ion-item>
-		Option 1
-	</ion-item>
-	<ion-item>
-		Option 2
-	</ion-item>
-	<ion-item>
-		Option 3
+	<ion-item (click)="selectOption(option)" class="item-menu-popover" *ngFor="let option of options">
+		<div *ngIf="type == 'orders'" [class]="option.css"></div> 
+		{{option.name}}
 	</ion-item>
 </ion-list>

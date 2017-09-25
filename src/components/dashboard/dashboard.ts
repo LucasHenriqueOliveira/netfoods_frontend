@@ -293,7 +293,13 @@ export class DashboardComponent {
     }
     
     presentPopover(ev) {
-      let popover = this.popoverCtrl.create(PopoverComponent, { menu: 'teste'});
+      let popover = this.popoverCtrl.create(PopoverComponent, { menu: [{
+        name: 'Option 1'
+      }, {
+        name: 'Option 2'
+      }, {
+        name: 'Option 3'
+      }]});
       popover.present({
         ev: ev
       });

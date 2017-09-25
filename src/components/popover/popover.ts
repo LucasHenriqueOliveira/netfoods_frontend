@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavParams } from 'ionic-angular';
+import { NavParams, Events, ViewController } from 'ionic-angular';
 
 /**
  * Generated class for the PopoverComponent component.
@@ -12,9 +12,20 @@ import { NavParams } from 'ionic-angular';
 	templateUrl: 'popover.html'
 })
 export class PopoverComponent {
+
+	options: any
+	type: string
 	
-	constructor(private params: NavParams) {
-		console.log(params.get("menu"));
+	constructor(private params: NavParams, public events: Events, public viewCtrl: ViewController) {
+		this.options = params.get("menu");
+		this.type = params.get("type");
+	}
+
+	selectOption(option: any) {
+		if(this.type == 'orders') {
+			this.events.publish('option', option.name);
+			this.viewCtrl.dismiss();
+		}
 	}
 
 }

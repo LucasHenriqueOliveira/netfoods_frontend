@@ -251,6 +251,7 @@ ion-badge {
     border-color: #E6EAEF;
     border-style: solid;
     height: 45px;
+    cursor: pointer;
 }
 
 .content-right fieldset span {
@@ -263,6 +264,7 @@ ion-badge {
     margin-left: 7px;
     position: absolute;
     top: 25px;
+    right: 20px;
     font-size: 12px;
 }
 
@@ -271,15 +273,104 @@ legend {
     font-size: 10px;
 }
 
-.circle_green {
+.circle-yellow {
+    background: #f5cf16;
     padding: 5px 5px;
-    background: #2989A6;
     border-radius: 100%;
     width: 1%;
     display: inline-block;
     margin-left: 5px;
     box-shadow: 0px 3px 7px 1px #e0e0e0;
     margin-left: 0;
+}
+
+.box-yellow {
+    background: #f5cf16;
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: -6px;
+    top: 15px;
+}
+
+.circle-red {
+    background: #A82923;
+    padding: 5px 5px;
+    border-radius: 100%;
+    width: 1%;
+    display: inline-block;
+    margin-left: 5px;
+    box-shadow: 0px 3px 7px 1px #e0e0e0;
+    margin-left: 0;
+}
+
+.box-red {
+    background: #A82923;
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: -6px;
+    top: 15px;
+}
+
+.circle-gray {
+    background: #303030;
+    padding: 5px 5px;
+    border-radius: 100%;
+    width: 1%;
+    display: inline-block;
+    margin-left: 5px;
+    box-shadow: 0px 3px 7px 1px #e0e0e0;
+    margin-left: 0;
+}
+
+.box-gray {
+    background: #303030;
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: -6px;
+    top: 15px;
+}
+
+.circle-green {
+    background: #73B441;
+    padding: 5px 5px;
+    border-radius: 100%;
+    width: 1%;
+    display: inline-block;
+    margin-left: 5px;
+    box-shadow: 0px 3px 7px 1px #e0e0e0;
+    margin-left: 0;
+}
+
+.box-green {
+    background: #73B441;
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: -6px;
+    top: 15px;
+}
+
+.circle-blue {
+    background: #2989A6;
+    padding: 5px 5px;
+    border-radius: 100%;
+    width: 1%;
+    display: inline-block;
+    margin-left: 5px;
+    box-shadow: 0px 3px 7px 1px #e0e0e0;
+    margin-left: 0;
+}
+
+.box-blue {
+    background: #2989A6;
+    position: absolute;
+    width: 12px;
+    height: 25px;
+    left: -6px;
+    top: 15px;
 }
 
 .order {
@@ -292,18 +383,6 @@ legend {
     color: #999;
     padding-top: 10px;
     padding-left: 15px;
-}
-
-.order-box-color {
-    position: absolute;
-    width: 12px;
-    height: 25px;
-    left: -6px;
-    top: 15px;
-}
-
-.order .box-blue {
-    background-color: #2989A6;
 }
 
 .order-text {
@@ -764,8 +843,26 @@ legend {
 .product .product-current-value span,
 .product .product-group-value span,
 .market .products-list-group-value span,
-.market .products-list-current-value span{
+.market .products-list-current-value span {
     font-size: 11px;
     color: #999;
     font-weight: normal;
+}
+
+popover ion-item {
+    font-size: 14px !important;
+}
+
+.popover-content {
+    width: 150px !important;
+}
+
+popover .list-md {
+    margin: -1px 0 0;
+}
+
+.item-menu-popover div {
+    box-shadow: none;
+    margin-right: 5px;
+    cursor: pointer;
 }

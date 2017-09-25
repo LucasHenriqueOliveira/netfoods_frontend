@@ -4,11 +4,11 @@
       <span>Pedidos</span>
     </ion-col>
     <ion-col col-7>
-      <fieldset>
+      <fieldset (click)="filter($event)">
         <legend>Filtros</legend>
-        <div class="circle_green"></div>
+        <div [class]="cssStatusCircle"></div>
         <span>
-          Em Processo <ion-icon name="ios-arrow-down"></ion-icon>
+          {{status}} <ion-icon name="ios-arrow-down"></ion-icon>
         </span>
       </fieldset>
     </ion-col>
@@ -19,7 +19,7 @@
         <ion-col class="order-text">	
           Ordem
         </ion-col>
-        <div class="order-box-color box-blue"></div>
+        <div [class]="cssStatusBox" ></div>
       </ion-row>
       <ion-row>
         <ion-col col-8 class="order-number no-padding-top">	
