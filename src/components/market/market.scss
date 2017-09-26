@@ -3,6 +3,10 @@ market {
         color: #999;
         -webkit-box-shadow: 0px 3px 7px 0px #e0e0e0;
         box-shadow: 2px 2px 4px 0px #e0e0e0;
+        position: fixed;
+        width: 83%;
+        z-index: 1000;
+        background-color: #FFF;
     }
 
     .submenu ion-icon {
@@ -27,6 +31,10 @@ market {
         text-align: right;
         padding-right: 20px;
         padding-bottom: 10px;
+    }
+
+    .market-content {
+        margin-top: 63px;
     }
 
     ion-slides {
