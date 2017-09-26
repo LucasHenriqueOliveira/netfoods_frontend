@@ -571,14 +571,20 @@ legend {
 
 .product .product-name {
     padding-top: 0;
+    padding-bottom: 0;
     font-size: 13px;
     color: #000;
     font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100px;
 }
 
 .product .product-code {
     font-size: 12px;
-    padding-bottom: 0; 
+    padding-bottom: 0;
+    padding-top: 10px;
 }
 
 .product .product-group {
@@ -869,4 +875,9 @@ popover .list-md {
     box-shadow: none;
     margin-right: 5px;
     cursor: pointer;
+}
+
+tooltip-box {
+    font-size: 12px !important;
+    padding: 10px !important;
 }

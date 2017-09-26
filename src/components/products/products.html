@@ -33,7 +33,7 @@
 				</ion-col>
 				<ion-col [class.col-4]="source == 'dashboard'">
 					<ion-row>
-						<ion-col class="product-name">
+						<ion-col class="product-name" tooltip="{{product.name}}" positionV="bottom" arrow event="hover">
 							{{product.name}}
 						</ion-col>
 					</ion-row>

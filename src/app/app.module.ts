@@ -8,6 +8,8 @@ import { HomePage } from '../pages/home/home';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { ChartsModule } from 'ng2-charts';
+import { TooltipsModule } from 'ionic-tooltips';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OrdersComponent } from '../components/orders/orders';
 import { HeaderComponent } from '../components/header/header';
 import { SidemenuComponent } from '../components/sidemenu/sidemenu';
@@ -41,7 +43,9 @@ import { FeaturedSuppliersComponent } from '../components/featured-suppliers/fea
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    ChartsModule
+    ChartsModule,
+    TooltipsModule,
+    BrowserAnimationsModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
