@@ -8,10 +8,11 @@
 	<ion-col class="products-list" *ngFor="let product_list of products_list | slice:0:5; let i=index">
 		<ion-row>
 			<ion-col class="products-list-group" col-9>
-				<ion-icon name="ios-cube-outline"></ion-icon> Caixa c/ 10 uni.
+				<ion-icon name="netfoods-box"></ion-icon> 
+				<span class="products-list-group-text">Caixa c/ 10 uni.</span>
 			</ion-col>
 			<ion-col text-right>
-				<ion-icon name="ios-heart-outline"></ion-icon>
+				<ion-icon name="netfoods-heart"></ion-icon>
 			</ion-col>
 		</ion-row>
 		<ion-row>
@@ -26,7 +27,7 @@
 		</ion-row>
 		<ion-row>
 			<ion-col class="products-list-type">
-				<span>{{product_list.name}}</span>
+				<span tooltip="{{product_list.name}}" positionV="bottom" arrow event="hover">{{product_list.name}}</span>
 				<span>{{product_list.group | uppercase}} {{product_list.size}}</span>
 			</ion-col>
 		</ion-row>

@@ -122,23 +122,23 @@ export class MarketComponent {
 
 	featured_suppliers = [{
 		name: "Produto Orgânico Brasil",
-		image: "../assets/img/featured-suppliers1.png"
+		image: "../assets/img/company/selo-organico.jpg"
 	},
 	{
 		name: "Grupo Bimbo",
-		image: "../assets/img/featured-suppliers2.png"
+		image: "../assets/img/company/ORGANIZACION_GRUPO_BIMBO-01.png"
 	},
 	{
 		name: "Kelloggs",
-		image: "../assets/img/featured-suppliers3.png"
+		image: "../assets/img/company/Kellogg_s.png"
 	},
 	{
 		name: "Kimberly-Clark",
-		image: "../assets/img/featured-suppliers4.png"
+		image: "../assets/img/company/KimberlyClark.jpg"
 	},
 	{
 		name: "Unilever",
-		image: "../assets/img/featured-suppliers5.png"
+		image: "../assets/img/company/Unilever.jpg"
 	}];
 
 	top_selling_products = [{
@@ -223,6 +223,7 @@ export class MarketComponent {
 	}];
 
 	submenu: string = '';
+	market_content: string = 'home';
 	
 	constructor(public events: Events) {
 		events.subscribe('submenu', (submenu) => {
@@ -239,6 +240,10 @@ export class MarketComponent {
 		this.slides.autoplay = "5000";
 		this.slides.loop = true;
 		this.slides.initialSlide = 0;
+	}
+
+	getProduct() {
+		this.market_content = 'product';
 	}
 
 }

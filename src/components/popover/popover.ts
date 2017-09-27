@@ -17,8 +17,8 @@ export class PopoverComponent {
 	type: string
 	
 	constructor(private params: NavParams, public events: Events, public viewCtrl: ViewController) {
-		this.options = params.get("menu");
-		this.type = params.get("type");
+		this.options = this.params.get("menu");
+		this.type = this.params.get("type");
 	}
 
 	selectOption(option: any) {

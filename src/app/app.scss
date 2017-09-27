@@ -14,6 +14,7 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+@import "../theme/icons";
 
 .grid {
     padding: 0;
@@ -579,6 +580,7 @@ legend {
     white-space: nowrap;
     text-overflow: ellipsis;
     width: 150px;
+    cursor: pointer;
 }
 
 .product .product-code {
@@ -895,6 +897,7 @@ tooltip-box {
 .submenu ion-icon {
     display: block;
     font-size: 30px;
+    padding-bottom: 5px;
 }
 
 .submenu ion-col {
@@ -917,7 +920,7 @@ tooltip-box {
 }
 
 .market-content {
-    margin-top: 63px;
+    margin-top: 70px;
 }
 
 ion-slides {
@@ -942,6 +945,8 @@ ion-slide img {
 .products .products-box {
     border: none;
     box-shadow: none;
+    margin: 0;
+    padding: 0;
 }
 
 .product .product-cart-quantity {
@@ -984,6 +989,7 @@ ion-slide img {
 
 .market .products-list-group ion-icon {
     margin: 0 5px;
+    margin-top: 3px;
 }
 
 .market .products-list-group-name {
@@ -991,6 +997,12 @@ ion-slide img {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: bold;
+}
+
+.market .products-list-group-text {
+    position: absolute;
+    top: 12px;
+    left: 35px;
 }
 
 .market .products-list-type span{
@@ -1002,6 +1014,7 @@ ion-slide img {
     white-space: nowrap;
     text-overflow: ellipsis;
     width: 96%;
+    cursor: pointer;
 }
 
 .market .products-list-quantity-label {
@@ -1058,5 +1071,13 @@ ion-slide img {
     background-color: #FFF;
     padding: 5px;
     margin: 0 7px;
+}
+
+.netfoods-box:before, 
+.ion-ios-netfoods-box:before, 
+.ion-ios-netfoods-box-outline:before, 
+.ion-md-netfoods-box:before, 
+.ion-md-netfoods-box-outline:before {
+    font-size: 18px !important;
 }
 

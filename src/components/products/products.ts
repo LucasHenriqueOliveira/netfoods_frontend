@@ -16,7 +16,6 @@ export class ProductsComponent {
 	@Input() title: string
 	@Input() source: string
 	private items: any;
-	private inputItem: string = '';
 	private qtd_items: number;
 
 	constructor() {

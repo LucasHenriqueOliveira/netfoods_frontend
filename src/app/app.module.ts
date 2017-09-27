@@ -22,6 +22,8 @@ import { MarketComponent } from '../components/market/market';
 import { SubmenuComponent } from '../components/submenu/submenu';
 import { ProductsListComponent } from '../components/products-list/products-list';
 import { FeaturedSuppliersComponent } from '../components/featured-suppliers/featured-suppliers';
+import { SubmenuPopoverComponent } from '../components/submenu-popover/submenu-popover';
+import { ProductComponent } from '../components/product/product';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { FeaturedSuppliersComponent } from '../components/featured-suppliers/fea
     PopoverComponent,
     SubmenuComponent,
     ProductsListComponent,
-    FeaturedSuppliersComponent
+    FeaturedSuppliersComponent,
+    SubmenuPopoverComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
@@ -51,7 +55,8 @@ import { FeaturedSuppliersComponent } from '../components/featured-suppliers/fea
   entryComponents: [
     MyApp,
     HomePage,
-    PopoverComponent
+    PopoverComponent,
+    SubmenuPopoverComponent
   ],
   providers: [
     StatusBar,

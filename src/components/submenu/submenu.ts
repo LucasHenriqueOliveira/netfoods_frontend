@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { Events } from 'ionic-angular';
+import { Events, PopoverController } from 'ionic-angular';
+import { SubmenuPopoverComponent } from '../submenu-popover/submenu-popover';
 
 /**
  * Generated class for the SubmenuComponent component.
@@ -15,12 +16,21 @@ export class SubmenuComponent {
   
 	submenu: string = '';
 	
-	constructor(public events: Events) {
+	constructor(public events: Events, private popoverCtrl: PopoverController) {
 	}
 
-	go(menu: string) {
+	go(menu: string, ev) {
 		this.submenu = menu;
 		this.events.publish('submenu', this.submenu);
-	}
 
+		let popover = this.popoverCtrl.create(SubmenuPopoverComponent);
+		
+		popover.present({
+			ev: ev
+		});
+
+		popover.onDidDismiss((popoverData) => {
+			this.submenu = '';
+		})
+	}
 }

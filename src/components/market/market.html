@@ -1,36 +1,43 @@
 <ion-col class="content market" no-padding col-10>
 	<submenu></submenu>
 
-	<ion-row class="market-content">
-		<ion-col col-7 class="padding-top-10">
-			<ion-row>
-				<ion-col class="market-title">
-					Ofertas da Semana
-				</ion-col>
-			</ion-row>
-			<ion-row>
-				<ion-col class="padding-top-35">
-					<ion-slides>
-						<ion-slide *ngFor="let slide of images">
-							<img [src]="slide.image">
-						</ion-slide>
-					</ion-slides>
-				</ion-col>
-			</ion-row>
-		</ion-col>
-		<ion-col col-5>
-			<ion-row class="products no-margin-top">
-				<ion-col class="products-box" no-padding>
-					<products [products]="products" source="market" title="Ofertas do Dia"></products>
-				</ion-col>
-			</ion-row>
-		</ion-col>
-	</ion-row>
+	<div *ngIf="market_content == 'home'" no-padding>
+		<ion-row class="market-content">
+			<ion-col col-7 class="padding-top-10">
+				<ion-row>
+					<ion-col class="market-title">
+						Ofertas da Semana
+					</ion-col>
+				</ion-row>
+				<ion-row>
+					<ion-col class="padding-top-35">
+						<ion-slides>
+							<ion-slide *ngFor="let slide of images">
+								<img [src]="slide.image">
+							</ion-slide>
+						</ion-slides>
+					</ion-col>
+				</ion-row>
+			</ion-col>
+			<ion-col col-5>
+				<ion-row class="products no-margin-top">
+					<ion-col class="products-box" no-padding>
+						<products [products]="products" source="market" title="Ofertas do Dia"></products>
+					</ion-col>
+				</ion-row>
+			</ion-col>
+		</ion-row>
+		
+		<products-list [products_list]="recommended_products" type="recommended-products" title="Produtos Recomendados"></products-list>
 	
-	<products-list [products_list]="recommended_products" type="recommended-products" title="Produtos Recomendados"></products-list>
+		<featured-suppliers [featured_suppliers]="featured_suppliers"></featured-suppliers>
+	
+		<products-list [products_list]="top_selling_products" type="top-selling-products" title="Produtos Mais Vendidos"></products-list>
+	</div>
 
-	<featured-suppliers [featured_suppliers]="featured_suppliers"></featured-suppliers>
+	<div *ngIf="market_content == 'product'">
+		<product></product>
+	</div>
 
-	<products-list [products_list]="top_selling_products" type="top-selling-products" title="Produtos Mais Vendidos"></products-list>
 	
 </ion-col>
