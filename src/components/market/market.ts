@@ -224,10 +224,18 @@ export class MarketComponent {
 
 	submenu: string = '';
 	market_content: string = 'home';
+	product: any;
 	
 	constructor(public events: Events) {
 		events.subscribe('submenu', (submenu) => {
 			this.submenu = submenu;
+		});
+
+		events.subscribe('market_content', (data) => {
+			this.market_content = data['type'];
+			if(this.market_content == 'product') {
+				this.product = data['product'];
+			}
 		});
 	}
 

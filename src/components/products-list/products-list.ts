@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Events } from 'ionic-angular';
 
 /**
  * Generated class for the ProductsListComponent component.
@@ -16,8 +17,12 @@ export class ProductsListComponent {
 	@Input() title: string
 	@Input() type: string
 	
-	constructor() {
+	constructor(public events: Events) {
 		
+	}
+
+	getProduct() {
+		this.events.publish('market_content', { type: 'product', product: {name: 'teste'}});
 	}
 
 }

@@ -76,6 +76,10 @@
     padding-bottom: 35px;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 .header .item-input {
     color: #FFF;
 }
@@ -118,7 +122,7 @@
 }
 
 .header .notification-button ion-icon {
-    font-size: 32px;
+    font-size: 30px;
     color: #fff;
 }
 
@@ -143,7 +147,7 @@ ion-badge {
 
 .badge {
     top: 0;
-    right: 5px;
+    right: 15px;
 }
 
 .header .badge-cart-header {
@@ -212,13 +216,30 @@ ion-badge {
 }
 
 .menu ion-icon {
-    padding-right: 7px;
+    top: 17px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.menu span {
+    top: 15px;
+    left: 60px;
+    position: absolute;
+}
+
+.menu .current span {
+    top: 15px;
+    left: 53px;
+    position: absolute;
 }
 
 .menu ion-badge {
     padding: 2px 5px;
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: 120px;
+    position: relative;
+    top: 1px;
+    right: 5px;
 }
 
 .menu ion-label {
@@ -403,8 +424,7 @@ legend {
 }
 
 .order-actions ion-icon {
-    padding-right: 10px; 
-    font-size: 20px;
+    padding-right: 2px;
 }
 
 .order-label {
@@ -990,6 +1010,7 @@ ion-slide img {
 .market .products-list-group ion-icon {
     margin: 0 5px;
     margin-top: 3px;
+    font-size: 18px;
 }
 
 .market .products-list-group-name {
@@ -1073,11 +1094,4 @@ ion-slide img {
     margin: 0 7px;
 }
 
-.netfoods-box:before, 
-.ion-ios-netfoods-box:before, 
-.ion-ios-netfoods-box-outline:before, 
-.ion-md-netfoods-box:before, 
-.ion-md-netfoods-box-outline:before {
-    font-size: 18px !important;
-}
 

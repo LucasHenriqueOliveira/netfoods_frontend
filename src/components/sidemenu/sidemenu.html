@@ -1,26 +1,26 @@
 <ion-col class="menu" no-padding col-2>
 	<ion-list>
 		<ion-item (click)="go('dashboard')" class="current" [class.current]="sidemenu == 'dashboard'" text-wrap>
-			<ion-icon name="ios-stats-outline"></ion-icon> Dashboard
+			<ion-icon name="netfoods-dashboard"></ion-icon> <span>Dashboard</span>
 		</ion-item>
 		<ion-item (click)="go('market')" [class.current]="sidemenu == 'market'" text-wrap>
-			<ion-icon name="ios-paper-outline"></ion-icon> Mercado
+			<ion-icon name="netfoods-cart"></ion-icon> <span>Mercado</span>
 		</ion-item>
 		<ion-item (click)="go('purchase')" [class.current]="sidemenu == 'purchase'" text-wrap>
-			<ion-icon name="ios-cart-outline"></ion-icon> Compra Rápida
+			<ion-icon name="netfoods-fast-buy"></ion-icon> <span>Compra Rápida</span>
 		</ion-item>
 		<ion-item (click)="go('orders')" [class.current]="sidemenu == 'orders'" text-wrap>
-			<ion-icon name="ios-create-outline"></ion-icon> Pedidos
+			<ion-icon name="netfoods-orders"></ion-icon> <span>Pedidos</span>
 		</ion-item>
 		<ion-item (click)="go('providers')" [class.current]="sidemenu == 'providers'" text-wrap>
-			<ion-icon name="ios-home-outline"></ion-icon> Fornecedores
+			<ion-icon name="netfoods-restaurant"></ion-icon> <span>Fornecedores</span>
 		</ion-item>
 		<ion-item (click)="go('messages')" [class.current]="sidemenu == 'messages'" text-wrap>
-			<ion-icon name="ios-chatbubbles-outline"></ion-icon> Mensagens
+			<ion-icon name="netfoods-message"></ion-icon> <span>Mensagens</span>
 			<ion-badge class="badge-blue">3</ion-badge>
 		</ion-item>
 		<ion-item (click)="go('settings')" [class.current]="sidemenu == 'settings'" text-wrap>
-			<ion-icon name="ios-settings-outline"></ion-icon> Configurações
+			<ion-icon name="netfoods-settings"></ion-icon> <span>Configurações</span>
 		</ion-item>
 	</ion-list>
 </ion-col>

@@ -31,20 +31,40 @@
   .ion-md-netfoods-#{$arg}:before ,
   .ion-md-netfoods-#{$arg}-outline:before  {
     content: $val;
-    font-size: 26px;
   }
 }
 
-@include makeIcon(alcoholic-drinks, '\e900');
-@include makeIcon(box, '\e902');
-@include makeIcon(carrot, '\e904');
+@include makeIcon(account, '\e900');
+@include makeIcon(alcoholic-drinks, '\e901');
+@include makeIcon(box, '\e903');
+@include makeIcon(card, '\e904');
+@include makeIcon(carrot, '\e905');
+@include makeIcon(cart, '\e906');
 @include makeIcon(cheese, '\e907');
-@include makeIcon(cupcake, '\e908');
-@include makeIcon(frozen-food, '\e90c');
-@include makeIcon(groceries, '\e90d');
-@include makeIcon(heart, '\e90e');
-@include makeIcon(hygienic-items, '\e90f');
-@include makeIcon(information, '\e910');
-@include makeIcon(steak, '\e917');
-@include makeIcon(valid, '\e919');
-@include makeIcon(whisk, '\e91a');
+@include makeIcon(clients, '\e908');
+@include makeIcon(cupcake, '\e909');
+@include makeIcon(dashboard, '\e90a');
+@include makeIcon(edit, '\e90b');
+@include makeIcon(export, '\e90c');
+@include makeIcon(fast-buy, '\e90d');
+@include makeIcon(frozen-food, '\e90f');
+@include makeIcon(groceries, '\e910');
+@include makeIcon(heart, '\e911');
+@include makeIcon(hygienic-items, '\e912');
+@include makeIcon(image, '\e913');
+@include makeIcon(import, '\e914');
+@include makeIcon(information, '\e915');
+@include makeIcon(message, '\e916');
+@include makeIcon(notifications, '\e917');
+@include makeIcon(orders, '\e918');
+@include makeIcon(packing, '\e919');
+@include makeIcon(products, '\e91a');
+@include makeIcon(restaurant, '\e91b');
+@include makeIcon(search, '\e91c');
+@include makeIcon(settings, '\e91d');
+@include makeIcon(star, '\e91e');
+@include makeIcon(steak, '\e91f');
+@include makeIcon(trash, '\e920');
+@include makeIcon(valid, '\e921');
+@include makeIcon(whisk, '\e922');
+@include makeIcon(zoom, '\e923');
