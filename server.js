@@ -1,7 +1,10 @@
-var connect = require('connect'),
-serveStatic = require('serve-static');
+const
+    express = require('express'),
+    app = express();
 
-var app = connect();
+app.use(express.static('www'))
 
-app.use(serveStatic("platforms/browser/www"))
-app.listen(process.env.PORT || 5000);
+const port = process.env.PORT || 7000;
+app.listen(port, () => {
+    console.log('listening on port', port);
+});
