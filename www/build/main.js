@@ -1,1 +1,1772 @@
-webpackJsonp([0],{103:function(l,n){function t(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}t.keys=function(){return[]},t.resolve=t,l.exports=t,t.id=103},235:function(l,n,t){"use strict";function u(l){return X["ɵvid"](0,[X["ɵqud"](402653184,1,{nav:0}),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵeld"](0,null,null,2,"ion-nav",[["swipeBackEnabled","false"]],null,null,null,Nl.b,Nl.a)),X["ɵdid"](4374528,[[1,4],["content",4]],0,ql.a,[[2,Gl.a],[2,Bl.a],Cl.a,Hl.a,Ul.a,X.ElementRef,X.NgZone,X.Renderer,X.ComponentFactoryResolver,kl.f,Ll.a,[2,Zl.a],Rl.a,X.ErrorHandler],{swipeBackEnabled:[0,"swipeBackEnabled"],root:[1,"root"]},null),X["ɵprd"](6144,null,Kl.a,null,[ql.a])],function(l,n){l(n,3,0,"false",n.component.rootPage)},null)}function e(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,14,"ion-col",[["class","col"],["col-2",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,10,"fieldset",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"legend",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Filtros"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\tSemana "])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-arrow-down"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t"]))],function(l,n){l(n,11,0,"ios-arrow-down")},function(l,n){l(n,10,0,X["ɵnov"](n,11)._hidden)})}function o(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,[""," produto encontrado"]))],null,function(l,n){l(n,1,0,n.component.qtd_items)})}function i(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,[""," produtos encontrados"]))],null,function(l,n){l(n,1,0,n.component.qtd_items)})}function d(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Nenhum produto encontrado!"]))],null,null)}function a(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","product-code col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["Cód.: ",""]))],null,function(l,n){l(n,2,0,n.parent.context.$implicit.code)})}function r(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","product-current-value col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,[""," "])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["p/ unidade"]))],null,function(l,n){l(n,2,0,n.parent.context.$implicit.current_value)})}function s(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","product-group col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["",""]))],null,function(l,n){l(n,2,0,n.parent.context.$implicit.group)})}function c(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","product-group-value col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,[""," "])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["p/ caixa c/ 10 uni."]))],null,function(l,n){l(n,2,0,n.parent.context.$implicit.group_value)})}function p(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,26,"ion-col",[["class","col"],["col-2",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","product-label col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["Valor Atual"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","product-label col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["Valor Anterior"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","product-label col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["Valor Médio"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"]))],null,null)}function m(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","md-arrow-round-down"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null)],function(l,n){l(n,1,0,"md-arrow-round-down")},function(l,n){l(n,0,0,X["ɵnov"](n,1)._hidden)})}function _(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","md-arrow-round-up"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null)],function(l,n){l(n,1,0,"md-arrow-round-up")},function(l,n){l(n,0,0,X["ɵnov"](n,1)._hidden)})}function f(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,32,"ion-col",[["class","col"],["col-2",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","product-current-value down no-padding-top col"]],[[2,"down",null],[2,"up",null]],null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"," \n\t\t\t\t\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,m)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,_)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","product-previous-value col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","product-average-value col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"]))],function(l,n){l(n,10,0,"down"==n.parent.context.$implicit.arrow),l(n,13,0,"up"==n.parent.context.$implicit.arrow)},function(l,n){l(n,6,0,"down"==n.parent.context.$implicit.arrow,"up"==n.parent.context.$implicit.arrow),l(n,8,0,n.parent.context.$implicit.current_value),l(n,22,0,n.parent.context.$implicit.previous_value),l(n,30,0,n.parent.context.$implicit.average_value)})}function h(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,9,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","product-price-history"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\tVer Histórico de Preço\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"]))],null,null)}function g(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,88,"ion-row",[["class","product row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,84,"ion-col",[["class","product-box col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,80,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","col"],["col-1",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,31,"ion-col",[["class","col"]],[[2,"col-4",null]],null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,7,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,3,"ion-col",[["arrow",""],["class","product-name col"],["event","hover"],["positionV","bottom"]],null,[[null,"press"],[null,"click"],[null,"mouseenter"],[null,"mouseleave"]],function(l,n,t){var u=!0;return"press"===n&&(u=!1!==("press"===X["ɵnov"](l,23).event&&X["ɵnov"](l,23).trigger())&&u),"click"===n&&(u=!1!==("click"===X["ɵnov"](l,23).event&&X["ɵnov"](l,23).trigger())&&u),"mouseenter"===n&&(u=!1!=("hover"===X["ɵnov"](l,23).event&&(X["ɵnov"](l,23).active=!0))&&u),"mouseleave"===n&&(u=!1!=("hover"===X["ɵnov"](l,23).event&&(X["ɵnov"](l,23).active=!1))&&u),u},null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),X["ɵdid"](4210688,null,0,nn.a,[X.ElementRef,X.ApplicationRef,Ul.a,X.ComponentFactoryResolver],{tooltip:[0,"tooltip"],positionV:[1,"positionV"],event:[2,"event"],arrow:[3,"arrow"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t","\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,a)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,r)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,s)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,c)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,p)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,f)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,31,"ion-col",[["class","product-cart-quantity col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,24,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,20,"ion-col",[["class","col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,10,"span",[["class","product-quantity"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","md-remove"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["01"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["class","icon-plus"],["name","md-add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"span",[["class","product-cart"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","cart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,h)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t"]))],function(l,n){var t=n.component;l(n,23,0,X["ɵinlineInterpolate"](1,"",n.context.$implicit.name,""),"bottom","hover",""),l(n,31,0,"dashboard"==t.source),l(n,34,0,"market"==t.source),l(n,41,0,"dashboard"==t.source),l(n,44,0,"market"==t.source),l(n,49,0,"dashboard"==t.source),l(n,52,0,"dashboard"==t.source);l(n,66,0,"md-remove");l(n,72,0,"md-add");l(n,78,0,"cart"),l(n,84,0,"dashboard"==t.source)},function(l,n){var t=n.component;l(n,12,0,n.context.$implicit.image),l(n,15,0,"dashboard"==t.source),l(n,24,0,n.context.$implicit.name),l(n,65,0,X["ɵnov"](n,66)._hidden),l(n,71,0,X["ɵnov"](n,72)._hidden),l(n,77,0,X["ɵnov"](n,78)._hidden)})}function v(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,33,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","products-label col"],["col-6",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t","\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,22,"ion-col",[["class","col"]],[[2,"col-4",null]],null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,18,"ion-item",[["class","products-search item item-block"]],null,null,null,tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,1,{contentLabel:0}),X["ɵqud"](603979776,2,{_buttons:1}),X["ɵqud"](603979776,3,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["        \n\t\t\t"])),(l()(),X["ɵeld"](0,null,1,4,"ion-label",[],null,null,null,null,null)),X["ɵdid"](16384,[[1,4]],0,dn.a,[Hl.a,X.ElementRef,X.Renderer,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),X["ɵted"](null,[" "])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","search"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](2,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,3,4,"ion-input",[["clearInput",""],["placeholder","Buscar"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,t){var u=!0,e=l.component;return"ngModelChange"===n&&(u=!1!==e.getItems(t)&&u),u},an.b,an.a)),X["ɵdid"](671744,null,0,jl.e,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),X["ɵprd"](2048,null,jl.c,null,[jl.e]),X["ɵdid"](16384,null,0,jl.d,[jl.c],null,null),X["ɵdid"](5423104,null,0,rn.a,[Hl.a,Ul.a,Il.a,Cl.a,X.ElementRef,X.Renderer,[2,sn.a],[2,un.a],[2,jl.c],Rl.a],{clearInput:[0,"clearInput"],placeholder:[1,"placeholder"]},null),(l()(),X["ɵted"](2,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,e)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵeld"](0,null,null,15,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,11,"ion-col",[["class","quantity-total col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,o)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,i)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,d)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵeld"](0,null,null,4,"div",[["class","products-offers-day"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,g)),X["ɵdid"](802816,null,0,bl.h,[X.ViewContainerRef,X.TemplateRef,X.IterableDiffers],{ngForOf:[0,"ngForOf"]},null),(l()(),X["ɵted"](null,["\n"]))],function(l,n){var t=n.component;l(n,21,0,"search"),l(n,24,0,t.inputItem);l(n,27,0,"","Buscar"),l(n,32,0,"dashboard"==t.source),l(n,42,0,1==t.qtd_items),l(n,45,0,t.qtd_items>1),l(n,48,0,!t.qtd_items),l(n,55,0,t.items)},function(l,n){var t=n.component;l(n,5,0,t.title),l(n,7,0,"dashboard"==t.source),l(n,20,0,X["ɵnov"](n,21)._hidden),l(n,23,0,X["ɵnov"](n,26).ngClassUntouched,X["ɵnov"](n,26).ngClassTouched,X["ɵnov"](n,26).ngClassPristine,X["ɵnov"](n,26).ngClassDirty,X["ɵnov"](n,26).ngClassValid,X["ɵnov"](n,26).ngClassInvalid,X["ɵnov"](n,26).ngClassPending)})}function b(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,66,"ion-row",[["class","report row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,62,"ion-col",[["class","report-box col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","report-label col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t","\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,22,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","report-label-text"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["Valor Gasto"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","report-number"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","report-label-text"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["Último Pedido"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","report-number"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","report-label-text"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["Marketshare"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","report-number"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","report-details col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Acessar Loja"])),(l()(),X["ɵted"](null,[" \n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵted"](null,["\n"]))],function(l,n){l(n,62,0,"ios-arrow-forward")},function(l,n){l(n,11,0,n.context.$implicit.name),l(n,24,0,n.context.$implicit.value_expense),l(n,34,0,n.context.$implicit.last_order),l(n,48,0,n.context.$implicit.marketshare),l(n,61,0,X["ɵnov"](n,62)._hidden)})}function w(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,13,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","reports-label col"],["col-10",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\tFornecedores\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","reports-icon col"],["col-2",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-more"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.presentPopover(t)&&u),u},null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵand"](16777216,null,null,1,null,b)),X["ɵdid"](802816,null,0,bl.h,[X.ViewContainerRef,X.TemplateRef,X.IterableDiffers],{ngForOf:[0,"ngForOf"]},null)],function(l,n){var t=n.component;l(n,11,0,"ios-more"),l(n,16,0,t.suppliers)},function(l,n){l(n,10,0,X["ɵnov"](n,11)._hidden)})}function R(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["class","down"],["name","md-arrow-round-down"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null)],function(l,n){l(n,1,0,"md-arrow-round-down")},function(l,n){l(n,0,0,X["ɵnov"](n,1)._hidden)})}function y(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["class","up"],["name","md-arrow-round-up"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null)],function(l,n){l(n,1,0,"md-arrow-round-up")},function(l,n){l(n,0,0,X["ɵnov"](n,1)._hidden)})}function C(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,50,"ion-row",[["class","activities row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,46,"ion-col",[["class","activities-box col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,28,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","activities-label-text"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","activities-subtitle"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["ID: ",""])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,14,"ion-col",[["class","col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","activities-label-value"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,R)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,y)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","activities-subtitle"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","activities-details col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Mais Detalhes"])),(l()(),X["ɵted"](null,[" \n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵted"](null,["\n"]))],function(l,n){l(n,26,0,"down"==n.context.$implicit.arrow),l(n,29,0,"up"==n.context.$implicit.arrow);l(n,46,0,"ios-arrow-forward")},function(l,n){l(n,13,0,n.context.$implicit.name),l(n,16,0,n.context.$implicit.id),l(n,23,0,n.context.$implicit.value),l(n,32,0,n.context.$implicit.date),l(n,45,0,X["ɵnov"](n,46)._hidden)})}function k(l){return X["ɵvid"](0,[X["ɵpid"](0,bl.c,[X.LOCALE_ID]),(l()(),X["ɵeld"](0,null,null,13,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","reports-label col"],["col-10",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\tAtividades\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","reports-icon col"],["col-2",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-more"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.presentPopover(t)&&u),u},null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵeld"](0,null,null,8,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","reports-date col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["Hoje, "," de ",""])),X["ɵppd"](2),X["ɵppd"](2),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵand"](16777216,null,null,1,null,C)),X["ɵdid"](802816,null,0,bl.h,[X.ViewContainerRef,X.TemplateRef,X.IterableDiffers],{ngForOf:[0,"ngForOf"]},null)],function(l,n){var t=n.component;l(n,12,0,"ios-more"),l(n,27,0,t.activities)},function(l,n){var t=n.component;l(n,11,0,X["ɵnov"](n,12)._hidden),l(n,21,0,X["ɵunv"](n,21,0,l(n,22,0,X["ɵnov"](n,0),t.date,"dd")),X["ɵunv"](n,21,1,l(n,23,0,X["ɵnov"](n,0),t.date,"MMMM")))})}function E(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-card"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null)],function(l,n){l(n,1,0,"ios-card")},function(l,n){l(n,0,0,X["ɵnov"](n,1)._hidden)})}function j(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","md-barcode"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null)],function(l,n){l(n,1,0,"md-barcode")},function(l,n){l(n,0,0,X["ɵnov"](n,1)._hidden)})}function A(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["class","message-red"],["name","ios-chatboxes-outline"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null)],function(l,n){l(n,1,0,"ios-chatboxes-outline")},function(l,n){l(n,0,0,X["ɵnov"](n,1)._hidden)})}function x(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,102,"ion-row",[["class","orders row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n    "])),(l()(),X["ɵeld"](0,null,null,98,"ion-col",[["class","order col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n      "])),(l()(),X["ɵeld"](0,null,null,8,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","order-text col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\t\n          Ordem\n        "])),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵeld"](0,null,null,0,"div",[],[[8,"className",0]],null,null,null,null)),(l()(),X["ɵted"](null,["\n      "])),(l()(),X["ɵted"](null,["\n      "])),(l()(),X["ɵeld"](0,null,null,16,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","order-number no-padding-top col"],["col-7",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\t\n          ","\n        "])),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","order-actions no-padding-top col"],["col-5",""],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\t\n          "])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-edit"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n          "])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-trash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵted"](null,["\n      "])),(l()(),X["ɵted"](null,["\n      "])),(l()(),X["ɵeld"](0,null,null,24,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵeld"](0,null,null,9,"ion-col",[["class","no-padding-top col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\t\n          "])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","order-label"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["Valor"])),(l()(),X["ɵeld"](0,null,null,0,"br",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n          "])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","order-value"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵeld"](0,null,null,9,"ion-col",[["class","no-padding-top col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\t\n          "])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","order-label"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["Data"])),(l()(),X["ɵeld"](0,null,null,0,"br",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n          "])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","order-value"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵted"](null,["\n      "])),(l()(),X["ɵted"](null,["\n      "])),(l()(),X["ɵeld"](0,null,null,13,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵeld"](0,null,null,9,"ion-col",[["class","no-padding-top col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\t\n          "])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","order-label"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵeld"](0,null,null,0,"br",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n          "])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","order-value"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵted"](null,["\n      "])),(l()(),X["ɵted"](null,["\n      "])),(l()(),X["ɵeld"](0,null,null,25,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵeld"](0,null,null,11,"ion-col",[["class","order-information col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n          "])),(l()(),X["ɵand"](16777216,null,null,1,null,E)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n          "])),(l()(),X["ɵand"](16777216,null,null,1,null,j)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n          "])),(l()(),X["ɵand"](16777216,null,null,1,null,A)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","order-details col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\t\n          "])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Mais Detalhes"])),(l()(),X["ɵted"](null,[" \n          "])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵted"](null,["\n      "])),(l()(),X["ɵted"](null,["\n    "])),(l()(),X["ɵted"](null,["\n  "]))],function(l,n){l(n,27,0,"netfoods-edit");l(n,30,0,"netfoods-trash"),l(n,82,0,"card"==n.context.$implicit.type_payment),l(n,85,0,"code"==n.context.$implicit.type_payment),l(n,88,0,n.context.$implicit.hasMessage);l(n,98,0,"ios-arrow-forward")},function(l,n){l(n,13,0,n.component.cssStatusBox),l(n,21,0,n.context.$implicit.number),l(n,26,0,X["ɵnov"](n,27)._hidden),l(n,29,0,X["ɵnov"](n,30)._hidden),l(n,45,0,n.context.$implicit.value),l(n,56,0,n.context.$implicit.date),l(n,67,0,n.context.$implicit.type_label),l(n,71,0,n.context.$implicit.providers),l(n,97,0,X["ɵnov"](n,98)._hidden)})}function P(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,34,"ion-col",[["class","content-right col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n  "])),(l()(),X["ɵeld"](0,null,null,27,"ion-row",[["class","margin-top-10 row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n    "])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","orders-label col"],["col-5",""],["text-center",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n      "])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Pedidos"])),(l()(),X["ɵted"](null,["\n    "])),(l()(),X["ɵted"](null,["\n    "])),(l()(),X["ɵeld"](0,null,null,16,"ion-col",[["class","col"],["col-7",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n      "])),(l()(),X["ɵeld"](0,null,null,12,"fieldset",[],null,[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.filter(t)&&u),u},null,null)),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵeld"](0,null,null,1,"legend",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Filtros"])),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵeld"](0,null,null,0,"div",[],[[8,"className",0]],null,null,null,null)),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵeld"](0,null,null,4,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n          "," "])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-arrow-down"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n        "])),(l()(),X["ɵted"](null,["\n      "])),(l()(),X["ɵted"](null,["\n    "])),(l()(),X["ɵted"](null,["\n  "])),(l()(),X["ɵted"](null,["\n  "])),(l()(),X["ɵand"](16777216,null,null,1,null,x)),X["ɵdid"](802816,null,0,bl.h,[X.ViewContainerRef,X.TemplateRef,X.IterableDiffers],{ngForOf:[0,"ngForOf"]},null),(l()(),X["ɵted"](null,["\n"]))],function(l,n){var t=n.component;l(n,26,0,"ios-arrow-down"),l(n,33,0,t.orders)},function(l,n){var t=n.component;l(n,21,0,t.cssStatusCircle),l(n,24,0,t.status),l(n,25,0,X["ɵnov"](n,26)._hidden)})}function $(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,392,"ion-col",[["class","content col"],["col-10",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,388,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,381,"ion-col",[["class","col"],["col-9",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,150,"ion-row",[["class","statistics row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,38,"ion-col",[["class","statistics-box col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","statistics-label col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\tPedidos em Aberto\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","statistics-number no-padding-top col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t150\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","img-chart col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,0,"img",[["src","../assets/img/chart1.png"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","statistics-details col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Mais Detalhes"])),(l()(),X["ɵted"](null,[" \n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,38,"ion-col",[["class","statistics-box col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","statistics-label col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\tTotal de Pedidos\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","statistics-number no-padding-top col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t1274\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","img-chart col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,0,"img",[["src","../assets/img/chart2.png"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","statistics-details col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Mais Detalhes"])),(l()(),X["ɵted"](null,[" \n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,32,"ion-col",[["class","statistics-box col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","statistics-label col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\tTotal em Compras\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","statistics-number no-padding-top col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\tR$ 950k\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","statistics-details col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Mais Detalhes"])),(l()(),X["ɵted"](null,[" \n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,32,"ion-col",[["class","statistics-box col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","statistics-label col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\tFornecedores\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","statistics-number no-padding-top col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t748\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","statistics-details col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Mais Detalhes"])),(l()(),X["ɵted"](null,[" \n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,94,"ion-row",[["class","charts row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,52,"ion-col",[["class","charts-box no-margin col"],["col-8",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,22,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","charts-label col"],["col-8",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\tVendas\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,14,"ion-col",[["class","margin-right-12 col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,10,"fieldset",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"legend",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Filtros"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t\tSemestre "])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-arrow-down"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,10,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-col",[["class","col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"canvas",[["baseChart",""],["height","230"],["width","400"]],null,[[null,"chartHover"],[null,"chartClick"]],function(l,n,t){var u=!0,e=l.component;return"chartHover"===n&&(u=!1!==e.chartHovered(t)&&u),"chartClick"===n&&(u=!1!==e.chartClicked(t)&&u),u},null,null)),X["ɵdid"](737280,null,0,xl.BaseChartDirective,[X.ElementRef],{datasets:[0,"datasets"],labels:[1,"labels"],options:[2,"options"],chartType:[3,"chartType"],colors:[4,"colors"],legend:[5,"legend"]},{chartClick:"chartClick",chartHover:"chartHover"}),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","charts-details col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Mais Detalhes"])),(l()(),X["ɵted"](null,[" \n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,36,"ion-col",[["class","charts-box no-margin col"],["col-4",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","charts-label col"],["col-12",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\tPor Fornecedor\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,10,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-col",[["class","col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"canvas",[["baseChart",""],["height","190"],["width","150"]],null,[[null,"chartHover"],[null,"chartClick"]],function(l,n,t){var u=!0,e=l.component;return"chartHover"===n&&(u=!1!==e.chartHovered(t)&&u),"chartClick"===n&&(u=!1!==e.chartClicked(t)&&u),u},null,null)),X["ɵdid"](737280,null,0,xl.BaseChartDirective,[X.ElementRef],{datasets:[0,"datasets"],labels:[1,"labels"],options:[2,"options"],chartType:[3,"chartType"],colors:[4,"colors"],legend:[5,"legend"]},{chartClick:"chartClick",chartHover:"chartHover"}),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","charts-details col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Mais Detalhes"])),(l()(),X["ɵted"](null,[" \n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,9,"ion-row",[["class","products row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","products-box col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"products",[["source","dashboard"],["title","Produtos Mais Comprados"]],null,null,null,v,pn)),X["ɵdid"](114688,null,0,cl,[],{products:[0,"products"],title:[1,"title"],source:[2,"source"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,118,"ion-row",[["class","reports row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","reports-box col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"suppliers",[],null,null,null,w,_n)),X["ɵdid"](49152,null,0,rl,[Tl.a],{suppliers:[0,"suppliers"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,100,"ion-col",[["class","reports-box no-chart-view col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,7,"div",[["class","no-chart-monitoring"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"div",[["class","text-no-chart"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Desculpe, nenhum dado está disponível atualmente!"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,87,"div",[["class","content-chart"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,13,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","reports-label no-padding-bottom col"],["col-10",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\tAcompanhamento\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","reports-icon col"],["col-2",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","ios-more"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.presentPopover(t)&&u),u},null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","reports-label no-padding-top col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["Gasto x Orçamento"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,14,"ion-row",[["class","loading-bar row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","no-padding-right col"],["col-10",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,0,"div",[["class","loading-bar-done"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","no-padding-left col"],["col-2",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,0,"div",[["class","loading-bar-no-done"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,22,"ion-row",[["class","monitoring row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","monitoring-label"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["Custo Planejado"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","monitoring-value-plan"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["R$45.5k"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","monitoring-label"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["Custo realizado"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","monitoring-value-realized"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["R$40.5k"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,10,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-col",[["class","col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"canvas",[["baseChart",""],["height","300"]],null,[[null,"chartHover"],[null,"chartClick"]],function(l,n,t){var u=!0,e=l.component;return"chartHover"===n&&(u=!1!==e.chartHovered(t)&&u),"chartClick"===n&&(u=!1!==e.chartClicked(t)&&u),u},null,null)),X["ɵdid"](737280,null,0,xl.BaseChartDirective,[X.ElementRef],{datasets:[0,"datasets"],labels:[1,"labels"],options:[2,"options"],chartType:[3,"chartType"],colors:[4,"colors"]},{chartClick:"chartClick",chartHover:"chartHover"}),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,9,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","monitoring-number col"],["text-center",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t\tR$ 5k "])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","md-arrow-round-down"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","reports-box col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"activities",[],null,null,null,k,hn)),X["ɵdid"](49152,null,0,sl,[Tl.a],{activities:[0,"activities"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"orders",[],null,null,null,P,vn)),X["ɵdid"](49152,null,0,ol,[Tl.a,Ol.a],{orders:[0,"orders"]},null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵted"](null,["\n"]))],function(l,n){var t=n.component;l(n,47,0,"ios-arrow-forward");l(n,87,0,"ios-arrow-forward");l(n,121,0,"ios-arrow-forward");l(n,155,0,"ios-arrow-forward");l(n,185,0,"ios-arrow-down"),l(n,198,0,t.lineChartData,t.lineChartLabels,t.lineChartOptions,t.lineChartType,t.lineChartColors,t.lineChartLegend);l(n,213,0,"ios-arrow-forward"),l(n,236,0,t.barChartData,t.barChartLabels,t.barChartOptions,t.barChartType,t.barChartColors,t.barChartLegend);l(n,251,0,"ios-arrow-forward");l(n,264,0,t.products,"Produtos Mais Comprados","dashboard"),l(n,275,0,t.suppliers);l(n,303,0,"ios-more"),l(n,362,0,t.radarChartData,t.radarChartLabels,t.radarChartOptions,t.radarChartType,t.radarChartColors);l(n,374,0,"md-arrow-round-down"),l(n,384,0,t.activities),l(n,390,0,t.orders)},function(l,n){l(n,46,0,X["ɵnov"](n,47)._hidden),l(n,86,0,X["ɵnov"](n,87)._hidden),l(n,120,0,X["ɵnov"](n,121)._hidden),l(n,154,0,X["ɵnov"](n,155)._hidden),l(n,184,0,X["ɵnov"](n,185)._hidden),l(n,212,0,X["ɵnov"](n,213)._hidden),l(n,250,0,X["ɵnov"](n,251)._hidden),l(n,302,0,X["ɵnov"](n,303)._hidden),l(n,373,0,X["ɵnov"](n,374)._hidden)})}function O(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,103,"ion-col",[["class","products-list col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,19,"ion-row",[["class","cursor-pointer row"]],null,[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.getProduct()&&u),u},null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","products-list-group col"],["col-9",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-box"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,[" \n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","products-list-group-text"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["Caixa c/ 10 uni."])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","products-icon-heart col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-heart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-row",[["class","cursor-pointer row"]],null,[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.getProduct()&&u),u},null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","col"],["text-center",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","cursor-pointer row"]],null,[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.getProduct()&&u),u},null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","products-list-group-name no-padding-top col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t","\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,14,"ion-row",[["class","cursor-pointer row"]],null,[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.getProduct()&&u),u},null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,10,"ion-col",[["class","products-list-type col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"span",[["arrow",""],["event","hover"],["positionV","bottom"]],null,[[null,"press"],[null,"click"],[null,"mouseenter"],[null,"mouseleave"]],function(l,n,t){var u=!0;return"press"===n&&(u=!1!==("press"===X["ɵnov"](l,49).event&&X["ɵnov"](l,49).trigger())&&u),"click"===n&&(u=!1!==("click"===X["ɵnov"](l,49).event&&X["ɵnov"](l,49).trigger())&&u),"mouseenter"===n&&(u=!1!=("hover"===X["ɵnov"](l,49).event&&(X["ɵnov"](l,49).active=!0))&&u),"mouseleave"===n&&(u=!1!=("hover"===X["ɵnov"](l,49).event&&(X["ɵnov"](l,49).active=!1))&&u),u},null,null)),X["ɵdid"](4210688,null,0,nn.a,[X.ElementRef,X.ApplicationRef,Ul.a,X.ComponentFactoryResolver],{tooltip:[0,"tooltip"],positionV:[1,"positionV"],event:[2,"event"],arrow:[3,"arrow"]},null),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,[""," ",""])),X["ɵppd"](1),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-row",[["class","padding-top-10 row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","products-list-group-value col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,[""," "])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["p/ caixa c/ 10 uni."])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","products-list-current-value col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,[""," "])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["p/ unidade"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,24,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,20,"ion-col",[["class","products-list-quantity-label col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,10,"span",[["class","products-list-quantity"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","md-remove"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["01"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["class","icon-plus"],["name","md-add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"span",[["class","products-list-cart"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","cart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,[" Adicionar\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t"]))],function(l,n){l(n,10,0,"netfoods-box");l(n,20,0,"netfoods-heart");l(n,49,0,X["ɵinlineInterpolate"](1,"",n.context.$implicit.name,""),"bottom","hover","");l(n,87,0,"md-remove");l(n,93,0,"md-add");l(n,99,0,"cart")},function(l,n){l(n,9,0,X["ɵnov"](n,10)._hidden),l(n,19,0,X["ɵnov"](n,20)._hidden),l(n,30,0,n.context.$implicit.image),l(n,39,0,n.context.$implicit.group),l(n,50,0,n.context.$implicit.name),l(n,53,0,X["ɵunv"](n,53,0,l(n,54,0,X["ɵnov"](n.parent,0),n.context.$implicit.group)),n.context.$implicit.size),l(n,63,0,n.context.$implicit.group_value),l(n,73,0,n.context.$implicit.unit_value),l(n,86,0,X["ɵnov"](n,87)._hidden),l(n,92,0,X["ɵnov"](n,93)._hidden),l(n,98,0,X["ɵnov"](n,99)._hidden)})}function I(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,103,"ion-col",[["class","products-list col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,19,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-col",[["class","products-list-group col"],["col-9",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-box"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,[" \n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[["class","products-list-group-text"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["Caixa c/ 10 uni."])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","products-icon-heart col"],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-heart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","col"],["text-center",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","products-list-group-name no-padding-top col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t","\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,14,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,10,"ion-col",[["class","products-list-type col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"span",[["arrow",""],["event","hover"],["positionV","bottom"]],null,[[null,"press"],[null,"click"],[null,"mouseenter"],[null,"mouseleave"]],function(l,n,t){var u=!0;return"press"===n&&(u=!1!==("press"===X["ɵnov"](l,49).event&&X["ɵnov"](l,49).trigger())&&u),"click"===n&&(u=!1!==("click"===X["ɵnov"](l,49).event&&X["ɵnov"](l,49).trigger())&&u),"mouseenter"===n&&(u=!1!=("hover"===X["ɵnov"](l,49).event&&(X["ɵnov"](l,49).active=!0))&&u),"mouseleave"===n&&(u=!1!=("hover"===X["ɵnov"](l,49).event&&(X["ɵnov"](l,49).active=!1))&&u),u},null,null)),X["ɵdid"](4210688,null,0,nn.a,[X.ElementRef,X.ApplicationRef,Ul.a,X.ComponentFactoryResolver],{tooltip:[0,"tooltip"],positionV:[1,"positionV"],event:[2,"event"],arrow:[3,"arrow"]},null),(l()(),X["ɵted"](null,["",""])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,[""," ",""])),X["ɵppd"](1),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-row",[["class","padding-top-10 row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","products-list-group-value col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,[""," "])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["p/ caixa c/ 10 uni."])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,8,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","products-list-current-value col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,[""," "])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["p/ unidade"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,24,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,20,"ion-col",[["class","products-list-quantity-label col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,10,"span",[["class","products-list-quantity"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","md-remove"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["01"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["class","icon-plus"],["name","md-add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"span",[["class","products-list-cart"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","cart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,[" Adicionar\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t"]))],function(l,n){l(n,10,0,"netfoods-box");l(n,20,0,"netfoods-heart");l(n,49,0,X["ɵinlineInterpolate"](1,"",n.context.$implicit.name,""),"bottom","hover","");l(n,87,0,"md-remove");l(n,93,0,"md-add");l(n,99,0,"cart")},function(l,n){l(n,9,0,X["ɵnov"](n,10)._hidden),l(n,19,0,X["ɵnov"](n,20)._hidden),l(n,30,0,n.context.$implicit.image),l(n,39,0,n.context.$implicit.group),l(n,50,0,n.context.$implicit.name),l(n,53,0,X["ɵunv"](n,53,0,l(n,54,0,X["ɵnov"](n.parent,0),n.context.$implicit.group)),n.context.$implicit.size),l(n,63,0,n.context.$implicit.group_value),l(n,73,0,n.context.$implicit.unit_value),l(n,86,0,X["ɵnov"](n,87)._hidden),l(n,92,0,X["ɵnov"](n,93)._hidden),l(n,98,0,X["ɵnov"](n,99)._hidden)})}function S(l){return X["ɵvid"](0,[X["ɵpid"](0,bl.o,[]),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","margin-left-8 row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","market-title col"]],[[2,"padding-top-35",null]],null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t","\n\t"])),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵted"](null,["\n\n"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","products-list-list row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵand"](16777216,null,null,2,null,O)),X["ɵdid"](802816,null,0,bl.h,[X.ViewContainerRef,X.TemplateRef,X.IterableDiffers],{ngForOf:[0,"ngForOf"]},null),X["ɵpid"](0,bl.n,[]),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","products-list-list row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵand"](16777216,null,null,2,null,I)),X["ɵdid"](802816,null,0,bl.h,[X.ViewContainerRef,X.TemplateRef,X.IterableDiffers],{ngForOf:[0,"ngForOf"]},null),X["ɵpid"](0,bl.n,[]),(l()(),X["ɵted"](null,["\n"]))],function(l,n){var t=n.component;l(n,13,0,X["ɵunv"](n,13,0,X["ɵnov"](n,14).transform(t.products_list,0,5))),l(n,21,0,X["ɵunv"](n,21,0,X["ɵnov"](n,22).transform(t.products_list,5,10)))},function(l,n){var t=n.component;l(n,4,0,"top-selling-products"==t.type),l(n,6,0,t.title)})}function D(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t"]))],null,function(l,n){l(n,3,0,n.context.$implicit.image)})}function T(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,29,"ion-row",[["class","featured-suppliers row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,25,"ion-col",[["class","margin-top-25 padding-bottom-35 col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"],["text-center",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","featured-suppliers-title col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["Fornecedores em Destaque"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"],["text-center",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","featured-suppliers-subtitle col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["Acesse a loja do fornecedor, veja suas qualificações, converse com a empresa e faça seu pedido"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-row",[["class","featured-suppliers-images margin-top-25 margin-bottom-10 row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,D)),X["ɵdid"](802816,null,0,bl.h,[X.ViewContainerRef,X.TemplateRef,X.IterableDiffers],{ngForOf:[0,"ngForOf"]},null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵted"](null,["\n"]))],function(l,n){l(n,26,0,n.component.featured_suppliers)},null)}function M(l){return X["ɵvid"](0,[(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵeld"](0,null,null,1,"div",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n  ","\n"])),(l()(),X["ɵted"](null,["\n"]))],null,function(l,n){l(n,2,0,n.component.product.name)})}function L(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,72,"ion-row",[["class","submenu row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","col"]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("mercearia",t)&&u),u},null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-groceries"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\tMercearia\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","col"]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("hortifruti",t)&&u),u},null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-carrot"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\tHortifruti\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","col"]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("carnes",t)&&u),u},null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-steak"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\tCarnes, Aves e Peixes\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","col"]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("frios",t)&&u),u},null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-cheese"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\tFrios e Laticínios\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","col"]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("congelados",t)&&u),u},null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-frozen-food"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\tCongelados\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","col"]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("bebidas",t)&&u),u},null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-alcoholic-drinks"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\tBebidas\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","col"]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("confeitaria",t)&&u),u},null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-cupcake"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\tConfeitaria\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","col"]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("equipamentos",t)&&u),u},null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-whisk"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\tEquipamentos e Utensílios\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","col"]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("limpeza",t)&&u),u},null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-hygienic-items"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\tLimpeza e Higiene\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","col"]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("embalagem",t)&&u),u},null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","netfoods-packing"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\tEmbalagem e Descartáveis\n\t"])),(l()(),X["ɵted"](null,["\n"]))],function(l,n){l(n,7,0,"netfoods-groceries");l(n,14,0,"netfoods-carrot");l(n,21,0,"netfoods-steak");l(n,28,0,"netfoods-cheese");l(n,35,0,"netfoods-frozen-food");l(n,42,0,"netfoods-alcoholic-drinks");l(n,49,0,"netfoods-cupcake");l(n,56,0,"netfoods-whisk");l(n,63,0,"netfoods-hygienic-items");l(n,70,0,"netfoods-packing")},function(l,n){var t=n.component;l(n,3,0,"mercearia"==t.submenu),l(n,6,0,X["ɵnov"](n,7)._hidden),l(n,10,0,"hortifruti"==t.submenu),l(n,13,0,X["ɵnov"](n,14)._hidden),l(n,17,0,"carnes"==t.submenu),l(n,20,0,X["ɵnov"](n,21)._hidden),l(n,24,0,"frios"==t.submenu),l(n,27,0,X["ɵnov"](n,28)._hidden),l(n,31,0,"congelados"==t.submenu),l(n,34,0,X["ɵnov"](n,35)._hidden),l(n,38,0,"bebidas"==t.submenu),l(n,41,0,X["ɵnov"](n,42)._hidden),l(n,45,0,"confeitaria"==t.submenu),l(n,48,0,X["ɵnov"](n,49)._hidden),l(n,52,0,"equipamentos"==t.submenu),l(n,55,0,X["ɵnov"](n,56)._hidden),l(n,59,0,"limpeza"==t.submenu),l(n,62,0,X["ɵnov"](n,63)._hidden),l(n,66,0,"embalagem"==t.submenu),l(n,69,0,X["ɵnov"](n,70)._hidden)})}function z(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,4,"ion-slide",[],null,null,null,Rn.b,Rn.a)),X["ɵdid"](180224,null,0,yn.a,[X.ElementRef,X.Renderer,Cn.a],null,null),(l()(),X["ɵted"](0,["\n\t\t\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,0,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),X["ɵted"](0,["\n\t\t\t\t\t\t\t"]))],null,function(l,n){l(n,3,0,n.context.$implicit.image)})}function V(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,56,"div",[["no-padding",""]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,44,"ion-row",[["class","market-content row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,25,"ion-col",[["class","padding-top-10 col"],["col-7",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-col",[["class","market-title col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\tOfertas da Semana\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,13,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,9,"ion-col",[["class","padding-top-35 col"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-slides",[],null,null,null,kn.b,kn.a)),X["ɵdid"](1228800,[[1,4]],0,Cn.a,[Hl.a,Ul.a,X.NgZone,[2,Gl.a],X.ElementRef,X.Renderer],null,null),(l()(),X["ɵted"](0,["\n\t\t\t\t\t\t\t"])),(l()(),X["ɵand"](16777216,null,0,1,null,z)),X["ɵdid"](802816,null,0,bl.h,[X.ViewContainerRef,X.TemplateRef,X.IterableDiffers],{ngForOf:[0,"ngForOf"]},null),(l()(),X["ɵted"](0,["\n\t\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,13,"ion-col",[["class","col"],["col-5",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,9,"ion-row",[["class","products no-margin-top row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,5,"ion-col",[["class","products-box col"],["no-padding",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"products",[["source","market"],["title","Ofertas do Dia"]],null,null,null,v,pn)),X["ɵdid"](114688,null,0,cl,[],{products:[0,"products"],title:[1,"title"],source:[2,"source"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"products-list",[["title","Produtos Recomendados"],["type","recommended-products"]],null,null,null,S,jn)),X["ɵdid"](49152,null,0,fl,[Ol.a],{products_list:[0,"products_list"],title:[1,"title"],type:[2,"type"]},null),(l()(),X["ɵted"](null,["\n\t\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"featured-suppliers",[],null,null,null,T,xn)),X["ɵdid"](49152,null,0,hl,[],{featured_suppliers:[0,"featured_suppliers"]},null),(l()(),X["ɵted"](null,["\n\t\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"products-list",[["title","Produtos Mais Vendidos"],["type","top-selling-products"]],null,null,null,S,jn)),X["ɵdid"](49152,null,0,fl,[Ol.a],{products_list:[0,"products_list"],title:[1,"title"],type:[2,"type"]},null),(l()(),X["ɵted"](null,["\n\t"]))],function(l,n){var t=n.component;l(n,26,0,t.images);l(n,42,0,t.products,"Ofertas do Dia","market");l(n,49,0,t.recommended_products,"Produtos Recomendados","recommended-products"),l(n,52,0,t.featured_suppliers);l(n,55,0,t.top_selling_products,"Produtos Mais Vendidos","top-selling-products")},null)}function F(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,4,"div",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"product",[],null,null,null,M,$n)),X["ɵdid"](49152,null,0,gl,[],{product:[0,"product"]},null),(l()(),X["ɵted"](null,["\n\t"]))],function(l,n){l(n,3,0,n.component.product)},null)}function N(l){return X["ɵvid"](0,[X["ɵqud"](671088640,1,{slides:0}),(l()(),X["ɵeld"](0,null,null,11,"ion-col",[["class","content market col"],["col-10",""],["no-padding",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,1,"submenu",[],null,null,null,L,In)),X["ɵdid"](49152,null,0,_l,[Ol.a,Tl.a],null,null),(l()(),X["ɵted"](null,["\n\n\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,V)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\n\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,F)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\n\t\n"]))],function(l,n){var t=n.component;l(n,8,0,"home"==t.market_content),l(n,11,0,"product"==t.market_content)},null)}function q(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,86,"ion-grid",[["class","grid"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,zn.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,82,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","col-logo col"],["col-2",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,0,"img",[["src","assets/img/logo-white.png"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,19,"ion-col",[["class","col"],["col-4",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,15,"ion-item",[["class","item item-block"]],null,null,null,tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,1,{contentLabel:0}),X["ɵqud"](603979776,2,{_buttons:1}),X["ɵqud"](603979776,3,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["        \n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,1,4,"ion-label",[],null,null,null,null,null)),X["ɵdid"](16384,[[1,4]],0,dn.a,[Hl.a,X.ElementRef,X.Renderer,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),X["ɵted"](null,[" "])),(l()(),X["ɵeld"](0,null,null,1,"ion-icon",[["name","search"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](2,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,3,1,"ion-input",[["clearInput",""],["type","text"]],null,null,null,an.b,an.a)),X["ɵdid"](5423104,null,0,rn.a,[Hl.a,Ul.a,Il.a,Cl.a,X.ElementRef,X.Renderer,[2,sn.a],[2,un.a],[2,jl.c],Rl.a],{clearInput:[0,"clearInput"],type:[1,"type"]},null),(l()(),X["ɵted"](2,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,23,"ion-col",[["class","col"],["col-4",""],["no-padding",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,19,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,9,"ion-col",[["class","col"],["col-10",""],["text-right",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,5,"button",[["class","button-user"],["clear",""],["ion-button",""]],null,null,null,Vn.b,Vn.a)),X["ɵdid"](1097728,null,0,Fn.a,[[8,""],Hl.a,X.ElementRef,X.Renderer],{clear:[0,"clear"]},null),(l()(),X["ɵted"](0,["\n\t\t\t\t\t\tCatherine Ramos\n\t\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,0,1,"ion-icon",[["class","arrow-user"],["name","ios-arrow-down"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](0,["              \n\t\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,4,"ion-col",[["class","col"],["col-2",""],["no-padding",""],["text-left",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,0,"img",[["class","img-user"],["src","../assets/img/user.png"]],null,null,null,null,null)),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,26,"ion-col",[["class","col"],["col-2",""],["text-center",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,10,"button",[["class","notification-button"],["clear",""],["ion-button",""]],null,null,null,Vn.b,Vn.a)),X["ɵdid"](1097728,null,0,Fn.a,[[8,""],Hl.a,X.ElementRef,X.Renderer],{clear:[0,"clear"]},null),(l()(),X["ɵted"](0,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,0,6,"ion-icon",[["name","netfoods-notifications"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-badge",[["class","notifications-badge badge-blue"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Nn.a,[Hl.a,X.ElementRef,X.Renderer],null,null),(l()(),X["ɵted"](null,["3"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](0,["              \n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,10,"button",[["class","notification-button"],["clear",""],["ion-button",""]],null,null,null,Vn.b,Vn.a)),X["ɵdid"](1097728,null,0,Fn.a,[[8,""],Hl.a,X.ElementRef,X.Renderer],{clear:[0,"clear"]},null),(l()(),X["ɵted"](0,["\n\t\t\t\t"])),(l()(),X["ɵeld"](0,null,0,6,"ion-icon",[["name","ios-cart-outline"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,null,0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](null,["\n\t\t\t\t\t"])),(l()(),X["ɵeld"](0,null,null,2,"ion-badge",[["class","notifications-badge badge-green badge-cart-header"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Nn.a,[Hl.a,X.ElementRef,X.Renderer],null,null),(l()(),X["ɵted"](null,["17"])),(l()(),X["ɵted"](null,["\n\t\t\t\t"])),(l()(),X["ɵted"](0,["              \n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵted"](null,["\n"]))],function(l,n){l(n,26,0,"search");l(n,29,0,"","text");l(n,43,0,"");l(n,46,0,"ios-arrow-down");l(n,62,0,"");l(n,65,0,"netfoods-notifications");l(n,74,0,"");l(n,77,0,"ios-cart-outline")},function(l,n){l(n,25,0,X["ɵnov"](n,26)._hidden),l(n,45,0,X["ɵnov"](n,46)._hidden),l(n,64,0,X["ɵnov"](n,65)._hidden),l(n,76,0,X["ɵnov"](n,77)._hidden)})}function G(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,108,"ion-col",[["class","menu col"],["col-2",""],["no-padding",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Xl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,104,"ion-list",[],null,null,null,null,null)),X["ɵdid"](16384,null,0,Hn.a,[Hl.a,X.ElementRef,X.Renderer,Ul.a,kl.f,Rl.a],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-item",[["class","current item item-block"],["text-wrap",""]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("dashboard")&&u),u},tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,1,{contentLabel:0}),X["ɵqud"](603979776,2,{_buttons:1}),X["ɵqud"](603979776,3,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,2,1,"ion-icon",[["name","netfoods-dashboard"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,[[3,4]],0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](2,[" "])),(l()(),X["ɵeld"](0,null,2,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Dashboard"])),(l()(),X["ɵted"](2,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-item",[["class","item item-block"],["text-wrap",""]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("market")&&u),u},tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,4,{contentLabel:0}),X["ɵqud"](603979776,5,{_buttons:1}),X["ɵqud"](603979776,6,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,2,1,"ion-icon",[["name","netfoods-cart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,[[6,4]],0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](2,[" "])),(l()(),X["ɵeld"](0,null,2,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Mercado"])),(l()(),X["ɵted"](2,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-item",[["class","item item-block"],["text-wrap",""]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("purchase")&&u),u},tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,7,{contentLabel:0}),X["ɵqud"](603979776,8,{_buttons:1}),X["ɵqud"](603979776,9,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,2,1,"ion-icon",[["name","netfoods-fast-buy"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,[[9,4]],0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](2,[" "])),(l()(),X["ɵeld"](0,null,2,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Compra Rápida"])),(l()(),X["ɵted"](2,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-item",[["class","item item-block"],["text-wrap",""]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("orders")&&u),u},tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,10,{contentLabel:0}),X["ɵqud"](603979776,11,{_buttons:1}),X["ɵqud"](603979776,12,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,2,1,"ion-icon",[["name","netfoods-orders"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,[[12,4]],0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](2,[" "])),(l()(),X["ɵeld"](0,null,2,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Pedidos"])),(l()(),X["ɵted"](2,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-item",[["class","item item-block"],["text-wrap",""]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("providers")&&u),u},tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,13,{contentLabel:0}),X["ɵqud"](603979776,14,{_buttons:1}),X["ɵqud"](603979776,15,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,2,1,"ion-icon",[["name","netfoods-restaurant"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,[[15,4]],0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](2,[" "])),(l()(),X["ɵeld"](0,null,2,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Fornecedores"])),(l()(),X["ɵted"](2,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,16,"ion-item",[["class","item item-block"],["text-wrap",""]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("messages")&&u),u},tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,16,{contentLabel:0}),X["ɵqud"](603979776,17,{_buttons:1}),X["ɵqud"](603979776,18,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,2,1,"ion-icon",[["name","netfoods-message"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,[[18,4]],0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](2,[" "])),(l()(),X["ɵeld"](0,null,2,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Mensagens"])),(l()(),X["ɵted"](2,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,2,2,"ion-badge",[["class","badge-blue"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Nn.a,[Hl.a,X.ElementRef,X.Renderer],null,null),(l()(),X["ɵted"](null,["3"])),(l()(),X["ɵted"](2,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-item",[["class","item item-block"],["text-wrap",""]],[[2,"current",null]],[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.go("settings")&&u),u},tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,19,{contentLabel:0}),X["ɵqud"](603979776,20,{_buttons:1}),X["ɵqud"](603979776,21,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,2,1,"ion-icon",[["name","netfoods-settings"],["role","img"]],[[2,"hide",null]],null,null,null,null)),X["ɵdid"](147456,[[21,4]],0,ln.a,[Hl.a,X.ElementRef,X.Renderer],{name:[0,"name"]},null),(l()(),X["ɵted"](2,[" "])),(l()(),X["ɵeld"](0,null,2,1,"span",[],null,null,null,null,null)),(l()(),X["ɵted"](null,["Configurações"])),(l()(),X["ɵted"](2,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵted"](null,["\n"]))],function(l,n){l(n,14,0,"netfoods-dashboard");l(n,28,0,"netfoods-cart");l(n,42,0,"netfoods-fast-buy");l(n,56,0,"netfoods-orders");l(n,70,0,"netfoods-restaurant");l(n,84,0,"netfoods-message");l(n,102,0,"netfoods-settings")},function(l,n){var t=n.component;l(n,6,0,"dashboard"==t.sidemenu),l(n,13,0,X["ɵnov"](n,14)._hidden),l(n,20,0,"market"==t.sidemenu),l(n,27,0,X["ɵnov"](n,28)._hidden),l(n,34,0,"purchase"==t.sidemenu),l(n,41,0,X["ɵnov"](n,42)._hidden),l(n,48,0,"orders"==t.sidemenu),l(n,55,0,X["ɵnov"](n,56)._hidden),l(n,62,0,"providers"==t.sidemenu),l(n,69,0,X["ɵnov"](n,70)._hidden),l(n,76,0,"messages"==t.sidemenu),l(n,83,0,X["ɵnov"](n,84)._hidden),l(n,94,0,"settings"==t.sidemenu),l(n,101,0,X["ɵnov"](n,102)._hidden)})}function B(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"dashboard",[],null,null,null,$,wn)),X["ɵdid"](49152,null,0,al,[Tl.a],null,null)],null,null)}function H(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"market",[],null,null,null,N,Dn)),X["ɵdid"](4243456,null,0,pl,[Ol.a],null,null)],null,null)}function U(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,10,"ion-header",[["class","header"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Tn.a,[Hl.a,X.ElementRef,X.Renderer,[2,Gl.a]],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Mn.b,Mn.a)),X["ɵdid"](49152,null,0,Ln.a,[Cl.a,[2,Gl.a],[2,Bl.a],Hl.a,X.ElementRef,X.Renderer],null,null),(l()(),X["ɵted"](3,["\n\t\t"])),(l()(),X["ɵted"](3,["\n\t\t"])),(l()(),X["ɵeld"](0,null,3,1,"header",[],null,null,null,q,Gn)),X["ɵdid"](49152,null,0,il,[],null,null),(l()(),X["ɵted"](3,["\n\t"])),(l()(),X["ɵted"](null,["\n"])),(l()(),X["ɵted"](null,["\n\n"])),(l()(),X["ɵeld"](0,null,null,20,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Bn.b,Bn.a)),X["ɵdid"](4374528,null,0,sn.a,[Hl.a,Ul.a,Rl.a,X.ElementRef,X.Renderer,Cl.a,Dl.a,X.NgZone,[2,Gl.a],[2,Bl.a]],null,null),(l()(),X["ɵted"](1,["\n\t"])),(l()(),X["ɵeld"](0,null,1,16,"ion-grid",[["class","grid"],["no-padding",""]],null,null,null,null,null)),X["ɵdid"](16384,null,0,zn.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵeld"](0,null,null,12,"ion-row",[["class","row"]],null,null,null,null,null)),X["ɵdid"](16384,null,0,Yl.a,[],null,null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵeld"](0,null,null,1,"sidemenu",[],null,null,null,G,Zn)),X["ɵdid"](49152,null,0,dl,[Bl.a,Ol.a],null,null),(l()(),X["ɵted"](null,["\n\n\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,B)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,H)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](null,["\n\t\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵted"](1,["\n"]))],function(l,n){var t=n.component;l(n,26,0,"dashboard"==t.menu),l(n,29,0,"market"==t.menu)},function(l,n){l(n,3,0,X["ɵnov"](n,4)._hidden,X["ɵnov"](n,4)._sbPadding),l(n,12,0,X["ɵnov"](n,13).statusbarPadding,X["ɵnov"](n,13)._hasRefresher)})}function Z(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,0,"div",[],[[8,"className",0]],null,null,null,null))],null,function(l,n){l(n,0,0,n.parent.context.$implicit.css)})}function K(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,9,"ion-item",[["class","item-menu-popover item item-block"]],null,[[null,"click"]],function(l,n,t){var u=!0,e=l.component;return"click"===n&&(u=!1!==e.selectOption(l.context.$implicit)&&u),u},tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,1,{contentLabel:0}),X["ɵqud"](603979776,2,{_buttons:1}),X["ɵqud"](603979776,3,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["\n\t\t"])),(l()(),X["ɵand"](16777216,null,2,1,null,Z)),X["ɵdid"](16384,null,0,bl.i,[X.ViewContainerRef,X.TemplateRef],{ngIf:[0,"ngIf"]},null),(l()(),X["ɵted"](2,[" \n\t\t","\n\t"]))],function(l,n){l(n,8,0,"orders"==n.component.type)},function(l,n){l(n,9,0,n.context.$implicit.name)})}function J(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,5,"ion-list",[],null,null,null,null,null)),X["ɵdid"](16384,null,0,Hn.a,[Hl.a,X.ElementRef,X.Renderer,Ul.a,kl.f,Rl.a],null,null),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵand"](16777216,null,null,1,null,K)),X["ɵdid"](802816,null,0,bl.h,[X.ViewContainerRef,X.TemplateRef,X.IterableDiffers],{ngForOf:[0,"ngForOf"]},null),(l()(),X["ɵted"](null,["\n"]))],function(l,n){l(n,4,0,n.component.options)},null)}function Q(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,34,"ion-list",[],null,null,null,null,null)),X["ɵdid"](16384,null,0,Hn.a,[Hl.a,X.ElementRef,X.Renderer,Ul.a,kl.f,Rl.a],null,null),(l()(),X["ɵted"](null,["\n    "])),(l()(),X["ɵeld"](0,null,null,6,"ion-item",[["class","item-menu-popover item item-block"]],null,null,null,tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,1,{contentLabel:0}),X["ɵqud"](603979776,2,{_buttons:1}),X["ɵqud"](603979776,3,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["\n\t\tTeste\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-item",[["class","item-menu-popover item item-block"]],null,null,null,tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,4,{contentLabel:0}),X["ɵqud"](603979776,5,{_buttons:1}),X["ɵqud"](603979776,6,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["\n\t\tTeste\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-item",[["class","item-menu-popover item item-block"]],null,null,null,tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,7,{contentLabel:0}),X["ɵqud"](603979776,8,{_buttons:1}),X["ɵqud"](603979776,9,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["\n\t\tTeste\n\t"])),(l()(),X["ɵted"](null,["\n\t"])),(l()(),X["ɵeld"](0,null,null,6,"ion-item",[["class","item-menu-popover item item-block"]],null,null,null,tn.b,tn.a)),X["ɵdid"](1097728,null,3,un.a,[Il.a,Hl.a,X.ElementRef,X.Renderer,[2,en.a]],null,null),X["ɵqud"](335544320,10,{contentLabel:0}),X["ɵqud"](603979776,11,{_buttons:1}),X["ɵqud"](603979776,12,{_icons:1}),X["ɵdid"](16384,null,0,on.a,[],null,null),(l()(),X["ɵted"](2,["\n\t\tTeste\n\t"])),(l()(),X["ɵted"](null,["\n"]))],null,null)}Object.defineProperty(n,"__esModule",{value:!0});var W=t(28),X=t(1),Y=(t(14),t(62)),ll=t(63),nl=function(){return function(l,n){var t=this;this.navCtrl=l,this.events=n,this.menu="dashboard",n.subscribe("sidemenu",function(l){t.menu=l})}}(),tl=function(){function l(l,n,t){this.platform=l,this.statusBar=n,this.splashScreen=t,this.rootPage=nl,this.initializeApp()}return l.prototype.initializeApp=function(){var l=this;this.platform.ready().then(function(){l.statusBar.styleDefault(),l.splashScreen.hide()})},l}(),ul=(t(264),t(313),t(232)),el=function(){function l(l,n,t){this.params=l,this.events=n,this.viewCtrl=t,this.options=this.params.get("menu"),this.type=this.params.get("type")}return l.prototype.selectOption=function(l){"orders"==this.type&&(this.events.publish("option",l.name),this.viewCtrl.dismiss())},l}(),ol=function(){function l(l,n){var t=this;this.popoverCtrl=l,this.events=n,this.status="Em Processo",this.cssStatusBox="box-yellow",this.cssStatusCircle="circle-yellow",n.subscribe("option",function(l){switch(t.status=l,t.status){case"Em Processo":t.cssStatusBox="box-yellow",t.cssStatusCircle="circle-yellow";break;case"Aguardando":t.cssStatusBox="box-gray",t.cssStatusCircle="circle-gray";break;case"Cancelado":t.cssStatusBox="box-red",t.cssStatusCircle="circle-red";break;case"Entregues":t.cssStatusBox="box-green",t.cssStatusCircle="circle-green";break;case"Finalizados":t.cssStatusBox="box-blue",t.cssStatusCircle="circle-blue"}})}return l.prototype.filter=function(l){this.popoverCtrl.create(el,{menu:[{name:"Cancelado",css:"circle-red"},{name:"Aguardando",css:"circle-gray"},{name:"Em Processo",css:"circle-yellow"},{name:"Entregues",css:"circle-green"},{name:"Finalizados",css:"circle-blue"}],type:"orders"}).present({ev:l})},l}(),il=function(){return function(){}}(),dl=function(){function l(l,n){this.navCtrl=l,this.events=n,this.sidemenu="dashboard"}return l.prototype.go=function(l){this.sidemenu=l,this.events.publish("sidemenu",this.sidemenu)},l}(),al=function(){function l(l){this.popoverCtrl=l,this.orders=[{number:"ORD.048922",value:"R$4.500,00",date:"28/08",type_label:"Fornecedores",providers:"Nutrivida; + 4 outras empresas",type_payment:"card",hasMessage:!0},{number:"ORD.048723",value:"R$15.500,00",date:"27/08",type_label:"Fornecedores",providers:"Nutrivida; + 4 outras empresas",type_payment:"code",hasMessage:!0},{number:"ORD.048654",value:"R$3.500,00",date:"27/08",type_label:"Fornecedores",providers:"Nutrivida; + 4 outras empresas",type_payment:"card",hasMessage:!1},{number:"ORD.048723",value:"R$24.000,00",date:"28/08",type_label:"Cliente",providers:"Jam",type_payment:"code",hasMessage:!0},{number:"ORD.048777",value:"R$3.500,00",date:"27/08",type_label:"Cliente",providers:"Grand Cru",type_payment:"code",hasMessage:!1},{number:"ORD.048796",value:"R$24.500,00",date:"28/08",type_label:"Cliente",providers:"Jam",type_payment:"card",hasMessage:!0},{number:"ORD.048723",value:"R$24.000,00",date:"28/08",type_label:"Cliente",providers:"Jam",type_payment:"code",hasMessage:!0},{number:"ORD.048777",value:"R$3.500,00",date:"27/08",type_label:"Cliente",providers:"Grand Cru",type_payment:"code",hasMessage:!1},{number:"ORD.048796",value:"R$24.500,00",date:"28/08",type_label:"Cliente",providers:"Jam",type_payment:"card",hasMessage:!0}],this.products=[{name:"Açaí Orgânico c/ Guaraná",code:"1009072",group:"Grupo PA",current_value:"R$ 18,90",previous_value:"R$ 19,90",average_value:"R$ 19,50",arrow:"down",image:"../assets/img/acai.jpg"},{name:"Snack Orgânico s/ Casca",code:"1022429",group:"Grupo PA",current_value:"R$ 8,90",previous_value:"R$ 9,90",average_value:"R$ 9,50",arrow:"down",image:"../assets/img/bio2snack.jpg"},{name:"Bebida Orgânica de Arroz Amêndoa",code:"1041755",group:"Grupo PA",current_value:"R$ 18,90",previous_value:"R$ 17,90",average_value:"R$ 17,50",arrow:"up",image:"../assets/img/bebida_organica.jpg"},{name:"Ovos Vermelho G/ Orgânicos",code:"3182840",group:"Grupo PA",current_value:"R$ 7,90",previous_value:"R$ 9,90",average_value:"R$ 9,50",arrow:"down",image:"../assets/img/ovos_organico.png"},{name:"Vinho Argentino T/ Orgânico",code:"1009072",group:"Grupo PA",current_value:"R$ 78,90",previous_value:"R$ 77,90",average_value:"R$ 75,50",arrow:"up",image:"../assets/img/vinho_tinto.jpg"}],this.suppliers=[{name:"Grupo PA",value_expense:"R$85.000",last_order:"R$15.500",marketshare:"18.7%"},{name:"AO Alimentos Orgânicos",value_expense:"R$115.000",last_order:"R$27.500",marketshare:"37.2%"},{name:"Casa Santa Luzia",value_expense:"R$68.000",last_order:"R$16.300",marketshare:"48.6%"}],this.activities=[{name:"Grupo PA",id:"09809744",value:"R$15.500",date:"29/08/2017",arrow:"up"},{name:"Grupo PA",id:"09804444",value:"R$1.500",date:"28/08/2017",arrow:"down"},{name:"Grand Cru",id:"09801111",value:"R$11.250",date:"28/08/2017",arrow:"up"},{name:"Casa Santa Luzia",id:"09805689",value:"R$21.100",date:"29/08/2017",arrow:"up"},{name:"Grand Cru",id:"09805689",value:"R$21.100",date:"29/08/2017",arrow:"up"}],this.lineChartData=[{data:[65,59,80,81,56,55,40],label:"Series A"}],this.lineChartLabels=["ABR","MAI","JUN","JUL","AGO","SET"],this.lineChartOptions={responsive:!0,legend:{display:!1}},this.lineChartColors=[{backgroundColor:"rgba(50,148,176,0.2)",borderColor:"rgba(50,148,176,1)",pointBackgroundColor:"rgba(50,148,176,1)",pointBorderColor:"#fff",pointHoverBackgroundColor:"#fff",pointHoverBorderColor:"rgba(50,148,176,0.8)"}],this.lineChartLegend=!0,this.lineChartType="line",this.barChartOptions={scaleShowVerticalLines:!1,responsive:!0,legend:{display:!1},scales:{yAxes:[{ticks:{beginAtZero:!0}}]}},this.barChartLabels=["Temakeria","Paris 6","Grand Cru"],this.barChartType="bar",this.barChartLegend=!1,this.barChartColors=[{backgroundColor:"rgba(52,68,83,1)"}],this.barChartData=[{data:[65,35,90],label:"Por Fornecedor"}],this.radarChartLabels=["ABR","MAI","JUN","JUL","AGO","SET"],this.radarChartOptions={responsive:!0,legend:{display:!1}},this.radarChartColors=[{backgroundColor:"rgba(41,104,121,0.8)",borderColor:"rgba(41,104,121,1)",pointBackgroundColor:"rgba(41,104,121,1)",pointBorderColor:"rgba(41,104,121,1)",pointHoverBackgroundColor:"rgba(41,104,121,1)",pointHoverBorderColor:"rgba(41,104,121,0.8)"},{backgroundColor:"rgba(122,209,212,0.8)",borderColor:"rgba(122,209,212,1)",pointBackgroundColor:"rgba(122,209,212,1)",pointBorderColor:"rgba(122,209,212,1)",pointHoverBackgroundColor:"rgba(122,209,212,1)",pointHoverBorderColor:"rgba(122,209,212,0.8)"}],this.radarChartData=[{data:[65,59,90,81,56,55],label:"Custo Planejado"},{data:[28,48,40,19,96,27],label:"Custo Realizado"}],this.radarChartType="radar"}return l.prototype.presentPopover=function(l){this.popoverCtrl.create(el,{menu:[{name:"Option 1"},{name:"Option 2"},{name:"Option 3"}]}).present({ev:l})},l}(),rl=function(){function l(l){this.popoverCtrl=l}return l.prototype.presentPopover=function(l){this.popoverCtrl.create(el,{menu:[{name:"Option 1"},{name:"Option 2"},{name:"Option 3"}]}).present({ev:l})},l}(),sl=function(){function l(l){this.popoverCtrl=l,this.date=new Date}return l.prototype.presentPopover=function(l){this.popoverCtrl.create(el,{menu:[{name:"Option 1"},{name:"Option 2"},{name:"Option 3"}]}).present({ev:l})},l}(),cl=function(){function l(){}return l.prototype.ngOnInit=function(){this.initializeItems()},l.prototype.initializeItems=function(){this.items=this.products,this.qtd_items=this.items.length},l.prototype.getItems=function(l){this.initializeItems();var n=l;n&&""!=n.trim()&&(this.items=this.items.filter(function(l){return l.name.toLowerCase().indexOf(n.toLowerCase())>-1}),this.qtd_items=this.items.length)},l}(),pl=function(){function l(l){var n=this;this.events=l,this.images=[{image:"assets/img/slide1.jpg"},{image:"assets/img/slide2.jpg"},{image:"assets/img/slide3.jpg"}],this.products=[{name:"Açaí Orgânico c/ Guaraná",code:"1009072",group:"Grupo PA",current_value:"R$ 18,90",previous_value:"R$ 19,90",average_value:"R$ 19,50",group_value:"R$ 17,90",arrow:"down",image:"../assets/img/acai.jpg"},{name:"Snack Orgânico s/ Casca",code:"1022429",group:"Grupo PA",current_value:"R$ 8,90",previous_value:"R$ 9,90",average_value:"R$ 9,50",group_value:"R$ 17,90",arrow:"down",image:"../assets/img/bio2snack.jpg"},{name:"Bebida Orgânica de Arroz Amêndoa",code:"1041755",group:"Grupo PA",current_value:"R$ 18,90",previous_value:"R$ 17,90",average_value:"R$ 17,50",group_value:"R$ 17,90",arrow:"up",image:"../assets/img/bebida_organica.jpg"},{name:"Ovos Vermelho G/ Orgânicos",code:"3182840",group:"Grupo PA",current_value:"R$ 7,90",previous_value:"R$ 9,90",average_value:"R$ 9,50",group_value:"R$ 17,90",arrow:"down",image:"../assets/img/ovos_organico.png"},{name:"Vinho Argentino T/ Orgânico",code:"1009072",group:"Grupo PA",current_value:"R$ 78,90",previous_value:"R$ 77,90",average_value:"R$ 75,50",group_value:"R$ 17,90",arrow:"up",image:"../assets/img/vinho_tinto.jpg"}],this.recommended_products=[{name:"Nozes sem casca",size:"180g",group:"Qualitá",group_value:"R$ 233,90",unit_value:"R$ 21,90",image:"../assets/img/recommends-products1.png"},{name:"Ovos Vermelho Grandes Org.",size:"Bandeja com 10 uni.",group:"TAEQ",group_value:"R$ 112,90",unit_value:"R$ 10,90",image:"../assets/img/recommends-products2.png"},{name:"Molho de Tomate Pronto",size:"Vidro 500g",group:"Salsaretti",group_value:"R$ 81,90",unit_value:"R$ 7,90",image:"../assets/img/recommends-products3.png"},{name:"Suco de Laranja",size:"Garrafa 1 Litro",group:"Blissimo",group_value:"R$ 91,90",unit_value:"R$ 8,90",image:"../assets/img/recommends-products4.png"},{name:"Azeite de Oliva Extra Virgem",size:"Vidro 500ml",group:"Gallo",group_value:"R$ 400,90",unit_value:"R$ 41,90",image:"../assets/img/recommends-products5.png"}],this.featured_suppliers=[{name:"Produto Orgânico Brasil",image:"../assets/img/company/selo-organico.jpg"},{name:"Grupo Bimbo",image:"../assets/img/company/ORGANIZACION_GRUPO_BIMBO-01.png"},{name:"Kelloggs",image:"../assets/img/company/Kellogg_s.png"},{name:"Kimberly-Clark",image:"../assets/img/company/KimberlyClark.jpg"},{name:"Unilever",image:"../assets/img/company/Unilever.jpg"}],this.top_selling_products=[{name:"Nozes sem casca",size:"180g",group:"Qualitá",group_value:"R$ 233,90",unit_value:"R$ 21,90",image:"../assets/img/recommends-products1.png"},{name:"Ovos Vermelho Grandes Org.",size:"Bandeja com 10 uni.",group:"TAEQ",group_value:"R$ 112,90",unit_value:"R$ 10,90",image:"../assets/img/recommends-products2.png"},{name:"Molho de Tomate Pronto",size:"Vidro 500g",group:"Salsaretti",group_value:"R$ 81,90",unit_value:"R$ 7,90",image:"../assets/img/recommends-products3.png"},{name:"Suco de Laranja",size:"Garrafa 1 Litro",group:"Blissimo",group_value:"R$ 91,90",unit_value:"R$ 8,90",image:"../assets/img/recommends-products4.png"},{name:"Azeite de Oliva Extra Virgem",size:"Vidro 500ml",group:"Gallo",group_value:"R$ 400,90",unit_value:"R$ 41,90",image:"../assets/img/recommends-products5.png"},{name:"Nozes sem casca",size:"180g",group:"Qualitá",group_value:"R$ 233,90",unit_value:"R$ 21,90",image:"../assets/img/recommends-products1.png"},{name:"Ovos Vermelho Grandes Org.",size:"Bandeja com 10 uni.",group:"TAEQ",group_value:"R$ 112,90",unit_value:"R$ 10,90",image:"../assets/img/recommends-products2.png"},{name:"Molho de Tomate Pronto",size:"Vidro 500g",group:"Salsaretti",group_value:"R$ 81,90",unit_value:"R$ 7,90",image:"../assets/img/recommends-products3.png"},{name:"Suco de Laranja",size:"Garrafa 1 Litro",group:"Blissimo",group_value:"R$ 91,90",unit_value:"R$ 8,90",image:"../assets/img/recommends-products4.png"},{name:"Azeite de Oliva Extra Virgem",size:"Vidro 500ml",group:"Gallo",group_value:"R$ 400,90",unit_value:"R$ 41,90",image:"../assets/img/recommends-products5.png"}],this.submenu="",this.market_content="home",l.subscribe("submenu",function(l){n.submenu=l}),l.subscribe("market_content",function(l){n.market_content=l.type,"product"==n.market_content&&(n.product=l.product)})}return l.prototype.ionViewDidEnter=function(){this.slides.update()},l.prototype.ngAfterViewInit=function(){this.slides.startAutoplay(),this.slides.autoplay="5000",this.slides.loop=!0,this.slides.initialSlide=0},l.prototype.getProduct=function(){this.market_content="product"},l}(),ml=function(){return function(){}}(),_l=function(){function l(l,n){this.events=l,this.popoverCtrl=n,this.submenu=""}return l.prototype.go=function(l,n){var t=this;this.submenu=l,this.events.publish("submenu",this.submenu);var u=this.popoverCtrl.create(ml);u.present({ev:n}),u.onDidDismiss(function(l){t.submenu=""})},l}(),fl=function(){function l(l){this.events=l}return l.prototype.getProduct=function(){this.events.publish("market_content",{type:"product",product:{name:"teste"}})},l}(),hl=function(){return function(){}}(),gl=function(){return function(){}}(),vl=function(){return function(){}}(),bl=t(11),wl=t(106),Rl=t(7),yl=t(44),Cl=t(8),kl=t(10),El=t(76),jl=t(39),Al=t(107),xl=t(82),Pl=t(231),$l=t(81),Ol=t(21),Il=t(19),Sl=t(57),Dl=t(38),Tl=t(24),Ml=t(78),Ll=t(32),zl=t(314),Vl=t(315),Fl=t(316),Nl=t(317),ql=t(56),Gl=t(9),Bl=t(20),Hl=t(2),Ul=t(4),Zl=t(25),Kl=t(48),Jl=[],Ql=X["ɵcrt"]({encapsulation:2,styles:Jl,data:{}}),Wl=X["ɵccf"]("ng-component",tl,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"ng-component",[],null,null,null,u,Ql)),X["ɵdid"](49152,null,0,tl,[Ul.a,Y.a,ll.a],null,null)],null,null)},{},{},[]),Xl=t(16),Yl=t(17),ln=t(15),nn=t(66),tn=t(50),un=t(23),en=t(27),on=t(34),dn=t(40),an=t(234),rn=t(46),sn=t(26),cn=[],pn=X["ɵcrt"]({encapsulation:2,styles:cn,data:{}}),mn=(X["ɵccf"]("products",cl,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"products",[],null,null,null,v,pn)),X["ɵdid"](114688,null,0,cl,[],null,null)],function(l,n){l(n,1,0)},null)},{products:"products",title:"title",source:"source"},{},[]),[]),_n=X["ɵcrt"]({encapsulation:2,styles:mn,data:{}}),fn=(X["ɵccf"]("suppliers",rl,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"suppliers",[],null,null,null,w,_n)),X["ɵdid"](49152,null,0,rl,[Tl.a],null,null)],null,null)},{suppliers:"suppliers"},{},[]),[]),hn=X["ɵcrt"]({encapsulation:2,styles:fn,data:{}}),gn=(X["ɵccf"]("activities",sl,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"activities",[],null,null,null,k,hn)),X["ɵdid"](49152,null,0,sl,[Tl.a],null,null)],null,null)},{activities:"activities"},{},[]),[]),vn=X["ɵcrt"]({encapsulation:2,styles:gn,data:{}}),bn=(X["ɵccf"]("orders",ol,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"orders",[],null,null,null,P,vn)),X["ɵdid"](49152,null,0,ol,[Tl.a,Ol.a],null,null)],null,null)},{orders:"orders"},{},[]),[]),wn=X["ɵcrt"]({encapsulation:2,styles:bn,data:{}}),Rn=(X["ɵccf"]("dashboard",al,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"dashboard",[],null,null,null,$,wn)),X["ɵdid"](49152,null,0,al,[Tl.a],null,null)],null,null)},{},{},[]),t(318)),yn=t(60),Cn=t(41),kn=t(319),En=[],jn=X["ɵcrt"]({encapsulation:2,styles:En,data:{}}),An=(X["ɵccf"]("products-list",fl,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"products-list",[],null,null,null,S,jn)),X["ɵdid"](49152,null,0,fl,[Ol.a],null,null)],null,null)},{products_list:"products_list",title:"title",type:"type"},{},[]),[]),xn=X["ɵcrt"]({encapsulation:2,styles:An,data:{}}),Pn=(X["ɵccf"]("featured-suppliers",hl,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"featured-suppliers",[],null,null,null,T,xn)),X["ɵdid"](49152,null,0,hl,[],null,null)],null,null)},{featured_suppliers:"featured_suppliers"},{},[]),[]),$n=X["ɵcrt"]({encapsulation:2,styles:Pn,data:{}}),On=(X["ɵccf"]("product",gl,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"product",[],null,null,null,M,$n)),X["ɵdid"](49152,null,0,gl,[],null,null)],null,null)},{product:"product"},{},[]),[]),In=X["ɵcrt"]({encapsulation:2,styles:On,data:{}}),Sn=(X["ɵccf"]("submenu",_l,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"submenu",[],null,null,null,L,In)),X["ɵdid"](49152,null,0,_l,[Ol.a,Tl.a],null,null)],null,null)},{},{},[]),[]),Dn=X["ɵcrt"]({encapsulation:2,styles:Sn,data:{}}),Tn=(X["ɵccf"]("market",pl,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"market",[],null,null,null,N,Dn)),X["ɵdid"](4243456,null,0,pl,[Ol.a],null,null)],null,null)},{},{},[]),t(77)),Mn=t(320),Ln=t(61),zn=t(55),Vn=t(83),Fn=t(33),Nn=t(54),qn=[],Gn=X["ɵcrt"]({encapsulation:2,styles:qn,data:{}}),Bn=(X["ɵccf"]("header",il,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"header",[],null,null,null,q,Gn)),X["ɵdid"](49152,null,0,il,[],null,null)],null,null)},{},{},[]),t(321)),Hn=t(47),Un=[],Zn=X["ɵcrt"]({encapsulation:2,styles:Un,data:{}}),Kn=(X["ɵccf"]("sidemenu",dl,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"sidemenu",[],null,null,null,G,Zn)),X["ɵdid"](49152,null,0,dl,[Bl.a,Ol.a],null,null)],null,null)},{},{},[]),[]),Jn=X["ɵcrt"]({encapsulation:2,styles:Kn,data:{}}),Qn=X["ɵccf"]("page-home",nl,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"page-home",[],null,null,null,U,Jn)),X["ɵdid"](49152,null,0,nl,[Bl.a,Ol.a],null,null)],null,null)},{},{},[]),Wn=t(37),Xn=[],Yn=X["ɵcrt"]({encapsulation:2,styles:Xn,data:{}}),lt=X["ɵccf"]("popover",el,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"popover",[],null,null,null,J,Yn)),X["ɵdid"](49152,null,0,el,[Wn.a,Ol.a,Gl.a],null,null)],null,null)},{},{},[]),nt=[],tt=X["ɵcrt"]({encapsulation:2,styles:nt,data:{}}),ut=X["ɵccf"]("submenu-popover",ml,function(l){return X["ɵvid"](0,[(l()(),X["ɵeld"](0,null,null,1,"submenu-popover",[],null,null,null,Q,tt)),X["ɵdid"](49152,null,0,ml,[],null,null)],null,null)},{},{},[]),et=t(52),ot=t(79),it=t(59),dt=t(80),at=t(233),rt=t(43),st=this&&this.__extends||function(){var l=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(l,n){l.__proto__=n}||function(l,n){for(var t in n)n.hasOwnProperty(t)&&(l[t]=n[t])};return function(n,t){function u(){this.constructor=n}l(n,t),n.prototype=null===t?Object.create(t):(u.prototype=t.prototype,new u)}}(),ct=function(l){function n(n){return l.call(this,n,[zl.a,Vl.a,Fl.a,Wl,Qn,lt,ut],[zl.a])||this}return st(n,l),Object.defineProperty(n.prototype,"_LOCALE_ID_28",{get:function(){return null==this.__LOCALE_ID_28&&(this.__LOCALE_ID_28="pt-BR"),this.__LOCALE_ID_28},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_NgLocalization_29",{get:function(){return null==this.__NgLocalization_29&&(this.__NgLocalization_29=new bl.j(this._LOCALE_ID_28)),this.__NgLocalization_29},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_APP_ID_30",{get:function(){return null==this.__APP_ID_30&&(this.__APP_ID_30=X["ɵg"]()),this.__APP_ID_30},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_IterableDiffers_31",{get:function(){return null==this.__IterableDiffers_31&&(this.__IterableDiffers_31=X["ɵl"]()),this.__IterableDiffers_31},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_KeyValueDiffers_32",{get:function(){return null==this.__KeyValueDiffers_32&&(this.__KeyValueDiffers_32=X["ɵm"]()),this.__KeyValueDiffers_32},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_DomSanitizer_33",{get:function(){return null==this.__DomSanitizer_33&&(this.__DomSanitizer_33=new W.s(this.parent.get(W.b))),this.__DomSanitizer_33},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Sanitizer_34",{get:function(){return null==this.__Sanitizer_34&&(this.__Sanitizer_34=this._DomSanitizer_33),this.__Sanitizer_34},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_HAMMER_GESTURE_CONFIG_35",{get:function(){return null==this.__HAMMER_GESTURE_CONFIG_35&&(this.__HAMMER_GESTURE_CONFIG_35=new $l.a),this.__HAMMER_GESTURE_CONFIG_35},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_EVENT_MANAGER_PLUGINS_36",{get:function(){return null==this.__EVENT_MANAGER_PLUGINS_36&&(this.__EVENT_MANAGER_PLUGINS_36=[new W.l(this.parent.get(W.b)),new W.p(this.parent.get(W.b)),new W.o(this.parent.get(W.b),this._HAMMER_GESTURE_CONFIG_35)]),this.__EVENT_MANAGER_PLUGINS_36},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_EventManager_37",{get:function(){return null==this.__EventManager_37&&(this.__EventManager_37=new W.e(this._EVENT_MANAGER_PLUGINS_36,this.parent.get(X.NgZone))),this.__EventManager_37},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵDomSharedStylesHost_38",{get:function(){return null==this.__ɵDomSharedStylesHost_38&&(this.__ɵDomSharedStylesHost_38=new W.n(this.parent.get(W.b))),this.__ɵDomSharedStylesHost_38},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵDomRendererFactory2_39",{get:function(){return null==this.__ɵDomRendererFactory2_39&&(this.__ɵDomRendererFactory2_39=new W.m(this._EventManager_37,this._ɵDomSharedStylesHost_38)),this.__ɵDomRendererFactory2_39},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_AnimationDriver_40",{get:function(){return null==this.__AnimationDriver_40&&(this.__AnimationDriver_40=ul.c()),this.__AnimationDriver_40},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵAnimationStyleNormalizer_41",{get:function(){return null==this.__ɵAnimationStyleNormalizer_41&&(this.__ɵAnimationStyleNormalizer_41=ul.d()),this.__ɵAnimationStyleNormalizer_41},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵAnimationEngine_42",{get:function(){return null==this.__ɵAnimationEngine_42&&(this.__ɵAnimationEngine_42=new ul.b(this._AnimationDriver_40,this._ɵAnimationStyleNormalizer_41)),this.__ɵAnimationEngine_42},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_RendererFactory2_43",{get:function(){return null==this.__RendererFactory2_43&&(this.__RendererFactory2_43=ul.e(this._ɵDomRendererFactory2_39,this._ɵAnimationEngine_42,this.parent.get(X.NgZone))),this.__RendererFactory2_43},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵSharedStylesHost_44",{get:function(){return null==this.__ɵSharedStylesHost_44&&(this.__ɵSharedStylesHost_44=this._ɵDomSharedStylesHost_38),this.__ɵSharedStylesHost_44},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Testability_45",{get:function(){return null==this.__Testability_45&&(this.__Testability_45=new X.Testability(this.parent.get(X.NgZone))),this.__Testability_45},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Meta_46",{get:function(){return null==this.__Meta_46&&(this.__Meta_46=new W.h(this.parent.get(W.b))),this.__Meta_46},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Title_47",{get:function(){return null==this.__Title_47&&(this.__Title_47=new W.j(this.parent.get(W.b))),this.__Title_47},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵi_48",{get:function(){return null==this.__ɵi_48&&(this.__ɵi_48=new jl.h),this.__ɵi_48},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FormBuilder_49",{get:function(){return null==this.__FormBuilder_49&&(this.__FormBuilder_49=new jl.a),this.__FormBuilder_49},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Events_54",{get:function(){return null==this.__Events_54&&(this.__Events_54=new Ol.a),this.__Events_54},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Form_55",{get:function(){return null==this.__Form_55&&(this.__Form_55=new Il.a),this.__Form_55},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Haptic_56",{get:function(){return null==this.__Haptic_56&&(this.__Haptic_56=new Sl.a(this._Platform_4)),this.__Haptic_56},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Keyboard_57",{get:function(){return null==this.__Keyboard_57&&(this.__Keyboard_57=new Dl.a(this._Config_5,this._Platform_4,this.parent.get(X.NgZone),this._DomController_6)),this.__Keyboard_57},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_LocationStrategy_59",{get:function(){return null==this.__LocationStrategy_59&&(this.__LocationStrategy_59=Al.b(this.parent.get(bl.m),this._APP_BASE_HREF_51,this._Config_5)),this.__LocationStrategy_59},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Location_60",{get:function(){return null==this.__Location_60&&(this.__Location_60=new bl.e(this._LocationStrategy_59)),this.__Location_60},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_UrlSerializer_61",{get:function(){return null==this.__UrlSerializer_61&&(this.__UrlSerializer_61=et.d(this._App_8,this._DeepLinkConfigToken_10)),this.__UrlSerializer_61},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_DeepLinker_62",{get:function(){return null==this.__DeepLinker_62&&(this.__DeepLinker_62=Zl.b(this._App_8,this._UrlSerializer_61,this._Location_60,this._ModuleLoader_13,this.componentFactoryResolver)),this.__DeepLinker_62},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_PopoverController_65",{get:function(){return null==this.__PopoverController_65&&(this.__PopoverController_65=new Tl.a(this._App_8,this._Config_5,this._DeepLinker_62)),this.__PopoverController_65},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_TapClick_66",{get:function(){return null==this.__TapClick_66&&(this.__TapClick_66=new Ml.a(this._Config_5,this._Platform_4,this._DomController_6,this._App_8,this._GestureController_9)),this.__TapClick_66},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_TransitionController_68",{get:function(){return null==this.__TransitionController_68&&(this.__TransitionController_68=new Ll.a(this._Platform_4,this._Config_5)),this.__TransitionController_68},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_StatusBar_69",{get:function(){return null==this.__StatusBar_69&&(this.__StatusBar_69=new Y.a),this.__StatusBar_69},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_SplashScreen_70",{get:function(){return null==this.__SplashScreen_70&&(this.__SplashScreen_70=new ll.a),this.__SplashScreen_70},enumerable:!0,configurable:!0}),n.prototype.createInternal=function(){return this._CommonModule_0=new bl.b,this._ErrorHandler_1=new wl.a,this._ConfigToken_2=null,this._PlatformConfigToken_3=ot.b(),this._Platform_4=Ul.b(this.parent.get(W.b),this._PlatformConfigToken_3,this.parent.get(X.NgZone)),this._Config_5=Hl.c(this._ConfigToken_2,this._Platform_4),this._DomController_6=new Rl.a(this._Platform_4),this._MenuController_7=new yl.a,this._App_8=new Cl.a(this._Config_5,this._Platform_4,this._MenuController_7),this._GestureController_9=new kl.f(this._App_8),this._DeepLinkConfigToken_10=null,this._Compiler_11=new X.Compiler,this._NgModuleLoader_12=new El.a(this._Compiler_11),this._ModuleLoader_13=it.c(this._NgModuleLoader_12,this),this._APP_INITIALIZER_14=[X["ɵo"],W.r(this.parent.get(W.i,null),this.parent.get(X.NgProbeToken,null)),dt.a(this._Config_5),Ol.b(this._Platform_4,this._DomController_6),Ml.b(this._Config_5,this._Platform_4,this._DomController_6,this._App_8,this._GestureController_9),it.d(this._Config_5,this._DeepLinkConfigToken_10,this._ModuleLoader_13,this.parent.get(X.NgZone))],this._ApplicationInitStatus_15=new X.ApplicationInitStatus(this._APP_INITIALIZER_14),this._ɵf_16=new X["ɵf"](this.parent.get(X.NgZone),this.parent.get(X["ɵConsole"]),this,this._ErrorHandler_1,this.componentFactoryResolver,this._ApplicationInitStatus_15),this._ApplicationRef_17=this._ɵf_16,this._ApplicationModule_18=new X.ApplicationModule(this._ApplicationRef_17),this._BrowserModule_19=new W.a(this.parent.get(W.a,null)),this._ɵba_20=new jl.g,this._FormsModule_21=new jl.b,this._ReactiveFormsModule_22=new jl.f,this._IonicModule_23=new Al.a,this._ChartsModule_24=new xl.ChartsModule,this._TooltipsModule_25=new Pl.a,this._BrowserAnimationsModule_26=new ul.a,this._AppModule_27=new vl,this._AppRootToken_50=tl,this._APP_BASE_HREF_51="/",this._AppModule_27},n.prototype.getInternal=function(l,n){return l===bl.b?this._CommonModule_0:l===X.ErrorHandler?this._ErrorHandler_1:l===Hl.b?this._ConfigToken_2:l===ot.a?this._PlatformConfigToken_3:l===Ul.a?this._Platform_4:l===Hl.a?this._Config_5:l===Rl.a?this._DomController_6:l===yl.a?this._MenuController_7:l===Cl.a?this._App_8:l===kl.f?this._GestureController_9:l===et.a?this._DeepLinkConfigToken_10:l===X.Compiler?this._Compiler_11:l===El.a?this._NgModuleLoader_12:l===it.b?this._ModuleLoader_13:l===X.APP_INITIALIZER?this._APP_INITIALIZER_14:l===X.ApplicationInitStatus?this._ApplicationInitStatus_15:l===X["ɵf"]?this._ɵf_16:l===X.ApplicationRef?this._ApplicationRef_17:l===X.ApplicationModule?this._ApplicationModule_18:l===W.a?this._BrowserModule_19:l===jl.g?this._ɵba_20:l===jl.b?this._FormsModule_21:l===jl.f?this._ReactiveFormsModule_22:l===Al.a?this._IonicModule_23:l===xl.ChartsModule?this._ChartsModule_24:l===Pl.a?this._TooltipsModule_25:l===ul.a?this._BrowserAnimationsModule_26:l===vl?this._AppModule_27:l===X.LOCALE_ID?this._LOCALE_ID_28:l===bl.k?this._NgLocalization_29:l===X.APP_ID?this._APP_ID_30:l===X.IterableDiffers?this._IterableDiffers_31:l===X.KeyValueDiffers?this._KeyValueDiffers_32:l===W.c?this._DomSanitizer_33:l===X.Sanitizer?this._Sanitizer_34:l===W.f?this._HAMMER_GESTURE_CONFIG_35:l===W.d?this._EVENT_MANAGER_PLUGINS_36:l===W.e?this._EventManager_37:l===W.n?this._ɵDomSharedStylesHost_38:l===W.m?this._ɵDomRendererFactory2_39:l===at.a?this._AnimationDriver_40:l===at.c?this._ɵAnimationStyleNormalizer_41:l===at.b?this._ɵAnimationEngine_42:l===X.RendererFactory2?this._RendererFactory2_43:l===W.q?this._ɵSharedStylesHost_44:l===X.Testability?this._Testability_45:l===W.h?this._Meta_46:l===W.j?this._Title_47:l===jl.h?this._ɵi_48:l===jl.a?this._FormBuilder_49:l===rt.a?this._AppRootToken_50:l===bl.a?this._APP_BASE_HREF_51:l===Ol.a?this._Events_54:l===Il.a?this._Form_55:l===Sl.a?this._Haptic_56:l===Dl.a?this._Keyboard_57:l===bl.f?this._LocationStrategy_59:l===bl.e?this._Location_60:l===et.b?this._UrlSerializer_61:l===Zl.a?this._DeepLinker_62:l===Tl.a?this._PopoverController_65:l===Ml.a?this._TapClick_66:l===Ll.a?this._TransitionController_68:l===Y.a?this._StatusBar_69:l===ll.a?this._SplashScreen_70:n},n.prototype.destroyInternal=function(){this._ɵf_16.ngOnDestroy(),this.__ɵDomSharedStylesHost_38&&this._ɵDomSharedStylesHost_38.ngOnDestroy()},n}(X["ɵNgModuleInjector"]),pt=new X.NgModuleFactory(ct,vl);Object(X.enableProdMode)(),Object(W.k)().bootstrapModuleFactory(pt)},295:function(l,n,t){function u(l){return t(e(l))}function e(l){var n=o[l];if(!(n+1))throw new Error("Cannot find module '"+l+"'.");return n}var o={"./af":115,"./af.js":115,"./ar":116,"./ar-dz":117,"./ar-dz.js":117,"./ar-kw":118,"./ar-kw.js":118,"./ar-ly":119,"./ar-ly.js":119,"./ar-ma":120,"./ar-ma.js":120,"./ar-sa":121,"./ar-sa.js":121,"./ar-tn":122,"./ar-tn.js":122,"./ar.js":116,"./az":123,"./az.js":123,"./be":124,"./be.js":124,"./bg":125,"./bg.js":125,"./bn":126,"./bn.js":126,"./bo":127,"./bo.js":127,"./br":128,"./br.js":128,"./bs":129,"./bs.js":129,"./ca":130,"./ca.js":130,"./cs":131,"./cs.js":131,"./cv":132,"./cv.js":132,"./cy":133,"./cy.js":133,"./da":134,"./da.js":134,"./de":135,"./de-at":136,"./de-at.js":136,"./de-ch":137,"./de-ch.js":137,"./de.js":135,"./dv":138,"./dv.js":138,"./el":139,"./el.js":139,"./en-au":140,"./en-au.js":140,"./en-ca":141,"./en-ca.js":141,"./en-gb":142,"./en-gb.js":142,"./en-ie":143,"./en-ie.js":143,"./en-nz":144,"./en-nz.js":144,"./eo":145,"./eo.js":145,"./es":146,"./es-do":147,"./es-do.js":147,"./es.js":146,"./et":148,"./et.js":148,"./eu":149,"./eu.js":149,"./fa":150,"./fa.js":150,"./fi":151,"./fi.js":151,"./fo":152,"./fo.js":152,"./fr":153,"./fr-ca":154,"./fr-ca.js":154,"./fr-ch":155,"./fr-ch.js":155,"./fr.js":153,"./fy":156,"./fy.js":156,"./gd":157,"./gd.js":157,"./gl":158,"./gl.js":158,"./gom-latn":159,"./gom-latn.js":159,"./he":160,"./he.js":160,"./hi":161,"./hi.js":161,"./hr":162,"./hr.js":162,"./hu":163,"./hu.js":163,"./hy-am":164,"./hy-am.js":164,"./id":165,"./id.js":165,"./is":166,"./is.js":166,"./it":167,"./it.js":167,"./ja":168,"./ja.js":168,"./jv":169,"./jv.js":169,"./ka":170,"./ka.js":170,"./kk":171,"./kk.js":171,"./km":172,"./km.js":172,"./kn":173,"./kn.js":173,"./ko":174,"./ko.js":174,"./ky":175,"./ky.js":175,"./lb":176,"./lb.js":176,"./lo":177,"./lo.js":177,"./lt":178,"./lt.js":178,"./lv":179,"./lv.js":179,"./me":180,"./me.js":180,"./mi":181,"./mi.js":181,"./mk":182,"./mk.js":182,"./ml":183,"./ml.js":183,"./mr":184,"./mr.js":184,"./ms":185,"./ms-my":186,"./ms-my.js":186,"./ms.js":185,"./my":187,"./my.js":187,"./nb":188,"./nb.js":188,"./ne":189,"./ne.js":189,"./nl":190,"./nl-be":191,"./nl-be.js":191,"./nl.js":190,"./nn":192,"./nn.js":192,"./pa-in":193,"./pa-in.js":193,"./pl":194,"./pl.js":194,"./pt":195,"./pt-br":196,"./pt-br.js":196,"./pt.js":195,"./ro":197,"./ro.js":197,"./ru":198,"./ru.js":198,"./sd":199,"./sd.js":199,"./se":200,"./se.js":200,"./si":201,"./si.js":201,"./sk":202,"./sk.js":202,"./sl":203,"./sl.js":203,"./sq":204,"./sq.js":204,"./sr":205,"./sr-cyrl":206,"./sr-cyrl.js":206,"./sr.js":205,"./ss":207,"./ss.js":207,"./sv":208,"./sv.js":208,"./sw":209,"./sw.js":209,"./ta":210,"./ta.js":210,"./te":211,"./te.js":211,"./tet":212,"./tet.js":212,"./th":213,"./th.js":213,"./tl-ph":214,"./tl-ph.js":214,"./tlh":215,"./tlh.js":215,"./tr":216,"./tr.js":216,"./tzl":217,"./tzl.js":217,"./tzm":218,"./tzm-latn":219,"./tzm-latn.js":219,"./tzm.js":218,"./uk":220,"./uk.js":220,"./ur":221,"./ur.js":221,"./uz":222,"./uz-latn":223,"./uz-latn.js":223,"./uz.js":222,"./vi":224,"./vi.js":224,"./x-pseudo":225,"./x-pseudo.js":225,"./yo":226,"./yo.js":226,"./zh-cn":227,"./zh-cn.js":227,"./zh-hk":228,"./zh-hk.js":228,"./zh-tw":229,"./zh-tw.js":229};u.keys=function(){return Object.keys(o)},u.resolve=e,l.exports=u,u.id=295},92:function(l,n){function t(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}t.keys=function(){return[]},t.resolve=t,l.exports=t,t.id=92}},[235]);
+webpackJsonp([0],{
+
+/***/ 107:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SubmenuPopoverComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+/**
+ * Generated class for the SubmenuPopoverComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var SubmenuPopoverComponent = (function () {
+    function SubmenuPopoverComponent() {
+    }
+    return SubmenuPopoverComponent;
+}());
+SubmenuPopoverComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'submenu-popover',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/submenu-popover/submenu-popover.html"*/'<ion-list>\n    <ion-item class="item-menu-popover">\n		Teste\n	</ion-item>\n	<ion-item class="item-menu-popover">\n		Teste\n	</ion-item>\n	<ion-item class="item-menu-popover">\n		Teste\n	</ion-item>\n	<ion-item class="item-menu-popover">\n		Teste\n	</ion-item>\n</ion-list>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/submenu-popover/submenu-popover.html"*/
+    }),
+    __metadata("design:paramtypes", [])
+], SubmenuPopoverComponent);
+
+//# sourceMappingURL=submenu-popover.js.map
+
+/***/ }),
+
+/***/ 116:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 116;
+
+/***/ }),
+
+/***/ 157:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 157;
+
+/***/ }),
+
+/***/ 201:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var HomePage = (function () {
+    function HomePage(navCtrl, events) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.events = events;
+        this.menu = 'dashboard';
+        events.subscribe('sidemenu', function (menu) {
+            _this.menu = menu;
+        });
+    }
+    return HomePage;
+}());
+HomePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'page-home',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/pages/home/home.html"*/'<ion-header class="header">\n	<ion-navbar>\n		<!-- Component header -->\n		<header></header>\n	</ion-navbar>\n</ion-header>\n\n<ion-content>\n	<ion-grid no-padding>\n		<ion-row>\n			<!-- Component sidemenu -->\n			<sidemenu></sidemenu>\n\n			<dashboard *ngIf="menu == \'dashboard\'"></dashboard>\n			<market *ngIf="menu == \'market\'"></market>\n		</ion-row>\n	</ion-grid>\n</ion-content>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/pages/home/home.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
+], HomePage);
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 324:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(325);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(343);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 343:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(384);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ng2_charts__ = __webpack_require__(393);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ng2_charts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_ng2_charts__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ionic_tooltips__ = __webpack_require__(443);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_platform_browser_animations__ = __webpack_require__(445);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_orders_orders__ = __webpack_require__(448);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_header_header__ = __webpack_require__(449);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_sidemenu_sidemenu__ = __webpack_require__(450);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_dashboard_dashboard__ = __webpack_require__(451);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_suppliers_suppliers__ = __webpack_require__(452);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_activities_activities__ = __webpack_require__(453);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_products_products__ = __webpack_require__(454);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_popover_popover__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_market_market__ = __webpack_require__(455);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_submenu_submenu__ = __webpack_require__(456);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_products_list_products_list__ = __webpack_require__(457);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_featured_suppliers_featured_suppliers__ = __webpack_require__(458);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_submenu_popover_submenu_popover__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_product_product__ = __webpack_require__(459);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_10__components_orders_orders__["a" /* OrdersComponent */],
+            __WEBPACK_IMPORTED_MODULE_11__components_header_header__["a" /* HeaderComponent */],
+            __WEBPACK_IMPORTED_MODULE_12__components_sidemenu_sidemenu__["a" /* SidemenuComponent */],
+            __WEBPACK_IMPORTED_MODULE_13__components_dashboard_dashboard__["a" /* DashboardComponent */],
+            __WEBPACK_IMPORTED_MODULE_14__components_suppliers_suppliers__["a" /* SuppliersComponent */],
+            __WEBPACK_IMPORTED_MODULE_15__components_activities_activities__["a" /* ActivitiesComponent */],
+            __WEBPACK_IMPORTED_MODULE_16__components_products_products__["a" /* ProductsComponent */],
+            __WEBPACK_IMPORTED_MODULE_18__components_market_market__["a" /* MarketComponent */],
+            __WEBPACK_IMPORTED_MODULE_17__components_popover_popover__["a" /* PopoverComponent */],
+            __WEBPACK_IMPORTED_MODULE_19__components_submenu_submenu__["a" /* SubmenuComponent */],
+            __WEBPACK_IMPORTED_MODULE_20__components_products_list_products_list__["a" /* ProductsListComponent */],
+            __WEBPACK_IMPORTED_MODULE_21__components_featured_suppliers_featured_suppliers__["a" /* FeaturedSuppliersComponent */],
+            __WEBPACK_IMPORTED_MODULE_22__components_submenu_popover_submenu_popover__["a" /* SubmenuPopoverComponent */],
+            __WEBPACK_IMPORTED_MODULE_23__components_product_product__["a" /* ProductComponent */]
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */]),
+            __WEBPACK_IMPORTED_MODULE_7_ng2_charts__["ChartsModule"],
+            __WEBPACK_IMPORTED_MODULE_8_ionic_tooltips__["a" /* TooltipsModule */],
+            __WEBPACK_IMPORTED_MODULE_9__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */]
+        ],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
+        entryComponents: [
+            __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_17__components_popover_popover__["a" /* PopoverComponent */],
+            __WEBPACK_IMPORTED_MODULE_22__components_submenu_popover_submenu_popover__["a" /* SubmenuPopoverComponent */]
+        ],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__["a" /* SplashScreen */],
+            { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] },
+            { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["LOCALE_ID"], useValue: 'pt-BR' },
+        ]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 36:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PopoverComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the PopoverComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var PopoverComponent = (function () {
+    function PopoverComponent(params, events, viewCtrl) {
+        this.params = params;
+        this.events = events;
+        this.viewCtrl = viewCtrl;
+        this.options = this.params.get("menu");
+        this.type = this.params.get("type");
+    }
+    PopoverComponent.prototype.selectOption = function (option) {
+        if (this.type == 'orders') {
+            this.events.publish('option', option.name);
+            this.viewCtrl.dismiss();
+        }
+    };
+    return PopoverComponent;
+}());
+PopoverComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'popover',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/popover/popover.html"*/'<ion-list>\n	<ion-item (click)="selectOption(option)" class="item-menu-popover" *ngFor="let option of options">\n		<div *ngIf="type == \'orders\'" [class]="option.css"></div> \n		{{option.name}}\n	</ion-item>\n</ion-list>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/popover/popover.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ViewController */]])
+], PopoverComponent);
+
+//# sourceMappingURL=popover.js.map
+
+/***/ }),
+
+/***/ 384:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(201);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        this.initializeApp();
+    }
+    MyApp.prototype.initializeApp = function () {
+        var _this = this;
+        this.platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            _this.statusBar.styleDefault();
+            _this.splashScreen.hide();
+        });
+    };
+    return MyApp;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
+], MyApp.prototype, "nav", void 0);
+MyApp = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/app/app.html"*/'<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/app/app.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+], MyApp);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 425:
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": 207,
+	"./af.js": 207,
+	"./ar": 208,
+	"./ar-dz": 209,
+	"./ar-dz.js": 209,
+	"./ar-kw": 210,
+	"./ar-kw.js": 210,
+	"./ar-ly": 211,
+	"./ar-ly.js": 211,
+	"./ar-ma": 212,
+	"./ar-ma.js": 212,
+	"./ar-sa": 213,
+	"./ar-sa.js": 213,
+	"./ar-tn": 214,
+	"./ar-tn.js": 214,
+	"./ar.js": 208,
+	"./az": 215,
+	"./az.js": 215,
+	"./be": 216,
+	"./be.js": 216,
+	"./bg": 217,
+	"./bg.js": 217,
+	"./bn": 218,
+	"./bn.js": 218,
+	"./bo": 219,
+	"./bo.js": 219,
+	"./br": 220,
+	"./br.js": 220,
+	"./bs": 221,
+	"./bs.js": 221,
+	"./ca": 222,
+	"./ca.js": 222,
+	"./cs": 223,
+	"./cs.js": 223,
+	"./cv": 224,
+	"./cv.js": 224,
+	"./cy": 225,
+	"./cy.js": 225,
+	"./da": 226,
+	"./da.js": 226,
+	"./de": 227,
+	"./de-at": 228,
+	"./de-at.js": 228,
+	"./de-ch": 229,
+	"./de-ch.js": 229,
+	"./de.js": 227,
+	"./dv": 230,
+	"./dv.js": 230,
+	"./el": 231,
+	"./el.js": 231,
+	"./en-au": 232,
+	"./en-au.js": 232,
+	"./en-ca": 233,
+	"./en-ca.js": 233,
+	"./en-gb": 234,
+	"./en-gb.js": 234,
+	"./en-ie": 235,
+	"./en-ie.js": 235,
+	"./en-nz": 236,
+	"./en-nz.js": 236,
+	"./eo": 237,
+	"./eo.js": 237,
+	"./es": 238,
+	"./es-do": 239,
+	"./es-do.js": 239,
+	"./es.js": 238,
+	"./et": 240,
+	"./et.js": 240,
+	"./eu": 241,
+	"./eu.js": 241,
+	"./fa": 242,
+	"./fa.js": 242,
+	"./fi": 243,
+	"./fi.js": 243,
+	"./fo": 244,
+	"./fo.js": 244,
+	"./fr": 245,
+	"./fr-ca": 246,
+	"./fr-ca.js": 246,
+	"./fr-ch": 247,
+	"./fr-ch.js": 247,
+	"./fr.js": 245,
+	"./fy": 248,
+	"./fy.js": 248,
+	"./gd": 249,
+	"./gd.js": 249,
+	"./gl": 250,
+	"./gl.js": 250,
+	"./gom-latn": 251,
+	"./gom-latn.js": 251,
+	"./he": 252,
+	"./he.js": 252,
+	"./hi": 253,
+	"./hi.js": 253,
+	"./hr": 254,
+	"./hr.js": 254,
+	"./hu": 255,
+	"./hu.js": 255,
+	"./hy-am": 256,
+	"./hy-am.js": 256,
+	"./id": 257,
+	"./id.js": 257,
+	"./is": 258,
+	"./is.js": 258,
+	"./it": 259,
+	"./it.js": 259,
+	"./ja": 260,
+	"./ja.js": 260,
+	"./jv": 261,
+	"./jv.js": 261,
+	"./ka": 262,
+	"./ka.js": 262,
+	"./kk": 263,
+	"./kk.js": 263,
+	"./km": 264,
+	"./km.js": 264,
+	"./kn": 265,
+	"./kn.js": 265,
+	"./ko": 266,
+	"./ko.js": 266,
+	"./ky": 267,
+	"./ky.js": 267,
+	"./lb": 268,
+	"./lb.js": 268,
+	"./lo": 269,
+	"./lo.js": 269,
+	"./lt": 270,
+	"./lt.js": 270,
+	"./lv": 271,
+	"./lv.js": 271,
+	"./me": 272,
+	"./me.js": 272,
+	"./mi": 273,
+	"./mi.js": 273,
+	"./mk": 274,
+	"./mk.js": 274,
+	"./ml": 275,
+	"./ml.js": 275,
+	"./mr": 276,
+	"./mr.js": 276,
+	"./ms": 277,
+	"./ms-my": 278,
+	"./ms-my.js": 278,
+	"./ms.js": 277,
+	"./my": 279,
+	"./my.js": 279,
+	"./nb": 280,
+	"./nb.js": 280,
+	"./ne": 281,
+	"./ne.js": 281,
+	"./nl": 282,
+	"./nl-be": 283,
+	"./nl-be.js": 283,
+	"./nl.js": 282,
+	"./nn": 284,
+	"./nn.js": 284,
+	"./pa-in": 285,
+	"./pa-in.js": 285,
+	"./pl": 286,
+	"./pl.js": 286,
+	"./pt": 287,
+	"./pt-br": 288,
+	"./pt-br.js": 288,
+	"./pt.js": 287,
+	"./ro": 289,
+	"./ro.js": 289,
+	"./ru": 290,
+	"./ru.js": 290,
+	"./sd": 291,
+	"./sd.js": 291,
+	"./se": 292,
+	"./se.js": 292,
+	"./si": 293,
+	"./si.js": 293,
+	"./sk": 294,
+	"./sk.js": 294,
+	"./sl": 295,
+	"./sl.js": 295,
+	"./sq": 296,
+	"./sq.js": 296,
+	"./sr": 297,
+	"./sr-cyrl": 298,
+	"./sr-cyrl.js": 298,
+	"./sr.js": 297,
+	"./ss": 299,
+	"./ss.js": 299,
+	"./sv": 300,
+	"./sv.js": 300,
+	"./sw": 301,
+	"./sw.js": 301,
+	"./ta": 302,
+	"./ta.js": 302,
+	"./te": 303,
+	"./te.js": 303,
+	"./tet": 304,
+	"./tet.js": 304,
+	"./th": 305,
+	"./th.js": 305,
+	"./tl-ph": 306,
+	"./tl-ph.js": 306,
+	"./tlh": 307,
+	"./tlh.js": 307,
+	"./tr": 308,
+	"./tr.js": 308,
+	"./tzl": 309,
+	"./tzl.js": 309,
+	"./tzm": 310,
+	"./tzm-latn": 311,
+	"./tzm-latn.js": 311,
+	"./tzm.js": 310,
+	"./uk": 312,
+	"./uk.js": 312,
+	"./ur": 313,
+	"./ur.js": 313,
+	"./uz": 314,
+	"./uz-latn": 315,
+	"./uz-latn.js": 315,
+	"./uz.js": 314,
+	"./vi": 316,
+	"./vi.js": 316,
+	"./x-pseudo": 317,
+	"./x-pseudo.js": 317,
+	"./yo": 318,
+	"./yo.js": 318,
+	"./zh-cn": 319,
+	"./zh-cn.js": 319,
+	"./zh-hk": 320,
+	"./zh-hk.js": 320,
+	"./zh-tw": 321,
+	"./zh-tw.js": 321
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 425;
+
+/***/ }),
+
+/***/ 448:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OrdersComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(36);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the OrdersComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var OrdersComponent = (function () {
+    function OrdersComponent(popoverCtrl, events) {
+        var _this = this;
+        this.popoverCtrl = popoverCtrl;
+        this.events = events;
+        this.status = 'Em Processo';
+        this.cssStatusBox = 'box-yellow';
+        this.cssStatusCircle = 'circle-yellow';
+        events.subscribe('option', function (option) {
+            _this.status = option;
+            switch (_this.status) {
+                case 'Em Processo': {
+                    _this.cssStatusBox = 'box-yellow';
+                    _this.cssStatusCircle = 'circle-yellow';
+                    break;
+                }
+                case 'Aguardando': {
+                    _this.cssStatusBox = 'box-gray';
+                    _this.cssStatusCircle = 'circle-gray';
+                    break;
+                }
+                case 'Cancelado': {
+                    _this.cssStatusBox = 'box-red';
+                    _this.cssStatusCircle = 'circle-red';
+                    break;
+                }
+                case 'Entregues': {
+                    _this.cssStatusBox = 'box-green';
+                    _this.cssStatusCircle = 'circle-green';
+                    break;
+                }
+                case 'Finalizados': {
+                    _this.cssStatusBox = 'box-blue';
+                    _this.cssStatusCircle = 'circle-blue';
+                    break;
+                }
+            }
+        });
+    }
+    OrdersComponent.prototype.filter = function (ev) {
+        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_2__popover_popover__["a" /* PopoverComponent */], { menu: [{
+                    name: 'Cancelado',
+                    css: 'circle-red'
+                }, {
+                    name: 'Aguardando',
+                    css: 'circle-gray'
+                }, {
+                    name: 'Em Processo',
+                    css: 'circle-yellow'
+                }, {
+                    name: 'Entregues',
+                    css: 'circle-green'
+                }, {
+                    name: 'Finalizados',
+                    css: 'circle-blue'
+                }], type: "orders" });
+        popover.present({
+            ev: ev
+        });
+    };
+    return OrdersComponent;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+    __metadata("design:type", Object)
+], OrdersComponent.prototype, "orders", void 0);
+OrdersComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'orders',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/orders/orders.html"*/'<ion-col class="content-right">\n  <ion-row class="margin-top-10">\n    <ion-col col-5 text-center class="orders-label">\n      <span>Pedidos</span>\n    </ion-col>\n    <ion-col col-7>\n      <fieldset (click)="filter($event)">\n        <legend>Filtros</legend>\n        <div [class]="cssStatusCircle"></div>\n        <span>\n          {{status}} <ion-icon name="ios-arrow-down"></ion-icon>\n        </span>\n      </fieldset>\n    </ion-col>\n  </ion-row>\n  <ion-row class="orders" *ngFor="let order of orders">\n    <ion-col class="order">\n      <ion-row>\n        <ion-col class="order-text">	\n          Ordem\n        </ion-col>\n        <div [class]="cssStatusBox" ></div>\n      </ion-row>\n      <ion-row>\n        <ion-col col-7 class="order-number no-padding-top">	\n          {{order.number}}\n        </ion-col>\n        <ion-col col-5 text-right class="order-actions no-padding-top">	\n          <ion-icon name="netfoods-edit"></ion-icon>\n          <ion-icon name="netfoods-trash"></ion-icon>\n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col class="no-padding-top">	\n          <span class="order-label">Valor</span><br/>\n          <span class="order-value">{{order.value}}</span>\n        </ion-col>\n        <ion-col class="no-padding-top">	\n          <span class="order-label">Data</span><br/>\n          <span class="order-value">{{order.date}}</span>\n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col class="no-padding-top">	\n          <span class="order-label">{{order.type_label}}</span><br/>\n          <span class="order-value">{{order.providers}}</span>\n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col class="order-information">\n          <ion-icon *ngIf="order.type_payment == \'card\'" name="ios-card"></ion-icon>\n          <ion-icon *ngIf="order.type_payment == \'code\'" name="md-barcode"></ion-icon>\n          <ion-icon *ngIf="order.hasMessage" name="ios-chatboxes-outline" class="message-red"></ion-icon>\n        </ion-col>\n        <ion-col text-right class="order-details">	\n          <span>Mais Detalhes</span> \n          <ion-icon name="ios-arrow-forward"></ion-icon>\n        </ion-col>\n      </ion-row>\n    </ion-col>\n  </ion-row>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/orders/orders.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* PopoverController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
+], OrdersComponent);
+
+//# sourceMappingURL=orders.js.map
+
+/***/ }),
+
+/***/ 449:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeaderComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+/**
+ * Generated class for the HeaderComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var HeaderComponent = (function () {
+    function HeaderComponent() {
+    }
+    return HeaderComponent;
+}());
+HeaderComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'header',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/header/header.html"*/'<ion-grid>\n	<ion-row>\n		<ion-col col-2 class="col-logo">\n			<img src="assets/img/logo-white.png" />\n		</ion-col>\n		<ion-col col-4>\n			<ion-item>        \n				<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n				<ion-input clearInput type="text"></ion-input>\n			</ion-item>\n		</ion-col>\n		<ion-col no-padding col-4>\n			<ion-row>\n				<ion-col text-right col-10>\n					<button class="button-user" ion-button clear>\n						Catherine Ramos\n						<ion-icon class="arrow-user" name="ios-arrow-down"></ion-icon>              \n					</button>\n				</ion-col>\n				<ion-col text-left no-padding col-2>\n					<img src="../assets/img/user.png" class="img-user" />\n				</ion-col>\n			</ion-row>\n		</ion-col>\n		<ion-col text-center col-2>\n			<button class="notification-button" ion-button clear>\n				<ion-icon name="netfoods-notifications">\n					<ion-badge class="notifications-badge badge-blue">3</ion-badge>\n				</ion-icon>              \n			</button>\n			<button class="notification-button" ion-button clear>\n				<ion-icon name="ios-cart-outline">\n					<ion-badge class="notifications-badge badge-green badge-cart-header">17</ion-badge>\n				</ion-icon>              \n			</button>\n		</ion-col>\n	</ion-row>\n</ion-grid>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/header/header.html"*/
+    }),
+    __metadata("design:paramtypes", [])
+], HeaderComponent);
+
+//# sourceMappingURL=header.js.map
+
+/***/ }),
+
+/***/ 450:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SidemenuComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the SidemenuComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var SidemenuComponent = (function () {
+    function SidemenuComponent(navCtrl, events) {
+        this.navCtrl = navCtrl;
+        this.events = events;
+        this.sidemenu = 'dashboard';
+    }
+    SidemenuComponent.prototype.go = function (menu) {
+        this.sidemenu = menu;
+        this.events.publish('sidemenu', this.sidemenu);
+    };
+    return SidemenuComponent;
+}());
+SidemenuComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'sidemenu',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/sidemenu/sidemenu.html"*/'<ion-col class="menu" no-padding col-2>\n	<ion-list>\n		<ion-item (click)="go(\'dashboard\')" class="current" [class.current]="sidemenu == \'dashboard\'" text-wrap>\n			<ion-icon name="netfoods-dashboard"></ion-icon> <span>Dashboard</span>\n		</ion-item>\n		<ion-item (click)="go(\'market\')" [class.current]="sidemenu == \'market\'" text-wrap>\n			<ion-icon name="netfoods-cart"></ion-icon> <span>Mercado</span>\n		</ion-item>\n		<ion-item (click)="go(\'purchase\')" [class.current]="sidemenu == \'purchase\'" text-wrap>\n			<ion-icon name="netfoods-fast-buy"></ion-icon> <span>Compra Rápida</span>\n		</ion-item>\n		<ion-item (click)="go(\'orders\')" [class.current]="sidemenu == \'orders\'" text-wrap>\n			<ion-icon name="netfoods-orders"></ion-icon> <span>Pedidos</span>\n		</ion-item>\n		<ion-item (click)="go(\'providers\')" [class.current]="sidemenu == \'providers\'" text-wrap>\n			<ion-icon name="netfoods-restaurant"></ion-icon> <span>Fornecedores</span>\n		</ion-item>\n		<ion-item (click)="go(\'messages\')" [class.current]="sidemenu == \'messages\'" text-wrap>\n			<ion-icon name="netfoods-message"></ion-icon> <span>Mensagens</span>\n			<ion-badge class="badge-blue">3</ion-badge>\n		</ion-item>\n		<ion-item (click)="go(\'settings\')" [class.current]="sidemenu == \'settings\'" text-wrap>\n			<ion-icon name="netfoods-settings"></ion-icon> <span>Configurações</span>\n		</ion-item>\n	</ion-list>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/sidemenu/sidemenu.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
+], SidemenuComponent);
+
+//# sourceMappingURL=sidemenu.js.map
+
+/***/ }),
+
+/***/ 451:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DashboardComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(36);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the DashboardComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var DashboardComponent = (function () {
+    function DashboardComponent(popoverCtrl) {
+        this.popoverCtrl = popoverCtrl;
+        this.orders = [{
+                number: "ORD.048922",
+                value: "R$4.500,00",
+                date: "28/08",
+                type_label: "Fornecedores",
+                providers: "Nutrivida; + 4 outras empresas",
+                type_payment: "card",
+                hasMessage: true
+            },
+            {
+                number: "ORD.048723",
+                value: "R$15.500,00",
+                date: "27/08",
+                type_label: "Fornecedores",
+                providers: "Nutrivida; + 4 outras empresas",
+                type_payment: "code",
+                hasMessage: true
+            },
+            {
+                number: "ORD.048654",
+                value: "R$3.500,00",
+                date: "27/08",
+                type_label: "Fornecedores",
+                providers: "Nutrivida; + 4 outras empresas",
+                type_payment: "card",
+                hasMessage: false
+            },
+            {
+                number: "ORD.048723",
+                value: "R$24.000,00",
+                date: "28/08",
+                type_label: "Cliente",
+                providers: "Jam",
+                type_payment: "code",
+                hasMessage: true
+            },
+            {
+                number: "ORD.048777",
+                value: "R$3.500,00",
+                date: "27/08",
+                type_label: "Cliente",
+                providers: "Grand Cru",
+                type_payment: "code",
+                hasMessage: false
+            },
+            {
+                number: "ORD.048796",
+                value: "R$24.500,00",
+                date: "28/08",
+                type_label: "Cliente",
+                providers: "Jam",
+                type_payment: "card",
+                hasMessage: true
+            },
+            {
+                number: "ORD.048723",
+                value: "R$24.000,00",
+                date: "28/08",
+                type_label: "Cliente",
+                providers: "Jam",
+                type_payment: "code",
+                hasMessage: true
+            },
+            {
+                number: "ORD.048777",
+                value: "R$3.500,00",
+                date: "27/08",
+                type_label: "Cliente",
+                providers: "Grand Cru",
+                type_payment: "code",
+                hasMessage: false
+            },
+            {
+                number: "ORD.048796",
+                value: "R$24.500,00",
+                date: "28/08",
+                type_label: "Cliente",
+                providers: "Jam",
+                type_payment: "card",
+                hasMessage: true
+            }];
+        this.products = [{
+                name: "Açaí Orgânico c/ Guaraná",
+                code: "1009072",
+                group: "Grupo PA",
+                current_value: "R$ 18,90",
+                previous_value: "R$ 19,90",
+                average_value: "R$ 19,50",
+                arrow: "down",
+                image: "../assets/img/acai.jpg"
+            },
+            {
+                name: "Snack Orgânico s/ Casca",
+                code: "1022429",
+                group: "Grupo PA",
+                current_value: "R$ 8,90",
+                previous_value: "R$ 9,90",
+                average_value: "R$ 9,50",
+                arrow: "down",
+                image: "../assets/img/bio2snack.jpg"
+            },
+            {
+                name: "Bebida Orgânica de Arroz Amêndoa",
+                code: "1041755",
+                group: "Grupo PA",
+                current_value: "R$ 18,90",
+                previous_value: "R$ 17,90",
+                average_value: "R$ 17,50",
+                arrow: "up",
+                image: "../assets/img/bebida_organica.jpg"
+            },
+            {
+                name: "Ovos Vermelho G/ Orgânicos",
+                code: "3182840",
+                group: "Grupo PA",
+                current_value: "R$ 7,90",
+                previous_value: "R$ 9,90",
+                average_value: "R$ 9,50",
+                arrow: "down",
+                image: "../assets/img/ovos_organico.png"
+            },
+            {
+                name: "Vinho Argentino T/ Orgânico",
+                code: "1009072",
+                group: "Grupo PA",
+                current_value: "R$ 78,90",
+                previous_value: "R$ 77,90",
+                average_value: "R$ 75,50",
+                arrow: "up",
+                image: "../assets/img/vinho_tinto.jpg"
+            }];
+        this.suppliers = [{
+                name: "Grupo PA",
+                value_expense: "R$85.000",
+                last_order: "R$15.500",
+                marketshare: "18.7%"
+            },
+            {
+                name: "AO Alimentos Orgânicos",
+                value_expense: "R$115.000",
+                last_order: "R$27.500",
+                marketshare: "37.2%"
+            },
+            {
+                name: "Casa Santa Luzia",
+                value_expense: "R$68.000",
+                last_order: "R$16.300",
+                marketshare: "48.6%"
+            }];
+        this.activities = [{
+                name: "Grupo PA",
+                id: "09809744",
+                value: "R$15.500",
+                date: "29/08/2017",
+                arrow: "up"
+            },
+            {
+                name: "Grupo PA",
+                id: "09804444",
+                value: "R$1.500",
+                date: "28/08/2017",
+                arrow: "down"
+            },
+            {
+                name: "Grand Cru",
+                id: "09801111",
+                value: "R$11.250",
+                date: "28/08/2017",
+                arrow: "up"
+            },
+            {
+                name: "Casa Santa Luzia",
+                id: "09805689",
+                value: "R$21.100",
+                date: "29/08/2017",
+                arrow: "up"
+            },
+            {
+                name: "Grand Cru",
+                id: "09805689",
+                value: "R$21.100",
+                date: "29/08/2017",
+                arrow: "up"
+            }];
+        // lineChart
+        this.lineChartData = [
+            { data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A' }
+        ];
+        this.lineChartLabels = ['ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET'];
+        this.lineChartOptions = {
+            responsive: true,
+            legend: {
+                display: false
+            }
+        };
+        this.lineChartColors = [{
+                backgroundColor: 'rgba(50,148,176,0.2)',
+                borderColor: 'rgba(50,148,176,1)',
+                pointBackgroundColor: 'rgba(50,148,176,1)',
+                pointBorderColor: '#fff',
+                pointHoverBackgroundColor: '#fff',
+                pointHoverBorderColor: 'rgba(50,148,176,0.8)'
+            }];
+        this.lineChartLegend = true;
+        this.lineChartType = 'line';
+        // barChart
+        this.barChartOptions = {
+            scaleShowVerticalLines: false,
+            responsive: true,
+            legend: {
+                display: false
+            },
+            scales: {
+                yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+            }
+        };
+        this.barChartLabels = ['Temakeria', 'Paris 6', 'Grand Cru'];
+        this.barChartType = 'bar';
+        this.barChartLegend = false;
+        this.barChartColors = [{
+                backgroundColor: 'rgba(52,68,83,1)',
+            }];
+        this.barChartData = [
+            {
+                data: [65, 35, 90],
+                label: 'Por Fornecedor'
+            }
+        ];
+        // Radar
+        this.radarChartLabels = ['ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET'];
+        this.radarChartOptions = {
+            responsive: true,
+            legend: {
+                display: false
+            }
+        };
+        this.radarChartColors = [{
+                backgroundColor: 'rgba(41,104,121,0.8)',
+                borderColor: 'rgba(41,104,121,1)',
+                pointBackgroundColor: 'rgba(41,104,121,1)',
+                pointBorderColor: 'rgba(41,104,121,1)',
+                pointHoverBackgroundColor: 'rgba(41,104,121,1)',
+                pointHoverBorderColor: 'rgba(41,104,121,0.8)',
+            }, {
+                backgroundColor: 'rgba(122,209,212,0.8)',
+                borderColor: 'rgba(122,209,212,1)',
+                pointBackgroundColor: 'rgba(122,209,212,1)',
+                pointBorderColor: 'rgba(122,209,212,1)',
+                pointHoverBackgroundColor: 'rgba(122,209,212,1)',
+                pointHoverBorderColor: 'rgba(122,209,212,0.8)'
+            }];
+        this.radarChartData = [
+            { data: [65, 59, 90, 81, 56, 55], label: 'Custo Planejado' },
+            { data: [28, 48, 40, 19, 96, 27], label: 'Custo Realizado' }
+        ];
+        this.radarChartType = 'radar';
+    }
+    DashboardComponent.prototype.presentPopover = function (ev) {
+        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_2__popover_popover__["a" /* PopoverComponent */], { menu: [{
+                    name: 'Option 1'
+                }, {
+                    name: 'Option 2'
+                }, {
+                    name: 'Option 3'
+                }] });
+        popover.present({
+            ev: ev
+        });
+    };
+    return DashboardComponent;
+}());
+DashboardComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'dashboard',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/dashboard/dashboard.html"*/'<ion-col class="content" col-10>\n	<ion-row>\n		<ion-col col-9>\n			<ion-row class="statistics">\n				<ion-col class="statistics-box">\n					<ion-row>\n						<ion-col class="statistics-label">\n							Pedidos em Aberto\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="statistics-number no-padding-top">\n							150\n						</ion-col>\n						<ion-col class="img-chart">\n							<img src="../assets/img/chart1.png" />\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="statistics-details">\n							<span>Mais Detalhes</span> \n							<ion-icon name="ios-arrow-forward"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="statistics-box">\n					<ion-row>\n						<ion-col class="statistics-label">\n							Total de Pedidos\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="statistics-number no-padding-top">\n							1274\n						</ion-col>\n						<ion-col class="img-chart">\n							<img src="../assets/img/chart2.png" />\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="statistics-details">\n							<span>Mais Detalhes</span> \n							<ion-icon name="ios-arrow-forward"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="statistics-box">\n					<ion-row>\n						<ion-col class="statistics-label">\n							Total em Compras\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="statistics-number no-padding-top">\n							R$ 950k\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="statistics-details">\n							<span>Mais Detalhes</span> \n							<ion-icon name="ios-arrow-forward"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="statistics-box">\n					<ion-row>\n						<ion-col class="statistics-label">\n							Fornecedores\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="statistics-number no-padding-top">\n							748\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="statistics-details">\n							<span>Mais Detalhes</span> \n							<ion-icon name="ios-arrow-forward"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n			<ion-row class="charts">\n				<ion-col class="charts-box no-margin" col-8>\n					<ion-row>\n						<ion-col class="charts-label" col-8>\n							Vendas\n						</ion-col>\n						<ion-col class="margin-right-12">\n							<fieldset>\n								<legend>Filtros</legend>\n								<span>\n									Semestre <ion-icon name="ios-arrow-down"></ion-icon>\n								</span>\n							</fieldset>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col>\n							<canvas baseChart width="400" height="230"\n								[datasets]="lineChartData"\n								[labels]="lineChartLabels"\n								[options]="lineChartOptions"\n								[colors]="lineChartColors"\n								[legend]="lineChartLegend"\n								[chartType]="lineChartType"\n								(chartHover)="chartHovered($event)"\n								(chartClick)="chartClicked($event)">\n							</canvas>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="charts-details">\n							<span>Mais Detalhes</span> \n							<ion-icon name="ios-arrow-forward"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="charts-box no-margin" col-4>\n					<ion-row>\n						<ion-col class="charts-label" col-12>\n							Por Fornecedor\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col>\n							<canvas baseChart width="150" height="190"\n								[datasets]="barChartData"\n								[labels]="barChartLabels"\n								[options]="barChartOptions"\n								[colors]="barChartColors"\n								[legend]="barChartLegend"\n								[chartType]="barChartType"\n								(chartHover)="chartHovered($event)"\n								(chartClick)="chartClicked($event)">\n							</canvas>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="charts-details">\n							<span>Mais Detalhes</span> \n							<ion-icon name="ios-arrow-forward"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n			<ion-row class="products">\n				<ion-col class="products-box">\n					<products [products]="products" source="dashboard" title="Produtos Mais Comprados"></products>\n				</ion-col>\n			</ion-row>\n			<ion-row class="reports">\n				<ion-col class="reports-box">\n					<suppliers [suppliers]="suppliers"></suppliers>\n				</ion-col>\n				<ion-col class="reports-box no-chart-view">\n					<div class="no-chart-monitoring">\n						<div class="text-no-chart">\n							<span>Desculpe, nenhum dado está disponível atualmente!</span>\n						</div>\n					</div>\n					<div class="content-chart">\n						<ion-row>\n							<ion-col class="reports-label no-padding-bottom" col-10>\n								Acompanhamento\n							</ion-col>\n							<ion-col class="reports-icon" col-2>\n								<ion-icon name="ios-more" (click)="presentPopover($event)"></ion-icon>\n							</ion-col>\n						</ion-row>\n						<ion-row>\n							<ion-col class="reports-label no-padding-top">Gasto x Orçamento</ion-col>\n						</ion-row>\n						<ion-row class="loading-bar">\n							<ion-col class="no-padding-right" col-10>\n								<div class="loading-bar-done"></div>\n							</ion-col>\n							<ion-col class="no-padding-left" col-2>\n								<div class="loading-bar-no-done"></div>\n							</ion-col>\n						</ion-row>\n						<ion-row class="monitoring">\n							<ion-col>\n								<span class="monitoring-label">Custo Planejado</span>\n								<span class="monitoring-value-plan">R$45.5k</span>\n							</ion-col>\n							<ion-col text-right>\n								<span class="monitoring-label">Custo realizado</span>\n								<span class="monitoring-value-realized">R$40.5k</span>\n							</ion-col>\n						</ion-row>\n						<ion-row>\n							<ion-col>\n								<canvas baseChart height="300"\n									[datasets]="radarChartData"\n									[labels]="radarChartLabels"\n									[options]="radarChartOptions"\n									[colors]="radarChartColors"\n									[chartType]="radarChartType"\n									(chartHover)="chartHovered($event)"\n									(chartClick)="chartClicked($event)">\n								</canvas>\n							</ion-col>\n						</ion-row>\n						<ion-row>\n							<ion-col class="monitoring-number" text-center>\n								R$ 5k <ion-icon name="md-arrow-round-down"></ion-icon>\n							</ion-col>\n						</ion-row>\n					</div>\n				</ion-col>\n				<ion-col class="reports-box">\n					<activities [activities]="activities"></activities>\n				</ion-col>\n			</ion-row>\n		</ion-col>\n		<orders [orders]="orders"></orders>\n	</ion-row>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/dashboard/dashboard.html"*/
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* PopoverController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* PopoverController */]) === "function" && _a || Object])
+], DashboardComponent);
+
+var _a;
+//# sourceMappingURL=dashboard.js.map
+
+/***/ }),
+
+/***/ 452:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SuppliersComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(36);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the SuppliersComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var SuppliersComponent = (function () {
+    function SuppliersComponent(popoverCtrl) {
+        this.popoverCtrl = popoverCtrl;
+    }
+    SuppliersComponent.prototype.presentPopover = function (ev) {
+        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_2__popover_popover__["a" /* PopoverComponent */], { menu: [{
+                    name: 'Option 1'
+                }, {
+                    name: 'Option 2'
+                }, {
+                    name: 'Option 3'
+                }] });
+        popover.present({
+            ev: ev
+        });
+    };
+    return SuppliersComponent;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+    __metadata("design:type", Object)
+], SuppliersComponent.prototype, "suppliers", void 0);
+SuppliersComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'suppliers',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/suppliers/suppliers.html"*/'<ion-row>\n	<ion-col class="reports-label" col-10>\n		Fornecedores\n	</ion-col>\n	<ion-col class="reports-icon" col-2>\n		<ion-icon name="ios-more" (click)="presentPopover($event)"></ion-icon>\n	</ion-col>\n</ion-row>\n<ion-row class="report" *ngFor="let supplier of suppliers">\n	<ion-col class="report-box">\n		<ion-row>\n			<ion-col class="report-label">\n				{{supplier.name}}\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col>\n				<span class="report-label-text">Valor Gasto</span>\n				<span class="report-number">{{supplier.value_expense}}</span>\n			</ion-col>\n			<ion-col>\n				<span class="report-label-text">Último Pedido</span>\n				<span class="report-number">{{supplier.last_order}}</span>\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col>\n				<span class="report-label-text">Marketshare</span>\n				<span class="report-number">{{supplier.marketshare}}</span>\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col text-right class="report-details">\n				<span>Acessar Loja</span> \n				<ion-icon name="ios-arrow-forward"></ion-icon>\n			</ion-col>\n		</ion-row>\n	</ion-col>\n</ion-row>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/suppliers/suppliers.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* PopoverController */]])
+], SuppliersComponent);
+
+//# sourceMappingURL=suppliers.js.map
+
+/***/ }),
+
+/***/ 453:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActivitiesComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(36);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the ActivitiesComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var ActivitiesComponent = (function () {
+    function ActivitiesComponent(popoverCtrl) {
+        this.popoverCtrl = popoverCtrl;
+        this.date = new Date();
+    }
+    ActivitiesComponent.prototype.presentPopover = function (ev) {
+        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_2__popover_popover__["a" /* PopoverComponent */], { menu: [{
+                    name: 'Option 1'
+                }, {
+                    name: 'Option 2'
+                }, {
+                    name: 'Option 3'
+                }] });
+        popover.present({
+            ev: ev
+        });
+    };
+    return ActivitiesComponent;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+    __metadata("design:type", Object)
+], ActivitiesComponent.prototype, "activities", void 0);
+ActivitiesComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'activities',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/activities/activities.html"*/'<ion-row>\n	<ion-col class="reports-label" col-10>\n		Atividades\n	</ion-col>\n	<ion-col class="reports-icon" col-2>\n		<ion-icon name="ios-more" (click)="presentPopover($event)"></ion-icon>\n	</ion-col>\n</ion-row>\n<ion-row>\n	<ion-col class="reports-date">Hoje, {{date | date: \'dd\'}} de {{date | date: \'MMMM\'}}</ion-col>\n</ion-row>\n<ion-row class="activities" *ngFor="let activity of activities">\n	<ion-col class="activities-box">\n		<ion-row>\n			<ion-col>\n				<span class="activities-label-text">{{activity.name}}</span>\n				<span class="activities-subtitle">ID: {{activity.id}}</span>\n			</ion-col>\n			<ion-col text-right>\n				<span class="activities-label-value">{{activity.value}}</span>\n				<ion-icon class="down" *ngIf="activity.arrow == \'down\'" name="md-arrow-round-down"></ion-icon>\n				<ion-icon class="up" *ngIf="activity.arrow == \'up\'" name="md-arrow-round-up"></ion-icon>\n				<span class="activities-subtitle">{{activity.date}}</span>\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col text-right class="activities-details">\n				<span>Mais Detalhes</span> \n				<ion-icon name="ios-arrow-forward"></ion-icon>\n			</ion-col>\n		</ion-row>\n	</ion-col>\n</ion-row>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/activities/activities.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* PopoverController */]])
+], ActivitiesComponent);
+
+//# sourceMappingURL=activities.js.map
+
+/***/ }),
+
+/***/ 454:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+/**
+ * Generated class for the ProductsComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var ProductsComponent = (function () {
+    function ProductsComponent() {
+    }
+    ProductsComponent.prototype.ngOnInit = function () {
+        this.initializeItems();
+    };
+    ProductsComponent.prototype.initializeItems = function () {
+        this.items = this.products;
+        this.qtd_items = this.items.length;
+    };
+    ProductsComponent.prototype.getItems = function (ev) {
+        // Reset items back to all of the items
+        this.initializeItems();
+        // set val to the value of the searchbar
+        var val = ev;
+        // if the value is an empty string don't filter the items
+        if (val && val.trim() != '') {
+            this.items = this.items.filter(function (item) {
+                return (item.name.toLowerCase().indexOf(val.toLowerCase()) > -1);
+            });
+            this.qtd_items = this.items.length;
+        }
+    };
+    return ProductsComponent;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+    __metadata("design:type", Object)
+], ProductsComponent.prototype, "products", void 0);
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+    __metadata("design:type", String)
+], ProductsComponent.prototype, "title", void 0);
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+    __metadata("design:type", String)
+], ProductsComponent.prototype, "source", void 0);
+ProductsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'products',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products/products.html"*/'<ion-row>\n	<ion-col class="products-label" col-6>\n		{{title}}\n	</ion-col>\n	<ion-col [class.col-4]="source == \'dashboard\'">\n		<ion-item class="products-search">        \n			<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>\n		</ion-item>\n	</ion-col>\n	<ion-col col-2 *ngIf="source == \'dashboard\'">\n		<fieldset>\n			<legend>Filtros</legend>\n			<span>\n				Semana <ion-icon name="ios-arrow-down"></ion-icon>\n			</span>\n		</fieldset>\n	</ion-col>\n</ion-row>\n<ion-row>\n	<ion-col class="quantity-total">\n		<span *ngIf="qtd_items == 1">{{qtd_items}} produto encontrado</span>\n		<span *ngIf="qtd_items > 1">{{qtd_items}} produtos encontrados</span>\n		<span *ngIf="!qtd_items">Nenhum produto encontrado!</span>\n	</ion-col>\n</ion-row>\n<div class="products-offers-day">\n	<ion-row class="product" *ngFor="let product of items">\n		<ion-col class="product-box">\n			<ion-row>\n				<ion-col col-1>\n					<img [src]="product.image" />\n				</ion-col>\n				<ion-col [class.col-4]="source == \'dashboard\'">\n					<ion-row>\n						<ion-col class="product-name" tooltip="{{product.name}}" positionV="bottom" arrow event="hover">\n							{{product.name}}\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col *ngIf="source == \'dashboard\'" class="product-code">Cód.: {{product.code}}</ion-col>\n						<ion-col *ngIf="source == \'market\'" class="product-current-value">{{product.current_value}} <span>p/ unidade</span></ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col *ngIf="source == \'dashboard\'" class="product-group">{{product.group}}</ion-col>\n						<ion-col *ngIf="source == \'market\'" class="product-group-value">{{product.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col *ngIf="source == \'dashboard\'" col-2>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Atual</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Anterior</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Médio</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col *ngIf="source == \'dashboard\'" col-2>\n					<ion-row>\n						<ion-col class="product-current-value down no-padding-top"\n						[class.down]="product.arrow == \'down\'" [class.up]="product.arrow == \'up\'">\n							{{product.current_value}} \n							<ion-icon *ngIf="product.arrow == \'down\'" name="md-arrow-round-down"></ion-icon>\n							<ion-icon *ngIf="product.arrow == \'up\'" name="md-arrow-round-up"></ion-icon>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-previous-value">{{product.previous_value}}</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-average-value">{{product.average_value}}</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="product-cart-quantity">\n					<ion-row>\n						<ion-col>\n							<span class="product-quantity">\n								<ion-icon name="md-remove"></ion-icon>\n								<span>01</span>\n								<ion-icon name="md-add" class="icon-plus"></ion-icon>\n							</span>\n							<span class="product-cart">\n								<ion-icon name="cart"></ion-icon>\n							</span>\n						</ion-col>\n					</ion-row>\n					<ion-row *ngIf="source == \'dashboard\'">\n						<ion-col>\n							<span class="product-price-history">\n								Ver Histórico de Preço\n							</span>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</div>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products/products.html"*/
+    }),
+    __metadata("design:paramtypes", [])
+], ProductsComponent);
+
+//# sourceMappingURL=products.js.map
+
+/***/ }),
+
+/***/ 455:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MarketComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the MarketComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var MarketComponent = (function () {
+    function MarketComponent(events) {
+        var _this = this;
+        this.events = events;
+        this.images = [{
+                image: "assets/img/slide1.jpg"
+            }, {
+                image: "assets/img/slide2.jpg"
+            }, {
+                image: "assets/img/slide3.jpg"
+            }];
+        this.products = [{
+                name: "Açaí Orgânico c/ Guaraná",
+                code: "1009072",
+                group: "Grupo PA",
+                current_value: "R$ 18,90",
+                previous_value: "R$ 19,90",
+                average_value: "R$ 19,50",
+                group_value: "R$ 17,90",
+                arrow: "down",
+                image: "../assets/img/acai.jpg"
+            },
+            {
+                name: "Snack Orgânico s/ Casca",
+                code: "1022429",
+                group: "Grupo PA",
+                current_value: "R$ 8,90",
+                previous_value: "R$ 9,90",
+                average_value: "R$ 9,50",
+                group_value: "R$ 17,90",
+                arrow: "down",
+                image: "../assets/img/bio2snack.jpg"
+            },
+            {
+                name: "Bebida Orgânica de Arroz Amêndoa",
+                code: "1041755",
+                group: "Grupo PA",
+                current_value: "R$ 18,90",
+                previous_value: "R$ 17,90",
+                average_value: "R$ 17,50",
+                group_value: "R$ 17,90",
+                arrow: "up",
+                image: "../assets/img/bebida_organica.jpg"
+            },
+            {
+                name: "Ovos Vermelho G/ Orgânicos",
+                code: "3182840",
+                group: "Grupo PA",
+                current_value: "R$ 7,90",
+                previous_value: "R$ 9,90",
+                average_value: "R$ 9,50",
+                group_value: "R$ 17,90",
+                arrow: "down",
+                image: "../assets/img/ovos_organico.png"
+            },
+            {
+                name: "Vinho Argentino T/ Orgânico",
+                code: "1009072",
+                group: "Grupo PA",
+                current_value: "R$ 78,90",
+                previous_value: "R$ 77,90",
+                average_value: "R$ 75,50",
+                group_value: "R$ 17,90",
+                arrow: "up",
+                image: "../assets/img/vinho_tinto.jpg"
+            }];
+        this.recommended_products = [{
+                name: "Nozes sem casca",
+                size: "180g",
+                group: "Qualitá",
+                group_value: "R$ 233,90",
+                unit_value: "R$ 21,90",
+                image: "../assets/img/recommends-products1.png"
+            },
+            {
+                name: "Ovos Vermelho Grandes Org.",
+                size: "Bandeja com 10 uni.",
+                group: "TAEQ",
+                group_value: "R$ 112,90",
+                unit_value: "R$ 10,90",
+                image: "../assets/img/recommends-products2.png"
+            },
+            {
+                name: "Molho de Tomate Pronto",
+                size: "Vidro 500g",
+                group: "Salsaretti",
+                group_value: "R$ 81,90",
+                unit_value: "R$ 7,90",
+                image: "../assets/img/recommends-products3.png"
+            },
+            {
+                name: "Suco de Laranja",
+                size: "Garrafa 1 Litro",
+                group: "Blissimo",
+                group_value: "R$ 91,90",
+                unit_value: "R$ 8,90",
+                image: "../assets/img/recommends-products4.png"
+            },
+            {
+                name: "Azeite de Oliva Extra Virgem",
+                size: "Vidro 500ml",
+                group: "Gallo",
+                group_value: "R$ 400,90",
+                unit_value: "R$ 41,90",
+                image: "../assets/img/recommends-products5.png"
+            }];
+        this.featured_suppliers = [{
+                name: "Produto Orgânico Brasil",
+                image: "../assets/img/company/selo-organico.jpg"
+            },
+            {
+                name: "Grupo Bimbo",
+                image: "../assets/img/company/ORGANIZACION_GRUPO_BIMBO-01.png"
+            },
+            {
+                name: "Kelloggs",
+                image: "../assets/img/company/Kellogg_s.png"
+            },
+            {
+                name: "Kimberly-Clark",
+                image: "../assets/img/company/KimberlyClark.jpg"
+            },
+            {
+                name: "Unilever",
+                image: "../assets/img/company/Unilever.jpg"
+            }];
+        this.top_selling_products = [{
+                name: "Nozes sem casca",
+                size: "180g",
+                group: "Qualitá",
+                group_value: "R$ 233,90",
+                unit_value: "R$ 21,90",
+                image: "../assets/img/recommends-products1.png"
+            },
+            {
+                name: "Ovos Vermelho Grandes Org.",
+                size: "Bandeja com 10 uni.",
+                group: "TAEQ",
+                group_value: "R$ 112,90",
+                unit_value: "R$ 10,90",
+                image: "../assets/img/recommends-products2.png"
+            },
+            {
+                name: "Molho de Tomate Pronto",
+                size: "Vidro 500g",
+                group: "Salsaretti",
+                group_value: "R$ 81,90",
+                unit_value: "R$ 7,90",
+                image: "../assets/img/recommends-products3.png"
+            },
+            {
+                name: "Suco de Laranja",
+                size: "Garrafa 1 Litro",
+                group: "Blissimo",
+                group_value: "R$ 91,90",
+                unit_value: "R$ 8,90",
+                image: "../assets/img/recommends-products4.png"
+            },
+            {
+                name: "Azeite de Oliva Extra Virgem",
+                size: "Vidro 500ml",
+                group: "Gallo",
+                group_value: "R$ 400,90",
+                unit_value: "R$ 41,90",
+                image: "../assets/img/recommends-products5.png"
+            },
+            {
+                name: "Nozes sem casca",
+                size: "180g",
+                group: "Qualitá",
+                group_value: "R$ 233,90",
+                unit_value: "R$ 21,90",
+                image: "../assets/img/recommends-products1.png"
+            },
+            {
+                name: "Ovos Vermelho Grandes Org.",
+                size: "Bandeja com 10 uni.",
+                group: "TAEQ",
+                group_value: "R$ 112,90",
+                unit_value: "R$ 10,90",
+                image: "../assets/img/recommends-products2.png"
+            },
+            {
+                name: "Molho de Tomate Pronto",
+                size: "Vidro 500g",
+                group: "Salsaretti",
+                group_value: "R$ 81,90",
+                unit_value: "R$ 7,90",
+                image: "../assets/img/recommends-products3.png"
+            },
+            {
+                name: "Suco de Laranja",
+                size: "Garrafa 1 Litro",
+                group: "Blissimo",
+                group_value: "R$ 91,90",
+                unit_value: "R$ 8,90",
+                image: "../assets/img/recommends-products4.png"
+            },
+            {
+                name: "Azeite de Oliva Extra Virgem",
+                size: "Vidro 500ml",
+                group: "Gallo",
+                group_value: "R$ 400,90",
+                unit_value: "R$ 41,90",
+                image: "../assets/img/recommends-products5.png"
+            }];
+        this.submenu = '';
+        this.market_content = 'home';
+        events.subscribe('submenu', function (submenu) {
+            _this.submenu = submenu;
+        });
+        events.subscribe('market_content', function (data) {
+            _this.market_content = data['type'];
+            if (_this.market_content == 'product') {
+                _this.product = data['product'];
+            }
+        });
+    }
+    MarketComponent.prototype.ngOnInit = function () {
+        this.contentMarket.nativeElement.scrollTop = 0;
+    };
+    MarketComponent.prototype.ionViewDidEnter = function () {
+        this.slides.update();
+    };
+    MarketComponent.prototype.ngAfterViewInit = function () {
+        this.slides.startAutoplay();
+        this.slides.autoplay = "5000";
+        this.slides.loop = true;
+        this.slides.initialSlide = 0;
+    };
+    MarketComponent.prototype.getProduct = function () {
+        this.market_content = 'product';
+    };
+    return MarketComponent;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Slides */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Slides */])
+], MarketComponent.prototype, "slides", void 0);
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])('contentMarket'),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"])
+], MarketComponent.prototype, "contentMarket", void 0);
+MarketComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'market',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/market/market.html"*/'<ion-col class="content market" #contentMarket no-padding col-10>\n	<submenu></submenu>\n\n	<div *ngIf="market_content == \'home\'" no-padding>\n		<ion-row class="market-content">\n			<ion-col col-7 class="padding-top-10">\n				<ion-row>\n					<ion-col class="market-title">\n						Ofertas da Semana\n					</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="padding-top-35">\n						<ion-slides>\n							<ion-slide *ngFor="let slide of images">\n								<img [src]="slide.image">\n							</ion-slide>\n						</ion-slides>\n					</ion-col>\n				</ion-row>\n			</ion-col>\n			<ion-col col-5>\n				<ion-row class="products no-margin-top">\n					<ion-col class="products-box" no-padding>\n						<products [products]="products" source="market" title="Ofertas do Dia"></products>\n					</ion-col>\n				</ion-row>\n			</ion-col>\n		</ion-row>\n		\n		<products-list [products_list]="recommended_products" type="recommended-products" title="Produtos Recomendados"></products-list>\n	\n		<featured-suppliers [featured_suppliers]="featured_suppliers"></featured-suppliers>\n	\n		<products-list [products_list]="top_selling_products" type="top-selling-products" title="Produtos Mais Vendidos"></products-list>\n	</div>\n\n	<div *ngIf="market_content == \'product\'">\n		<product [product]="product"></product>\n	</div>\n\n	\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/market/market.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
+], MarketComponent);
+
+//# sourceMappingURL=market.js.map
+
+/***/ }),
+
+/***/ 456:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SubmenuComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__submenu_popover_submenu_popover__ = __webpack_require__(107);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the SubmenuComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var SubmenuComponent = (function () {
+    function SubmenuComponent(events, popoverCtrl) {
+        this.events = events;
+        this.popoverCtrl = popoverCtrl;
+        this.submenu = '';
+    }
+    SubmenuComponent.prototype.go = function (menu, ev) {
+        var _this = this;
+        this.submenu = menu;
+        this.events.publish('submenu', this.submenu);
+        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_2__submenu_popover_submenu_popover__["a" /* SubmenuPopoverComponent */]);
+        popover.present({
+            ev: ev
+        });
+        popover.onDidDismiss(function (popoverData) {
+            _this.submenu = '';
+        });
+    };
+    return SubmenuComponent;
+}());
+SubmenuComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'submenu',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/submenu/submenu.html"*/'<ion-row class="submenu">\n	<ion-col (click)="go(\'mercearia\', $event)" [class.current]="submenu == \'mercearia\'">\n		<ion-icon name="netfoods-groceries"></ion-icon>\n		Mercearia\n	</ion-col>\n	<ion-col (click)="go(\'hortifruti\', $event)" [class.current]="submenu == \'hortifruti\'">\n		<ion-icon name="netfoods-carrot"></ion-icon>\n		Hortifruti\n	</ion-col>\n	<ion-col (click)="go(\'carnes\', $event)" [class.current]="submenu == \'carnes\'">\n		<ion-icon name="netfoods-steak"></ion-icon>\n		Carnes, Aves e Peixes\n	</ion-col>\n	<ion-col (click)="go(\'frios\', $event)" [class.current]="submenu == \'frios\'">\n		<ion-icon name="netfoods-cheese"></ion-icon>\n		Frios e Laticínios\n	</ion-col>\n	<ion-col (click)="go(\'congelados\', $event)" [class.current]="submenu == \'congelados\'">\n		<ion-icon name="netfoods-frozen-food"></ion-icon>\n		Congelados\n	</ion-col>\n	<ion-col (click)="go(\'bebidas\', $event)" [class.current]="submenu == \'bebidas\'">\n		<ion-icon name="netfoods-alcoholic-drinks"></ion-icon>\n		Bebidas\n	</ion-col>\n	<ion-col (click)="go(\'confeitaria\', $event)" [class.current]="submenu == \'confeitaria\'">\n		<ion-icon name="netfoods-cupcake"></ion-icon>\n		Confeitaria\n	</ion-col>\n	<ion-col (click)="go(\'equipamentos\', $event)" [class.current]="submenu == \'equipamentos\'">\n		<ion-icon name="netfoods-whisk"></ion-icon>\n		Equipamentos e Utensílios\n	</ion-col>\n	<ion-col (click)="go(\'limpeza\', $event)" [class.current]="submenu == \'limpeza\'">\n		<ion-icon name="netfoods-hygienic-items"></ion-icon>\n		Limpeza e Higiene\n	</ion-col>\n	<ion-col (click)="go(\'embalagem\', $event)" [class.current]="submenu == \'embalagem\'">\n		<ion-icon name="netfoods-packing"></ion-icon>\n		Embalagem e Descartáveis\n	</ion-col>\n</ion-row>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/submenu/submenu.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* PopoverController */]])
+], SubmenuComponent);
+
+//# sourceMappingURL=submenu.js.map
+
+/***/ }),
+
+/***/ 457:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductsListComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ProductsListComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var ProductsListComponent = (function () {
+    function ProductsListComponent(events) {
+        this.events = events;
+    }
+    ProductsListComponent.prototype.getProduct = function () {
+        this.events.publish('market_content', { type: 'product', product: { name: 'teste' } });
+    };
+    return ProductsListComponent;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+    __metadata("design:type", Object)
+], ProductsListComponent.prototype, "products_list", void 0);
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+    __metadata("design:type", String)
+], ProductsListComponent.prototype, "title", void 0);
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+    __metadata("design:type", String)
+], ProductsListComponent.prototype, "type", void 0);
+ProductsListComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'products-list',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products-list/products-list.html"*/'<ion-row class="margin-left-8">\n	<ion-col [class.padding-top-35]="type == \'top-selling-products\'" class="market-title">\n		{{title}}\n	</ion-col>\n</ion-row>\n\n<ion-row class="products-list-list">\n	<ion-col class="products-list" *ngFor="let product_list of products_list | slice:0:5; let i=index">\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-group" col-9>\n				<ion-icon name="netfoods-box"></ion-icon> \n				<span class="products-list-group-text">Caixa c/ 10 uni.</span>\n			</ion-col>\n			<ion-col class="products-icon-heart" text-right>\n				<ion-icon name="netfoods-heart"></ion-icon>\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col text-center>\n				<img [src]="product_list.image">\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-group-name no-padding-top">\n				{{product_list.group}}\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-type">\n				<span tooltip="{{product_list.name}}" positionV="bottom" arrow event="hover">{{product_list.name}}</span>\n				<span>{{product_list.group | uppercase}} {{product_list.size}}</span>\n			</ion-col>\n		</ion-row>\n		<ion-row class="padding-top-10">\n			<ion-col class="products-list-group-value">{{product_list.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-current-value">{{product_list.unit_value}} <span>p/ unidade</span></ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-quantity-label">\n				<span class="products-list-quantity">\n					<ion-icon name="md-remove"></ion-icon>\n					<span>01</span>\n					<ion-icon name="md-add" class="icon-plus"></ion-icon>\n				</span>\n				<span class="products-list-cart">\n					<ion-icon name="cart"></ion-icon> Adicionar\n				</span>\n			</ion-col>\n		</ion-row>\n	</ion-col>\n</ion-row>\n<ion-row class="products-list-list">\n	<ion-col class="products-list" *ngFor="let product_list of products_list | slice:5:10; let i=index">\n		<ion-row>\n			<ion-col class="products-list-group" col-9>\n				<ion-icon name="netfoods-box"></ion-icon> \n				<span class="products-list-group-text">Caixa c/ 10 uni.</span>\n			</ion-col>\n			<ion-col class="products-icon-heart" text-right>\n				<ion-icon name="netfoods-heart"></ion-icon>\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col text-center>\n				<img [src]="product_list.image">\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-group-name no-padding-top">\n				{{product_list.group}}\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-type">\n				<span tooltip="{{product_list.name}}" positionV="bottom" arrow event="hover">{{product_list.name}}</span>\n				<span>{{product_list.group | uppercase}} {{product_list.size}}</span>\n			</ion-col>\n		</ion-row>\n		<ion-row class="padding-top-10">\n			<ion-col class="products-list-group-value">{{product_list.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-current-value">{{product_list.unit_value}} <span>p/ unidade</span></ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-quantity-label">\n				<span class="products-list-quantity">\n					<ion-icon name="md-remove"></ion-icon>\n					<span>01</span>\n					<ion-icon name="md-add" class="icon-plus"></ion-icon>\n				</span>\n				<span class="products-list-cart">\n					<ion-icon name="cart"></ion-icon> Adicionar\n				</span>\n			</ion-col>\n		</ion-row>\n	</ion-col>\n</ion-row>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products-list/products-list.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
+], ProductsListComponent);
+
+//# sourceMappingURL=products-list.js.map
+
+/***/ }),
+
+/***/ 458:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FeaturedSuppliersComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+/**
+ * Generated class for the FeaturedSuppliersComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var FeaturedSuppliersComponent = (function () {
+    function FeaturedSuppliersComponent() {
+    }
+    return FeaturedSuppliersComponent;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+    __metadata("design:type", Object)
+], FeaturedSuppliersComponent.prototype, "featured_suppliers", void 0);
+FeaturedSuppliersComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'featured-suppliers',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/featured-suppliers/featured-suppliers.html"*/'<ion-row class="featured-suppliers">\n	<ion-col class="margin-top-25 padding-bottom-35">\n		<ion-row text-center>\n			<ion-col class="featured-suppliers-title">Fornecedores em Destaque</ion-col>\n		</ion-row>\n		<ion-row text-center>\n			<ion-col class="featured-suppliers-subtitle">Acesse a loja do fornecedor, veja suas qualificações, converse com a empresa e faça seu pedido</ion-col>\n		</ion-row>\n		<ion-row class="featured-suppliers-images margin-top-25 margin-bottom-10">\n			<ion-col *ngFor="let featured_supplier of featured_suppliers">\n				<img [src]="featured_supplier.image">\n			</ion-col>\n		</ion-row>\n	</ion-col>\n</ion-row>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/featured-suppliers/featured-suppliers.html"*/
+    }),
+    __metadata("design:paramtypes", [])
+], FeaturedSuppliersComponent);
+
+//# sourceMappingURL=featured-suppliers.js.map
+
+/***/ }),
+
+/***/ 459:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+/**
+ * Generated class for the ProductComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var ProductComponent = (function () {
+    function ProductComponent() {
+    }
+    return ProductComponent;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+    __metadata("design:type", Object)
+], ProductComponent.prototype, "product", void 0);
+ProductComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'product',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/product/product.html"*/'<!-- Generated template for the ProductComponent component -->\n<div>\n  {{product.name}}\n</div>\n'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/product/product.html"*/
+    }),
+    __metadata("design:paramtypes", [])
+], ProductComponent);
+
+//# sourceMappingURL=product.js.map
+
+/***/ })
+
+},[324]);
+//# sourceMappingURL=main.js.map

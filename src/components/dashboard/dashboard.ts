@@ -97,109 +97,109 @@ export class DashboardComponent {
 	}];
   
     products = [{
-      name: "Açaí Orgânico c/ Guaraná",
-      code: "1009072",
-      group: "Grupo PA",
-      current_value: "R$ 18,90",
-      previous_value: "R$ 19,90",
-      average_value: "R$ 19,50",
-      arrow: "down",
-      image: "../assets/img/acai.jpg"
+		name: "Açaí Orgânico c/ Guaraná",
+		code: "1009072",
+		group: "Grupo PA",
+		current_value: "R$ 18,90",
+		previous_value: "R$ 19,90",
+		average_value: "R$ 19,50",
+		arrow: "down",
+		image: "../assets/img/acai.jpg"
     },
     {
-      name: "Snack Orgânico s/ Casca",
-      code: "1022429",
-      group: "Grupo PA",
-      current_value: "R$ 8,90",
-      previous_value: "R$ 9,90",
-      average_value: "R$ 9,50",
-      arrow: "down",
-      image: "../assets/img/bio2snack.jpg"
+		name: "Snack Orgânico s/ Casca",
+		code: "1022429",
+		group: "Grupo PA",
+		current_value: "R$ 8,90",
+		previous_value: "R$ 9,90",
+		average_value: "R$ 9,50",
+		arrow: "down",
+		image: "../assets/img/bio2snack.jpg"
     },
     {
-      name: "Bebida Orgânica de Arroz Amêndoa",
-      code: "1041755",
-      group: "Grupo PA",
-      current_value: "R$ 18,90",
-      previous_value: "R$ 17,90",
-      average_value: "R$ 17,50",
-      arrow: "up",
-      image: "../assets/img/bebida_organica.jpg"
+		name: "Bebida Orgânica de Arroz Amêndoa",
+		code: "1041755",
+		group: "Grupo PA",
+		current_value: "R$ 18,90",
+		previous_value: "R$ 17,90",
+		average_value: "R$ 17,50",
+		arrow: "up",
+		image: "../assets/img/bebida_organica.jpg"
     },
     {
-      name: "Ovos Vermelho G/ Orgânicos",
-      code: "3182840",
-      group: "Grupo PA",
-      current_value: "R$ 7,90",
-      previous_value: "R$ 9,90",
-      average_value: "R$ 9,50",
-      arrow: "down",
-      image: "../assets/img/ovos_organico.png"
+		name: "Ovos Vermelho G/ Orgânicos",
+		code: "3182840",
+		group: "Grupo PA",
+		current_value: "R$ 7,90",
+		previous_value: "R$ 9,90",
+		average_value: "R$ 9,50",
+		arrow: "down",
+		image: "../assets/img/ovos_organico.png"
     },
     {
-      name: "Vinho Argentino T/ Orgânico",
-      code: "1009072",
-      group: "Grupo PA",
-      current_value: "R$ 78,90",
-      previous_value: "R$ 77,90",
-      average_value: "R$ 75,50",
-      arrow: "up",
-      image: "../assets/img/vinho_tinto.jpg"
+		name: "Vinho Argentino T/ Orgânico",
+		code: "1009072",
+		group: "Grupo PA",
+		current_value: "R$ 78,90",
+		previous_value: "R$ 77,90",
+		average_value: "R$ 75,50",
+		arrow: "up",
+		image: "../assets/img/vinho_tinto.jpg"
     }];
   
     suppliers = [{
-      name: "Grupo PA",
-      value_expense: "R$85.000",
-      last_order: "R$15.500",
-      marketshare: "18.7%"
+		name: "Grupo PA",
+		value_expense: "R$85.000",
+		last_order: "R$15.500",
+		marketshare: "18.7%"
     },
     {
-      name: "AO Alimentos Orgânicos",
-      value_expense: "R$115.000",
-      last_order: "R$27.500",
-      marketshare: "37.2%"
+		name: "AO Alimentos Orgânicos",
+		value_expense: "R$115.000",
+		last_order: "R$27.500",
+		marketshare: "37.2%"
     },
     {
-      name: "Casa Santa Luzia",
-      value_expense: "R$68.000",
-      last_order: "R$16.300",
-      marketshare: "48.6%"
+		name: "Casa Santa Luzia",
+		value_expense: "R$68.000",
+		last_order: "R$16.300",
+		marketshare: "48.6%"
     }];
   
     activities = [{
-      name: "Grupo PA",
-      id: "09809744",
-      value: "R$15.500",
-      date: "29/08/2017",
-      arrow: "up"
+		name: "Grupo PA",
+		id: "09809744",
+		value: "R$15.500",
+		date: "29/08/2017",
+		arrow: "up"
     },
     {
-      name: "Grupo PA",
-      id: "09804444",
-      value: "R$1.500",
-      date: "28/08/2017",
-      arrow: "down"
+		name: "Grupo PA",
+		id: "09804444",
+		value: "R$1.500",
+		date: "28/08/2017",
+		arrow: "down"
     },
     {
-      name: "Grand Cru",
-      id: "09801111",
-      value: "R$11.250",
-      date: "28/08/2017",
-      arrow: "up"
+		name: "Grand Cru",
+		id: "09801111",
+		value: "R$11.250",
+		date: "28/08/2017",
+		arrow: "up"
     },
     {
-      name: "Casa Santa Luzia",
-      id: "09805689",
-      value: "R$21.100",
-      date: "29/08/2017",
-      arrow: "up"
+		name: "Casa Santa Luzia",
+		id: "09805689",
+		value: "R$21.100",
+		date: "29/08/2017",
+		arrow: "up"
     },
     {
-      name: "Grand Cru",
-      id: "09805689",
-      value: "R$21.100",
-      date: "29/08/2017",
-      arrow: "up"
+		name: "Grand Cru",
+		id: "09805689",
+		value: "R$21.100",
+		date: "29/08/2017",
+		arrow: "up"
     }];
   
     // lineChart
