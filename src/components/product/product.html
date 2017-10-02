@@ -1,4 +1,99 @@
-<!-- Generated template for the ProductComponent component -->
-<div>
-  {{product.name}}
-</div>
+<ion-row class="market-content" #contentProduct>
+	<ion-col class="breadcrumbs">Mercado <span>></span> Bebidas <span>> Sucos</span></ion-col>
+</ion-row>
+<ion-row>
+	<ion-col col-3>
+		<ion-row>
+			<ion-col>
+				<img src="../assets/img/recommends-products4.png">
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="product-zoom" text-center>
+				<ion-icon name="netfoods-zoom"></ion-icon> Passe o mouse para ampliar
+			</ion-col>
+		</ion-row>
+	</ion-col>
+	<ion-col>
+		<ion-row>
+			<ion-col class="product-name">Do Bem</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="product-desc">Suco Verde Detox Misto Integral DO BEM 1 Litro</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="font-size-12 product-sold-by">Vendido por: <span>Grupo PA <ion-icon name="netfoods-valid"></ion-icon></span></ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="product-rating">
+				<ion-icon class="full-star" name="star"></ion-icon>
+				<ion-icon class="full-star" name="star"></ion-icon>
+				<ion-icon class="full-star" name="star"></ion-icon>
+				<ion-icon class="full-star" name="star"></ion-icon>
+				<ion-icon name="ios-star-outline"></ion-icon>
+				<span>(451)</span>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="product-size">
+				Dados de Embalagem: Caixa com 10Kg
+			</ion-col>
+		</ion-row>
+		<ion-row class="product-prices">
+			<ion-col col-3>
+				<ion-row><ion-col class="product-price">R$ 1113,90</ion-col></ion-row>
+				<ion-row><ion-col class="product-price-unit">Valor Unitário: <span>R$ 16,90</span></ion-col></ion-row>
+			</ion-col>
+			<ion-col class="product-quantity-column quantity-column-big">
+				<span class="products-list-quantity list-quantity-big">
+					<ion-icon name="md-remove"></ion-icon>
+					<span>01</span>
+					<ion-icon name="md-add" class="icon-plus"></ion-icon>
+				</span>
+				<span class="products-list-cart list-cart-big">
+					<ion-icon name="cart"></ion-icon> Adicionar
+				</span>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="product-group-text">
+				Este produto tem desconto na compra acima de:
+			</ion-col>
+		</ion-row>
+		<ion-row class="product-groups" text-center>
+			<ion-col class="product-group">
+				<ion-row><ion-col>Acima de 3 Caixas</ion-col></ion-row>
+				<ion-row>
+					<ion-col class="no-padding-top"><span>R$ 14,90</span> p/ uni.</ion-col>
+				</ion-row>
+			</ion-col>
+			<ion-col class="product-group">
+				<ion-row><ion-col>Acima de 6 Caixas</ion-col></ion-row>
+				<ion-row>
+					<ion-col class="no-padding-top"><span>R$ 13,90</span> p/ uni.</ion-col>
+				</ion-row>
+			</ion-col>
+			<ion-col class="product-group">
+				<ion-row><ion-col>Acima de 9 Caixas</ion-col></ion-row>
+				<ion-row>
+					<ion-col class="no-padding-top"><span>R$ 12,90</span> p/ uni.</ion-col>
+				</ion-row>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="product-action">
+				<ion-icon class="font-size-20" name="netfoods-card"></ion-icon> 
+				<span class="padding-left-5">Formas de pagamento</span>
+			</ion-col>
+			<ion-col class="product-action">
+				<ion-icon class="font-size-25" name="netfoods-heart"></ion-icon> 
+				<span>Adicionar a Favoritos</span>
+			</ion-col>
+			<ion-col class="product-action">
+				<ion-icon class="font-size-20" name="netfoods-information"></ion-icon> 
+				<span>Info</span>
+			</ion-col>
+		</ion-row>
+	</ion-col>
+</ion-row>
+<products-list [products_list]="related_products" type="related-products" title="Produtos Similares"></products-list>

@@ -25,13 +25,13 @@
 	</ion-col>
 </ion-row>
 <div class="products-offers-day">
-	<ion-row class="product" *ngFor="let product of items">
+	<ion-row class="product-list" *ngFor="let product of items">
 		<ion-col class="product-box">
 			<ion-row>
-				<ion-col col-1>
+				<ion-col class="cursor-pointer" col-1 (click)="getProduct()">
 					<img [src]="product.image" />
 				</ion-col>
-				<ion-col [class.col-4]="source == 'dashboard'">
+				<ion-col class="cursor-pointer" [class.col-4]="source == 'dashboard'" (click)="getProduct()">
 					<ion-row>
 						<ion-col class="product-name" tooltip="{{product.name}}" positionV="bottom" arrow event="hover">
 							{{product.name}}

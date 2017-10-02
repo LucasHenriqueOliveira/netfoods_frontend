@@ -35,9 +35,7 @@
 		<products-list [products_list]="top_selling_products" type="top-selling-products" title="Produtos Mais Vendidos"></products-list>
 	</div>
 
-	<div *ngIf="market_content == 'product'">
+	<div class="product" *ngIf="market_content == 'product'">
 		<product [product]="product"></product>
 	</div>
-
-	
 </ion-col>

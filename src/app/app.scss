@@ -64,6 +64,10 @@
     padding-left: 0 !important;
 }
 
+.padding-left-5 {
+    padding-left: 5px;
+}
+
 .padding-top-10 {
     padding-top: 10px;
 }
@@ -78,6 +82,18 @@
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-25 {
+    font-size: 25px;
 }
 
 .header .item-input {
@@ -473,7 +489,7 @@ legend {
 .statistics .statistics-box,
 .charts .charts-box,
 .products .products-box,
-.product .product-box,
+.product-list .product-box,
 .reports .reports-box,
 .report .report-box,
 .activities .activities-box,
@@ -585,12 +601,12 @@ legend {
     color: #000;
 }
 
-.product .product-box {
+.product-list .product-box {
     padding-bottom: 2px;
     margin-bottom: 10px;
 }
 
-.product .product-name {
+.product-list .product-name {
     padding-top: 0;
     padding-bottom: 0;
     font-size: 13px;
@@ -603,39 +619,39 @@ legend {
     cursor: pointer;
 }
 
-.product .product-code {
+.product-list .product-code {
     font-size: 12px;
     padding-bottom: 0;
     padding-top: 10px;
 }
 
-.product .product-group {
+.product-list .product-group {
     font-size: 12px;
     padding-top: 0; 
 }
 
-.product .product-label {
+.product-list .product-label {
     font-size: 10px;
     text-transform: uppercase;
 }
 
-.product .product-current-value {
+.product-list .product-current-value {
     font-weight: bold;
 }
 
-.product .down {
+.product-list .down {
     color: #73B440;
 }
 
-.product .up {
+.product-list .up {
     color: #B72827;
 }
 
-.product .product-cart-quantity {
+.product-list .product-cart-quantity {
     margin-top: 6px;
 }
 
-.product .product-cart,
+.product-list .product-cart,
 .market .products-list-cart {
     border-radius: 4px;
     background-color: #73B440;
@@ -647,25 +663,25 @@ legend {
     margin-left: -4px;
 }
 
-.product .product-previous-value {
+.product-list .product-previous-value {
     padding-top: 3px;
     font-size: 12px;
     font-weight: bold;
 }
 
-.product .product-average-value {
+.product-list .product-average-value {
     padding-top: 1px;
     font-size: 12px;
     font-weight: bold;
 }
 
-.product .product-price-history {
+.product-list .product-price-history {
     font-size: 10px;
     text-transform: uppercase;
     padding-left: 6px;
 }
 
-.product .product-quantity,
+.product-list .product-quantity,
 .market .products-list-quantity {
     border: 1px solid #E6EAEF;
     border-right: none;
@@ -673,14 +689,14 @@ legend {
     padding: 6px;
 }
 
-.product .product-quantity ion-icon,
+.product-list .product-quantity ion-icon,
 .market .products-list-quantity ion-icon {
     color: #73B440;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.product .product-quantity .icon-plus,
+.product-list .product-quantity .icon-plus,
 .market .products-list-quantity .icon-plus {
     padding-right: 5px;
 }
@@ -856,8 +872,8 @@ legend {
     white-space: initial;
 }
 
-.product .product-current-value,
-.product .product-group-value,
+.product-list .product-current-value,
+.product-list .product-group-value,
 .market .products-list-group-value,
 .market .products-list-current-value {
     font-size: 14px;
@@ -866,14 +882,14 @@ legend {
     font-weight: bold;
 }
 
-.product .product-group-value,
+.product-list .product-group-value,
 .market .products-list-current-value {
     color: #999;
     font-size: 12px;
 }
 
-.product .product-current-value span,
-.product .product-group-value span,
+.product-list .product-current-value span,
+.product-list .product-group-value span,
 .market .products-list-group-value span,
 .market .products-list-current-value span {
     font-size: 11px;
@@ -1097,6 +1113,164 @@ ion-slide img {
     background-color: #FFF;
     padding: 5px;
     margin: 0 7px;
+}
+
+.breadcrumbs {
+    font-size: 11px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.breadcrumbs span {
+    font-weight: bold;
+    color: #2989A6;
+}
+
+.product .product-name {
+    color: #A82923;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.product .product-desc {
+    font-size: 18px;
+    padding-bottom: 0;
+}
+
+.product .product-sold-by {
+    padding-top: 1px;
+}
+
+.product .product-sold-by span {
+    color: #2989A6;
+    font-weight: bold;
+}
+
+.product .product-sold-by ion-icon,
+.product .product-rating {
+    font-size: 18px;
+}
+
+.product .product-rating {
+    font-size: 18px;
+    margin-bottom: 5px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.product .product-rating span {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.product .product-size {
+    font-size: 13px;
+    color: #8c8b8b;
+    margin-bottom: 5px;
+}
+
+.product .product-prices {
+    padding-bottom: 1px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.product .product-price {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0;
+    color: #73B440;
+}
+
+.product .product-price-unit {
+    padding-left: 0;
+    padding-top: 0;
+    font-size: 13px;
+    color: #8c8b8b;
+}
+
+.product .product-price-unit span {
+    font-weight: bold;
+}
+
+.product .product-group-text {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #8c8b8b;
+}
+
+.product .product-groups {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 8px;
+}
+
+.product .product-group {
+    border: 1px solid #E6EAEF;
+    border-radius: 4px;
+    font-size: 12px;
+    margin: 10px 7px;
+    padding: 10px;
+    color: #8c8b8b;
+}
+
+.product .product-group span {
+    font-weight: bold;
+}
+
+.product .product-action {
+    color: #8c8b8b;
+}
+
+.product .product-action span {
+    position: absolute;
+    left: 30px;
+    top: 7px;
+    font-size: 13px;
+}
+
+.product-quantity-column {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.product .product-zoom {
+    font-size: 12px;
+    color: #8c8b8b;
+}
+
+.market .quantity-column-big {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.market .list-quantity-big {
+    padding: 11px;
+    padding-bottom: 13px;
+}
+
+.market .list-quantity-big .ion-md-remove,
+.market .list-quantity-big .ion-md-add {
+    font-size: 14px;
+}
+
+.market .list-quantity-big span {
+    font-size: 14px;
+    color: #8c8b8b;
+}
+
+.market .list-cart-big {
+    padding: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.market .list-cart-big ion-icon {
+    padding-right: 8px;
+}
+
+.full-star {
+    color: #F7D14B;
 }
 
 
