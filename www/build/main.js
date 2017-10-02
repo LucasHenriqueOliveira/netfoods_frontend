@@ -1252,7 +1252,9 @@ var ProductsComponent = (function () {
     }
     ProductsComponent.prototype.getProduct = function () {
         this.tooltip = document.getElementsByTagName("tooltip-box")[0];
-        this.tooltip.style.visibility = 'hidden';
+        if (this.tooltip) {
+            this.tooltip.style.visibility = 'hidden';
+        }
         this.events.publish('market_content', { type: 'product', product: { name: 'teste' } });
     };
     ProductsComponent.prototype.ngOnInit = function () {
