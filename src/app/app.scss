@@ -32,6 +32,10 @@
     margin-bottom: 10px;
 }
 
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
 .no-margin-top {
     margin-top: 0 !important;
 }
@@ -66,6 +70,10 @@
 
 .padding-left-5 {
     padding-left: 5px;
+}
+
+.padding-left-13 {
+    padding-left: 13px;
 }
 
 .padding-top-10 {
@@ -1267,6 +1275,43 @@ ion-slide img {
 
 .market .list-cart-big ion-icon {
     padding-right: 8px;
+}
+
+.market .product-description {
+    margin-top: -25px;
+    background-color: #FBFBFD;
+}
+
+.market .product-description-text {
+    font-size: 13px;
+    line-height: 25px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: #8c8b8b;
+}
+
+.market .product-supplier {
+    background-color: #F7F7F7;
+}
+
+.market .product-supplier-text {
+    color: #2989A6;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.market .button-supplier {
+    background-color: #2989A6;
+    text-transform: none;
+}
+
+.market .product-supplier-comments {
+    font-size: 12px;
+}
+
+.market .product-supplier-local {
+    font-size: 12px;
+    color: #8c8b8b;
 }
 
 .full-star {

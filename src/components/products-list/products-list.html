@@ -53,7 +53,7 @@
 </ion-row>
 <ion-row class="products-list-list">
 	<ion-col class="products-list" *ngFor="let product_list of products_list | slice:5:10; let i=index">
-		<ion-row>
+		<ion-row class="cursor-pointer" (click)="getProduct()">
 			<ion-col class="products-list-group" col-9>
 				<ion-icon name="netfoods-box"></ion-icon> 
 				<span class="products-list-group-text">Caixa c/ 10 uni.</span>
@@ -62,17 +62,17 @@
 				<ion-icon name="netfoods-heart"></ion-icon>
 			</ion-col>
 		</ion-row>
-		<ion-row>
+		<ion-row class="cursor-pointer" (click)="getProduct()">
 			<ion-col text-center>
 				<img [src]="product_list.image">
 			</ion-col>
 		</ion-row>
-		<ion-row>
+		<ion-row class="cursor-pointer" (click)="getProduct()">
 			<ion-col class="products-list-group-name no-padding-top">
 				{{product_list.group}}
 			</ion-col>
 		</ion-row>
-		<ion-row>
+		<ion-row class="cursor-pointer" (click)="getProduct()">
 			<ion-col class="products-list-type">
 				<span tooltip="{{product_list.name}}" positionV="bottom" arrow event="hover">{{product_list.name}}</span>
 				<span>{{product_list.group | uppercase}} {{product_list.size}}</span>
