@@ -13,10 +13,16 @@ import { Component, Input, ElementRef, ViewChild } from '@angular/core';
 export class ProductComponent {
 
 	@Input() product: any
+	tooltip: any
 	@ViewChild('contentProduct') private contentProduct : ElementRef;
 
 	ngOnInit() {
 		this.contentProduct.nativeElement.scrollTop = 0;
+
+		this.tooltip = document.getElementsByTagName("tooltip-box")[0];
+		if(this.tooltip) {
+			this.tooltip.style.visibility = 'hidden';
+		}
 	}
 
 	related_products = [{
