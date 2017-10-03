@@ -1,0 +1,110 @@
+<ion-row>
+	<ion-col>
+		<ion-row>
+			<ion-col class="market-title margin-top-10 no-padding-bottom">
+				Avaliações
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col class="rating">
+				<ion-row>
+					<ion-col class="no-padding">
+						<ion-segment [(ngModel)]="rating_option">
+							<ion-segment-button value="rating">
+								Avaliações
+							</ion-segment-button>
+							<ion-segment-button value="questions">
+								Perguntas
+							</ion-segment-button>
+						</ion-segment>
+					</ion-col>
+				</ion-row>
+				<ion-row class="rating_options">
+					<ion-col>
+						<div [ngSwitch]="rating_option">
+							<div *ngSwitchCase="'rating'">
+								<ion-row class="rating-option-text">
+									<ion-col col-4 class="padding-top-15">
+										<span class="rating-number">4.1</span>
+										<div class="rating-stars">
+											<ion-icon class="full-star" name="star"></ion-icon>
+											<ion-icon class="full-star" name="star"></ion-icon>
+											<ion-icon class="full-star" name="star"></ion-icon>
+											<ion-icon class="full-star" name="star"></ion-icon>
+											<ion-icon class="gray-star" name="ios-star-outline"></ion-icon>
+										</div>
+										<span class="rating-comments">(451)</span>
+									</ion-col>
+									<ion-col col-5 class="padding-top-15">
+										<span class="rating-percentage">90%</span>
+										<span class="rating-percentage-text">dos clientes recomendam este produto</span>
+									</ion-col>
+									<ion-col text-right>
+										<button ion-button class="button-supplier">Avaliar Produto</button>
+									</ion-col>
+								</ion-row>
+								<ion-row class="rating-option-text">
+									<ion-col>
+										<ion-row>
+											<ion-col class="rating-title">Eu compraria de novo</ion-col>
+										</ion-row>
+										<ion-row>
+											<ion-col>
+												<div class="rating-stars">
+													<ion-icon class="full-star" name="star"></ion-icon>
+													<ion-icon class="full-star" name="star"></ion-icon>
+													<ion-icon class="full-star" name="star"></ion-icon>
+													<ion-icon class="full-star" name="star"></ion-icon>
+													<ion-icon class="gray-star" name="ios-star-outline"></ion-icon>
+												</div>
+												<span class="rating-date">25/09/2016</span>
+											</ion-col>
+										</ion-row>
+										<ion-row>
+											<ion-col class="rating-message">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+											</ion-col>
+										</ion-row>
+									</ion-col>
+								</ion-row>
+								<ion-row class="rating-option-text">
+									<ion-col>
+										<ion-row>
+											<ion-col class="rating-title">Muito bom o produto</ion-col>
+										</ion-row>
+										<ion-row>
+											<ion-col>
+												<div class="rating-stars">
+													<ion-icon class="full-star" name="star"></ion-icon>
+													<ion-icon class="full-star" name="star"></ion-icon>
+													<ion-icon class="full-star" name="star"></ion-icon>
+													<ion-icon class="full-star" name="star"></ion-icon>
+													<ion-icon class="gray-star" name="ios-star-outline"></ion-icon>
+												</div>
+												<span class="rating-date">16/08/2016</span>
+											</ion-col>
+										</ion-row>
+										<ion-row>
+											<ion-col class="rating-message">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+											</ion-col>
+										</ion-row>
+									</ion-col>
+								</ion-row>
+							</div>
+							<ion-list *ngSwitchCase="'questions'">
+								<ion-item>
+									<h2>Seja o primeiro a perguntar!</h2>
+								</ion-item>
+							</ion-list>
+						</div>
+					</ion-col>
+				</ion-row>
+			</ion-col>
+		</ion-row>
+	</ion-col>
+</ion-row>

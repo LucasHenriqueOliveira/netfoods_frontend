@@ -30,7 +30,7 @@
 				<ion-icon class="full-star" name="star"></ion-icon>
 				<ion-icon class="full-star" name="star"></ion-icon>
 				<ion-icon class="full-star" name="star"></ion-icon>
-				<ion-icon name="ios-star-outline"></ion-icon>
+				<ion-icon class="gray-star" name="ios-star-outline"></ion-icon>
 				<span>(451)</span>
 			</ion-col>
 		</ion-row>
@@ -96,7 +96,7 @@
 		</ion-row>
 	</ion-col>
 </ion-row>
-<products-list [products_list]="related_products" type="related-products" title="Produtos Similares"></products-list>
+<products-list [products_list]="related_products" type="related-products" name="Produtos Similares"></products-list>
 <ion-row class="product-description">
 	<ion-col>
 		<ion-row>
@@ -139,7 +139,9 @@
 			</ion-col>
 		</ion-row>
 	</ion-col>
-	<ion-col class="margin-top-25">
+	<ion-col class="margin-top-25" text-right>
 		<button ion-button class="button-supplier">Fale com o Fornecedor</button>
 	</ion-col>
 </ion-row>
+<rating></rating>
+<products-list [products_list]="related_products" type="recommended_products" name="Produtos Recomendados"></products-list>

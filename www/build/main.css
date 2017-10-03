@@ -26500,12 +26500,20 @@ ion-navbar.toolbar {
   padding-top: 10px;
 }
 
+.padding-top-15 {
+  padding-top: 15px;
+}
+
 .padding-top-35 {
   padding-top: 35px !important;
 }
 
 .padding-bottom-35 {
   padding-bottom: 35px;
+}
+
+.no-padding {
+  padding: 0;
 }
 
 .cursor-pointer {
@@ -27737,6 +27745,10 @@ ion-slide img {
   text-transform: none;
 }
 
+.market .button-supplier:hover {
+  background-color: #73b441;
+}
+
 .market .product-supplier-comments {
   font-size: 12px;
 }
@@ -27746,6 +27758,98 @@ ion-slide img {
   color: #8c8b8b;
 }
 
+.market .rating {
+  border-top: 2px solid #F8F8FA;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 3px 7px 0px #e0e0e0;
+  box-shadow: 0px 3px 7px 0px #e0e0e0;
+  margin: 10px;
+}
+
+.market ion-segment {
+  width: 250px !important;
+}
+
+.market .segment-md .segment-button {
+  text-transform: none !important;
+  border-bottom-color: #fff;
+  color: #000;
+  margin-top: 5px;
+  height: 4.8rem;
+}
+
+.segment-md .segment-button.activated,
+.segment-md .segment-button.segment-activated {
+  border-color: #2989A6;
+  border-bottom-width: 4px;
+}
+
+.market .rating_options {
+  border-top: 1px solid #E6EAEF;
+  color: black;
+  padding: 0;
+}
+
+.market .rating-option-text {
+  border-bottom: 1px solid #E6EAEF;
+  padding-bottom: 6px;
+  padding-top: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.market .rating-number {
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.market .rating-stars {
+  display: inline-block;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.market .rating-comments {
+  font-size: 13px;
+}
+
+.market .rating-percentage {
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.market .rating-percentage-text {
+  position: absolute;
+  top: 22px;
+  font-size: 13px;
+  left: 60px;
+}
+
+.market .rating-title {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.market .rating-date {
+  color: #8c8b8b;
+  font-size: 13px;
+}
+
+.market .rating-message {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.market .rating-option-text:last-of-type {
+  border-bottom: none;
+}
+
 .full-star {
   color: #F7D14B;
+}
+
+.gray-star {
+  color: #d9d9d9;
 }
