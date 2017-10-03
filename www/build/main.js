@@ -1587,7 +1587,6 @@ MarketComponent = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SubmenuComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__submenu_popover_submenu_popover__ = __webpack_require__(107);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1599,7 +1598,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
 /**
  * Generated class for the SubmenuComponent component.
  *
@@ -1607,22 +1605,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Components.
  */
 var SubmenuComponent = (function () {
-    function SubmenuComponent(events, popoverCtrl) {
+    function SubmenuComponent(events) {
         this.events = events;
-        this.popoverCtrl = popoverCtrl;
         this.submenu = '';
     }
     SubmenuComponent.prototype.go = function (menu, ev) {
-        var _this = this;
         this.submenu = menu;
         this.events.publish('submenu', this.submenu);
-        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_2__submenu_popover_submenu_popover__["a" /* SubmenuPopoverComponent */]);
-        popover.present({
-            ev: ev
-        });
-        popover.onDidDismiss(function (popoverData) {
-            _this.submenu = '';
-        });
     };
     return SubmenuComponent;
 }());
@@ -1630,9 +1619,10 @@ SubmenuComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'submenu',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/submenu/submenu.html"*/'<ion-row class="submenu">\n	<ion-col (click)="go(\'mercearia\', $event)" [class.current]="submenu == \'mercearia\'">\n		<ion-icon name="netfoods-groceries"></ion-icon>\n		Mercearia\n	</ion-col>\n	<ion-col (click)="go(\'hortifruti\', $event)" [class.current]="submenu == \'hortifruti\'">\n		<ion-icon name="netfoods-carrot"></ion-icon>\n		Hortifruti\n	</ion-col>\n	<ion-col (click)="go(\'carnes\', $event)" [class.current]="submenu == \'carnes\'">\n		<ion-icon name="netfoods-steak"></ion-icon>\n		Carnes, Aves e Peixes\n	</ion-col>\n	<ion-col (click)="go(\'frios\', $event)" [class.current]="submenu == \'frios\'">\n		<ion-icon name="netfoods-cheese"></ion-icon>\n		Frios e Laticínios\n	</ion-col>\n	<ion-col (click)="go(\'congelados\', $event)" [class.current]="submenu == \'congelados\'">\n		<ion-icon name="netfoods-frozen-food"></ion-icon>\n		Congelados\n	</ion-col>\n	<ion-col (click)="go(\'bebidas\', $event)" [class.current]="submenu == \'bebidas\'">\n		<ion-icon name="netfoods-alcoholic-drinks"></ion-icon>\n		Bebidas\n	</ion-col>\n	<ion-col (click)="go(\'confeitaria\', $event)" [class.current]="submenu == \'confeitaria\'">\n		<ion-icon name="netfoods-cupcake"></ion-icon>\n		Confeitaria\n	</ion-col>\n	<ion-col (click)="go(\'equipamentos\', $event)" [class.current]="submenu == \'equipamentos\'">\n		<ion-icon name="netfoods-whisk"></ion-icon>\n		Equipamentos e Utensílios\n	</ion-col>\n	<ion-col (click)="go(\'limpeza\', $event)" [class.current]="submenu == \'limpeza\'">\n		<ion-icon name="netfoods-hygienic-items"></ion-icon>\n		Limpeza e Higiene\n	</ion-col>\n	<ion-col (click)="go(\'embalagem\', $event)" [class.current]="submenu == \'embalagem\'">\n		<ion-icon name="netfoods-packing"></ion-icon>\n		Embalagem e Descartáveis\n	</ion-col>\n</ion-row>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/submenu/submenu.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* PopoverController */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _a || Object])
 ], SubmenuComponent);
 
+var _a;
 //# sourceMappingURL=submenu.js.map
 
 /***/ }),
@@ -1819,7 +1809,7 @@ __decorate([
 ], ProductComponent.prototype, "product", void 0);
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])('contentProduct'),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"])
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"]) === "function" && _a || Object)
 ], ProductComponent.prototype, "contentProduct", void 0);
 ProductComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
@@ -1828,6 +1818,7 @@ ProductComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], ProductComponent);
 
+var _a;
 //# sourceMappingURL=product.js.map
 
 /***/ })
