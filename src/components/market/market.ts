@@ -127,7 +127,7 @@ export class MarketComponent {
 
 	featured_suppliers = [{
 		name: "Produto Orgânico Brasil",
-		image: "../assets/img/company/selo-organico.jpg"
+		image: "../assets/img/company/selo-organico.png"
 	},
 	{
 		name: "Grupo Bimbo",
@@ -139,7 +139,7 @@ export class MarketComponent {
 	},
 	{
 		name: "Kimberly-Clark",
-		image: "../assets/img/company/KimberlyClark.jpg"
+		image: "../assets/img/company/KimberlyClark.png"
 	},
 	{
 		name: "Unilever",
