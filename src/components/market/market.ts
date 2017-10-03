@@ -1,4 +1,4 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { Slides, Events } from 'ionic-angular';
 
 /**
@@ -14,10 +14,9 @@ import { Slides, Events } from 'ionic-angular';
 export class MarketComponent {
   
 	@ViewChild(Slides) slides: Slides;
-	@ViewChild('contentMarket') private contentMarket : ElementRef;
 
 	ngOnInit() {
-		this.contentMarket.nativeElement.scrollTop = 0;
+		document.getElementById("contentMarket").scrollIntoView(true);
 	}
 
 	images = [{

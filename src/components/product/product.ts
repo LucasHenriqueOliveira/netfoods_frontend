@@ -1,4 +1,4 @@
-import { Component, Input, ElementRef, ViewChild } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 /**
  * Generated class for the ProductComponent component.
@@ -14,11 +14,9 @@ export class ProductComponent {
 
 	@Input() product: any
 	tooltip: any
-	@ViewChild('contentProduct') private contentProduct : ElementRef;
 
 	ngOnInit() {
-		this.contentProduct.nativeElement.scrollTop = 0;
-
+		document.getElementById("contentMarket").scrollIntoView(true);
 		this.tooltip = document.getElementsByTagName("tooltip-box");
 
 		for (let i = 0; i < this.tooltip.length; i++) {

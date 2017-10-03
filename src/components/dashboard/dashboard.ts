@@ -13,6 +13,10 @@ import { PopoverComponent } from '../popover/popover';
   templateUrl: 'dashboard.html'
 })
 export class DashboardComponent {
+
+	ngOnInit() {
+		document.getElementById("contentDashboard").scrollIntoView(true);
+	}
 	  
 	orders = [{
 		number: "ORD.048922",
