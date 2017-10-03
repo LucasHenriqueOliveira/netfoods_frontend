@@ -27364,6 +27364,7 @@ tooltip-box {
   box-shadow: 2px 2px 4px 0px #e0e0e0;
   position: fixed;
   width: 83%;
+  margin-left: 2px;
   z-index: 1000;
   background-color: #FFF;
 }
