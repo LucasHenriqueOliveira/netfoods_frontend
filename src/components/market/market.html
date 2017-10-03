@@ -22,17 +22,17 @@
 			<ion-col col-5>
 				<ion-row class="products no-margin-top">
 					<ion-col class="products-box" no-padding>
-						<products [products]="products" source="market" title="Ofertas do Dia"></products>
+						<products [products]="products" source="market" name="Ofertas do Dia"></products>
 					</ion-col>
 				</ion-row>
 			</ion-col>
 		</ion-row>
 		
-		<products-list [products_list]="recommended_products" type="recommended-products" title="Produtos Recomendados"></products-list>
+		<products-list [products_list]="recommended_products" type="recommended-products" name="Produtos Recomendados"></products-list>
 	
 		<featured-suppliers [featured_suppliers]="featured_suppliers"></featured-suppliers>
 	
-		<products-list [products_list]="top_selling_products" type="top-selling-products" title="Produtos Mais Vendidos"></products-list>
+		<products-list [products_list]="top_selling_products" type="top-selling-products" name="Produtos Mais Vendidos"></products-list>
 	</div>
 
 	<div class="product" *ngIf="market_content == 'product'">

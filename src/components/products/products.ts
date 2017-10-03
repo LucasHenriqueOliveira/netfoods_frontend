@@ -14,7 +14,7 @@ import { Events } from 'ionic-angular';
 export class ProductsComponent {
 
 	@Input() products: any
-	@Input() title: string
+	@Input() name: string
 	@Input() source: string
 	private items: any;
 	private qtd_items: number;

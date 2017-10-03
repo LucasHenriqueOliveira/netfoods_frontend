@@ -14,7 +14,7 @@ import { Events } from 'ionic-angular';
 export class ProductsListComponent {
 
 	@Input() products_list: any
-	@Input() title: string
+	@Input() name: string
 	@Input() type: string
 	
 	constructor(public events: Events) {
