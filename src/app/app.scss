@@ -1024,6 +1024,9 @@ ion-slide img {
 
 .market .products-list {
     border-top: 2px solid #F8F8FA;
+    flex: 0 0 18.66667% !important;
+    width: 18.66667% !important;
+    max-width: 18.66667% !important;
 }
 
 .market .products-list-list {
@@ -1421,6 +1424,14 @@ ion-slide img {
 
 .gray-star {
     color: #d9d9d9;
+}
+
+.col-half-offset {
+    margin-left:1.166666667% !important;
+}
+
+.market .products-list {
+    margin: 10px 0;
 }
 
 

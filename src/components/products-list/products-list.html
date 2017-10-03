@@ -5,54 +5,7 @@
 </ion-row>
 
 <ion-row class="products-list-list">
-	<ion-col class="products-list" *ngFor="let product_list of products_list | slice:0:5; let i=index">
-		<ion-row class="cursor-pointer" (click)="getProduct()">
-			<ion-col class="products-list-group" col-9>
-				<ion-icon name="netfoods-box"></ion-icon> 
-				<span class="products-list-group-text">Caixa c/ 10 uni.</span>
-			</ion-col>
-			<ion-col class="products-icon-heart" text-right>
-				<ion-icon name="netfoods-heart"></ion-icon>
-			</ion-col>
-		</ion-row>
-		<ion-row class="cursor-pointer" (click)="getProduct()">
-			<ion-col text-center>
-				<img [src]="product_list.image">
-			</ion-col>
-		</ion-row>
-		<ion-row class="cursor-pointer" (click)="getProduct()">
-			<ion-col class="products-list-group-name no-padding-top">
-				{{product_list.group}}
-			</ion-col>
-		</ion-row>
-		<ion-row class="cursor-pointer" (click)="getProduct()">
-			<ion-col class="products-list-type">
-				<span tooltip="{{product_list.name}}" positionV="bottom" arrow event="hover">{{product_list.name}}</span>
-				<span>{{product_list.group | uppercase}} {{product_list.size}}</span>
-			</ion-col>
-		</ion-row>
-		<ion-row class="padding-top-10">
-			<ion-col class="products-list-group-value">{{product_list.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>
-		</ion-row>
-		<ion-row>
-			<ion-col class="products-list-current-value">{{product_list.unit_value}} <span>p/ unidade</span></ion-col>
-		</ion-row>
-		<ion-row>
-			<ion-col class="products-list-quantity-label">
-				<span class="products-list-quantity">
-					<ion-icon name="md-remove"></ion-icon>
-					<span>01</span>
-					<ion-icon name="md-add" class="icon-plus"></ion-icon>
-				</span>
-				<span class="products-list-cart">
-					<ion-icon name="cart"></ion-icon> Adicionar
-				</span>
-			</ion-col>
-		</ion-row>
-	</ion-col>
-</ion-row>
-<ion-row class="products-list-list">
-	<ion-col class="products-list" *ngFor="let product_list of products_list | slice:5:10; let i=index">
+	<ion-col col-2 class="products-list" [class.col-half-offset]="i % 5 !== 0" *ngFor="let product_list of products_list; let i = index">
 		<ion-row class="cursor-pointer" (click)="getProduct()">
 			<ion-col class="products-list-group" col-9>
 				<ion-icon name="netfoods-box"></ion-icon> 
