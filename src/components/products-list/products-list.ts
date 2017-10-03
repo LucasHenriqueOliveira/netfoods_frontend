@@ -16,12 +16,18 @@ export class ProductsListComponent {
 	@Input() products_list: any
 	@Input() name: string
 	@Input() type: string
+	tooltip: any;
 	
 	constructor(public events: Events) {
 		
 	}
 
 	getProduct() {
+		this.tooltip = document.getElementsByTagName("tooltip-box")[0];
+		if(this.tooltip) {
+			this.tooltip.style.visibility = 'hidden';
+		}
+
 		this.events.publish('market_content', { type: 'product', product: {name: 'teste'}});
 	}
 
