@@ -19,9 +19,10 @@ export class ProductComponent {
 	ngOnInit() {
 		this.contentProduct.nativeElement.scrollTop = 0;
 
-		this.tooltip = document.getElementsByTagName("tooltip-box")[0];
-		if(this.tooltip) {
-			this.tooltip.style.visibility = 'hidden';
+		this.tooltip = document.getElementsByTagName("tooltip-box");
+
+		for (let i = 0; i < this.tooltip.length; i++) {
+			this.tooltip[i].style.visibility = "hidden";
 		}
 	}
 

@@ -1795,9 +1795,9 @@ var ProductComponent = (function () {
     }
     ProductComponent.prototype.ngOnInit = function () {
         this.contentProduct.nativeElement.scrollTop = 0;
-        this.tooltip = document.getElementsByTagName("tooltip-box")[0];
-        if (this.tooltip) {
-            this.tooltip.style.visibility = 'hidden';
+        this.tooltip = document.getElementsByTagName("tooltip-box");
+        for (var i = 0; i < this.tooltip.length; i++) {
+            this.tooltip[i].style.visibility = "hidden";
         }
     };
     return ProductComponent;
@@ -1808,7 +1808,7 @@ __decorate([
 ], ProductComponent.prototype, "product", void 0);
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])('contentProduct'),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"])
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"]) === "function" && _a || Object)
 ], ProductComponent.prototype, "contentProduct", void 0);
 ProductComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
@@ -1817,6 +1817,7 @@ ProductComponent = __decorate([
     __metadata("design:paramtypes", [])
 ], ProductComponent);
 
+var _a;
 //# sourceMappingURL=product.js.map
 
 /***/ })
