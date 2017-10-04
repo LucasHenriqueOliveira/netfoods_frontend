@@ -27904,3 +27904,9 @@ ion-slide img {
   right: 7px;
   color: #A82923;
 }
+
+.market .category-subitems {
+  margin: 5px;
+  border-bottom: 1px solid #2989A6;
+  cursor: pointer;
+}

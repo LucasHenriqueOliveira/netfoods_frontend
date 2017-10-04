@@ -9,8 +9,9 @@
 <ion-row>
 	<ion-col>
 		<ion-row class="category-filter">
-			<ion-col>
+			<ion-col col-8>
 				<ion-icon name="ios-funnel-outline"></ion-icon> Filtrar por: 
+				<span class="category-subitems" (click)="getSubItems()" *ngFor="let option of options">{{option.name}}</span>
 			</ion-col>
 			<ion-col class="category-sort" text-right>
 				<span>Ordernar por:</span> Relevância <ion-icon name="ios-arrow-down"></ion-icon>

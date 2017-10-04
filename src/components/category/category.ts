@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnChanges } from '@angular/core';
 
 /**
  * Generated class for the CategoryComponent component.
@@ -10,7 +10,7 @@ import { Component, Input } from '@angular/core';
   selector: 'category',
   templateUrl: 'category.html'
 })
-export class CategoryComponent {
+export class CategoryComponent implements OnChanges {
 
 	@Input() category: any
 
@@ -174,6 +174,60 @@ export class CategoryComponent {
 		unit_value: "R$ 41,90",
 		image: "../assets/img/recommends-products5.png"
 	}];
+
+	items = [{
+		name: "bebidas",
+		subitems: [{
+			name: "água",
+			subsubitems: [{
+				name: "Com gás"
+			}, {
+				name: "Sem gás"
+			}]
+		}, {
+			name: "refrigerante",
+			subsubitems: [{
+				name: "Diet"
+			}, {
+				name: "Light"
+			}, {
+				name: "Normal"
+			}]
+		}, {
+			name: "suco",
+			subsubitems: [{
+				name: "Natural"
+			}, {
+				name: "Integral"
+			}]
+		}, {
+			name: "cerveja",
+			subsubitems: [{
+				name: "Com álcool"
+			}, {
+				name: "Sem álcool"
+			}]
+		}]
+	}];
+
+	options: any
+
+	ngOnChanges(data) {
+		this.options = [];
+		this.getSubItems(data.category.currentValue.type);
+	}
+
+	ngOnInit() {
+		this.getSubItems(this.category['type']);
+	}
+
+	getSubItems(category) {
+		for(var i = 0; i < this.items.length; i++){
+			if(this.items[i].name == category) {
+				this.options = this.items[i].subitems;
+			}
+		}
+	}
 
 	constructor() {
 	}
