@@ -25,6 +25,7 @@ import { FeaturedSuppliersComponent } from '../components/featured-suppliers/fea
 import { SubmenuPopoverComponent } from '../components/submenu-popover/submenu-popover';
 import { ProductComponent } from '../components/product/product';
 import { RatingComponent } from '../components/rating/rating';
+import { CategoryComponent } from '../components/category/category';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { RatingComponent } from '../components/rating/rating';
     FeaturedSuppliersComponent,
     SubmenuPopoverComponent,
     ProductComponent,
-    RatingComponent
+    RatingComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,

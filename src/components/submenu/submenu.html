@@ -1,42 +1,6 @@
 <ion-row class="submenu">
-	<ion-col (click)="go('mercearia', $event)" [class.current]="submenu == 'mercearia'">
-		<ion-icon name="netfoods-groceries"></ion-icon>
-		Mercearia
-	</ion-col>
-	<ion-col (click)="go('hortifruti', $event)" [class.current]="submenu == 'hortifruti'">
-		<ion-icon name="netfoods-carrot"></ion-icon>
-		Hortifruti
-	</ion-col>
-	<ion-col (click)="go('carnes', $event)" [class.current]="submenu == 'carnes'">
-		<ion-icon name="netfoods-steak"></ion-icon>
-		Carnes, Aves e Peixes
-	</ion-col>
-	<ion-col (click)="go('frios', $event)" [class.current]="submenu == 'frios'">
-		<ion-icon name="netfoods-cheese"></ion-icon>
-		Frios e Laticínios
-	</ion-col>
-	<ion-col (click)="go('congelados', $event)" [class.current]="submenu == 'congelados'">
-		<ion-icon name="netfoods-frozen-food"></ion-icon>
-		Congelados
-	</ion-col>
-	<ion-col (click)="go('bebidas', $event)" [class.current]="submenu == 'bebidas'">
-		<ion-icon name="netfoods-alcoholic-drinks"></ion-icon>
-		Bebidas
-	</ion-col>
-	<ion-col (click)="go('confeitaria', $event)" [class.current]="submenu == 'confeitaria'">
-		<ion-icon name="netfoods-cupcake"></ion-icon>
-		Confeitaria
-	</ion-col>
-	<ion-col (click)="go('equipamentos', $event)" [class.current]="submenu == 'equipamentos'">
-		<ion-icon name="netfoods-whisk"></ion-icon>
-		Equipamentos e Utensílios
-	</ion-col>
-	<ion-col (click)="go('limpeza', $event)" [class.current]="submenu == 'limpeza'">
-		<ion-icon name="netfoods-hygienic-items"></ion-icon>
-		Limpeza e Higiene
-	</ion-col>
-	<ion-col (click)="go('embalagem', $event)" [class.current]="submenu == 'embalagem'">
-		<ion-icon name="netfoods-packing"></ion-icon>
-		Embalagem e Descartáveis
+	<ion-col *ngFor="let item of items" (click)="go(item, $event)" [class.current]="submenu.type == item.type">
+		<ion-icon [name]="item.icon"></ion-icon>
+		{{item.name}}
 	</ion-col>
 </ion-row>

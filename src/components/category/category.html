@@ -1,0 +1,22 @@
+<ion-row class="market-content">
+	<ion-col class="breadcrumbs">Mercado <span>> {{category.name}}</span></ion-col>
+</ion-row>
+<ion-row>
+	<ion-col class="category-title">
+		<ion-icon [name]="category.icon"></ion-icon> {{category.name}}
+	</ion-col>
+</ion-row>
+<ion-row>
+	<ion-col>
+		<ion-row class="category-filter">
+			<ion-col>
+				<ion-icon name="ios-funnel-outline"></ion-icon> Filtrar por: 
+			</ion-col>
+			<ion-col class="category-sort" text-right>
+				<span>Ordernar por:</span> Relevância <ion-icon name="ios-arrow-down"></ion-icon>
+			</ion-col>
+		</ion-row>
+	</ion-col>
+</ion-row>
+<products-list [products_list]="products" type="products"></products-list>
+	

@@ -1,151 +1,20 @@
-import { Component, ViewChild } from '@angular/core';
-import { Slides, Events } from 'ionic-angular';
+import { Component, Input } from '@angular/core';
 
 /**
- * Generated class for the MarketComponent component.
+ * Generated class for the CategoryComponent component.
  *
  * See https://angular.io/api/core/Component for more info on Angular
  * Components.
  */
 @Component({
-  selector: 'market',
-  templateUrl: 'market.html'
+  selector: 'category',
+  templateUrl: 'category.html'
 })
-export class MarketComponent {
-  
-	@ViewChild(Slides) slides: Slides;
+export class CategoryComponent {
 
-	ngOnInit() {
-		document.getElementById("contentMarket").scrollIntoView(true);
-	}
-
-	images = [{
-		image: "assets/img/slide1.jpg"
-	}, {
-		image: "assets/img/slide2.jpg"
-	},{
-		image: "assets/img/slide3.jpg"
-	}];
+	@Input() category: any
 
 	products = [{
-		name: "Açaí Orgânico c/ Guaraná",
-		code: "1009072",
-		group: "Grupo PA",
-		current_value: "R$ 18,90",
-		previous_value: "R$ 19,90",
-		average_value: "R$ 19,50",
-		group_value: "R$ 17,90",
-		arrow: "down",
-		image: "../assets/img/acai.jpg"
-	},
-	{
-		name: "Snack Orgânico s/ Casca",
-		code: "1022429",
-		group: "Grupo PA",
-		current_value: "R$ 8,90",
-		previous_value: "R$ 9,90",
-		average_value: "R$ 9,50",
-		group_value: "R$ 17,90",
-		arrow: "down",
-		image: "../assets/img/bio2snack.jpg"
-	},
-	{
-		name: "Bebida Orgânica de Arroz Amêndoa",
-		code: "1041755",
-		group: "Grupo PA",
-		current_value: "R$ 18,90",
-		previous_value: "R$ 17,90",
-		average_value: "R$ 17,50",
-		group_value: "R$ 17,90",
-		arrow: "up",
-		image: "../assets/img/bebida_organica.jpg"
-	},
-	{
-		name: "Ovos Vermelho G/ Orgânicos",
-		code: "3182840",
-		group: "Grupo PA",
-		current_value: "R$ 7,90",
-		previous_value: "R$ 9,90",
-		average_value: "R$ 9,50",
-		group_value: "R$ 17,90",
-		arrow: "down",
-		image: "../assets/img/ovos_organico.png"
-	},
-	{
-		name: "Vinho Argentino T/ Orgânico",
-		code: "1009072",
-		group: "Grupo PA",
-		current_value: "R$ 78,90",
-		previous_value: "R$ 77,90",
-		average_value: "R$ 75,50",
-		group_value: "R$ 17,90",
-		arrow: "up",
-		image: "../assets/img/vinho_tinto.jpg"
-	}];
-
-	recommended_products = [{
-		name: "Nozes sem casca",
-		size: "180g",
-		group: "Qualitá",
-		group_value: "R$ 233,90",
-		unit_value: "R$ 21,90",
-		image: "../assets/img/recommends-products1.png"
-	},
-	{
-		name: "Ovos Vermelho Grandes Org.",
-		size: "Bandeja com 10 uni.",
-		group: "TAEQ",
-		group_value: "R$ 112,90",
-		unit_value: "R$ 10,90",
-		image: "../assets/img/recommends-products2.png"
-	},
-	{
-		name: "Molho de Tomate Pronto",
-		size: "Vidro 500g",
-		group: "Salsaretti",
-		group_value: "R$ 81,90",
-		unit_value: "R$ 7,90",
-		image: "../assets/img/recommends-products3.png"
-	},
-	{
-		name: "Suco de Laranja",
-		size: "Garrafa 1 Litro",
-		group: "Blissimo",
-		group_value: "R$ 91,90",
-		unit_value: "R$ 8,90",
-		image: "../assets/img/recommends-products4.png"
-	},
-	{
-		name: "Azeite de Oliva Extra Virgem",
-		size: "Vidro 500ml",
-		group: "Gallo",
-		group_value: "R$ 400,90",
-		unit_value: "R$ 41,90",
-		image: "../assets/img/recommends-products5.png"
-	}];
-
-	featured_suppliers = [{
-		name: "Produto Orgânico Brasil",
-		image: "../assets/img/company/selo-organico.png"
-	},
-	{
-		name: "Grupo Bimbo",
-		image: "../assets/img/company/ORGANIZACION_GRUPO_BIMBO-01.png"
-	},
-	{
-		name: "Kelloggs",
-		image: "../assets/img/company/Kellogg_s.png"
-	},
-	{
-		name: "Kimberly-Clark",
-		image: "../assets/img/company/KimberlyClark.png"
-	},
-	{
-		name: "Unilever",
-		image: "../assets/img/company/Unilever.jpg"
-	}];
-
-	top_selling_products = [{
 		name: "Nozes sem casca",
 		size: "180g",
 		group: "Qualitá",
@@ -224,39 +93,89 @@ export class MarketComponent {
 		group_value: "R$ 400,90",
 		unit_value: "R$ 41,90",
 		image: "../assets/img/recommends-products5.png"
+	},
+	{
+		name: "Nozes sem casca",
+		size: "180g",
+		group: "Qualitá",
+		group_value: "R$ 233,90",
+		unit_value: "R$ 21,90",
+		image: "../assets/img/recommends-products1.png"
+	},
+	{
+		name: "Ovos Vermelho Grandes Org.",
+		size: "Bandeja com 10 uni.",
+		group: "TAEQ",
+		group_value: "R$ 112,90",
+		unit_value: "R$ 10,90",
+		image: "../assets/img/recommends-products2.png"
+	},
+	{
+		name: "Molho de Tomate Pronto",
+		size: "Vidro 500g",
+		group: "Salsaretti",
+		group_value: "R$ 81,90",
+		unit_value: "R$ 7,90",
+		image: "../assets/img/recommends-products3.png"
+	},
+	{
+		name: "Suco de Laranja",
+		size: "Garrafa 1 Litro",
+		group: "Blissimo",
+		group_value: "R$ 91,90",
+		unit_value: "R$ 8,90",
+		image: "../assets/img/recommends-products4.png"
+	},
+	{
+		name: "Azeite de Oliva Extra Virgem",
+		size: "Vidro 500ml",
+		group: "Gallo",
+		group_value: "R$ 400,90",
+		unit_value: "R$ 41,90",
+		image: "../assets/img/recommends-products5.png"
+	},
+	{
+		name: "Nozes sem casca",
+		size: "180g",
+		group: "Qualitá",
+		group_value: "R$ 233,90",
+		unit_value: "R$ 21,90",
+		image: "../assets/img/recommends-products1.png"
+	},
+	{
+		name: "Ovos Vermelho Grandes Org.",
+		size: "Bandeja com 10 uni.",
+		group: "TAEQ",
+		group_value: "R$ 112,90",
+		unit_value: "R$ 10,90",
+		image: "../assets/img/recommends-products2.png"
+	},
+	{
+		name: "Molho de Tomate Pronto",
+		size: "Vidro 500g",
+		group: "Salsaretti",
+		group_value: "R$ 81,90",
+		unit_value: "R$ 7,90",
+		image: "../assets/img/recommends-products3.png"
+	},
+	{
+		name: "Suco de Laranja",
+		size: "Garrafa 1 Litro",
+		group: "Blissimo",
+		group_value: "R$ 91,90",
+		unit_value: "R$ 8,90",
+		image: "../assets/img/recommends-products4.png"
+	},
+	{
+		name: "Azeite de Oliva Extra Virgem",
+		size: "Vidro 500ml",
+		group: "Gallo",
+		group_value: "R$ 400,90",
+		unit_value: "R$ 41,90",
+		image: "../assets/img/recommends-products5.png"
 	}];
 
-	submenu: string = '';
-	market_content: string = 'home';
-	product: any;
-	
-	constructor(public events: Events) {
-		events.subscribe('submenu', (submenu) => {
-			this.submenu = submenu;
-			this.market_content = 'category';
-		});
-
-		events.subscribe('market_content', (data) => {
-			this.market_content = data['type'];
-			if(this.market_content == 'product') {
-				this.product = data['product'];
-			}
-		});
-	}
-
-	ionViewDidEnter() {
-		this.slides.update();
-	}
-
-	ngAfterViewInit() {
-		this.slides.startAutoplay();
-		this.slides.autoplay = "5000";
-		this.slides.loop = true;
-		this.slides.initialSlide = 0;
-	}
-
-	getProduct() {
-		this.market_content = 'product';
+	constructor() {
 	}
 
 }

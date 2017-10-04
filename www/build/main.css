@@ -26496,6 +26496,10 @@ ion-navbar.toolbar {
   padding-left: 13px;
 }
 
+.padding-top-7 {
+  padding-top: 7px;
+}
+
 .padding-top-10 {
   padding-top: 10px;
 }
@@ -27386,7 +27390,7 @@ tooltip-box {
 .submenu ion-col {
   text-align: center;
   font-size: 10px;
-  padding-top: 7px;
+  padding-top: 10px;
   cursor: pointer;
 }
 
@@ -27464,7 +27468,8 @@ ion-slide img {
 }
 
 .market .products-list-list {
-  margin: 10px 14px;
+  margin: 10px 5px;
+  margin-left: 25px;
   margin-bottom: 35px;
 }
 
@@ -27866,4 +27871,36 @@ ion-slide img {
 
 .market .products-list {
   margin: 10px 0;
+}
+
+.market .category-title {
+  padding-top: 0;
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+.market .category-title ion-icon {
+  color: #A82923;
+}
+
+.market .category-filter {
+  border-top: 1px solid #E6EAEF;
+  border-bottom: 1px solid #E6EAEF;
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.market .category-sort {
+  padding-right: 20px;
+}
+
+.market .category-sort span {
+  font-weight: bold;
+}
+
+.market .category-sort ion-icon {
+  position: absolute;
+  right: 7px;
+  color: #A82923;
 }
