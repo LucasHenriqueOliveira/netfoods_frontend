@@ -66,7 +66,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/pages/home/home.html"*/'<ion-header class="header">\n	<ion-navbar>\n		<!-- Component header -->\n		<header></header>\n	</ion-navbar>\n</ion-header>\n\n<ion-content>\n	<ion-grid no-padding>\n		<ion-row>\n			<!-- Component sidemenu -->\n			<sidemenu></sidemenu>\n\n			<dashboard *ngIf="menu == \'dashboard\'"></dashboard>\n			<market *ngIf="menu == \'market\'"></market>\n		</ion-row>\n	</ion-grid>\n</ion-content>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/pages/home/home.html"*/'<ion-header class="header">\n	<ion-navbar>\n		<!-- Component header -->\n		<header></header>\n	</ion-navbar>\n</ion-header>\n\n<ion-content>\n	<ion-grid no-padding>\n		<ion-row>\n			<!-- Component sidemenu -->\n			<sidemenu></sidemenu>\n\n			<dashboard *ngIf="menu == \'dashboard\'"></dashboard>\n			<market *ngIf="menu == \'market\'"></market>\n			<fast-buy *ngIf="menu == \'fast_buy\'"></fast-buy>\n		</ion-row>\n	</ion-grid>\n</ion-content>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
 ], HomePage);
@@ -121,12 +121,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_product_product__ = __webpack_require__(458);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_rating_rating__ = __webpack_require__(459);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_category_category__ = __webpack_require__(460);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_fast_buy_fast_buy__ = __webpack_require__(461);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -178,7 +180,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_22__components_submenu_popover_submenu_popover__["a" /* SubmenuPopoverComponent */],
             __WEBPACK_IMPORTED_MODULE_23__components_product_product__["a" /* ProductComponent */],
             __WEBPACK_IMPORTED_MODULE_24__components_rating_rating__["a" /* RatingComponent */],
-            __WEBPACK_IMPORTED_MODULE_25__components_category_category__["a" /* CategoryComponent */]
+            __WEBPACK_IMPORTED_MODULE_25__components_category_category__["a" /* CategoryComponent */],
+            __WEBPACK_IMPORTED_MODULE_26__components_fast_buy_fast_buy__["a" /* FastBuyComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -696,7 +699,7 @@ var SidemenuComponent = (function () {
 }());
 SidemenuComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'sidemenu',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/sidemenu/sidemenu.html"*/'<ion-col class="menu" no-padding col-2>\n	<ion-list>\n		<ion-item (click)="go(\'dashboard\')" class="current" [class.current]="sidemenu == \'dashboard\'" text-wrap>\n			<ion-icon name="netfoods-dashboard"></ion-icon> <span>Dashboard</span>\n		</ion-item>\n		<ion-item (click)="go(\'market\')" [class.current]="sidemenu == \'market\'" text-wrap>\n			<ion-icon name="netfoods-cart"></ion-icon> <span>Mercado</span>\n		</ion-item>\n		<ion-item (click)="go(\'purchase\')" [class.current]="sidemenu == \'purchase\'" text-wrap>\n			<ion-icon name="netfoods-fast-buy"></ion-icon> <span>Compra Rápida</span>\n		</ion-item>\n		<ion-item (click)="go(\'orders\')" [class.current]="sidemenu == \'orders\'" text-wrap>\n			<ion-icon name="netfoods-orders"></ion-icon> <span>Pedidos</span>\n		</ion-item>\n		<ion-item (click)="go(\'providers\')" [class.current]="sidemenu == \'providers\'" text-wrap>\n			<ion-icon name="netfoods-restaurant"></ion-icon> <span>Fornecedores</span>\n		</ion-item>\n		<ion-item (click)="go(\'messages\')" [class.current]="sidemenu == \'messages\'" text-wrap>\n			<ion-icon name="netfoods-message"></ion-icon> <span>Mensagens</span>\n			<ion-badge class="badge-blue">3</ion-badge>\n		</ion-item>\n		<ion-item (click)="go(\'settings\')" [class.current]="sidemenu == \'settings\'" text-wrap>\n			<ion-icon name="netfoods-settings"></ion-icon> <span>Configurações</span>\n		</ion-item>\n	</ion-list>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/sidemenu/sidemenu.html"*/
+        selector: 'sidemenu',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/sidemenu/sidemenu.html"*/'<ion-col class="menu" no-padding col-2>\n	<ion-list>\n		<ion-item (click)="go(\'dashboard\')" class="current" [class.current]="sidemenu == \'dashboard\'" text-wrap>\n			<ion-icon name="netfoods-dashboard"></ion-icon> <span>Dashboard</span>\n		</ion-item>\n		<ion-item (click)="go(\'market\')" [class.current]="sidemenu == \'market\'" text-wrap>\n			<ion-icon name="netfoods-cart"></ion-icon> <span>Mercado</span>\n		</ion-item>\n		<ion-item (click)="go(\'fast_buy\')" [class.current]="sidemenu == \'fast_buy\'" text-wrap>\n			<ion-icon name="netfoods-fast-buy"></ion-icon> <span>Compra Rápida</span>\n		</ion-item>\n		<ion-item (click)="go(\'orders\')" [class.current]="sidemenu == \'orders\'" text-wrap>\n			<ion-icon name="netfoods-orders"></ion-icon> <span>Pedidos</span>\n		</ion-item>\n		<ion-item (click)="go(\'providers\')" [class.current]="sidemenu == \'providers\'" text-wrap>\n			<ion-icon name="netfoods-restaurant"></ion-icon> <span>Fornecedores</span>\n		</ion-item>\n		<ion-item (click)="go(\'messages\')" [class.current]="sidemenu == \'messages\'" text-wrap>\n			<ion-icon name="netfoods-message"></ion-icon> <span>Mensagens</span>\n			<ion-badge class="badge-blue">3</ion-badge>\n		</ion-item>\n		<ion-item (click)="go(\'settings\')" [class.current]="sidemenu == \'settings\'" text-wrap>\n			<ion-icon name="netfoods-settings"></ion-icon> <span>Configurações</span>\n		</ion-item>\n	</ion-list>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/sidemenu/sidemenu.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
 ], SidemenuComponent);
@@ -2150,6 +2153,44 @@ CategoryComponent = __decorate([
 ], CategoryComponent);
 
 //# sourceMappingURL=category.js.map
+
+/***/ }),
+
+/***/ 461:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FastBuyComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+/**
+ * Generated class for the FastBuyComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var FastBuyComponent = (function () {
+    function FastBuyComponent() {
+    }
+    return FastBuyComponent;
+}());
+FastBuyComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'fast-buy',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/'<ion-col class="content fast-buy" id="contentFastBuy" no-padding col-10>\n	<submenu></submenu>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/
+    }),
+    __metadata("design:paramtypes", [])
+], FastBuyComponent);
+
+//# sourceMappingURL=fast-buy.js.map
 
 /***/ })
 

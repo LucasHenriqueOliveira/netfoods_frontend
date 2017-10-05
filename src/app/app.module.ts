@@ -26,6 +26,7 @@ import { SubmenuPopoverComponent } from '../components/submenu-popover/submenu-p
 import { ProductComponent } from '../components/product/product';
 import { RatingComponent } from '../components/rating/rating';
 import { CategoryComponent } from '../components/category/category';
+import { FastBuyComponent } from '../components/fast-buy/fast-buy';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { CategoryComponent } from '../components/category/category';
     SubmenuPopoverComponent,
     ProductComponent,
     RatingComponent,
-    CategoryComponent
+    CategoryComponent,
+    FastBuyComponent
   ],
   imports: [
     BrowserModule,
