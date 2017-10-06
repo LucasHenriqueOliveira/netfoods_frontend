@@ -1,8 +1,8 @@
 <ion-row [class.padding-top-7]="source == 'market'">
-	<ion-col class="products-label" col-6>
+	<ion-col class="products-label" [class.padding-left-5]="source == 'fast_buy'" [class.step-title]="source == 'fast_buy'" col-6>
 		{{name}}
 	</ion-col>
-	<ion-col [class.col-4]="source == 'dashboard'">
+	<ion-col [class.col-4]="source == 'dashboard'" *ngIf="source != 'fast_buy'">
 		<ion-item class="products-search">        
 			<ion-label> <ion-icon name="search"></ion-icon></ion-label>
 			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>
@@ -17,14 +17,25 @@
 		</fieldset>
 	</ion-col>
 </ion-row>
+<ion-row *ngIf="source == 'fast_buy'">
+	<ion-col class="step-subtitle">Selecione a quantidade e adicione a seu carrinho</ion-col>
+</ion-row>
+<ion-row *ngIf="source == 'fast_buy'">
+	<ion-col class="no-padding-top">
+		<ion-item class="products-search">        
+			<ion-label> <ion-icon name="search"></ion-icon></ion-label>
+			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>
+		</ion-item>
+	</ion-col>
+</ion-row>
 <ion-row>
-	<ion-col class="quantity-total">
+	<ion-col class="quantity-total" [class.step-quantity]="source == 'fast_buy'">
 		<span *ngIf="qtd_items == 1">{{qtd_items}} produto encontrado</span>
 		<span *ngIf="qtd_items > 1">{{qtd_items}} produtos encontrados</span>
 		<span *ngIf="!qtd_items">Nenhum produto encontrado!</span>
 	</ion-col>
 </ion-row>
-<div class="products-offers-day">
+<div class="products-offers-day" [class.step-suppliers]="source == 'fast_buy'">
 	<ion-row class="product-list" *ngFor="let product of items">
 		<ion-col class="product-box">
 			<ion-row>
@@ -39,11 +50,11 @@
 					</ion-row>
 					<ion-row>
 						<ion-col *ngIf="source == 'dashboard'" class="product-code">Cód.: {{product.code}}</ion-col>
-						<ion-col *ngIf="source == 'market'" class="product-current-value">{{product.current_value}} <span>p/ unidade</span></ion-col>
+						<ion-col *ngIf="source == 'market' || source == 'fast_buy'" class="product-current-value">{{product.current_value}} <span>p/ unidade</span></ion-col>
 					</ion-row>
 					<ion-row>
 						<ion-col *ngIf="source == 'dashboard'" class="product-group">{{product.group}}</ion-col>
-						<ion-col *ngIf="source == 'market'" class="product-group-value">{{product.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>
+						<ion-col *ngIf="source == 'market' || source == 'fast_buy'" class="product-group-value">{{product.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>
 					</ion-row>
 				</ion-col>
 				<ion-col *ngIf="source == 'dashboard'" col-2>

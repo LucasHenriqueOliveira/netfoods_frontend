@@ -1,3 +1,57 @@
 <ion-col class="content fast-buy" id="contentFastBuy" no-padding col-10>
 	<submenu></submenu>
+
+	<ion-row class="fast-buy-content">
+		<ion-col col-3>
+			<div class="step">
+				<ion-row>
+					<ion-col class="step-title">Passo 1</ion-col>
+				</ion-row>
+				<ion-row>
+					<ion-col class="step-subtitle">Selecione o Fornecedor</ion-col>
+				</ion-row>
+				<ion-row>
+					<ion-col class="no-padding-top">
+						<ion-item class="products-search">        
+							<ion-label> <ion-icon name="search"></ion-icon></ion-label>
+							<ion-input clearInput [ngModel]="inputSupplier" (ngModelChange)="getSupplier($event)" placeholder="Buscar"></ion-input>
+						</ion-item>
+					</ion-col>
+				</ion-row>
+				<ion-row>
+					<ion-col class="step-quantity">
+						<span *ngIf="items_quantity">{{items_quantity}} </span>
+						<span *ngIf="items_quantity == 1">fornecedor encontrado</span>
+						<span *ngIf="items_quantity > 1">fornecedores encontrados</span>
+						<span *ngIf="items_quantity == 0"> Nenhum fornecedor encontrado!</span>
+					</ion-col>
+				</ion-row>
+				<ion-row class="step-suppliers">
+					<ion-col>
+						<ion-row class="step-supplier" *ngFor="let supplier of items">
+							<ion-col col-5><img [src]="supplier.image"></ion-col>
+							<ion-col col-7 class="step-supplier-name">{{supplier.name}}</ion-col>
+						</ion-row>
+					</ion-col>
+				</ion-row>
+			</div>
+		</ion-col>
+		<ion-col>
+			<div class="step">
+				<ion-row>
+					<ion-col class="products-box" no-padding>
+						<products [products]="products" source="fast_buy" name="Passo 2"></products>
+					</ion-col>
+				</ion-row>
+			</div>
+		</ion-col>
+		<ion-col col-4 class="step-3">
+			<ion-row>
+				<ion-col class="step-title">Passo 3</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col class="step-subtitle">Confirme seu Pedido</ion-col>
+			</ion-row>
+		</ion-col>
+	</ion-row>
 </ion-col>

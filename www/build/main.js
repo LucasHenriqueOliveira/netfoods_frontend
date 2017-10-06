@@ -1263,7 +1263,7 @@ __decorate([
 ], ProductsComponent.prototype, "source", void 0);
 ProductsComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'products',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products/products.html"*/'<ion-row [class.padding-top-7]="source == \'market\'">\n	<ion-col class="products-label" col-6>\n		{{name}}\n	</ion-col>\n	<ion-col [class.col-4]="source == \'dashboard\'">\n		<ion-item class="products-search">        \n			<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>\n		</ion-item>\n	</ion-col>\n	<ion-col col-2 *ngIf="source == \'dashboard\'">\n		<fieldset>\n			<legend>Filtros</legend>\n			<span>\n				Semana <ion-icon name="ios-arrow-down"></ion-icon>\n			</span>\n		</fieldset>\n	</ion-col>\n</ion-row>\n<ion-row>\n	<ion-col class="quantity-total">\n		<span *ngIf="qtd_items == 1">{{qtd_items}} produto encontrado</span>\n		<span *ngIf="qtd_items > 1">{{qtd_items}} produtos encontrados</span>\n		<span *ngIf="!qtd_items">Nenhum produto encontrado!</span>\n	</ion-col>\n</ion-row>\n<div class="products-offers-day">\n	<ion-row class="product-list" *ngFor="let product of items">\n		<ion-col class="product-box">\n			<ion-row>\n				<ion-col class="cursor-pointer" col-1 (click)="getProduct()">\n					<img [src]="product.image" />\n				</ion-col>\n				<ion-col class="cursor-pointer" [class.col-4]="source == \'dashboard\'" (click)="getProduct()">\n					<ion-row>\n						<ion-col class="product-name" tooltip="{{product.name}}" positionV="bottom" arrow event="hover">\n							{{product.name}}\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col *ngIf="source == \'dashboard\'" class="product-code">Cód.: {{product.code}}</ion-col>\n						<ion-col *ngIf="source == \'market\'" class="product-current-value">{{product.current_value}} <span>p/ unidade</span></ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col *ngIf="source == \'dashboard\'" class="product-group">{{product.group}}</ion-col>\n						<ion-col *ngIf="source == \'market\'" class="product-group-value">{{product.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col *ngIf="source == \'dashboard\'" col-2>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Atual</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Anterior</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Médio</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col *ngIf="source == \'dashboard\'" col-2>\n					<ion-row>\n						<ion-col class="product-current-value down no-padding-top"\n						[class.down]="product.arrow == \'down\'" [class.up]="product.arrow == \'up\'">\n							{{product.current_value}} \n							<ion-icon *ngIf="product.arrow == \'down\'" name="md-arrow-round-down"></ion-icon>\n							<ion-icon *ngIf="product.arrow == \'up\'" name="md-arrow-round-up"></ion-icon>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-previous-value">{{product.previous_value}}</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-average-value">{{product.average_value}}</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="product-cart-quantity">\n					<ion-row>\n						<ion-col>\n							<span class="product-quantity">\n								<ion-icon name="md-remove"></ion-icon>\n								<span>01</span>\n								<ion-icon name="md-add" class="icon-plus"></ion-icon>\n							</span>\n							<span class="product-cart">\n								<ion-icon name="cart"></ion-icon>\n							</span>\n						</ion-col>\n					</ion-row>\n					<ion-row *ngIf="source == \'dashboard\'">\n						<ion-col>\n							<span class="product-price-history">\n								Ver Histórico de Preço\n							</span>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</div>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products/products.html"*/
+        selector: 'products',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products/products.html"*/'<ion-row [class.padding-top-7]="source == \'market\'">\n	<ion-col class="products-label" [class.padding-left-5]="source == \'fast_buy\'" [class.step-title]="source == \'fast_buy\'" col-6>\n		{{name}}\n	</ion-col>\n	<ion-col [class.col-4]="source == \'dashboard\'" *ngIf="source != \'fast_buy\'">\n		<ion-item class="products-search">        \n			<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>\n		</ion-item>\n	</ion-col>\n	<ion-col col-2 *ngIf="source == \'dashboard\'">\n		<fieldset>\n			<legend>Filtros</legend>\n			<span>\n				Semana <ion-icon name="ios-arrow-down"></ion-icon>\n			</span>\n		</fieldset>\n	</ion-col>\n</ion-row>\n<ion-row *ngIf="source == \'fast_buy\'">\n	<ion-col class="step-subtitle">Selecione a quantidade e adicione a seu carrinho</ion-col>\n</ion-row>\n<ion-row *ngIf="source == \'fast_buy\'">\n	<ion-col class="no-padding-top">\n		<ion-item class="products-search">        \n			<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>\n		</ion-item>\n	</ion-col>\n</ion-row>\n<ion-row>\n	<ion-col class="quantity-total" [class.step-quantity]="source == \'fast_buy\'">\n		<span *ngIf="qtd_items == 1">{{qtd_items}} produto encontrado</span>\n		<span *ngIf="qtd_items > 1">{{qtd_items}} produtos encontrados</span>\n		<span *ngIf="!qtd_items">Nenhum produto encontrado!</span>\n	</ion-col>\n</ion-row>\n<div class="products-offers-day" [class.step-suppliers]="source == \'fast_buy\'">\n	<ion-row class="product-list" *ngFor="let product of items">\n		<ion-col class="product-box">\n			<ion-row>\n				<ion-col class="cursor-pointer" col-1 (click)="getProduct()">\n					<img [src]="product.image" />\n				</ion-col>\n				<ion-col class="cursor-pointer" [class.col-4]="source == \'dashboard\'" (click)="getProduct()">\n					<ion-row>\n						<ion-col class="product-name" tooltip="{{product.name}}" positionV="bottom" arrow event="hover">\n							{{product.name}}\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col *ngIf="source == \'dashboard\'" class="product-code">Cód.: {{product.code}}</ion-col>\n						<ion-col *ngIf="source == \'market\' || source == \'fast_buy\'" class="product-current-value">{{product.current_value}} <span>p/ unidade</span></ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col *ngIf="source == \'dashboard\'" class="product-group">{{product.group}}</ion-col>\n						<ion-col *ngIf="source == \'market\' || source == \'fast_buy\'" class="product-group-value">{{product.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col *ngIf="source == \'dashboard\'" col-2>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Atual</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Anterior</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Médio</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col *ngIf="source == \'dashboard\'" col-2>\n					<ion-row>\n						<ion-col class="product-current-value down no-padding-top"\n						[class.down]="product.arrow == \'down\'" [class.up]="product.arrow == \'up\'">\n							{{product.current_value}} \n							<ion-icon *ngIf="product.arrow == \'down\'" name="md-arrow-round-down"></ion-icon>\n							<ion-icon *ngIf="product.arrow == \'up\'" name="md-arrow-round-up"></ion-icon>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-previous-value">{{product.previous_value}}</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-average-value">{{product.average_value}}</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="product-cart-quantity">\n					<ion-row>\n						<ion-col>\n							<span class="product-quantity">\n								<ion-icon name="md-remove"></ion-icon>\n								<span>01</span>\n								<ion-icon name="md-add" class="icon-plus"></ion-icon>\n							</span>\n							<span class="product-cart">\n								<ion-icon name="cart"></ion-icon>\n							</span>\n						</ion-col>\n					</ion-row>\n					<ion-row *ngIf="source == \'dashboard\'">\n						<ion-col>\n							<span class="product-price-history">\n								Ver Histórico de Preço\n							</span>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</div>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products/products.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
 ], ProductsComponent);
@@ -1538,7 +1538,7 @@ __decorate([
 ], MarketComponent.prototype, "slides", void 0);
 MarketComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'market',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/market/market.html"*/'<ion-col class="content market" id="contentMarket" no-padding col-10>\n	<submenu></submenu>\n\n	<div *ngIf="market_content == \'home\'" no-padding>\n		<ion-row class="market-content">\n			<ion-col col-7 class="padding-top-10">\n				<ion-row>\n					<ion-col class="market-title">\n						Ofertas da Semana\n					</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="padding-top-35">\n						<ion-slides>\n							<ion-slide *ngFor="let slide of images">\n								<img [src]="slide.image">\n							</ion-slide>\n						</ion-slides>\n					</ion-col>\n				</ion-row>\n			</ion-col>\n			<ion-col col-5>\n				<ion-row class="products no-margin-top">\n					<ion-col class="products-box" no-padding>\n						<products [products]="products" source="market" name="Ofertas do Dia"></products>\n					</ion-col>\n				</ion-row>\n			</ion-col>\n		</ion-row>\n		\n		<products-list [products_list]="recommended_products" type="recommended-products" name="Produtos Recomendados"></products-list>\n	\n		<featured-suppliers [featured_suppliers]="featured_suppliers"></featured-suppliers>\n	\n		<products-list [products_list]="top_selling_products" type="top-selling-products" name="Produtos Mais Vendidos"></products-list>\n	</div>\n\n	<div *ngIf="market_content == \'category\'">\n		<category [category]="submenu"></category>\n	</div>\n\n	<div *ngIf="market_content == \'product\'">\n		<product [product]="product"></product>\n	</div>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/market/market.html"*/
+        selector: 'market',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/market/market.html"*/'<ion-col class="content market" id="contentMarket" no-padding col-10>\n	<submenu></submenu>\n\n	<div *ngIf="market_content == \'home\'" no-padding>\n		<ion-row class="market-content">\n			<ion-col col-7 class="padding-top-10">\n				<ion-row>\n					<ion-col class="market-title">\n						Ofertas da Semana\n					</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="padding-top-35">\n						<ion-slides>\n							<ion-slide *ngFor="let slide of images">\n								<img [src]="slide.image">\n							</ion-slide>\n						</ion-slides>\n					</ion-col>\n				</ion-row>\n			</ion-col>\n			<ion-col col-5>\n				<ion-row class="products no-margin-top">\n					<ion-col class="products-box" no-padding>\n						<products [products]="products" source="market" name="Ofertas do Dia"></products>\n					</ion-col>\n				</ion-row>\n			</ion-col>\n		</ion-row>\n		\n		<products-list [products_list]="recommended_products" type="recommended-products" name="Produtos Recomendados"></products-list>\n	\n		<featured-suppliers [featured_suppliers]="featured_suppliers"></featured-suppliers>\n	\n		<products-list [products_list]="top_selling_products" type="top-selling-products" name="Produtos Mais Vendidos"></products-list>\n	</div>\n\n	<div *ngIf="market_content == \'category\'">\n		<category [category]="submenu"></category>\n	</div>\n\n	<div class="product" *ngIf="market_content == \'product\'">\n		<product [product]="product"></product>\n	</div>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/market/market.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
 ], MarketComponent);
@@ -2180,12 +2180,108 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  */
 var FastBuyComponent = (function () {
     function FastBuyComponent() {
+        this.suppliers = [{
+                id: 1,
+                name: "Pão de Açucar",
+                image: "../assets/img/pao_de_acucar.png"
+            }, {
+                id: 2,
+                name: "Carrefour",
+                image: "../assets/img/carrefour.png"
+            }, {
+                id: 3,
+                name: "Casa Santa Luzia",
+                image: "../assets/img/casa_santa_luzia.png"
+            }, {
+                id: 4,
+                name: "Walmart",
+                image: "../assets/img/walmart.png"
+            }, {
+                id: 5,
+                name: "Dia %",
+                image: "../assets/img/dia.png"
+            }];
+        this.products = [{
+                name: "Açaí Orgânico c/ Guaraná",
+                code: "1009072",
+                group: "Grupo PA",
+                current_value: "R$ 18,90",
+                previous_value: "R$ 19,90",
+                average_value: "R$ 19,50",
+                group_value: "R$ 17,90",
+                arrow: "down",
+                image: "../assets/img/acai.jpg"
+            },
+            {
+                name: "Snack Orgânico s/ Casca",
+                code: "1022429",
+                group: "Grupo PA",
+                current_value: "R$ 8,90",
+                previous_value: "R$ 9,90",
+                average_value: "R$ 9,50",
+                group_value: "R$ 17,90",
+                arrow: "down",
+                image: "../assets/img/bio2snack.jpg"
+            },
+            {
+                name: "Bebida Orgânica de Arroz Amêndoa",
+                code: "1041755",
+                group: "Grupo PA",
+                current_value: "R$ 18,90",
+                previous_value: "R$ 17,90",
+                average_value: "R$ 17,50",
+                group_value: "R$ 17,90",
+                arrow: "up",
+                image: "../assets/img/bebida_organica.jpg"
+            },
+            {
+                name: "Ovos Vermelho G/ Orgânicos",
+                code: "3182840",
+                group: "Grupo PA",
+                current_value: "R$ 7,90",
+                previous_value: "R$ 9,90",
+                average_value: "R$ 9,50",
+                group_value: "R$ 17,90",
+                arrow: "down",
+                image: "../assets/img/ovos_organico.png"
+            },
+            {
+                name: "Vinho Argentino T/ Orgânico",
+                code: "1009072",
+                group: "Grupo PA",
+                current_value: "R$ 78,90",
+                previous_value: "R$ 77,90",
+                average_value: "R$ 75,50",
+                group_value: "R$ 17,90",
+                arrow: "up",
+                image: "../assets/img/vinho_tinto.jpg"
+            }];
     }
+    FastBuyComponent.prototype.ngOnInit = function () {
+        this.initializeItems();
+    };
+    FastBuyComponent.prototype.initializeItems = function () {
+        this.items = this.suppliers;
+        this.items_quantity = this.items.length;
+    };
+    FastBuyComponent.prototype.getSupplier = function (ev) {
+        // Reset items back to all of the items
+        this.initializeItems();
+        // set val to the value of the searchbar
+        var val = ev;
+        // if the value is an empty string don't filter the items
+        if (val && val.trim() != '') {
+            this.items = this.items.filter(function (item) {
+                return (item.name.toLowerCase().indexOf(val.toLowerCase()) > -1);
+            });
+            this.items_quantity = this.items.length;
+        }
+    };
     return FastBuyComponent;
 }());
 FastBuyComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'fast-buy',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/'<ion-col class="content fast-buy" id="contentFastBuy" no-padding col-10>\n	<submenu></submenu>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/
+        selector: 'fast-buy',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/'<ion-col class="content fast-buy" id="contentFastBuy" no-padding col-10>\n	<submenu></submenu>\n\n	<ion-row class="fast-buy-content">\n		<ion-col col-3>\n			<div class="step">\n				<ion-row>\n					<ion-col class="step-title">Passo 1</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="step-subtitle">Selecione o Fornecedor</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="no-padding-top">\n						<ion-item class="products-search">        \n							<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n							<ion-input clearInput [ngModel]="inputSupplier" (ngModelChange)="getSupplier($event)" placeholder="Buscar"></ion-input>\n						</ion-item>\n					</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="step-quantity">\n						<span *ngIf="items_quantity">{{items_quantity}} </span>\n						<span *ngIf="items_quantity == 1">fornecedor encontrado</span>\n						<span *ngIf="items_quantity > 1">fornecedores encontrados</span>\n						<span *ngIf="items_quantity == 0"> Nenhum fornecedor encontrado!</span>\n					</ion-col>\n				</ion-row>\n				<ion-row class="step-suppliers">\n					<ion-col>\n						<ion-row class="step-supplier" *ngFor="let supplier of items">\n							<ion-col col-5><img [src]="supplier.image"></ion-col>\n							<ion-col col-7 class="step-supplier-name">{{supplier.name}}</ion-col>\n						</ion-row>\n					</ion-col>\n				</ion-row>\n			</div>\n		</ion-col>\n		<ion-col>\n			<div class="step">\n				<ion-row>\n					<ion-col class="products-box" no-padding>\n						<products [products]="products" source="fast_buy" name="Passo 2"></products>\n					</ion-col>\n				</ion-row>\n			</div>\n		</ion-col>\n		<ion-col col-4 class="step-3">\n			<ion-row>\n				<ion-col class="step-title">Passo 3</ion-col>\n			</ion-row>\n			<ion-row>\n				<ion-col class="step-subtitle">Confirme seu Pedido</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], FastBuyComponent);
