@@ -28127,3 +28127,12 @@ ion-slide img {
   text-transform: none;
   border-radius: 4px;
 }
+
+.column-1 {
+  -webkit-box-flex: 0 !important;
+  -webkit-flex: 0 0 8.33333% !important;
+  -ms-flex: 0 0 8.33333% !important;
+  flex: 0 0 8.33333% !important;
+  width: 8.33333% !important;
+  max-width: 8.33333% !important;
+}
