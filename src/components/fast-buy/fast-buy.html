@@ -46,11 +46,78 @@
 			</div>
 		</ion-col>
 		<ion-col col-4 class="step-3">
-			<ion-row>
+			<ion-row class="margin-left-10">
 				<ion-col class="step-title">Passo 3</ion-col>
 			</ion-row>
-			<ion-row>
+			<ion-row class="margin-left-10">
 				<ion-col class="step-subtitle">Confirme seu Pedido</ion-col>
+			</ion-row>
+			<ion-row class="step-subtotal margin-left-15">
+				<ion-col>
+					<span class="step-subtotal-supplier">Multifoods</span>
+					<span class="step-subtotal-quantity">3 itens</span>
+				</ion-col>
+				<ion-col class="step-subtotal-price">
+					R$ 617,90
+				</ion-col>
+			</ion-row>
+			<ion-row class="product-list margin-left-10 step-product-list">
+				<ion-col *ngFor="let item of shopping_cart" class="product-box step-product-box">
+					<ion-row>
+						<ion-col col-2>
+							<img [src]="item.image" />
+						</ion-col>
+						<ion-col>
+							<ion-row>
+								<ion-col class="product-name" tooltip="{{item.name}}" positionV="bottom" arrow event="hover">
+									{{item.name}}
+								</ion-col>			
+							</ion-row>
+							<ion-row>
+								<ion-col class="product-current-value no-padding-bottom">{{item.current_value}} <span>p/ unidade</span></ion-col>
+							</ion-row>
+							<ion-row>
+								<ion-col class="step-product-quantity">Qtd: 10</ion-col>
+							</ion-row>
+						</ion-col>
+						<ion-col col-2 class="step-product-remove">
+							<ion-icon name="netfoods-trash"></ion-icon>
+						</ion-col>
+					</ion-row>
+				</ion-col>
+			</ion-row>
+			<ion-row class="step-total padding-left-10">
+				<ion-col>
+					<ion-row>
+						<ion-col class="step-subtotal-supplier">
+							Multifoods
+						</ion-col>
+						<ion-col class="step-total-text" text-right>
+							valor total do pedido
+						</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col class="step-subtotal-quantity no-padding-top">
+							2 fornecedores
+						</ion-col>
+						<ion-col class="step-total-price no-padding-top" text-right>
+							R$ 617,90
+						</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col text-center>
+							<button ion-button full icon-start class="button-order">
+								<ion-icon name="cart"></ion-icon>
+								Efetuar Pedido
+							</button>
+						</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col class="step-save-order " text-center>
+							Salvar Pedido
+						</ion-col>
+					</ion-row>
+				</ion-col>
 			</ion-row>
 		</ion-col>
 	</ion-row>

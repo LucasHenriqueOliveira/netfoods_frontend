@@ -2256,6 +2256,61 @@ var FastBuyComponent = (function () {
                 arrow: "up",
                 image: "../assets/img/vinho_tinto.jpg"
             }];
+        this.shopping_cart = [{
+                name: "Açaí Orgânico c/ Guaraná",
+                code: "1009072",
+                group: "Grupo PA",
+                current_value: "R$ 18,90",
+                previous_value: "R$ 19,90",
+                average_value: "R$ 19,50",
+                group_value: "R$ 17,90",
+                arrow: "down",
+                image: "../assets/img/acai.jpg"
+            },
+            {
+                name: "Snack Orgânico s/ Casca",
+                code: "1022429",
+                group: "Grupo PA",
+                current_value: "R$ 8,90",
+                previous_value: "R$ 9,90",
+                average_value: "R$ 9,50",
+                group_value: "R$ 17,90",
+                arrow: "down",
+                image: "../assets/img/bio2snack.jpg"
+            },
+            {
+                name: "Bebida Orgânica de Arroz Amêndoa",
+                code: "1041755",
+                group: "Grupo PA",
+                current_value: "R$ 18,90",
+                previous_value: "R$ 17,90",
+                average_value: "R$ 17,50",
+                group_value: "R$ 17,90",
+                arrow: "up",
+                image: "../assets/img/bebida_organica.jpg"
+            },
+            {
+                name: "Ovos Vermelho G/ Orgânicos",
+                code: "3182840",
+                group: "Grupo PA",
+                current_value: "R$ 7,90",
+                previous_value: "R$ 9,90",
+                average_value: "R$ 9,50",
+                group_value: "R$ 17,90",
+                arrow: "down",
+                image: "../assets/img/ovos_organico.png"
+            },
+            {
+                name: "Vinho Argentino T/ Orgânico",
+                code: "1009072",
+                group: "Grupo PA",
+                current_value: "R$ 78,90",
+                previous_value: "R$ 77,90",
+                average_value: "R$ 75,50",
+                group_value: "R$ 17,90",
+                arrow: "up",
+                image: "../assets/img/vinho_tinto.jpg"
+            }];
     }
     FastBuyComponent.prototype.ngOnInit = function () {
         this.initializeItems();
@@ -2281,7 +2336,7 @@ var FastBuyComponent = (function () {
 }());
 FastBuyComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'fast-buy',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/'<ion-col class="content fast-buy" id="contentFastBuy" no-padding col-10>\n	<submenu></submenu>\n\n	<ion-row class="fast-buy-content">\n		<ion-col col-3>\n			<div class="step">\n				<ion-row>\n					<ion-col class="step-title">Passo 1</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="step-subtitle">Selecione o Fornecedor</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="no-padding-top">\n						<ion-item class="products-search">        \n							<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n							<ion-input clearInput [ngModel]="inputSupplier" (ngModelChange)="getSupplier($event)" placeholder="Buscar"></ion-input>\n						</ion-item>\n					</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="step-quantity">\n						<span *ngIf="items_quantity">{{items_quantity}} </span>\n						<span *ngIf="items_quantity == 1">fornecedor encontrado</span>\n						<span *ngIf="items_quantity > 1">fornecedores encontrados</span>\n						<span *ngIf="items_quantity == 0"> Nenhum fornecedor encontrado!</span>\n					</ion-col>\n				</ion-row>\n				<ion-row class="step-suppliers">\n					<ion-col>\n						<ion-row class="step-supplier" *ngFor="let supplier of items">\n							<ion-col col-5><img [src]="supplier.image"></ion-col>\n							<ion-col col-7 class="step-supplier-name">{{supplier.name}}</ion-col>\n						</ion-row>\n					</ion-col>\n				</ion-row>\n			</div>\n		</ion-col>\n		<ion-col>\n			<div class="step">\n				<ion-row>\n					<ion-col class="products-box" no-padding>\n						<products [products]="products" source="fast_buy" name="Passo 2"></products>\n					</ion-col>\n				</ion-row>\n			</div>\n		</ion-col>\n		<ion-col col-4 class="step-3">\n			<ion-row>\n				<ion-col class="step-title">Passo 3</ion-col>\n			</ion-row>\n			<ion-row>\n				<ion-col class="step-subtitle">Confirme seu Pedido</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/
+        selector: 'fast-buy',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/'<ion-col class="content fast-buy" id="contentFastBuy" no-padding col-10>\n	<submenu></submenu>\n\n	<ion-row class="fast-buy-content">\n		<ion-col col-3>\n			<div class="step">\n				<ion-row>\n					<ion-col class="step-title">Passo 1</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="step-subtitle">Selecione o Fornecedor</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="no-padding-top">\n						<ion-item class="products-search">        \n							<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n							<ion-input clearInput [ngModel]="inputSupplier" (ngModelChange)="getSupplier($event)" placeholder="Buscar"></ion-input>\n						</ion-item>\n					</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="step-quantity">\n						<span *ngIf="items_quantity">{{items_quantity}} </span>\n						<span *ngIf="items_quantity == 1">fornecedor encontrado</span>\n						<span *ngIf="items_quantity > 1">fornecedores encontrados</span>\n						<span *ngIf="items_quantity == 0"> Nenhum fornecedor encontrado!</span>\n					</ion-col>\n				</ion-row>\n				<ion-row class="step-suppliers">\n					<ion-col>\n						<ion-row class="step-supplier" *ngFor="let supplier of items">\n							<ion-col col-5><img [src]="supplier.image"></ion-col>\n							<ion-col col-7 class="step-supplier-name">{{supplier.name}}</ion-col>\n						</ion-row>\n					</ion-col>\n				</ion-row>\n			</div>\n		</ion-col>\n		<ion-col>\n			<div class="step">\n				<ion-row>\n					<ion-col class="products-box" no-padding>\n						<products [products]="products" source="fast_buy" name="Passo 2"></products>\n					</ion-col>\n				</ion-row>\n			</div>\n		</ion-col>\n		<ion-col col-4 class="step-3">\n			<ion-row class="margin-left-10">\n				<ion-col class="step-title">Passo 3</ion-col>\n			</ion-row>\n			<ion-row class="margin-left-10">\n				<ion-col class="step-subtitle">Confirme seu Pedido</ion-col>\n			</ion-row>\n			<ion-row class="step-subtotal margin-left-15">\n				<ion-col>\n					<span class="step-subtotal-supplier">Multifoods</span>\n					<span class="step-subtotal-quantity">3 itens</span>\n				</ion-col>\n				<ion-col class="step-subtotal-price">\n					R$ 617,90\n				</ion-col>\n			</ion-row>\n			<ion-row class="product-list margin-left-10 step-product-list">\n				<ion-col *ngFor="let item of shopping_cart" class="product-box step-product-box">\n					<ion-row>\n						<ion-col col-2>\n							<img [src]="item.image" />\n						</ion-col>\n						<ion-col>\n							<ion-row>\n								<ion-col class="product-name" tooltip="{{item.name}}" positionV="bottom" arrow event="hover">\n									{{item.name}}\n								</ion-col>			\n							</ion-row>\n							<ion-row>\n								<ion-col class="product-current-value no-padding-bottom">{{item.current_value}} <span>p/ unidade</span></ion-col>\n							</ion-row>\n							<ion-row>\n								<ion-col class="step-product-quantity">Qtd: 10</ion-col>\n							</ion-row>\n						</ion-col>\n						<ion-col col-2 class="step-product-remove">\n							<ion-icon name="netfoods-trash"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n			<ion-row class="step-total padding-left-10">\n				<ion-col>\n					<ion-row>\n						<ion-col class="step-subtotal-supplier">\n							Multifoods\n						</ion-col>\n						<ion-col class="step-total-text" text-right>\n							valor total do pedido\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="step-subtotal-quantity no-padding-top">\n							2 fornecedores\n						</ion-col>\n						<ion-col class="step-total-price no-padding-top" text-right>\n							R$ 617,90\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-center>\n							<button ion-button full icon-start class="button-order">\n								<ion-icon name="cart"></ion-icon>\n								Efetuar Pedido\n							</button>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="step-save-order " text-center>\n							Salvar Pedido\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], FastBuyComponent);

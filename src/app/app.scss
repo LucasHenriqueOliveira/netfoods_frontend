@@ -44,8 +44,20 @@
     margin-left: 8px;
 }
 
+.margin-left-10 {
+    margin-left: 10px !important;
+}
+
+.margin-left-15 {
+    margin-left: 15px !important;
+}
+
 .margin-top-25 {
     margin-top: 25px;
+}
+
+.margin-top-5 {
+    margin-top: 5px !important;
 }
 
 .margin-right-12 {
@@ -70,6 +82,10 @@
 
 .padding-left-5 {
     padding-left: 5px !important;
+}
+
+.padding-left-10 {
+    padding-left: 10px !important;
 }
 
 .padding-left-13 {
@@ -943,7 +959,7 @@ tooltip-box {
 
 .submenu {
     color: #999;
-    -webkit-box-shadow: 0px 3px 7px 0px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 4px 0px #e0e0e0;
     box-shadow: 2px 2px 4px 0px #e0e0e0;
     position: fixed;
     width: 83%;
@@ -1525,8 +1541,10 @@ ion-slide img {
 .fast-buy .step-3 {
     background-color: #F8F8FA;
     height: 100%;
-    padding: 10px;
     padding-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
 }
 
 .step-quantity {
@@ -1559,6 +1577,105 @@ ion-slide img {
     overflow-y: scroll;
     overflow-x: hidden;
     height: calc(100vh - 320px);
+}
+
+.fast-buy .step-subtotal {
+    border-top: 1px solid #E6EAEF;
+    border-bottom: 1px solid #E6EAEF;
+    padding: 10px 0;
+    margin: 5px;
+}
+
+.fast-buy .step-subtotal-supplier {
+    display: block;
+    color: #A82923;
+    font-size: 13px;
+}
+
+.fast-buy .step-subtotal-quantity {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.fast-buy .step-subtotal-price {
+    color: #73B440;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.fast-buy .step-total-price {
+    color: #73B440;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.fast-buy .step-total-text {
+    color: #73B440;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.fast-buy .step-product-box {
+    box-shadow: 0px 3px 7px 1px #e0e0e0;
+    background-color: #fff;
+}
+
+.fast-buy .step-product-box:first-of-type {
+    margin-top: 5px;
+}
+
+.fast-buy .step-product-quantity {
+    padding-top: 0;
+    padding-bottom: 2px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.fast-buy .step-product-remove {
+    border-left: 1px solid #E6EAEF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.fast-buy .step-total {
+    background-color: #F0F0F0;
+    position: fixed;
+    width: 27.7%;
+    right: 0;
+    bottom: 0;
+}
+
+.fast-buy .step-save-order {
+    color: #2989A6;
+    font-size: 12px;
+    padding-top: 0;
+}
+
+.fast-buy .step-product-list {
+    height: 250px;
+    position: static;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.button-order {
+    background-color: #73B440;
+    text-transform: none;
+    border-radius: 4px;
+}
+
+.button-order:hover {
+    background-color: #2989A6 !important;
+    text-transform: none;
+    border-radius: 4px;
 }
 
 
