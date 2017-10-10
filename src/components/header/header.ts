@@ -12,7 +12,15 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  constructor() {
-  }
+	constructor() {
+	}
 
+	body: any
+	wrapper: any
+	menu: any
+	mask: any
+
+	toggleMessage(ev: any) {
+		
+	}
 }
