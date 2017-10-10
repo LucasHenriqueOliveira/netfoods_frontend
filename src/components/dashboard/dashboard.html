@@ -1,6 +1,6 @@
 <ion-col class="content" id="contentDashboard" col-10>
-	<ion-row>
-		<ion-col col-9>
+	<ion-row class="content-dashboard">
+		<ion-col class="content-center" col-9>
 			<ion-row class="statistics">
 				<ion-col class="statistics-box">
 					<ion-row>
@@ -215,6 +215,8 @@
 				</ion-col>
 			</ion-row>
 		</ion-col>
-		<orders [orders]="orders"></orders>
+		<ion-col class="content-right">
+			<orders [orders]="orders"></orders>
+		</ion-col>
 	</ion-row>
 </ion-col>

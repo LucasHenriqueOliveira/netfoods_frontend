@@ -1,62 +1,62 @@
-<ion-col class="content-right">
-  <ion-row class="margin-top-10">
-    <ion-col col-5 text-center class="orders-label">
-      <span>Pedidos</span>
-    </ion-col>
-    <ion-col col-7>
-      <fieldset (click)="filter($event)">
-        <legend>Filtros</legend>
-        <div [class]="cssStatusCircle"></div>
-        <span>
-          {{status}} <ion-icon name="ios-arrow-down"></ion-icon>
-        </span>
-      </fieldset>
-    </ion-col>
-  </ion-row>
-  <ion-row class="orders" *ngFor="let order of orders">
-    <ion-col class="order">
-      <ion-row>
-        <ion-col class="order-text">	
-          Ordem
-        </ion-col>
-        <div [class]="cssStatusBox" ></div>
-      </ion-row>
-      <ion-row>
-        <ion-col col-7 class="order-number no-padding-top">	
-          {{order.number}}
-        </ion-col>
-        <ion-col col-5 text-right class="order-actions no-padding-top">	
-          <ion-icon name="netfoods-edit"></ion-icon>
-          <ion-icon name="netfoods-trash"></ion-icon>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col class="no-padding-top">	
-          <span class="order-label">Valor</span><br/>
-          <span class="order-value">{{order.value}}</span>
-        </ion-col>
-        <ion-col class="no-padding-top">	
-          <span class="order-label">Data</span><br/>
-          <span class="order-value">{{order.date}}</span>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col class="no-padding-top">	
-          <span class="order-label">{{order.type_label}}</span><br/>
-          <span class="order-value">{{order.providers}}</span>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col class="order-information">
-          <ion-icon *ngIf="order.type_payment == 'card'" name="ios-card"></ion-icon>
-          <ion-icon *ngIf="order.type_payment == 'code'" name="md-barcode"></ion-icon>
-          <ion-icon *ngIf="order.hasMessage" name="ios-chatboxes-outline" class="message-red"></ion-icon>
-        </ion-col>
-        <ion-col text-right class="order-details">	
-          <span>Mais Detalhes</span> 
-          <ion-icon name="ios-arrow-forward"></ion-icon>
-        </ion-col>
-      </ion-row>
-    </ion-col>
-  </ion-row>
-</ion-col>
+<ion-row class="orders-header margin-top-10">
+	<ion-col col-5 text-center class="orders-label">
+		<span>Pedidos</span>
+	</ion-col>
+	<ion-col col-7>
+		<fieldset (click)="filter($event)">
+		<legend>Filtros</legend>
+		<div [class]="cssStatusCircle"></div>
+		<span>
+			{{status}} <ion-icon name="ios-arrow-down"></ion-icon>
+		</span>
+		</fieldset>
+	</ion-col>
+</ion-row>
+<div class="orders-items">
+	<ion-row class="orders" *ngFor="let order of orders">
+		<ion-col class="order">
+			<ion-row>
+			<ion-col class="order-text">	
+				Ordem
+			</ion-col>
+			<div [class]="cssStatusBox" ></div>
+			</ion-row>
+			<ion-row>
+			<ion-col col-7 class="order-number no-padding-top">	
+				{{order.number}}
+			</ion-col>
+			<ion-col col-5 text-right class="order-actions no-padding-top">	
+				<ion-icon name="netfoods-edit"></ion-icon>
+				<ion-icon name="netfoods-trash"></ion-icon>
+			</ion-col>
+			</ion-row>
+			<ion-row>
+			<ion-col class="no-padding-top">	
+				<span class="order-label">Valor</span><br/>
+				<span class="order-value">{{order.value}}</span>
+			</ion-col>
+			<ion-col class="no-padding-top">	
+				<span class="order-label">Data</span><br/>
+				<span class="order-value">{{order.date}}</span>
+			</ion-col>
+			</ion-row>
+			<ion-row>
+			<ion-col class="no-padding-top">	
+				<span class="order-label">{{order.type_label}}</span><br/>
+				<span class="order-value">{{order.providers}}</span>
+			</ion-col>
+			</ion-row>
+			<ion-row>
+			<ion-col class="order-information">
+				<ion-icon *ngIf="order.type_payment == 'card'" name="ios-card"></ion-icon>
+				<ion-icon *ngIf="order.type_payment == 'code'" name="md-barcode"></ion-icon>
+				<ion-icon *ngIf="order.hasMessage" name="ios-chatboxes-outline" class="message-red"></ion-icon>
+			</ion-col>
+			<ion-col text-right class="order-details">	
+				<span>Mais Detalhes</span> 
+				<ion-icon name="ios-arrow-forward"></ion-icon>
+			</ion-col>
+			</ion-row>
+		</ion-col>
+	</ion-row>
+</div>

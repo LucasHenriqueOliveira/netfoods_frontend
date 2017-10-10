@@ -26725,17 +26725,47 @@ ion-badge {
 .content {
   position: absolute;
   right: 0;
+  padding: 0;
+}
+
+.content-dashboard {
+  background-color: #F8F8FA;
+}
+
+.content-center {
+  background-color: #FFF;
 }
 
 .content .content-right {
   background-color: #F8F8FA;
+  padding: 0;
+  /*
+    height: 100%;
+    position: fixed;
+    width: 21%;
+    right: 0;
+    top: 63px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    */
+}
+
+.content .content-right .orders-items {
   height: 100%;
   position: fixed;
-  width: 21%;
-  right: 0;
-  top: 63px;
+  width: 20%;
+  right: 8px;
+  top: 135px;
+  padding-bottom: 90px;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+.content .content-right .orders-header {
+  position: fixed;
+  width: 20%;
+  right: 8px;
+  top: 63px;
 }
 
 .content-right .orders:last-of-type {
@@ -26881,7 +26911,7 @@ legend {
 }
 
 .order {
-  margin: 10px;
+  margin: 5px;
   margin-left: 15px;
   margin-right: 7px;
   border-radius: 4px;
