@@ -26989,9 +26989,26 @@ legend {
   border: 1px solid #F8F8FA;
   margin: 0 7px;
   border-radius: 4px;
-  -webkit-box-shadow: 0px 3px 7px 0px #e0e0e0;
-  box-shadow: 0px 3px 7px 0px #e0e0e0;
+  -webkit-box-shadow: 2px 1px 7px 0px #e0e0e0;
+  box-shadow: 2px 1px 7px 0px #e0e0e0;
   color: #999;
+}
+
+.statistics .statistics-box:hover,
+.charts .charts-box:hover,
+.products .products-box:hover,
+.product-list .product-box:hover,
+.reports .reports-box:hover,
+.report .report-box:hover,
+.activities .activities-box:hover,
+.market .products-list:hover {
+  -webkit-box-shadow: 0px 4px 7px 2px #e0e0e0;
+  box-shadow: 0px 4px 7px 2px #e0e0e0;
+}
+
+.no-hover:hover {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .statistics .img-chart {
@@ -27447,6 +27464,11 @@ tooltip-box {
   cursor: pointer;
 }
 
+.submenu ion-col:hover {
+  background-color: #A82923;
+  color: #FFF;
+}
+
 .submenu .current {
   background-color: #A82923;
   color: #FFF;
@@ -27634,6 +27656,12 @@ ion-slide img {
   background-color: #FFF;
   padding: 5px;
   margin: 0 7px;
+}
+
+.market .featured-suppliers-images ion-col:hover {
+  -webkit-box-shadow: 0px 4px 7px 2px #e0e0e0;
+  box-shadow: 0px 4px 7px 2px #e0e0e0;
+  cursor: pointer;
 }
 
 .breadcrumbs {
@@ -28049,6 +28077,11 @@ ion-slide img {
   box-shadow: 0px 3px 7px 0px #e0e0e0;
   margin-top: 10px;
   cursor: pointer;
+}
+
+.fast-buy .step-supplier:hover {
+  -webkit-box-shadow: 0px 4px 7px 2px #e0e0e0;
+  box-shadow: 0px 4px 7px 2px #e0e0e0;
 }
 
 .fast-buy .step-supplier:first-of-type {

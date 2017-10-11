@@ -146,15 +146,15 @@
 				</ion-col>
 			</ion-row>
 			<ion-row class="products">
-				<ion-col class="products-box">
+				<ion-col class="products-box no-hover">
 					<products [products]="products" source="dashboard" name="Produtos Mais Comprados"></products>
 				</ion-col>
 			</ion-row>
 			<ion-row class="reports">
-				<ion-col class="reports-box">
+				<ion-col class="reports-box no-hover">
 					<suppliers [suppliers]="suppliers"></suppliers>
 				</ion-col>
-				<ion-col class="reports-box no-chart-view">
+				<ion-col class="reports-box no-hover no-chart-view">
 					<div class="no-chart-monitoring">
 						<div class="text-no-chart">
 							<span>Desculpe, nenhum dado está disponível atualmente!</span>
@@ -210,7 +210,7 @@
 						</ion-row>
 					</div>
 				</ion-col>
-				<ion-col class="reports-box">
+				<ion-col class="reports-box no-hover">
 					<activities [activities]="activities"></activities>
 				</ion-col>
 			</ion-row>
