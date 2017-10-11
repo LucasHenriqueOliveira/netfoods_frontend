@@ -139,12 +139,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_rating_rating__ = __webpack_require__(459);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_category_category__ = __webpack_require__(460);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_fast_buy_fast_buy__ = __webpack_require__(461);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__providers_shopping_cart_shopping_cart__ = __webpack_require__(462);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -219,6 +221,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] },
             { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["LOCALE_ID"], useValue: 'pt-BR' },
+            __WEBPACK_IMPORTED_MODULE_27__providers_shopping_cart_shopping_cart__["a" /* ShoppingCartProvider */],
         ]
     })
 ], AppModule);
@@ -1380,43 +1383,48 @@ var MarketComponent = (function () {
                 image: "../assets/img/vinho_tinto.jpg"
             }];
         this.recommended_products = [{
+                id: 1,
                 name: "Nozes sem casca",
                 size: "180g",
                 group: "Qualitá",
-                group_value: "R$ 233,90",
-                unit_value: "R$ 21,90",
+                group_value: 233.90,
+                unit_value: 21.90,
                 image: "../assets/img/recommends-products1.png"
             },
             {
+                id: 2,
                 name: "Ovos Vermelho Grandes Org.",
                 size: "Bandeja com 10 uni.",
                 group: "TAEQ",
-                group_value: "R$ 112,90",
-                unit_value: "R$ 10,90",
+                group_value: 112.90,
+                unit_value: 10.90,
                 image: "../assets/img/recommends-products2.png"
             },
             {
+                id: 3,
                 name: "Molho de Tomate Pronto",
                 size: "Vidro 500g",
                 group: "Salsaretti",
-                group_value: "R$ 81,90",
-                unit_value: "R$ 7,90",
+                group_value: 81.90,
+                unit_value: 7.90,
                 image: "../assets/img/recommends-products3.png"
             },
             {
+                id: 4,
                 name: "Suco de Laranja",
                 size: "Garrafa 1 Litro",
                 group: "Blissimo",
-                group_value: "R$ 91,90",
-                unit_value: "R$ 8,90",
+                group_value: 91.90,
+                unit_value: 8.90,
                 image: "../assets/img/recommends-products4.png"
             },
             {
+                id: 5,
                 name: "Azeite de Oliva Extra Virgem",
                 size: "Vidro 500ml",
                 group: "Gallo",
-                group_value: "R$ 400,90",
-                unit_value: "R$ 41,90",
+                group_value: 400.90,
+                unit_value: 41.90,
                 image: "../assets/img/recommends-products5.png"
             }];
         this.featured_suppliers = [{
@@ -1440,83 +1448,93 @@ var MarketComponent = (function () {
                 image: "../assets/img/company/Unilever.jpg"
             }];
         this.top_selling_products = [{
+                id: 1,
                 name: "Nozes sem casca",
                 size: "180g",
                 group: "Qualitá",
-                group_value: "R$ 233,90",
-                unit_value: "R$ 21,90",
+                group_value: 233.90,
+                unit_value: 21.90,
                 image: "../assets/img/recommends-products1.png"
             },
             {
+                id: 2,
                 name: "Ovos Vermelho Grandes Org.",
                 size: "Bandeja com 10 uni.",
                 group: "TAEQ",
-                group_value: "R$ 112,90",
-                unit_value: "R$ 10,90",
+                group_value: 112.90,
+                unit_value: 10.90,
                 image: "../assets/img/recommends-products2.png"
             },
             {
+                id: 3,
                 name: "Molho de Tomate Pronto",
                 size: "Vidro 500g",
                 group: "Salsaretti",
-                group_value: "R$ 81,90",
-                unit_value: "R$ 7,90",
+                group_value: 81.90,
+                unit_value: 7.90,
                 image: "../assets/img/recommends-products3.png"
             },
             {
+                id: 4,
                 name: "Suco de Laranja",
                 size: "Garrafa 1 Litro",
                 group: "Blissimo",
-                group_value: "R$ 91,90",
-                unit_value: "R$ 8,90",
+                group_value: 91.90,
+                unit_value: 8.90,
                 image: "../assets/img/recommends-products4.png"
             },
             {
+                id: 5,
                 name: "Azeite de Oliva Extra Virgem",
                 size: "Vidro 500ml",
                 group: "Gallo",
-                group_value: "R$ 400,90",
-                unit_value: "R$ 41,90",
+                group_value: 400.90,
+                unit_value: 41.90,
                 image: "../assets/img/recommends-products5.png"
             },
             {
+                id: 6,
                 name: "Nozes sem casca",
                 size: "180g",
                 group: "Qualitá",
-                group_value: "R$ 233,90",
-                unit_value: "R$ 21,90",
+                group_value: 233.90,
+                unit_value: 21.90,
                 image: "../assets/img/recommends-products1.png"
             },
             {
+                id: 7,
                 name: "Ovos Vermelho Grandes Org.",
                 size: "Bandeja com 10 uni.",
                 group: "TAEQ",
-                group_value: "R$ 112,90",
-                unit_value: "R$ 10,90",
+                group_value: 112.90,
+                unit_value: 10.90,
                 image: "../assets/img/recommends-products2.png"
             },
             {
+                id: 8,
                 name: "Molho de Tomate Pronto",
                 size: "Vidro 500g",
                 group: "Salsaretti",
-                group_value: "R$ 81,90",
-                unit_value: "R$ 7,90",
+                group_value: 81.90,
+                unit_value: 7.90,
                 image: "../assets/img/recommends-products3.png"
             },
             {
+                id: 9,
                 name: "Suco de Laranja",
                 size: "Garrafa 1 Litro",
                 group: "Blissimo",
-                group_value: "R$ 91,90",
-                unit_value: "R$ 8,90",
+                group_value: 91.90,
+                unit_value: 8.90,
                 image: "../assets/img/recommends-products4.png"
             },
             {
+                id: 10,
                 name: "Azeite de Oliva Extra Virgem",
                 size: "Vidro 500ml",
                 group: "Gallo",
-                group_value: "R$ 400,90",
-                unit_value: "R$ 41,90",
+                group_value: 400.90,
+                unit_value: 41.90,
                 image: "../assets/img/recommends-products5.png"
             }];
         this.submenu = '';
@@ -1658,6 +1676,7 @@ SubmenuComponent = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductsListComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__ = __webpack_require__(462);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1669,6 +1688,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 /**
  * Generated class for the ProductsListComponent component.
  *
@@ -1676,11 +1696,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Components.
  */
 var ProductsListComponent = (function () {
-    function ProductsListComponent(events) {
+    function ProductsListComponent(events, ShoppingCartProvider) {
         this.events = events;
+        this.ShoppingCartProvider = ShoppingCartProvider;
     }
     ProductsListComponent.prototype.getProduct = function () {
         this.events.publish('market_content', { type: 'product', product: { name: 'teste' } });
+    };
+    ProductsListComponent.prototype.removeItem = function (item) {
+        this.ShoppingCartProvider.removeItem(item);
+    };
+    ProductsListComponent.prototype.addItem = function (item) {
+        this.ShoppingCartProvider.addItem(item);
+    };
+    ProductsListComponent.prototype.hasItem = function (item) {
+        return this.ShoppingCartProvider.hasItem(item);
+    };
+    ProductsListComponent.prototype.labelProduct = function (item) {
+        if (this.hasItem(item)) {
+            return 'Adicionado';
+        }
+        else {
+            return 'Adicionar';
+        }
     };
     return ProductsListComponent;
 }());
@@ -1698,11 +1736,12 @@ __decorate([
 ], ProductsListComponent.prototype, "type", void 0);
 ProductsListComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'products-list',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products-list/products-list.html"*/'<ion-row class="margin-left-8">\n	<ion-col [class.padding-top-35]="type == \'top-selling-products\'" class="market-title">\n		{{name}}\n	</ion-col>\n</ion-row>\n\n<ion-row class="products-list-list">\n	<ion-col col-2 class="products-list" [class.col-half-offset]="i % 5 !== 0" *ngFor="let product_list of products_list; let i = index">\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-group" col-10>\n				<ion-icon name="netfoods-box"></ion-icon> \n				<span class="products-list-group-text">Caixa c/ 10 uni.</span>\n			</ion-col>\n			<ion-col class="products-icon-heart" text-right>\n				<ion-icon name="netfoods-heart"></ion-icon>\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col text-center>\n				<img [src]="product_list.image">\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-group-name no-padding-top">\n				{{product_list.group}}\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-type">\n				<span tooltip="{{product_list.name}}" positionV="bottom" arrow event="hover">{{product_list.name}}</span>\n				<span>{{product_list.group | uppercase}} {{product_list.size}}</span>\n			</ion-col>\n		</ion-row>\n		<ion-row class="padding-top-10">\n			<ion-col class="products-list-group-value">{{product_list.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-current-value">{{product_list.unit_value}} <span>p/ unidade</span></ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-quantity-label">\n				<span class="products-list-quantity">\n					<ion-icon name="md-remove"></ion-icon>\n					<span>01</span>\n					<ion-icon name="md-add" class="icon-plus"></ion-icon>\n				</span>\n				<span class="products-list-cart">\n					<ion-icon name="cart"></ion-icon> Adicionar\n				</span>\n			</ion-col>\n		</ion-row>\n	</ion-col>\n</ion-row>\n'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products-list/products-list.html"*/
+        selector: 'products-list',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products-list/products-list.html"*/'<ion-row class="margin-left-8">\n	<ion-col [class.padding-top-35]="type == \'top-selling-products\'" class="market-title">\n		{{name}}\n	</ion-col>\n</ion-row>\n\n<ion-row class="products-list-list">\n	<ion-col col-2 class="products-list" [class.col-half-offset]="i % 5 !== 0" *ngFor="let product_list of products_list; let i = index">\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-group" col-10>\n				<ion-icon name="netfoods-box"></ion-icon> \n				<span class="products-list-group-text">Caixa c/ 10 uni.</span>\n			</ion-col>\n			<ion-col class="products-icon-heart" text-right>\n				<ion-icon name="netfoods-heart"></ion-icon>\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col text-center>\n				<img [src]="product_list.image">\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-group-name no-padding-top">\n				{{product_list.group}}\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-type">\n				<span tooltip="{{product_list.name}}" positionV="bottom" arrow event="hover">{{product_list.name}}</span>\n				<span>{{product_list.group | uppercase}} {{product_list.size}}</span>\n			</ion-col>\n		</ion-row>\n		<ion-row class="padding-top-10">\n			<ion-col class="products-list-group-value">{{product_list.group_value | currency: \'BRL\': true}} <span>p/ caixa c/ 10 uni.</span></ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-current-value">{{product_list.unit_value | currency: \'BRL\': true}} <span>p/ unidade</span></ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-quantity-label">\n				<span class="products-list-quantity">\n					<ion-icon name="md-remove"></ion-icon>\n					<span>01</span>\n					<ion-icon name="md-add" class="icon-plus"></ion-icon>\n				</span>\n				<span class="products-list-cart" [class.product-has-item]="hasItem(product_list)" (click)="addItem(product_list)">\n					<ion-icon name="cart"></ion-icon> {{labelProduct(product_list)}}\n				</span>\n			</ion-col>\n		</ion-row>\n	</ion-col>\n</ion-row>\n'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products-list/products-list.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__["a" /* ShoppingCartProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__["a" /* ShoppingCartProvider */]) === "function" && _b || Object])
 ], ProductsListComponent);
 
+var _a, _b;
 //# sourceMappingURL=products-list.js.map
 
 /***/ }),
@@ -2359,6 +2398,99 @@ FastBuyComponent = __decorate([
 ], FastBuyComponent);
 
 //# sourceMappingURL=fast-buy.js.map
+
+/***/ }),
+
+/***/ 462:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShoppingCartProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__models_cart_item_model__ = __webpack_require__(465);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/*
+  Generated class for the ShoppingCartProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var ShoppingCartProvider = (function () {
+    function ShoppingCartProvider() {
+        this.items = [];
+    }
+    ShoppingCartProvider.prototype.addItem = function (item) {
+        var foundItem = this.items.find(function (mItem) { return mItem.Item.id === item.id; });
+        if (foundItem) {
+            this.increaseQty(foundItem);
+        }
+        else {
+            this.items.push(new __WEBPACK_IMPORTED_MODULE_2__models_cart_item_model__["a" /* CartItem */](item));
+        }
+    };
+    ShoppingCartProvider.prototype.removeItem = function (item) {
+        this.items.splice(this.items.indexOf(item), 1);
+    };
+    ShoppingCartProvider.prototype.increaseQty = function (item) {
+        item.quantity = item.quantity + 1;
+    };
+    ShoppingCartProvider.prototype.decreaseQty = function (item) {
+        item.quantity = item.quantity - 1;
+        if (item.quantity === 0) {
+            this.removeItem(item);
+        }
+    };
+    ShoppingCartProvider.prototype.hasItem = function (item) {
+        var foundItem = this.items.find(function (mItem) { return mItem.Item.id === item.id; });
+        if (foundItem) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    };
+    return ShoppingCartProvider;
+}());
+ShoppingCartProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+    __metadata("design:paramtypes", [])
+], ShoppingCartProvider);
+
+//# sourceMappingURL=shopping-cart.js.map
+
+/***/ }),
+
+/***/ 465:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CartItem; });
+var CartItem = (function () {
+    function CartItem(Item, quantity) {
+        if (quantity === void 0) { quantity = 1; }
+        this.Item = Item;
+        this.quantity = quantity;
+    }
+    CartItem.prototype.value = function () {
+        return this.Item.unit_value * this.quantity;
+    };
+    return CartItem;
+}());
+
+//# sourceMappingURL=cart-item.model.js.map
 
 /***/ })
 

@@ -27,6 +27,7 @@ import { ProductComponent } from '../components/product/product';
 import { RatingComponent } from '../components/rating/rating';
 import { CategoryComponent } from '../components/category/category';
 import { FastBuyComponent } from '../components/fast-buy/fast-buy';
+import { ShoppingCartProvider } from '../providers/shopping-cart/shopping-cart';
 
 @NgModule({
   declarations: [
@@ -69,6 +70,7 @@ import { FastBuyComponent } from '../components/fast-buy/fast-buy';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     {provide: LOCALE_ID, useValue: 'pt-BR'},
+    ShoppingCartProvider,
   ]
 })
 export class AppModule {}

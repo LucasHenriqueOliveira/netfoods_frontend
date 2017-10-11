@@ -1148,8 +1148,8 @@ ion-slide img {
 
 .market .products-list-quantity .ion-md-remove {
     font-size: 11px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 .market .products-list-quantity span {
@@ -1166,10 +1166,15 @@ ion-slide img {
     font-weight: bold;
     padding-left: 10px;
     padding-right: 10px;
+    cursor: pointer;
 }
 
 .market .products-list-cart ion-icon {
     padding-right: 3px;
+}
+
+.market .product-has-item {
+    background-color: #2989A6;
 }
 
 .market .featured-suppliers {
@@ -1520,10 +1525,6 @@ ion-slide img {
     position: absolute;
     right: 7px;
     color: #A82923;
-}
-
-.market .category-filters {
-    
 }
 
 .market .category-filter-text {

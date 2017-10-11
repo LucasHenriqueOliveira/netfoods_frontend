@@ -32,10 +32,10 @@
 			</ion-col>
 		</ion-row>
 		<ion-row class="padding-top-10">
-			<ion-col class="products-list-group-value">{{product_list.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>
+			<ion-col class="products-list-group-value">{{product_list.group_value | currency: 'BRL': true}} <span>p/ caixa c/ 10 uni.</span></ion-col>
 		</ion-row>
 		<ion-row>
-			<ion-col class="products-list-current-value">{{product_list.unit_value}} <span>p/ unidade</span></ion-col>
+			<ion-col class="products-list-current-value">{{product_list.unit_value | currency: 'BRL': true}} <span>p/ unidade</span></ion-col>
 		</ion-row>
 		<ion-row>
 			<ion-col class="products-list-quantity-label">
@@ -44,8 +44,8 @@
 					<span>01</span>
 					<ion-icon name="md-add" class="icon-plus"></ion-icon>
 				</span>
-				<span class="products-list-cart">
-					<ion-icon name="cart"></ion-icon> Adicionar
+				<span class="products-list-cart" [class.product-has-item]="hasItem(product_list)" (click)="addItem(product_list)">
+					<ion-icon name="cart"></ion-icon> {{labelProduct(product_list)}}
 				</span>
 			</ion-col>
 		</ion-row>
