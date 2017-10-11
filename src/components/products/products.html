@@ -50,11 +50,11 @@
 					</ion-row>
 					<ion-row>
 						<ion-col *ngIf="source == 'dashboard'" class="product-code">Cód.: {{product.code}}</ion-col>
-						<ion-col *ngIf="source == 'market' || source == 'fast_buy'" class="product-current-value">{{product.current_value}} <span>p/ unidade</span></ion-col>
+						<ion-col *ngIf="source == 'market' || source == 'fast_buy'" class="product-current-value">{{product.current_value | currency: 'BRL': true}} <span>p/ unidade</span></ion-col>
 					</ion-row>
 					<ion-row>
 						<ion-col *ngIf="source == 'dashboard'" class="product-group">{{product.group}}</ion-col>
-						<ion-col *ngIf="source == 'market' || source == 'fast_buy'" class="product-group-value">{{product.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>
+						<ion-col *ngIf="source == 'market' || source == 'fast_buy'" class="product-group-value">{{product.group_value | currency: 'BRL': true}} <span>p/ caixa c/ 10 uni.</span></ion-col>
 					</ion-row>
 				</ion-col>
 				<ion-col *ngIf="source == 'dashboard'" col-2>
@@ -72,16 +72,16 @@
 					<ion-row>
 						<ion-col class="product-current-value down no-padding-top"
 						[class.down]="product.arrow == 'down'" [class.up]="product.arrow == 'up'">
-							{{product.current_value}} 
+							{{product.current_value | currency: 'BRL': true}} 
 							<ion-icon *ngIf="product.arrow == 'down'" name="md-arrow-round-down"></ion-icon>
 							<ion-icon *ngIf="product.arrow == 'up'" name="md-arrow-round-up"></ion-icon>
 						</ion-col>
 					</ion-row>
 					<ion-row>
-						<ion-col class="product-previous-value">{{product.previous_value}}</ion-col>
+						<ion-col class="product-previous-value">{{product.previous_value | currency: 'BRL': true}}</ion-col>
 					</ion-row>
 					<ion-row>
-						<ion-col class="product-average-value">{{product.average_value}}</ion-col>
+						<ion-col class="product-average-value">{{product.average_value | currency: 'BRL': true}}</ion-col>
 					</ion-row>
 				</ion-col>
 				<ion-col class="product-cart-quantity">

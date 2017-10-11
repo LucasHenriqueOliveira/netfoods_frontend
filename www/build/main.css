@@ -27156,6 +27156,12 @@ legend {
   margin-left: -4px;
 }
 
+.product-list .product-cart:hover,
+.market .products-list-cart:hover {
+  background-color: #2989A6;
+  cursor: pointer;
+}
+
 .product-list .product-previous-value {
   padding-top: 3px;
   font-size: 12px;

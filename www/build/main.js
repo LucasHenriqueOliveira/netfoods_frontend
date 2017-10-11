@@ -842,9 +842,10 @@ var DashboardComponent = (function () {
                 name: "Açaí Orgânico c/ Guaraná",
                 code: "1009072",
                 group: "Grupo PA",
-                current_value: "R$ 18,90",
-                previous_value: "R$ 19,90",
-                average_value: "R$ 19,50",
+                current_value: 18.90,
+                previous_value: 19.90,
+                average_value: 19.50,
+                group_value: 17.90,
                 arrow: "down",
                 image: "../assets/img/acai.jpg"
             },
@@ -852,9 +853,10 @@ var DashboardComponent = (function () {
                 name: "Snack Orgânico s/ Casca",
                 code: "1022429",
                 group: "Grupo PA",
-                current_value: "R$ 8,90",
-                previous_value: "R$ 9,90",
-                average_value: "R$ 9,50",
+                current_value: 8.90,
+                previous_value: 9.90,
+                average_value: 9.50,
+                group_value: 17.90,
                 arrow: "down",
                 image: "../assets/img/bio2snack.jpg"
             },
@@ -862,9 +864,10 @@ var DashboardComponent = (function () {
                 name: "Bebida Orgânica de Arroz Amêndoa",
                 code: "1041755",
                 group: "Grupo PA",
-                current_value: "R$ 18,90",
-                previous_value: "R$ 17,90",
-                average_value: "R$ 17,50",
+                current_value: 18.90,
+                previous_value: 17.90,
+                average_value: 17.50,
+                group_value: 17.90,
                 arrow: "up",
                 image: "../assets/img/bebida_organica.jpg"
             },
@@ -872,9 +875,10 @@ var DashboardComponent = (function () {
                 name: "Ovos Vermelho G/ Orgânicos",
                 code: "3182840",
                 group: "Grupo PA",
-                current_value: "R$ 7,90",
-                previous_value: "R$ 9,90",
-                average_value: "R$ 9,50",
+                current_value: 7.90,
+                previous_value: 9.90,
+                average_value: 9.50,
+                group_value: 17.90,
                 arrow: "down",
                 image: "../assets/img/ovos_organico.png"
             },
@@ -882,9 +886,10 @@ var DashboardComponent = (function () {
                 name: "Vinho Argentino T/ Orgânico",
                 code: "1009072",
                 group: "Grupo PA",
-                current_value: "R$ 78,90",
-                previous_value: "R$ 77,90",
-                average_value: "R$ 75,50",
+                current_value: 78.90,
+                previous_value: 77.90,
+                average_value: 75.50,
+                group_value: 17.90,
                 arrow: "up",
                 image: "../assets/img/vinho_tinto.jpg"
             }];
@@ -1283,7 +1288,7 @@ __decorate([
 ], ProductsComponent.prototype, "source", void 0);
 ProductsComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'products',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products/products.html"*/'<ion-row [class.padding-top-7]="source == \'market\'">\n	<ion-col class="products-label" [class.padding-left-5]="source == \'fast_buy\'" [class.step-title]="source == \'fast_buy\'" col-6>\n		{{name}}\n	</ion-col>\n	<ion-col [class.col-4]="source == \'dashboard\'" *ngIf="source != \'fast_buy\'">\n		<ion-item class="products-search">        \n			<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>\n		</ion-item>\n	</ion-col>\n	<ion-col col-2 *ngIf="source == \'dashboard\'">\n		<fieldset>\n			<legend>Filtros</legend>\n			<span>\n				Semana <ion-icon name="ios-arrow-down"></ion-icon>\n			</span>\n		</fieldset>\n	</ion-col>\n</ion-row>\n<ion-row *ngIf="source == \'fast_buy\'">\n	<ion-col class="step-subtitle">Selecione a quantidade e adicione a seu carrinho</ion-col>\n</ion-row>\n<ion-row *ngIf="source == \'fast_buy\'">\n	<ion-col class="no-padding-top">\n		<ion-item class="products-search">        \n			<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>\n		</ion-item>\n	</ion-col>\n</ion-row>\n<ion-row>\n	<ion-col class="quantity-total" [class.step-quantity]="source == \'fast_buy\'">\n		<span *ngIf="qtd_items == 1">{{qtd_items}} produto encontrado</span>\n		<span *ngIf="qtd_items > 1">{{qtd_items}} produtos encontrados</span>\n		<span *ngIf="!qtd_items">Nenhum produto encontrado!</span>\n	</ion-col>\n</ion-row>\n<div class="products-offers-day" [class.step-suppliers]="source == \'fast_buy\'">\n	<ion-row class="product-list" *ngFor="let product of items">\n		<ion-col class="product-box">\n			<ion-row>\n				<ion-col class="cursor-pointer" col-2 [class.column-1]="source == \'dashboard\'" (click)="getProduct()">\n					<img [src]="product.image" />\n				</ion-col>\n				<ion-col class="cursor-pointer" [class.col-4]="source == \'dashboard\'" (click)="getProduct()">\n					<ion-row>\n						<ion-col class="product-name" tooltip="{{product.name}}" positionV="bottom" arrow event="hover">\n							{{product.name}}\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col *ngIf="source == \'dashboard\'" class="product-code">Cód.: {{product.code}}</ion-col>\n						<ion-col *ngIf="source == \'market\' || source == \'fast_buy\'" class="product-current-value">{{product.current_value}} <span>p/ unidade</span></ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col *ngIf="source == \'dashboard\'" class="product-group">{{product.group}}</ion-col>\n						<ion-col *ngIf="source == \'market\' || source == \'fast_buy\'" class="product-group-value">{{product.group_value}} <span>p/ caixa c/ 10 uni.</span></ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col *ngIf="source == \'dashboard\'" col-2>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Atual</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Anterior</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Médio</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col *ngIf="source == \'dashboard\'" col-2>\n					<ion-row>\n						<ion-col class="product-current-value down no-padding-top"\n						[class.down]="product.arrow == \'down\'" [class.up]="product.arrow == \'up\'">\n							{{product.current_value}} \n							<ion-icon *ngIf="product.arrow == \'down\'" name="md-arrow-round-down"></ion-icon>\n							<ion-icon *ngIf="product.arrow == \'up\'" name="md-arrow-round-up"></ion-icon>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-previous-value">{{product.previous_value}}</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-average-value">{{product.average_value}}</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="product-cart-quantity">\n					<ion-row>\n						<ion-col>\n							<span class="product-quantity">\n								<ion-icon name="md-remove"></ion-icon>\n								<span>01</span>\n								<ion-icon name="md-add" class="icon-plus"></ion-icon>\n							</span>\n							<span class="product-cart">\n								<ion-icon name="cart"></ion-icon>\n							</span>\n						</ion-col>\n					</ion-row>\n					<ion-row *ngIf="source == \'dashboard\'">\n						<ion-col>\n							<span class="product-price-history">\n								Ver Histórico de Preço\n							</span>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</div>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products/products.html"*/
+        selector: 'products',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products/products.html"*/'<ion-row [class.padding-top-7]="source == \'market\'">\n	<ion-col class="products-label" [class.padding-left-5]="source == \'fast_buy\'" [class.step-title]="source == \'fast_buy\'" col-6>\n		{{name}}\n	</ion-col>\n	<ion-col [class.col-4]="source == \'dashboard\'" *ngIf="source != \'fast_buy\'">\n		<ion-item class="products-search">        \n			<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>\n		</ion-item>\n	</ion-col>\n	<ion-col col-2 *ngIf="source == \'dashboard\'">\n		<fieldset>\n			<legend>Filtros</legend>\n			<span>\n				Semana <ion-icon name="ios-arrow-down"></ion-icon>\n			</span>\n		</fieldset>\n	</ion-col>\n</ion-row>\n<ion-row *ngIf="source == \'fast_buy\'">\n	<ion-col class="step-subtitle">Selecione a quantidade e adicione a seu carrinho</ion-col>\n</ion-row>\n<ion-row *ngIf="source == \'fast_buy\'">\n	<ion-col class="no-padding-top">\n		<ion-item class="products-search">        \n			<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>\n		</ion-item>\n	</ion-col>\n</ion-row>\n<ion-row>\n	<ion-col class="quantity-total" [class.step-quantity]="source == \'fast_buy\'">\n		<span *ngIf="qtd_items == 1">{{qtd_items}} produto encontrado</span>\n		<span *ngIf="qtd_items > 1">{{qtd_items}} produtos encontrados</span>\n		<span *ngIf="!qtd_items">Nenhum produto encontrado!</span>\n	</ion-col>\n</ion-row>\n<div class="products-offers-day" [class.step-suppliers]="source == \'fast_buy\'">\n	<ion-row class="product-list" *ngFor="let product of items">\n		<ion-col class="product-box">\n			<ion-row>\n				<ion-col class="cursor-pointer" col-2 [class.column-1]="source == \'dashboard\'" (click)="getProduct()">\n					<img [src]="product.image" />\n				</ion-col>\n				<ion-col class="cursor-pointer" [class.col-4]="source == \'dashboard\'" (click)="getProduct()">\n					<ion-row>\n						<ion-col class="product-name" tooltip="{{product.name}}" positionV="bottom" arrow event="hover">\n							{{product.name}}\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col *ngIf="source == \'dashboard\'" class="product-code">Cód.: {{product.code}}</ion-col>\n						<ion-col *ngIf="source == \'market\' || source == \'fast_buy\'" class="product-current-value">{{product.current_value | currency: \'BRL\': true}} <span>p/ unidade</span></ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col *ngIf="source == \'dashboard\'" class="product-group">{{product.group}}</ion-col>\n						<ion-col *ngIf="source == \'market\' || source == \'fast_buy\'" class="product-group-value">{{product.group_value | currency: \'BRL\': true}} <span>p/ caixa c/ 10 uni.</span></ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col *ngIf="source == \'dashboard\'" col-2>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Atual</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Anterior</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Médio</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col *ngIf="source == \'dashboard\'" col-2>\n					<ion-row>\n						<ion-col class="product-current-value down no-padding-top"\n						[class.down]="product.arrow == \'down\'" [class.up]="product.arrow == \'up\'">\n							{{product.current_value | currency: \'BRL\': true}} \n							<ion-icon *ngIf="product.arrow == \'down\'" name="md-arrow-round-down"></ion-icon>\n							<ion-icon *ngIf="product.arrow == \'up\'" name="md-arrow-round-up"></ion-icon>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-previous-value">{{product.previous_value | currency: \'BRL\': true}}</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-average-value">{{product.average_value | currency: \'BRL\': true}}</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="product-cart-quantity">\n					<ion-row>\n						<ion-col>\n							<span class="product-quantity">\n								<ion-icon name="md-remove"></ion-icon>\n								<span>01</span>\n								<ion-icon name="md-add" class="icon-plus"></ion-icon>\n							</span>\n							<span class="product-cart">\n								<ion-icon name="cart"></ion-icon>\n							</span>\n						</ion-col>\n					</ion-row>\n					<ion-row *ngIf="source == \'dashboard\'">\n						<ion-col>\n							<span class="product-price-history">\n								Ver Histórico de Preço\n							</span>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</div>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products/products.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
 ], ProductsComponent);
@@ -1331,10 +1336,10 @@ var MarketComponent = (function () {
                 name: "Açaí Orgânico c/ Guaraná",
                 code: "1009072",
                 group: "Grupo PA",
-                current_value: "R$ 18,90",
-                previous_value: "R$ 19,90",
-                average_value: "R$ 19,50",
-                group_value: "R$ 17,90",
+                current_value: 18.90,
+                previous_value: 19.90,
+                average_value: 19.50,
+                group_value: 17.90,
                 arrow: "down",
                 image: "../assets/img/acai.jpg"
             },
@@ -1342,10 +1347,10 @@ var MarketComponent = (function () {
                 name: "Snack Orgânico s/ Casca",
                 code: "1022429",
                 group: "Grupo PA",
-                current_value: "R$ 8,90",
-                previous_value: "R$ 9,90",
-                average_value: "R$ 9,50",
-                group_value: "R$ 17,90",
+                current_value: 8.90,
+                previous_value: 9.90,
+                average_value: 9.50,
+                group_value: 17.90,
                 arrow: "down",
                 image: "../assets/img/bio2snack.jpg"
             },
@@ -1353,10 +1358,10 @@ var MarketComponent = (function () {
                 name: "Bebida Orgânica de Arroz Amêndoa",
                 code: "1041755",
                 group: "Grupo PA",
-                current_value: "R$ 18,90",
-                previous_value: "R$ 17,90",
-                average_value: "R$ 17,50",
-                group_value: "R$ 17,90",
+                current_value: 18.90,
+                previous_value: 17.90,
+                average_value: 17.50,
+                group_value: 17.90,
                 arrow: "up",
                 image: "../assets/img/bebida_organica.jpg"
             },
@@ -1364,10 +1369,10 @@ var MarketComponent = (function () {
                 name: "Ovos Vermelho G/ Orgânicos",
                 code: "3182840",
                 group: "Grupo PA",
-                current_value: "R$ 7,90",
-                previous_value: "R$ 9,90",
-                average_value: "R$ 9,50",
-                group_value: "R$ 17,90",
+                current_value: 7.90,
+                previous_value: 9.90,
+                average_value: 9.50,
+                group_value: 17.90,
                 arrow: "down",
                 image: "../assets/img/ovos_organico.png"
             },
@@ -1375,10 +1380,10 @@ var MarketComponent = (function () {
                 name: "Vinho Argentino T/ Orgânico",
                 code: "1009072",
                 group: "Grupo PA",
-                current_value: "R$ 78,90",
-                previous_value: "R$ 77,90",
-                average_value: "R$ 75,50",
-                group_value: "R$ 17,90",
+                current_value: 78.90,
+                previous_value: 77.90,
+                average_value: 75.50,
+                group_value: 17.90,
                 arrow: "up",
                 image: "../assets/img/vinho_tinto.jpg"
             }];
@@ -1738,10 +1743,9 @@ ProductsListComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'products-list',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products-list/products-list.html"*/'<ion-row class="margin-left-8">\n	<ion-col [class.padding-top-35]="type == \'top-selling-products\'" class="market-title">\n		{{name}}\n	</ion-col>\n</ion-row>\n\n<ion-row class="products-list-list">\n	<ion-col col-2 class="products-list" [class.col-half-offset]="i % 5 !== 0" *ngFor="let product_list of products_list; let i = index">\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-group" col-10>\n				<ion-icon name="netfoods-box"></ion-icon> \n				<span class="products-list-group-text">Caixa c/ 10 uni.</span>\n			</ion-col>\n			<ion-col class="products-icon-heart" text-right>\n				<ion-icon name="netfoods-heart"></ion-icon>\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col text-center>\n				<img [src]="product_list.image">\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-group-name no-padding-top">\n				{{product_list.group}}\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-type">\n				<span tooltip="{{product_list.name}}" positionV="bottom" arrow event="hover">{{product_list.name}}</span>\n				<span>{{product_list.group | uppercase}} {{product_list.size}}</span>\n			</ion-col>\n		</ion-row>\n		<ion-row class="padding-top-10">\n			<ion-col class="products-list-group-value">{{product_list.group_value | currency: \'BRL\': true}} <span>p/ caixa c/ 10 uni.</span></ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-current-value">{{product_list.unit_value | currency: \'BRL\': true}} <span>p/ unidade</span></ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-quantity-label">\n				<span class="products-list-quantity">\n					<ion-icon name="md-remove"></ion-icon>\n					<span>01</span>\n					<ion-icon name="md-add" class="icon-plus"></ion-icon>\n				</span>\n				<span class="products-list-cart" [class.product-has-item]="hasItem(product_list)" (click)="addItem(product_list)">\n					<ion-icon name="cart"></ion-icon> {{labelProduct(product_list)}}\n				</span>\n			</ion-col>\n		</ion-row>\n	</ion-col>\n</ion-row>\n'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products-list/products-list.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__["a" /* ShoppingCartProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__["a" /* ShoppingCartProvider */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */], __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__["a" /* ShoppingCartProvider */]])
 ], ProductsListComponent);
 
-var _a, _b;
 //# sourceMappingURL=products-list.js.map
 
 /***/ }),
@@ -1987,163 +1991,182 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var CategoryComponent = (function () {
     function CategoryComponent() {
         this.products = [{
+                id: 1,
                 name: "Nozes sem casca",
                 size: "180g",
                 group: "Qualitá",
-                group_value: "R$ 233,90",
-                unit_value: "R$ 21,90",
+                group_value: 233.90,
+                unit_value: 21.90,
                 image: "../assets/img/recommends-products1.png"
             },
             {
+                id: 2,
                 name: "Ovos Vermelho Grandes Org.",
                 size: "Bandeja com 10 uni.",
                 group: "TAEQ",
-                group_value: "R$ 112,90",
-                unit_value: "R$ 10,90",
+                group_value: 112.90,
+                unit_value: 10.90,
                 image: "../assets/img/recommends-products2.png"
             },
             {
+                id: 3,
                 name: "Molho de Tomate Pronto",
                 size: "Vidro 500g",
                 group: "Salsaretti",
-                group_value: "R$ 81,90",
-                unit_value: "R$ 7,90",
+                group_value: 81.90,
+                unit_value: 7.90,
                 image: "../assets/img/recommends-products3.png"
             },
             {
+                id: 4,
                 name: "Suco de Laranja",
                 size: "Garrafa 1 Litro",
                 group: "Blissimo",
-                group_value: "R$ 91,90",
-                unit_value: "R$ 8,90",
+                group_value: 91.90,
+                unit_value: 8.90,
                 image: "../assets/img/recommends-products4.png"
             },
             {
+                id: 5,
                 name: "Azeite de Oliva Extra Virgem",
                 size: "Vidro 500ml",
                 group: "Gallo",
-                group_value: "R$ 400,90",
-                unit_value: "R$ 41,90",
+                group_value: 400.90,
+                unit_value: 41.90,
                 image: "../assets/img/recommends-products5.png"
             },
             {
+                id: 6,
                 name: "Nozes sem casca",
                 size: "180g",
                 group: "Qualitá",
-                group_value: "R$ 233,90",
-                unit_value: "R$ 21,90",
+                group_value: 233.90,
+                unit_value: 21.90,
                 image: "../assets/img/recommends-products1.png"
             },
             {
+                id: 7,
                 name: "Ovos Vermelho Grandes Org.",
                 size: "Bandeja com 10 uni.",
                 group: "TAEQ",
-                group_value: "R$ 112,90",
-                unit_value: "R$ 10,90",
+                group_value: 112.90,
+                unit_value: 10.90,
                 image: "../assets/img/recommends-products2.png"
             },
             {
+                id: 8,
                 name: "Molho de Tomate Pronto",
                 size: "Vidro 500g",
                 group: "Salsaretti",
-                group_value: "R$ 81,90",
-                unit_value: "R$ 7,90",
+                group_value: 81.90,
+                unit_value: 7.90,
                 image: "../assets/img/recommends-products3.png"
             },
             {
+                id: 9,
                 name: "Suco de Laranja",
                 size: "Garrafa 1 Litro",
                 group: "Blissimo",
-                group_value: "R$ 91,90",
-                unit_value: "R$ 8,90",
+                group_value: 91.90,
+                unit_value: 8.90,
                 image: "../assets/img/recommends-products4.png"
             },
             {
+                id: 10,
                 name: "Azeite de Oliva Extra Virgem",
                 size: "Vidro 500ml",
                 group: "Gallo",
-                group_value: "R$ 400,90",
-                unit_value: "R$ 41,90",
+                group_value: 400.90,
+                unit_value: 41.90,
+                image: "../assets/img/recommends-products5.png"
+            }, {
+                id: 1,
+                name: "Nozes sem casca",
+                size: "180g",
+                group: "Qualitá",
+                group_value: 233.90,
+                unit_value: 21.90,
+                image: "../assets/img/recommends-products1.png"
+            },
+            {
+                id: 2,
+                name: "Ovos Vermelho Grandes Org.",
+                size: "Bandeja com 10 uni.",
+                group: "TAEQ",
+                group_value: 112.90,
+                unit_value: 10.90,
+                image: "../assets/img/recommends-products2.png"
+            },
+            {
+                id: 3,
+                name: "Molho de Tomate Pronto",
+                size: "Vidro 500g",
+                group: "Salsaretti",
+                group_value: 81.90,
+                unit_value: 7.90,
+                image: "../assets/img/recommends-products3.png"
+            },
+            {
+                id: 4,
+                name: "Suco de Laranja",
+                size: "Garrafa 1 Litro",
+                group: "Blissimo",
+                group_value: 91.90,
+                unit_value: 8.90,
+                image: "../assets/img/recommends-products4.png"
+            },
+            {
+                id: 5,
+                name: "Azeite de Oliva Extra Virgem",
+                size: "Vidro 500ml",
+                group: "Gallo",
+                group_value: 400.90,
+                unit_value: 41.90,
                 image: "../assets/img/recommends-products5.png"
             },
             {
+                id: 6,
                 name: "Nozes sem casca",
                 size: "180g",
                 group: "Qualitá",
-                group_value: "R$ 233,90",
-                unit_value: "R$ 21,90",
+                group_value: 233.90,
+                unit_value: 21.90,
                 image: "../assets/img/recommends-products1.png"
             },
             {
+                id: 7,
                 name: "Ovos Vermelho Grandes Org.",
                 size: "Bandeja com 10 uni.",
                 group: "TAEQ",
-                group_value: "R$ 112,90",
-                unit_value: "R$ 10,90",
+                group_value: 112.90,
+                unit_value: 10.90,
                 image: "../assets/img/recommends-products2.png"
             },
             {
+                id: 8,
                 name: "Molho de Tomate Pronto",
                 size: "Vidro 500g",
                 group: "Salsaretti",
-                group_value: "R$ 81,90",
-                unit_value: "R$ 7,90",
+                group_value: 81.90,
+                unit_value: 7.90,
                 image: "../assets/img/recommends-products3.png"
             },
             {
+                id: 9,
                 name: "Suco de Laranja",
                 size: "Garrafa 1 Litro",
                 group: "Blissimo",
-                group_value: "R$ 91,90",
-                unit_value: "R$ 8,90",
+                group_value: 91.90,
+                unit_value: 8.90,
                 image: "../assets/img/recommends-products4.png"
             },
             {
+                id: 10,
                 name: "Azeite de Oliva Extra Virgem",
                 size: "Vidro 500ml",
                 group: "Gallo",
-                group_value: "R$ 400,90",
-                unit_value: "R$ 41,90",
-                image: "../assets/img/recommends-products5.png"
-            },
-            {
-                name: "Nozes sem casca",
-                size: "180g",
-                group: "Qualitá",
-                group_value: "R$ 233,90",
-                unit_value: "R$ 21,90",
-                image: "../assets/img/recommends-products1.png"
-            },
-            {
-                name: "Ovos Vermelho Grandes Org.",
-                size: "Bandeja com 10 uni.",
-                group: "TAEQ",
-                group_value: "R$ 112,90",
-                unit_value: "R$ 10,90",
-                image: "../assets/img/recommends-products2.png"
-            },
-            {
-                name: "Molho de Tomate Pronto",
-                size: "Vidro 500g",
-                group: "Salsaretti",
-                group_value: "R$ 81,90",
-                unit_value: "R$ 7,90",
-                image: "../assets/img/recommends-products3.png"
-            },
-            {
-                name: "Suco de Laranja",
-                size: "Garrafa 1 Litro",
-                group: "Blissimo",
-                group_value: "R$ 91,90",
-                unit_value: "R$ 8,90",
-                image: "../assets/img/recommends-products4.png"
-            },
-            {
-                name: "Azeite de Oliva Extra Virgem",
-                size: "Vidro 500ml",
-                group: "Gallo",
-                group_value: "R$ 400,90",
-                unit_value: "R$ 41,90",
+                group_value: 400.90,
+                unit_value: 41.90,
                 image: "../assets/img/recommends-products5.png"
             }];
         this.items = [{
@@ -2261,10 +2284,10 @@ var FastBuyComponent = (function () {
                 name: "Açaí Orgânico c/ Guaraná",
                 code: "1009072",
                 group: "Grupo PA",
-                current_value: "R$ 18,90",
-                previous_value: "R$ 19,90",
-                average_value: "R$ 19,50",
-                group_value: "R$ 17,90",
+                current_value: 18.90,
+                previous_value: 19.90,
+                average_value: 19.50,
+                group_value: 17.90,
                 arrow: "down",
                 image: "../assets/img/acai.jpg"
             },
@@ -2272,10 +2295,10 @@ var FastBuyComponent = (function () {
                 name: "Snack Orgânico s/ Casca",
                 code: "1022429",
                 group: "Grupo PA",
-                current_value: "R$ 8,90",
-                previous_value: "R$ 9,90",
-                average_value: "R$ 9,50",
-                group_value: "R$ 17,90",
+                current_value: 8.90,
+                previous_value: 9.90,
+                average_value: 9.50,
+                group_value: 17.90,
                 arrow: "down",
                 image: "../assets/img/bio2snack.jpg"
             },
@@ -2283,10 +2306,10 @@ var FastBuyComponent = (function () {
                 name: "Bebida Orgânica de Arroz Amêndoa",
                 code: "1041755",
                 group: "Grupo PA",
-                current_value: "R$ 18,90",
-                previous_value: "R$ 17,90",
-                average_value: "R$ 17,50",
-                group_value: "R$ 17,90",
+                current_value: 18.90,
+                previous_value: 17.90,
+                average_value: 17.50,
+                group_value: 17.90,
                 arrow: "up",
                 image: "../assets/img/bebida_organica.jpg"
             },
@@ -2294,10 +2317,10 @@ var FastBuyComponent = (function () {
                 name: "Ovos Vermelho G/ Orgânicos",
                 code: "3182840",
                 group: "Grupo PA",
-                current_value: "R$ 7,90",
-                previous_value: "R$ 9,90",
-                average_value: "R$ 9,50",
-                group_value: "R$ 17,90",
+                current_value: 7.90,
+                previous_value: 9.90,
+                average_value: 9.50,
+                group_value: 17.90,
                 arrow: "down",
                 image: "../assets/img/ovos_organico.png"
             },
@@ -2305,10 +2328,10 @@ var FastBuyComponent = (function () {
                 name: "Vinho Argentino T/ Orgânico",
                 code: "1009072",
                 group: "Grupo PA",
-                current_value: "R$ 78,90",
-                previous_value: "R$ 77,90",
-                average_value: "R$ 75,50",
-                group_value: "R$ 17,90",
+                current_value: 78.90,
+                previous_value: 77.90,
+                average_value: 75.50,
+                group_value: 17.90,
                 arrow: "up",
                 image: "../assets/img/vinho_tinto.jpg"
             }];
@@ -2316,10 +2339,10 @@ var FastBuyComponent = (function () {
                 name: "Açaí Orgânico c/ Guaraná",
                 code: "1009072",
                 group: "Grupo PA",
-                current_value: "R$ 18,90",
-                previous_value: "R$ 19,90",
-                average_value: "R$ 19,50",
-                group_value: "R$ 17,90",
+                current_value: 18.90,
+                previous_value: 19.90,
+                average_value: 19.50,
+                group_value: 17.90,
                 arrow: "down",
                 image: "../assets/img/acai.jpg"
             },
@@ -2327,10 +2350,10 @@ var FastBuyComponent = (function () {
                 name: "Snack Orgânico s/ Casca",
                 code: "1022429",
                 group: "Grupo PA",
-                current_value: "R$ 8,90",
-                previous_value: "R$ 9,90",
-                average_value: "R$ 9,50",
-                group_value: "R$ 17,90",
+                current_value: 8.90,
+                previous_value: 9.90,
+                average_value: 9.50,
+                group_value: 17.90,
                 arrow: "down",
                 image: "../assets/img/bio2snack.jpg"
             },
@@ -2338,10 +2361,10 @@ var FastBuyComponent = (function () {
                 name: "Bebida Orgânica de Arroz Amêndoa",
                 code: "1041755",
                 group: "Grupo PA",
-                current_value: "R$ 18,90",
-                previous_value: "R$ 17,90",
-                average_value: "R$ 17,50",
-                group_value: "R$ 17,90",
+                current_value: 18.90,
+                previous_value: 17.90,
+                average_value: 17.50,
+                group_value: 17.90,
                 arrow: "up",
                 image: "../assets/img/bebida_organica.jpg"
             },
@@ -2349,10 +2372,10 @@ var FastBuyComponent = (function () {
                 name: "Ovos Vermelho G/ Orgânicos",
                 code: "3182840",
                 group: "Grupo PA",
-                current_value: "R$ 7,90",
-                previous_value: "R$ 9,90",
-                average_value: "R$ 9,50",
-                group_value: "R$ 17,90",
+                current_value: 7.90,
+                previous_value: 9.90,
+                average_value: 9.50,
+                group_value: 17.90,
                 arrow: "down",
                 image: "../assets/img/ovos_organico.png"
             },
@@ -2360,10 +2383,10 @@ var FastBuyComponent = (function () {
                 name: "Vinho Argentino T/ Orgânico",
                 code: "1009072",
                 group: "Grupo PA",
-                current_value: "R$ 78,90",
-                previous_value: "R$ 77,90",
-                average_value: "R$ 75,50",
-                group_value: "R$ 17,90",
+                current_value: 78.90,
+                previous_value: 77.90,
+                average_value: 75.50,
+                group_value: 17.90,
                 arrow: "up",
                 image: "../assets/img/vinho_tinto.jpg"
             }];

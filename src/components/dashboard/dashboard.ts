@@ -104,52 +104,57 @@ export class DashboardComponent {
 		name: "Açaí Orgânico c/ Guaraná",
 		code: "1009072",
 		group: "Grupo PA",
-		current_value: "R$ 18,90",
-		previous_value: "R$ 19,90",
-		average_value: "R$ 19,50",
+		current_value: 18.90,
+		previous_value: 19.90,
+		average_value: 19.50,
+		group_value: 17.90,
 		arrow: "down",
 		image: "../assets/img/acai.jpg"
-    },
-    {
+	},
+	{
 		name: "Snack Orgânico s/ Casca",
 		code: "1022429",
 		group: "Grupo PA",
-		current_value: "R$ 8,90",
-		previous_value: "R$ 9,90",
-		average_value: "R$ 9,50",
+		current_value: 8.90,
+		previous_value: 9.90,
+		average_value: 9.50,
+		group_value: 17.90,
 		arrow: "down",
 		image: "../assets/img/bio2snack.jpg"
-    },
-    {
+	},
+	{
 		name: "Bebida Orgânica de Arroz Amêndoa",
 		code: "1041755",
 		group: "Grupo PA",
-		current_value: "R$ 18,90",
-		previous_value: "R$ 17,90",
-		average_value: "R$ 17,50",
+		current_value: 18.90,
+		previous_value: 17.90,
+		average_value: 17.50,
+		group_value: 17.90,
 		arrow: "up",
 		image: "../assets/img/bebida_organica.jpg"
-    },
-    {
+	},
+	{
 		name: "Ovos Vermelho G/ Orgânicos",
 		code: "3182840",
 		group: "Grupo PA",
-		current_value: "R$ 7,90",
-		previous_value: "R$ 9,90",
-		average_value: "R$ 9,50",
+		current_value: 7.90,
+		previous_value: 9.90,
+		average_value: 9.50,
+		group_value: 17.90,
 		arrow: "down",
 		image: "../assets/img/ovos_organico.png"
-    },
-    {
+	},
+	{
 		name: "Vinho Argentino T/ Orgânico",
 		code: "1009072",
 		group: "Grupo PA",
-		current_value: "R$ 78,90",
-		previous_value: "R$ 77,90",
-		average_value: "R$ 75,50",
+		current_value: 78.90,
+		previous_value: 77.90,
+		average_value: 75.50,
+		group_value: 17.90,
 		arrow: "up",
 		image: "../assets/img/vinho_tinto.jpg"
-    }];
+	}];
   
     suppliers = [{
 		name: "Grupo PA",
