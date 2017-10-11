@@ -750,16 +750,17 @@ legend {
 .product-list .product-quantity,
 .market .products-list-quantity {
     border: 1px solid #E6EAEF;
-    border-right: none;
     border-radius: 4px;
     padding: 6px;
+    font-size: 13px;
 }
 
 .product-list .product-quantity ion-icon,
 .market .products-list-quantity ion-icon {
     color: #73B440;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
 }
 
 .product-list .product-quantity .icon-plus,
