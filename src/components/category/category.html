@@ -9,9 +9,12 @@
 <ion-row>
 	<ion-col>
 		<ion-row class="category-filter">
-			<ion-col col-8>
-				<ion-icon name="ios-funnel-outline"></ion-icon> Filtrar por: 
-				<span class="category-subitems" (click)="getSubItems()" *ngFor="let option of options">{{option.name}}</span>
+			<ion-col class="category-filters" col-8>
+				<span class="category-filter-text"><ion-icon name="ios-funnel-outline"></ion-icon> Filtrar por:</span>
+				<div><span> Categorias</span> <ion-icon name="ios-arrow-down"></ion-icon></div>
+				<div><span> Marca / Fabricante</span> <ion-icon name="ios-arrow-down"></ion-icon></div>
+				<div><span> Fornecedor</span> <ion-icon name="ios-arrow-down"></ion-icon></div>
+				<div><span> Preço</span> <ion-icon name="ios-arrow-down"></ion-icon></div>
 			</ion-col>
 			<ion-col class="category-sort" text-right>
 				<span>Ordernar por:</span> Relevância <ion-icon name="ios-arrow-down"></ion-icon>

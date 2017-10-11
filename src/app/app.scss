@@ -1522,10 +1522,30 @@ ion-slide img {
     color: #A82923;
 }
 
-.market .category-subitems {
-    margin: 5px;
-    border-bottom: 1px solid #2989A6;
-    cursor: pointer;
+.market .category-filters {
+    
+}
+
+.market .category-filter-text {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.market .category-filter-text ion-icon {
+    margin-right: 5px;
+}
+
+.market .category-filters div {
+    display: inline-block;
+    position: relative;
+    margin-right: 25px;
+}
+
+.market .category-filters div ion-icon {
+    position: absolute;
+    right: -15px;
+    top: 0px;
+    color: #A82923;
 }
 
 .fast-buy {
