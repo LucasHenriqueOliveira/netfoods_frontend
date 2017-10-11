@@ -23,10 +23,27 @@
 				</main>
 			</div>
 			<nav id="c-menu--slide-right" class="c-menu c-menu--slide-right">
-				
-			</nav><!-- /c-menu slide-right -->
+				<ion-col class="notifications">
+					<ion-row>
+						<ion-col class="notifications-title">Notificações</ion-col>
+					</ion-row>
+					<ion-row *ngFor="let notification of notifications" class="margin-right-25">
+						<ion-col class="notification">
+							<ion-row>
+								<ion-col class="notification-text">{{notification.message}}</ion-col>
+							</ion-row>
+							<ion-row>
+								<ion-col class="notification-supplier">Fornecedor: {{notification.supplier}}</ion-col>
+							</ion-row>
+							<ion-row>
+								<ion-col class="notification-date">{{notification.date}}</ion-col>
+							</ion-row>
+						</ion-col>
+					</ion-row>
+				</ion-col>
+			</nav>
 			
-			<div id="c-mask" class="c-mask"></div><!-- /c-mask -->
+			<div id="c-mask" class="c-mask"></div>
 		</ion-row>
 	</ion-grid>
 </ion-content>

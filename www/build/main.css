@@ -26488,6 +26488,10 @@ body {
   margin-right: 12px;
 }
 
+.margin-right-25 {
+  margin-right: 25px;
+}
+
 .no-padding-top {
   padding-top: 0 !important;
 }
@@ -28173,7 +28177,7 @@ ion-slide img {
 .c-menu {
   position: fixed;
   z-index: 200;
-  background-color: #fff;
+  background-color: #F8F8FA;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
@@ -28292,4 +28296,40 @@ body.has-active-menu {
   opacity: 0.7;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
+}
+
+.notifications {
+  padding: 0;
+  top: 5px;
+  left: 10px;
+  background-color: #F8F8FA;
+}
+
+.notifications .notifications-title {
+  font-size: 16px;
+  color: #2989A6;
+}
+
+.notifications .notification {
+  border-radius: 4px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 1px 7px 1px #e0e0e0;
+  box-shadow: 0px 1px 7px 1px #e0e0e0;
+  margin-top: 10px;
+}
+
+.notification .notification-text {
+  font-size: 13px;
+  padding-bottom: 0;
+}
+
+.notification .notification-supplier {
+  font-size: 13px;
+  padding-bottom: 0;
+  color: #848282;
+}
+
+.notification .notification-date {
+  font-size: 11px;
+  color: #2989A6;
 }

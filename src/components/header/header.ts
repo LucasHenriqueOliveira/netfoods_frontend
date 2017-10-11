@@ -14,13 +14,4 @@ export class HeaderComponent {
 
 	constructor() {
 	}
-
-	body: any
-	wrapper: any
-	menu: any
-	mask: any
-
-	toggleMessage(ev: any) {
-		
-	}
 }
