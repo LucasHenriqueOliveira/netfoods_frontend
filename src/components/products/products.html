@@ -39,7 +39,7 @@
 	<ion-row class="product-list" *ngFor="let product of items">
 		<ion-col class="product-box">
 			<ion-row>
-				<ion-col class="cursor-pointer" col-2 [class.column-1]="source == 'dashboard'" (click)="getProduct()">
+				<ion-col class="cursor-pointer center-image" col-2 [class.column-1]="source == 'dashboard'" (click)="getProduct()">
 					<img [src]="product.image" />
 				</ion-col>
 				<ion-col class="cursor-pointer" [class.col-4]="source == 'dashboard'" (click)="getProduct()">

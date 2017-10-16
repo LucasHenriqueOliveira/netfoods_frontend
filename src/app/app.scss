@@ -20,7 +20,8 @@ body {
     overflow-x: hidden;
 }
 
-.grid {
+.grid,
+.no-padding {
     padding: 0;
 }
 
@@ -114,6 +115,10 @@ body {
 
 .padding-top-35 {
     padding-top: 35px !important;
+}
+
+.padding-bottom-8 {
+    padding-bottom: 8px;
 }
 
 .padding-bottom-35 {
@@ -986,11 +991,11 @@ legend {
 }
 
 popover ion-item {
-    font-size: 14px !important;
+    font-size: 13px !important;
 }
 
 .popover-content {
-    width: 150px !important;
+    width: auto !important;
 }
 
 popover .list-md {
@@ -1001,6 +1006,168 @@ popover .list-md {
     box-shadow: none;
     margin-right: 5px;
     cursor: pointer;
+}
+
+.popover-user .popover-name-user {
+    color: #2989A6;
+    font-size: 16px !important;
+    min-height: 3.0rem;
+}
+
+.popover-user .popover-name-user .label-md {
+    margin: 15px 8px 8px 0;
+}
+
+.popover-user .item-menu-popover:hover {
+    border-left: 4px solid #A82923;
+}
+
+.popover-user .item-menu-popover {
+    min-height: 3.0rem;
+}
+
+.popover-user .item-menu-popover .label-md {
+    margin: 2px 8px 2px 0;
+}
+
+.popover-user .popover-icons {
+    font-size: 13px;
+}
+
+.popover-user .popover-icons ion-icon {
+    font-size: 14px;
+    margin-right: 5px;
+    color: #A82923;
+}
+
+.popover-user .popover-icons-big ion-icon {
+    font-size: 19px;
+}
+
+.popover-user .item-inner {
+    border-bottom: none !important;
+}
+
+.popover-cart {
+    width: 330px;
+}
+
+.popover-cart .item-md {
+    padding-left: 8px;
+}
+
+.popover-cart .popover-cart-title {
+    color: #2989A6;
+    font-size: 16px !important;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 8px;
+}
+
+.popover-shadow {
+    box-shadow: -4px 6px 8px 0px #c9c9c9;
+}
+
+.popover-cart .step-subtotal {
+    border-top: 1px solid #E6EAEF;
+    border-bottom: 1px solid #E6EAEF;
+    padding: 3px 0;
+    margin: 5px;
+}
+
+.popover-cart .step-subtotal-supplier {
+    display: block;
+    color: #A82923;
+    font-size: 13px;
+}
+
+.popover-cart .step-subtotal-quantity {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.popover-cart .step-subtotal-price {
+    color: #73B440;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.popover-cart .step-total-price {
+    color: #73B440;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.popover-cart .step-total-text {
+    color: #73B440;
+    font-size: 13px;
+    padding-right: 15px;
+}
+
+.popover-cart .step-product-box {
+    box-shadow: 0px 3px 7px 1px #e0e0e0;
+    background-color: #fff;
+}
+
+.popover-cart .step-product-box:first-of-type {
+    margin-top: 5px;
+}
+
+.popover-cart .step-product-quantity {
+    padding-top: 0;
+    padding-bottom: 2px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.popover-cart .step-total {
+    background-color: #F0F0F0;
+    right: 0;
+    bottom: 0;
+}
+
+.popover-cart .step-save-order {
+    color: #2989A6;
+    font-size: 12px;
+    padding-top: 0;
+}
+
+.popover-cart .step-product-list {
+    height: 200px;
+    position: static;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.popover-cart .popover-quantity {
+    margin-top: -11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popover-cart .product-list .product-quantity {
+    padding: 5px;
+    margin-top: 11px;
+}
+
+.popover-cart .product-list .product-cart {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding: 5px;
+    margin-top: 11px;
+    background-color: #A82923;
+}
+
+.center-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 tooltip-box {
@@ -1937,90 +2104,4 @@ body.has-active-menu {
 .notification .notification-date {
     font-size: 11px;
     color: #2989A6;
-}
-
-/* ------------------------------------------------------------ *\
-|* ------------------------------------------------------------ *|
-|* Popover
-|* ------------------------------------------------------------ *|
-\* ------------------------------------------------------------ */
-/*  */
-
-/* The necessities */
-.popover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1060;
-    display: none;
-    max-width: 276px;
-    padding: 1px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: left;
-    text-align: start;
-    text-decoration: none;
-    text-shadow: none;
-    text-transform: none;
-    letter-spacing: normal;
-    word-break: normal;
-    word-spacing: normal;
-    word-wrap: normal;
-    white-space: normal;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: 6px;
-    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
-    line-break: auto;
-}
-
-.popover.bottom>.arrow {
-    top: -11px;
-    left: 50%;
-    margin-left: -11px;
-    border-top-width: 0;
-    border-bottom-color: #999;
-    border-bottom-color: rgba(0,0,0,.25);
-}
-
-.popover.bottom>.arrow:after {
-    top: 1px;
-    margin-left: -10px;
-    content: " ";
-    border-top-width: 0;
-    border-bottom-color: #fff;
-}
-
-.popover>.arrow:after {
-    content: "";
-    border-width: 10px;
-}
-
-.popover>.arrow, .popover>.arrow:after {
-    position: absolute;
-    display: block;
-    width: 0;
-    height: 0;
-    border-color: transparent;
-    border-style: solid;
-}
-
-.popover-title {
-    padding: 8px 14px;
-    margin: 0;
-    font-size: 14px;
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #ebebeb;
-    border-radius: 5px 5px 0 0;
-}
-
-.popover-content {
-    padding: 9px 14px;
 }

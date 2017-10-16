@@ -72,7 +72,7 @@
 								</ion-col>			
 							</ion-row>
 							<ion-row>
-								<ion-col class="product-current-value no-padding-bottom">{{item.current_value}} <span>p/ unidade</span></ion-col>
+								<ion-col class="product-current-value no-padding-bottom">{{item.current_value | currency: 'BRL': true}} <span>p/ unidade</span></ion-col>
 							</ion-row>
 							<ion-row>
 								<ion-col class="step-product-quantity">Qtd: 10</ion-col>

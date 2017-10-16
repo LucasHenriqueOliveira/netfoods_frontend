@@ -11,7 +11,7 @@
 		</ion-col>
 		<ion-col no-padding col-4>
 			<ion-row>
-				<ion-col text-right col-10>
+				<ion-col text-right col-10 (click)="showUserOptions($event)">
 					<button class="button-user" ion-button clear>
 						Catherine Ramos
 						<ion-icon class="arrow-user" name="ios-arrow-down"></ion-icon>              
@@ -28,19 +28,11 @@
 					<ion-badge class="notifications-badge badge-blue">3</ion-badge>
 				</ion-icon>              
 			</button>
-			<button class="notification-button" [popover]="myPopover" ion-button clear>
+			<button class="notification-button" (click)="showShoppingCart($event)" ion-button clear>
 				<ion-icon name="ios-cart-outline">
 					<ion-badge class="notifications-badge badge-green badge-cart-header">17</ion-badge>
 				</ion-icon>              
 			</button>
-			<popover-content #myPopover 
-						title="Popover title" 
-						placement="bottom"
-						[animation]="true" 
-						[closeOnClickOutside]="true" >
-				<b>Very</b> <span style="color: #C21F39">Dynamic</span> <span style="color: #00b3ee">Reusable</span>
-				<b><i><span style="color: #ffc520">Popover With</span></i></b> <small>Html support</small>.
-			</popover-content>
 		</ion-col>
 	</ion-row>
 </ion-grid>

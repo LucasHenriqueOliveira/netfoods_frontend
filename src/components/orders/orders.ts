@@ -71,9 +71,15 @@ export class OrdersComponent {
 			name: 'Finalizados',
 			css: 'circle-blue'
 		}], type: "orders"}, {cssClass: 'popover-ios'});
+
 		popover.present({
 		  ev: ev
 		});
+
+		setTimeout(() => {  
+			var element = document.querySelector('.popover-md');
+			element.classList.remove("popover-md");
+		}, 1);
 	}
 
 }

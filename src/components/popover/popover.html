@@ -1,6 +1,110 @@
-<ion-list>
+<ion-list *ngIf="type == 'orders'">
 	<ion-item (click)="selectOption(option)" class="item-menu-popover" *ngFor="let option of options">
 		<div *ngIf="type == 'orders'" [class]="option.css"></div> 
 		{{option.name}}
 	</ion-item>
 </ion-list>
+<ion-list class="popover-user" *ngIf="type == 'user'">
+	<ion-item class="popover-name-user">
+		{{name}}
+	</ion-item>
+	<ion-item class="item-menu-popover popover-icons">
+		<ion-icon name="netfoods-account"></ion-icon>
+		Minha Conta
+	</ion-item>
+	<ion-item class="item-menu-popover popover-icons popover-icons-big">
+		<ion-icon name="ios-headset-outline"></ion-icon>
+		Suporte
+	</ion-item>
+	<ion-item class="item-menu-popover popover-icons popover-icons-big padding-bottom-8">
+		<ion-icon name="ios-log-out"></ion-icon>
+		Sair
+	</ion-item>
+</ion-list>
+<div class="popover-cart" *ngIf="type == 'cart'">
+	<ion-row>
+		<ion-col class="popover-cart-title">Meu Carrinho (5 Itens)</ion-col>
+	</ion-row>
+	<ion-row class="step-subtotal">
+		<ion-col>
+			<span class="step-subtotal-supplier">Multifoods</span>
+			<span class="step-subtotal-quantity">3 itens</span>
+		</ion-col>
+		<ion-col class="step-subtotal-price">
+			R$ 617,90
+		</ion-col>
+	</ion-row>
+	<ion-row class="product-list step-product-list">
+		<ion-col *ngFor="let item of shopping_cart" class="product-box step-product-box">
+			<ion-row>
+				<ion-col class="no-padding center-image" col-1>
+					<img [src]="item.image" />
+				</ion-col>
+				<ion-col>
+					<ion-row>
+						<ion-col class="product-name" title="{{item.name}}">
+							{{item.name}}
+						</ion-col>			
+					</ion-row>
+					<ion-row>
+						<ion-col class="product-current-value no-padding-bottom">{{item.current_value | currency: 'BRL': true}} <span>p/ unidade</span></ion-col>
+					</ion-row>
+				</ion-col>
+				<ion-col class="product-cart-quantity no-padding">
+					<ion-row>
+						<ion-col class="popover-quantity no-padding">
+							<span class="product-quantity">
+								<ion-icon name="md-remove"></ion-icon>
+								<span>01</span>
+								<ion-icon name="md-add" class="icon-plus"></ion-icon>
+							</span>
+							<span class="product-cart">
+								<ion-icon name="netfoods-trash"></ion-icon>
+							</span>
+						</ion-col>
+					</ion-row>
+					<ion-row *ngIf="source == 'dashboard'">
+						<ion-col>
+							<span class="product-price-history">
+								Ver Histórico de Preço
+							</span>
+						</ion-col>
+					</ion-row>
+				</ion-col>
+			</ion-row>
+		</ion-col>
+	</ion-row>
+	<ion-row class="step-total padding-left-10">
+		<ion-col>
+			<ion-row>
+				<ion-col class="step-subtotal-supplier">
+					Multifoods
+				</ion-col>
+				<ion-col class="step-total-text" text-right>
+					valor total do pedido
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col class="step-subtotal-quantity no-padding-top">
+					2 fornecedores
+				</ion-col>
+				<ion-col class="step-total-price no-padding-top" text-right>
+					R$ 617,90
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col text-center>
+					<button ion-button full icon-start class="button-order">
+						<ion-icon name="cart"></ion-icon>
+						Efetuar Pedido
+					</button>
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col class="step-save-order " text-center>
+					Visualizar Pedido
+				</ion-col>
+			</ion-row>
+		</ion-col>
+	</ion-row>
+</div>

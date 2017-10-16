@@ -54,7 +54,10 @@ import { PopoverModule } from "ngx-popover";
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp, {
+      popoverEnter: 'popover-pop-in',
+      popoverLeave: 'popover-pop-out'
+    }),
     ChartsModule,
     TooltipsModule,
     BrowserAnimationsModule,
