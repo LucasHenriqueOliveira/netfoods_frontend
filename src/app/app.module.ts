@@ -28,6 +28,7 @@ import { RatingComponent } from '../components/rating/rating';
 import { CategoryComponent } from '../components/category/category';
 import { FastBuyComponent } from '../components/fast-buy/fast-buy';
 import { ShoppingCartProvider } from '../providers/shopping-cart/shopping-cart';
+import { PopoverModule } from "ngx-popover";
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { ShoppingCartProvider } from '../providers/shopping-cart/shopping-cart';
     IonicModule.forRoot(MyApp),
     ChartsModule,
     TooltipsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    PopoverModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

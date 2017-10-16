@@ -31,6 +31,8 @@
   <!-- Ionic's root component and where the app will load -->
   <ion-app></ion-app>
 
+  <script src="assets/js/menu.js"></script>
+
   <!-- The polyfills js is generated during the build process -->
   <script src="build/polyfills.js"></script>
 
@@ -40,7 +42,6 @@
 
   <!-- The main bundle js is generated during the build process -->
   <script src="build/main.js"></script>
-  <script src="build/menu.js"></script>
   <script>
       
     /**
@@ -54,10 +55,16 @@
     });
   
     var slideRightBtn = document.querySelector('#c-button--slide-right');
+    var body = document.body;
     
     slideRightBtn.addEventListener('click', function(e) {
       e.preventDefault;
-      slideRight.open();
+      
+      if(body.classList.contains("has-active-menu")) {
+        slideRight.close();
+      } else {
+        slideRight.open();
+      }
     });
   
   

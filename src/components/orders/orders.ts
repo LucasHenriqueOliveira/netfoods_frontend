@@ -70,7 +70,7 @@ export class OrdersComponent {
 		}, {
 			name: 'Finalizados',
 			css: 'circle-blue'
-		}], type: "orders"});
+		}], type: "orders"}, {cssClass: 'popover-ios'});
 		popover.present({
 		  ev: ev
 		});
