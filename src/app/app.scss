@@ -145,6 +145,10 @@ body {
     font-size: 25px;
 }
 
+.position-fixed {
+    position: fixed;
+}
+
 .header .item-input {
     color: #FFF;
 }
@@ -751,7 +755,6 @@ legend {
 
 .product-list .product-cart:hover,
 .market .products-list-cart:hover {
-    background-color: #2989A6;
     cursor: pointer;
 }
 
@@ -1165,6 +1168,10 @@ popover .list-md {
     background-color: #A82923;
 }
 
+.popover-cart .product-list .product-cart ion-icon {
+    font-size: 15px;
+}
+
 .center-image {
     display: flex;
     align-items: center;
@@ -1368,7 +1375,12 @@ ion-slide img {
 }
 
 .market .product-has-item {
-    background-color: #2989A6;
+    background-color: #A82923;
+}
+
+.market .product-has-item ion-icon {
+    padding-right: 0;
+    margin-left: -3px;
 }
 
 .market .featured-suppliers {

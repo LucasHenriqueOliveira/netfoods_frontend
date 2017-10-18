@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 /**
  * Generated class for the CategoryComponent component.
@@ -10,7 +10,7 @@ import { Component, Input, OnChanges } from '@angular/core';
   selector: 'category',
   templateUrl: 'category.html'
 })
-export class CategoryComponent implements OnChanges {
+export class CategoryComponent {
 
 	@Input() category: any
 
@@ -230,25 +230,18 @@ export class CategoryComponent implements OnChanges {
 	}];
 
 	options: any
-
-	ngOnChanges(data) {
-		this.options = [];
-		this.getSubItems(data.category.currentValue.type);
-	}
-
+	tooltip: any
+	
 	ngOnInit() {
-		this.getSubItems(this.category['type']);
-	}
+		document.getElementById("contentMarket").scrollIntoView(true);
+		this.tooltip = document.getElementsByTagName("tooltip-box");
 
-	getSubItems(category) {
-		for(var i = 0; i < this.items.length; i++){
-			if(this.items[i].name == category) {
-				this.options = this.items[i].subitems;
-			}
+		for (let i = 0; i < this.tooltip.length; i++) {
+			this.tooltip[i].style.visibility = "hidden";
 		}
 	}
 
 	constructor() {
+		
 	}
-
 }

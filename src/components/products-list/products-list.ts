@@ -32,7 +32,12 @@ export class ProductsListComponent {
 	}
 	
 	addItem(item: Item) {
-		this.ShoppingCartProvider.addItem(item);
+		if(!this.hasItem(item)) {
+			this.ShoppingCartProvider.addItem(item);
+		} else {
+			this.removeItem(item);
+		}
+		
 	}
 
 	hasItem(item: Item) {
@@ -41,7 +46,7 @@ export class ProductsListComponent {
 
 	labelProduct(item: Item) {
 		if(this.hasItem(item)) {
-			return 'Adicionado';
+			return 'Remover';
 		} else {
 			return 'Adicionar';
 		}

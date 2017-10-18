@@ -45,7 +45,9 @@
 					<ion-icon name="md-add" class="icon-plus"></ion-icon>
 				</span>
 				<span class="products-list-cart" [class.product-has-item]="hasItem(product_list)" (click)="addItem(product_list)">
-					<ion-icon name="cart"></ion-icon> {{labelProduct(product_list)}}
+					<ion-icon *ngIf="!hasItem(product_list)" name="cart"></ion-icon> 
+					<ion-icon *ngIf="hasItem(product_list)" name="netfoods-trash"></ion-icon>
+					{{labelProduct(product_list)}}
 				</span>
 			</ion-col>
 		</ion-row>
