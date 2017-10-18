@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Events, PopoverController } from 'ionic-angular';
+import { Events } from 'ionic-angular';
 
 /**
  * Generated class for the SubmenuComponent component.
