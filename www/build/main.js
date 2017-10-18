@@ -1,106 +1,14 @@
-webpackJsonp([0],{
+webpackJsonp([1],{
 
-/***/ 115:
-/***/ (function(module, exports) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncatched exception popping up in devtools
-	return Promise.resolve().then(function() {
-		throw new Error("Cannot find module '" + req + "'.");
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 115;
-
-/***/ }),
-
-/***/ 157:
-/***/ (function(module, exports) {
-
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncatched exception popping up in devtools
-	return Promise.resolve().then(function() {
-		throw new Error("Cannot find module '" + req + "'.");
-	});
-}
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 157;
-
-/***/ }),
-
-/***/ 201:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var HomePage = (function () {
-    function HomePage(navCtrl, events) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.events = events;
-        this.menu = 'dashboard';
-        this.notifications = [{
-                message: "Pedido #23902 confirmado como entregue.",
-                supplier: "Nelore Prime Alimentos",
-                date: "05/07/2017 - 10:43"
-            }, {
-                message: "Pedido #23902 faturado.",
-                supplier: "Nelore Prime Alimentos",
-                date: "04/07/2017 - 15:29"
-            }, {
-                message: "Pedido #23902 confirmado pagamento.",
-                supplier: "Nelore Prime Alimentos",
-                date: "04/07/2017 - 14:52"
-            }, {
-                message: "Pedido #23902 enviado ao Fornecedor.",
-                supplier: "Nelore Prime Alimentos",
-                date: "04/07/2017 - 12:35"
-            }];
-        events.subscribe('sidemenu', function (menu) {
-            _this.menu = menu;
-        });
-    }
-    return HomePage;
-}());
-HomePage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-home',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/pages/home/home.html"*/'<ion-header class="header">\n	<ion-navbar>\n		<!-- Component header -->\n		<header></header>\n	</ion-navbar>\n</ion-header>\n\n<ion-content>\n	<ion-grid no-padding>\n		<ion-row>\n			<!-- Component sidemenu -->\n			<sidemenu></sidemenu>\n\n			<dashboard *ngIf="menu == \'dashboard\'"></dashboard>\n			<market *ngIf="menu == \'market\'"></market>\n			<fast-buy *ngIf="menu == \'fast_buy\'"></fast-buy>\n\n			<div id="o-wrapper" class="o-wrapper">\n				<main class="o-content">\n					<div class="o-container">\n						<div class="c-buttons"></div>\n					</div>\n				</main>\n			</div>\n			<nav id="c-menu--slide-right" class="c-menu c-menu--slide-right">\n				<ion-col class="notifications">\n					<ion-row>\n						<ion-col class="notifications-title">Notificações</ion-col>\n					</ion-row>\n					<ion-row *ngFor="let notification of notifications" class="margin-right-25">\n						<ion-col class="notification">\n							<ion-row>\n								<ion-col class="notification-text">{{notification.message}}</ion-col>\n							</ion-row>\n							<ion-row>\n								<ion-col class="notification-supplier">Fornecedor: {{notification.supplier}}</ion-col>\n							</ion-row>\n							<ion-row>\n								<ion-col class="notification-date">{{notification.date}}</ion-col>\n							</ion-row>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</nav>\n			\n			<div id="c-mask" class="c-mask"></div>\n		</ion-row>\n	</ion-grid>\n</ion-content>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/pages/home/home.html"*/
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
-], HomePage);
-
-//# sourceMappingURL=home.js.map
-
-/***/ }),
-
-/***/ 324:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShoppingCartProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(457);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(456);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__models_cart_item_model__ = __webpack_require__(458);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__models_cart_item_model__ = __webpack_require__(457);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -164,13 +72,105 @@ ShoppingCartProvider = __decorate([
 
 /***/ }),
 
-/***/ 325:
+/***/ 117:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 117;
+
+/***/ }),
+
+/***/ 159:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 159;
+
+/***/ }),
+
+/***/ 203:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var HomePage = (function () {
+    function HomePage(navCtrl, events) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.events = events;
+        this.menu = 'dashboard';
+        this.notifications = [{
+                message: "Pedido #23902 confirmado como entregue.",
+                supplier: "Nelore Prime Alimentos",
+                date: "05/07/2017 - 10:43"
+            }, {
+                message: "Pedido #23902 faturado.",
+                supplier: "Nelore Prime Alimentos",
+                date: "04/07/2017 - 15:29"
+            }, {
+                message: "Pedido #23902 confirmado pagamento.",
+                supplier: "Nelore Prime Alimentos",
+                date: "04/07/2017 - 14:52"
+            }, {
+                message: "Pedido #23902 enviado ao Fornecedor.",
+                supplier: "Nelore Prime Alimentos",
+                date: "04/07/2017 - 12:35"
+            }];
+        events.subscribe('sidemenu', function (menu) {
+            _this.menu = menu;
+        });
+    }
+    return HomePage;
+}());
+HomePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'page-home',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/pages/home/home.html"*/'<ion-header class="header">\n	<ion-navbar>\n		<!-- Component header -->\n		<header></header>\n	</ion-navbar>\n</ion-header>\n\n<ion-content>\n	<ion-grid no-padding>\n		<ion-row>\n			<!-- Component sidemenu -->\n			<sidemenu></sidemenu>\n\n			<dashboard *ngIf="menu == \'dashboard\'"></dashboard>\n			<market *ngIf="menu == \'market\'"></market>\n			<fast-buy *ngIf="menu == \'fast_buy\'"></fast-buy>\n\n			<div id="o-wrapper" class="o-wrapper">\n				<main class="o-content">\n					<div class="o-container">\n						<div class="c-buttons"></div>\n					</div>\n				</main>\n			</div>\n			<nav id="c-menu--slide-right" class="c-menu c-menu--slide-right">\n				<ion-col class="notifications">\n					<ion-row>\n						<ion-col class="notifications-title">Notificações</ion-col>\n					</ion-row>\n					<ion-row *ngFor="let notification of notifications" class="margin-right-25">\n						<ion-col class="notification">\n							<ion-row>\n								<ion-col class="notification-text">{{notification.message}}</ion-col>\n							</ion-row>\n							<ion-row>\n								<ion-col class="notification-supplier">Fornecedor: {{notification.supplier}}</ion-col>\n							</ion-row>\n							<ion-row>\n								<ion-col class="notification-date">{{notification.date}}</ion-col>\n							</ion-row>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</nav>\n			\n			<div id="c-mask" class="c-mask"></div>\n		</ion-row>\n	</ion-grid>\n</ion-content>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/pages/home/home.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]])
+], HomePage);
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 327:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(326);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(328);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(346);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -178,48 +178,50 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 344:
+/***/ 346:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(384);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ng2_charts__ = __webpack_require__(393);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_ng2_charts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_ng2_charts__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ionic_tooltips__ = __webpack_require__(443);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_platform_browser_animations__ = __webpack_require__(445);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_orders_orders__ = __webpack_require__(447);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_header_header__ = __webpack_require__(448);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_sidemenu_sidemenu__ = __webpack_require__(449);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_dashboard_dashboard__ = __webpack_require__(450);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_suppliers_suppliers__ = __webpack_require__(451);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_activities_activities__ = __webpack_require__(452);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_products_products__ = __webpack_require__(453);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_popover_popover__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_market_market__ = __webpack_require__(454);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_submenu_submenu__ = __webpack_require__(455);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_products_list_products_list__ = __webpack_require__(456);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_featured_suppliers_featured_suppliers__ = __webpack_require__(459);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_submenu_popover_submenu_popover__ = __webpack_require__(460);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_product_product__ = __webpack_require__(461);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_rating_rating__ = __webpack_require__(462);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_category_category__ = __webpack_require__(463);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_fast_buy_fast_buy__ = __webpack_require__(464);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__providers_shopping_cart_shopping_cart__ = __webpack_require__(324);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28_ngx_popover__ = __webpack_require__(467);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28_ngx_popover___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_28_ngx_popover__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(386);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_shopping_cart_shopping_cart__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_charts__ = __webpack_require__(395);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_charts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_ng2_charts__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ionic_tooltips__ = __webpack_require__(445);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser_animations__ = __webpack_require__(447);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_orders_orders__ = __webpack_require__(449);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_header_header__ = __webpack_require__(450);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_sidemenu_sidemenu__ = __webpack_require__(451);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_dashboard_dashboard__ = __webpack_require__(452);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_suppliers_suppliers__ = __webpack_require__(453);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_activities_activities__ = __webpack_require__(454);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_products_products__ = __webpack_require__(455);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_popover_popover__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_market_market__ = __webpack_require__(458);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_submenu_submenu__ = __webpack_require__(459);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_products_list_products_list__ = __webpack_require__(460);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_featured_suppliers_featured_suppliers__ = __webpack_require__(461);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_submenu_popover_submenu_popover__ = __webpack_require__(462);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_product_product__ = __webpack_require__(463);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_rating_rating__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_category_category__ = __webpack_require__(465);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_fast_buy_fast_buy__ = __webpack_require__(466);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__providers_shopping_cart_shopping_cart__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29_ngx_popover__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29_ngx_popover___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_29_ngx_popover__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -259,48 +261,50 @@ AppModule = __decorate([
         declarations: [
             __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
             __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-            __WEBPACK_IMPORTED_MODULE_10__components_orders_orders__["a" /* OrdersComponent */],
-            __WEBPACK_IMPORTED_MODULE_11__components_header_header__["a" /* HeaderComponent */],
-            __WEBPACK_IMPORTED_MODULE_12__components_sidemenu_sidemenu__["a" /* SidemenuComponent */],
-            __WEBPACK_IMPORTED_MODULE_13__components_dashboard_dashboard__["a" /* DashboardComponent */],
-            __WEBPACK_IMPORTED_MODULE_14__components_suppliers_suppliers__["a" /* SuppliersComponent */],
-            __WEBPACK_IMPORTED_MODULE_15__components_activities_activities__["a" /* ActivitiesComponent */],
-            __WEBPACK_IMPORTED_MODULE_16__components_products_products__["a" /* ProductsComponent */],
-            __WEBPACK_IMPORTED_MODULE_18__components_market_market__["a" /* MarketComponent */],
-            __WEBPACK_IMPORTED_MODULE_17__components_popover_popover__["a" /* PopoverComponent */],
-            __WEBPACK_IMPORTED_MODULE_19__components_submenu_submenu__["a" /* SubmenuComponent */],
-            __WEBPACK_IMPORTED_MODULE_20__components_products_list_products_list__["a" /* ProductsListComponent */],
-            __WEBPACK_IMPORTED_MODULE_21__components_featured_suppliers_featured_suppliers__["a" /* FeaturedSuppliersComponent */],
-            __WEBPACK_IMPORTED_MODULE_22__components_submenu_popover_submenu_popover__["a" /* SubmenuPopoverComponent */],
-            __WEBPACK_IMPORTED_MODULE_23__components_product_product__["a" /* ProductComponent */],
-            __WEBPACK_IMPORTED_MODULE_24__components_rating_rating__["a" /* RatingComponent */],
-            __WEBPACK_IMPORTED_MODULE_25__components_category_category__["a" /* CategoryComponent */],
-            __WEBPACK_IMPORTED_MODULE_26__components_fast_buy_fast_buy__["a" /* FastBuyComponent */]
+            __WEBPACK_IMPORTED_MODULE_5__pages_shopping_cart_shopping_cart__["a" /* ShoppingCartPage */],
+            __WEBPACK_IMPORTED_MODULE_11__components_orders_orders__["a" /* OrdersComponent */],
+            __WEBPACK_IMPORTED_MODULE_12__components_header_header__["a" /* HeaderComponent */],
+            __WEBPACK_IMPORTED_MODULE_13__components_sidemenu_sidemenu__["a" /* SidemenuComponent */],
+            __WEBPACK_IMPORTED_MODULE_14__components_dashboard_dashboard__["a" /* DashboardComponent */],
+            __WEBPACK_IMPORTED_MODULE_15__components_suppliers_suppliers__["a" /* SuppliersComponent */],
+            __WEBPACK_IMPORTED_MODULE_16__components_activities_activities__["a" /* ActivitiesComponent */],
+            __WEBPACK_IMPORTED_MODULE_17__components_products_products__["a" /* ProductsComponent */],
+            __WEBPACK_IMPORTED_MODULE_19__components_market_market__["a" /* MarketComponent */],
+            __WEBPACK_IMPORTED_MODULE_18__components_popover_popover__["a" /* PopoverComponent */],
+            __WEBPACK_IMPORTED_MODULE_20__components_submenu_submenu__["a" /* SubmenuComponent */],
+            __WEBPACK_IMPORTED_MODULE_21__components_products_list_products_list__["a" /* ProductsListComponent */],
+            __WEBPACK_IMPORTED_MODULE_22__components_featured_suppliers_featured_suppliers__["a" /* FeaturedSuppliersComponent */],
+            __WEBPACK_IMPORTED_MODULE_23__components_submenu_popover_submenu_popover__["a" /* SubmenuPopoverComponent */],
+            __WEBPACK_IMPORTED_MODULE_24__components_product_product__["a" /* ProductComponent */],
+            __WEBPACK_IMPORTED_MODULE_25__components_rating_rating__["a" /* RatingComponent */],
+            __WEBPACK_IMPORTED_MODULE_26__components_category_category__["a" /* CategoryComponent */],
+            __WEBPACK_IMPORTED_MODULE_27__components_fast_buy_fast_buy__["a" /* FastBuyComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {
                 popoverEnter: 'popover-pop-in',
                 popoverLeave: 'popover-pop-out'
             }),
-            __WEBPACK_IMPORTED_MODULE_7_ng2_charts__["ChartsModule"],
-            __WEBPACK_IMPORTED_MODULE_8_ionic_tooltips__["a" /* TooltipsModule */],
-            __WEBPACK_IMPORTED_MODULE_9__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
-            __WEBPACK_IMPORTED_MODULE_28_ngx_popover__["PopoverModule"]
+            __WEBPACK_IMPORTED_MODULE_8_ng2_charts__["ChartsModule"],
+            __WEBPACK_IMPORTED_MODULE_9_ionic_tooltips__["a" /* TooltipsModule */],
+            __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
+            __WEBPACK_IMPORTED_MODULE_29_ngx_popover__["PopoverModule"]
         ],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicApp */]],
         entryComponents: [
             __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
             __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-            __WEBPACK_IMPORTED_MODULE_17__components_popover_popover__["a" /* PopoverComponent */],
-            __WEBPACK_IMPORTED_MODULE_22__components_submenu_popover_submenu_popover__["a" /* SubmenuPopoverComponent */]
+            __WEBPACK_IMPORTED_MODULE_5__pages_shopping_cart_shopping_cart__["a" /* ShoppingCartPage */],
+            __WEBPACK_IMPORTED_MODULE_18__components_popover_popover__["a" /* PopoverComponent */],
+            __WEBPACK_IMPORTED_MODULE_23__components_submenu_popover_submenu_popover__["a" /* SubmenuPopoverComponent */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_6__ionic_native_splash_screen__["a" /* SplashScreen */],
-            { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] },
+            __WEBPACK_IMPORTED_MODULE_6__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__["a" /* SplashScreen */],
+            { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicErrorHandler */] },
             { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["LOCALE_ID"], useValue: 'pt-BR' },
-            __WEBPACK_IMPORTED_MODULE_27__providers_shopping_cart_shopping_cart__["a" /* ShoppingCartProvider */],
+            __WEBPACK_IMPORTED_MODULE_28__providers_shopping_cart_shopping_cart__["a" /* ShoppingCartProvider */],
         ]
     })
 ], AppModule);
@@ -309,16 +313,132 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 384:
+/***/ 36:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PopoverComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_shopping_cart_shopping_cart__ = __webpack_require__(469);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the PopoverComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var PopoverComponent = (function () {
+    function PopoverComponent(params, events, viewCtrl, app) {
+        this.params = params;
+        this.events = events;
+        this.viewCtrl = viewCtrl;
+        this.app = app;
+        this.shopping_cart = [{
+                name: "Açaí Orgânico c/ Guaraná",
+                code: "1009072",
+                group: "Grupo PA",
+                current_value: 18.90,
+                previous_value: 19.90,
+                average_value: 19.50,
+                group_value: 17.90,
+                arrow: "down",
+                image: "../assets/img/acai.jpg"
+            },
+            {
+                name: "Snack Orgânico s/ Casca",
+                code: "1022429",
+                group: "Grupo PA",
+                current_value: 8.90,
+                previous_value: 9.90,
+                average_value: 9.50,
+                group_value: 17.90,
+                arrow: "down",
+                image: "../assets/img/bio2snack.jpg"
+            },
+            {
+                name: "Bebida Orgânica de Arroz Amêndoa",
+                code: "1041755",
+                group: "Grupo PA",
+                current_value: 18.90,
+                previous_value: 17.90,
+                average_value: 17.50,
+                group_value: 17.90,
+                arrow: "up",
+                image: "../assets/img/bebida_organica.jpg"
+            },
+            {
+                name: "Ovos Vermelho G/ Orgânicos",
+                code: "3182840",
+                group: "Grupo PA",
+                current_value: 7.90,
+                previous_value: 9.90,
+                average_value: 9.50,
+                group_value: 17.90,
+                arrow: "down",
+                image: "../assets/img/ovos_organico.png"
+            },
+            {
+                name: "Vinho Argentino T/ Orgânico",
+                code: "1009072",
+                group: "Grupo PA",
+                current_value: 78.90,
+                previous_value: 77.90,
+                average_value: 75.50,
+                group_value: 17.90,
+                arrow: "up",
+                image: "../assets/img/vinho_tinto.jpg"
+            }];
+        this.options = this.params.get("menu");
+        this.type = this.params.get("type");
+        this.name = this.params.get("name");
+    }
+    PopoverComponent.prototype.selectOption = function (option) {
+        if (this.type == 'orders') {
+            this.events.publish('option', option.name);
+            this.viewCtrl.dismiss();
+        }
+    };
+    PopoverComponent.prototype.openShoppingCart = function () {
+        var _this = this;
+        this.viewCtrl.dismiss().then(function () {
+            _this.app.getRootNav().push(__WEBPACK_IMPORTED_MODULE_2__pages_shopping_cart_shopping_cart__["a" /* ShoppingCartPage */]);
+        });
+    };
+    return PopoverComponent;
+}());
+PopoverComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'popover',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/popover/popover.html"*/'<ion-list *ngIf="type == \'orders\'">\n	<ion-item (click)="selectOption(option)" class="item-menu-popover" *ngFor="let option of options">\n		<div *ngIf="type == \'orders\'" [class]="option.css"></div> \n		{{option.name}}\n	</ion-item>\n</ion-list>\n<ion-list class="popover-user" *ngIf="type == \'user\'">\n	<ion-item class="popover-name-user">\n		{{name}}\n	</ion-item>\n	<ion-item class="item-menu-popover popover-icons">\n		<ion-icon name="netfoods-account"></ion-icon>\n		Minha Conta\n	</ion-item>\n	<ion-item class="item-menu-popover popover-icons popover-icons-big">\n		<ion-icon name="ios-headset-outline"></ion-icon>\n		Suporte\n	</ion-item>\n	<ion-item class="item-menu-popover popover-icons popover-icons-big padding-bottom-8">\n		<ion-icon name="ios-log-out"></ion-icon>\n		Sair\n	</ion-item>\n</ion-list>\n<div class="popover-cart" *ngIf="type == \'cart\'">\n	<ion-row>\n		<ion-col class="popover-cart-title">Meu Carrinho (5 Itens)</ion-col>\n	</ion-row>\n	<ion-row class="step-subtotal">\n		<ion-col>\n			<span class="step-subtotal-supplier">Multifoods</span>\n			<span class="step-subtotal-quantity">3 itens</span>\n		</ion-col>\n		<ion-col class="step-subtotal-price">\n			R$ 617,90\n		</ion-col>\n	</ion-row>\n	<ion-row class="product-list step-product-list">\n		<ion-col *ngFor="let item of shopping_cart" class="product-box step-product-box">\n			<ion-row>\n				<ion-col class="no-padding center-image" col-1>\n					<img [src]="item.image" />\n				</ion-col>\n				<ion-col>\n					<ion-row>\n						<ion-col class="product-name" title="{{item.name}}">\n							{{item.name}}\n						</ion-col>			\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-current-value no-padding-bottom">{{item.current_value | currency: \'BRL\': true}} <span>p/ unidade</span></ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="product-cart-quantity no-padding">\n					<ion-row>\n						<ion-col class="popover-quantity no-padding">\n							<span class="product-quantity">\n								<ion-icon name="md-remove"></ion-icon>\n								<span>01</span>\n								<ion-icon name="md-add" class="icon-plus"></ion-icon>\n							</span>\n							<span class="product-cart">\n								<ion-icon name="netfoods-trash"></ion-icon>\n							</span>\n						</ion-col>\n					</ion-row>\n					<ion-row *ngIf="source == \'dashboard\'">\n						<ion-col>\n							<span class="product-price-history">\n								Ver Histórico de Preço\n							</span>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n	<ion-row class="step-total padding-left-10">\n		<ion-col>\n			<ion-row>\n				<ion-col class="step-subtotal-supplier">\n					Multifoods\n				</ion-col>\n				<ion-col class="step-total-text" text-right>\n					valor total do pedido\n				</ion-col>\n			</ion-row>\n			<ion-row>\n				<ion-col class="step-subtotal-quantity no-padding-top">\n					2 fornecedores\n				</ion-col>\n				<ion-col class="step-total-price no-padding-top" text-right>\n					R$ 617,90\n				</ion-col>\n			</ion-row>\n			<ion-row>\n				<ion-col text-center>\n					<button ion-button full icon-start (click)="openShoppingCart()" class="button-order">\n						<ion-icon name="cart"></ion-icon>\n						Efetuar Pedido\n					</button>\n				</ion-col>\n			</ion-row>\n			<ion-row>\n				<ion-col class="step-save-order " text-center>\n					Visualizar Pedido\n				</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</div>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/popover/popover.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* App */]])
+], PopoverComponent);
+
+//# sourceMappingURL=popover.js.map
+
+/***/ }),
+
+/***/ 386:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(203);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -353,253 +473,253 @@ var MyApp = (function () {
     return MyApp;
 }());
 __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */])
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/app/app.html"*/'<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/app/app.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
 
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
 
-/***/ 425:
+/***/ 427:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./af": 207,
-	"./af.js": 207,
-	"./ar": 208,
-	"./ar-dz": 209,
-	"./ar-dz.js": 209,
-	"./ar-kw": 210,
-	"./ar-kw.js": 210,
-	"./ar-ly": 211,
-	"./ar-ly.js": 211,
-	"./ar-ma": 212,
-	"./ar-ma.js": 212,
-	"./ar-sa": 213,
-	"./ar-sa.js": 213,
-	"./ar-tn": 214,
-	"./ar-tn.js": 214,
-	"./ar.js": 208,
-	"./az": 215,
-	"./az.js": 215,
-	"./be": 216,
-	"./be.js": 216,
-	"./bg": 217,
-	"./bg.js": 217,
-	"./bn": 218,
-	"./bn.js": 218,
-	"./bo": 219,
-	"./bo.js": 219,
-	"./br": 220,
-	"./br.js": 220,
-	"./bs": 221,
-	"./bs.js": 221,
-	"./ca": 222,
-	"./ca.js": 222,
-	"./cs": 223,
-	"./cs.js": 223,
-	"./cv": 224,
-	"./cv.js": 224,
-	"./cy": 225,
-	"./cy.js": 225,
-	"./da": 226,
-	"./da.js": 226,
-	"./de": 227,
-	"./de-at": 228,
-	"./de-at.js": 228,
-	"./de-ch": 229,
-	"./de-ch.js": 229,
-	"./de.js": 227,
-	"./dv": 230,
-	"./dv.js": 230,
-	"./el": 231,
-	"./el.js": 231,
-	"./en-au": 232,
-	"./en-au.js": 232,
-	"./en-ca": 233,
-	"./en-ca.js": 233,
-	"./en-gb": 234,
-	"./en-gb.js": 234,
-	"./en-ie": 235,
-	"./en-ie.js": 235,
-	"./en-nz": 236,
-	"./en-nz.js": 236,
-	"./eo": 237,
-	"./eo.js": 237,
-	"./es": 238,
-	"./es-do": 239,
-	"./es-do.js": 239,
-	"./es.js": 238,
-	"./et": 240,
-	"./et.js": 240,
-	"./eu": 241,
-	"./eu.js": 241,
-	"./fa": 242,
-	"./fa.js": 242,
-	"./fi": 243,
-	"./fi.js": 243,
-	"./fo": 244,
-	"./fo.js": 244,
-	"./fr": 245,
-	"./fr-ca": 246,
-	"./fr-ca.js": 246,
-	"./fr-ch": 247,
-	"./fr-ch.js": 247,
-	"./fr.js": 245,
-	"./fy": 248,
-	"./fy.js": 248,
-	"./gd": 249,
-	"./gd.js": 249,
-	"./gl": 250,
-	"./gl.js": 250,
-	"./gom-latn": 251,
-	"./gom-latn.js": 251,
-	"./he": 252,
-	"./he.js": 252,
-	"./hi": 253,
-	"./hi.js": 253,
-	"./hr": 254,
-	"./hr.js": 254,
-	"./hu": 255,
-	"./hu.js": 255,
-	"./hy-am": 256,
-	"./hy-am.js": 256,
-	"./id": 257,
-	"./id.js": 257,
-	"./is": 258,
-	"./is.js": 258,
-	"./it": 259,
-	"./it.js": 259,
-	"./ja": 260,
-	"./ja.js": 260,
-	"./jv": 261,
-	"./jv.js": 261,
-	"./ka": 262,
-	"./ka.js": 262,
-	"./kk": 263,
-	"./kk.js": 263,
-	"./km": 264,
-	"./km.js": 264,
-	"./kn": 265,
-	"./kn.js": 265,
-	"./ko": 266,
-	"./ko.js": 266,
-	"./ky": 267,
-	"./ky.js": 267,
-	"./lb": 268,
-	"./lb.js": 268,
-	"./lo": 269,
-	"./lo.js": 269,
-	"./lt": 270,
-	"./lt.js": 270,
-	"./lv": 271,
-	"./lv.js": 271,
-	"./me": 272,
-	"./me.js": 272,
-	"./mi": 273,
-	"./mi.js": 273,
-	"./mk": 274,
-	"./mk.js": 274,
-	"./ml": 275,
-	"./ml.js": 275,
-	"./mr": 276,
-	"./mr.js": 276,
-	"./ms": 277,
-	"./ms-my": 278,
-	"./ms-my.js": 278,
-	"./ms.js": 277,
-	"./my": 279,
-	"./my.js": 279,
-	"./nb": 280,
-	"./nb.js": 280,
-	"./ne": 281,
-	"./ne.js": 281,
-	"./nl": 282,
-	"./nl-be": 283,
-	"./nl-be.js": 283,
-	"./nl.js": 282,
-	"./nn": 284,
-	"./nn.js": 284,
-	"./pa-in": 285,
-	"./pa-in.js": 285,
-	"./pl": 286,
-	"./pl.js": 286,
-	"./pt": 287,
-	"./pt-br": 288,
-	"./pt-br.js": 288,
-	"./pt.js": 287,
-	"./ro": 289,
-	"./ro.js": 289,
-	"./ru": 290,
-	"./ru.js": 290,
-	"./sd": 291,
-	"./sd.js": 291,
-	"./se": 292,
-	"./se.js": 292,
-	"./si": 293,
-	"./si.js": 293,
-	"./sk": 294,
-	"./sk.js": 294,
-	"./sl": 295,
-	"./sl.js": 295,
-	"./sq": 296,
-	"./sq.js": 296,
-	"./sr": 297,
-	"./sr-cyrl": 298,
-	"./sr-cyrl.js": 298,
-	"./sr.js": 297,
-	"./ss": 299,
-	"./ss.js": 299,
-	"./sv": 300,
-	"./sv.js": 300,
-	"./sw": 301,
-	"./sw.js": 301,
-	"./ta": 302,
-	"./ta.js": 302,
-	"./te": 303,
-	"./te.js": 303,
-	"./tet": 304,
-	"./tet.js": 304,
-	"./th": 305,
-	"./th.js": 305,
-	"./tl-ph": 306,
-	"./tl-ph.js": 306,
-	"./tlh": 307,
-	"./tlh.js": 307,
-	"./tr": 308,
-	"./tr.js": 308,
-	"./tzl": 309,
-	"./tzl.js": 309,
-	"./tzm": 310,
-	"./tzm-latn": 311,
-	"./tzm-latn.js": 311,
-	"./tzm.js": 310,
-	"./uk": 312,
-	"./uk.js": 312,
-	"./ur": 313,
-	"./ur.js": 313,
-	"./uz": 314,
-	"./uz-latn": 315,
-	"./uz-latn.js": 315,
-	"./uz.js": 314,
-	"./vi": 316,
-	"./vi.js": 316,
-	"./x-pseudo": 317,
-	"./x-pseudo.js": 317,
-	"./yo": 318,
-	"./yo.js": 318,
-	"./zh-cn": 319,
-	"./zh-cn.js": 319,
-	"./zh-hk": 320,
-	"./zh-hk.js": 320,
-	"./zh-tw": 321,
-	"./zh-tw.js": 321
+	"./af": 209,
+	"./af.js": 209,
+	"./ar": 210,
+	"./ar-dz": 211,
+	"./ar-dz.js": 211,
+	"./ar-kw": 212,
+	"./ar-kw.js": 212,
+	"./ar-ly": 213,
+	"./ar-ly.js": 213,
+	"./ar-ma": 214,
+	"./ar-ma.js": 214,
+	"./ar-sa": 215,
+	"./ar-sa.js": 215,
+	"./ar-tn": 216,
+	"./ar-tn.js": 216,
+	"./ar.js": 210,
+	"./az": 217,
+	"./az.js": 217,
+	"./be": 218,
+	"./be.js": 218,
+	"./bg": 219,
+	"./bg.js": 219,
+	"./bn": 220,
+	"./bn.js": 220,
+	"./bo": 221,
+	"./bo.js": 221,
+	"./br": 222,
+	"./br.js": 222,
+	"./bs": 223,
+	"./bs.js": 223,
+	"./ca": 224,
+	"./ca.js": 224,
+	"./cs": 225,
+	"./cs.js": 225,
+	"./cv": 226,
+	"./cv.js": 226,
+	"./cy": 227,
+	"./cy.js": 227,
+	"./da": 228,
+	"./da.js": 228,
+	"./de": 229,
+	"./de-at": 230,
+	"./de-at.js": 230,
+	"./de-ch": 231,
+	"./de-ch.js": 231,
+	"./de.js": 229,
+	"./dv": 232,
+	"./dv.js": 232,
+	"./el": 233,
+	"./el.js": 233,
+	"./en-au": 234,
+	"./en-au.js": 234,
+	"./en-ca": 235,
+	"./en-ca.js": 235,
+	"./en-gb": 236,
+	"./en-gb.js": 236,
+	"./en-ie": 237,
+	"./en-ie.js": 237,
+	"./en-nz": 238,
+	"./en-nz.js": 238,
+	"./eo": 239,
+	"./eo.js": 239,
+	"./es": 240,
+	"./es-do": 241,
+	"./es-do.js": 241,
+	"./es.js": 240,
+	"./et": 242,
+	"./et.js": 242,
+	"./eu": 243,
+	"./eu.js": 243,
+	"./fa": 244,
+	"./fa.js": 244,
+	"./fi": 245,
+	"./fi.js": 245,
+	"./fo": 246,
+	"./fo.js": 246,
+	"./fr": 247,
+	"./fr-ca": 248,
+	"./fr-ca.js": 248,
+	"./fr-ch": 249,
+	"./fr-ch.js": 249,
+	"./fr.js": 247,
+	"./fy": 250,
+	"./fy.js": 250,
+	"./gd": 251,
+	"./gd.js": 251,
+	"./gl": 252,
+	"./gl.js": 252,
+	"./gom-latn": 253,
+	"./gom-latn.js": 253,
+	"./he": 254,
+	"./he.js": 254,
+	"./hi": 255,
+	"./hi.js": 255,
+	"./hr": 256,
+	"./hr.js": 256,
+	"./hu": 257,
+	"./hu.js": 257,
+	"./hy-am": 258,
+	"./hy-am.js": 258,
+	"./id": 259,
+	"./id.js": 259,
+	"./is": 260,
+	"./is.js": 260,
+	"./it": 261,
+	"./it.js": 261,
+	"./ja": 262,
+	"./ja.js": 262,
+	"./jv": 263,
+	"./jv.js": 263,
+	"./ka": 264,
+	"./ka.js": 264,
+	"./kk": 265,
+	"./kk.js": 265,
+	"./km": 266,
+	"./km.js": 266,
+	"./kn": 267,
+	"./kn.js": 267,
+	"./ko": 268,
+	"./ko.js": 268,
+	"./ky": 269,
+	"./ky.js": 269,
+	"./lb": 270,
+	"./lb.js": 270,
+	"./lo": 271,
+	"./lo.js": 271,
+	"./lt": 272,
+	"./lt.js": 272,
+	"./lv": 273,
+	"./lv.js": 273,
+	"./me": 274,
+	"./me.js": 274,
+	"./mi": 275,
+	"./mi.js": 275,
+	"./mk": 276,
+	"./mk.js": 276,
+	"./ml": 277,
+	"./ml.js": 277,
+	"./mr": 278,
+	"./mr.js": 278,
+	"./ms": 279,
+	"./ms-my": 280,
+	"./ms-my.js": 280,
+	"./ms.js": 279,
+	"./my": 281,
+	"./my.js": 281,
+	"./nb": 282,
+	"./nb.js": 282,
+	"./ne": 283,
+	"./ne.js": 283,
+	"./nl": 284,
+	"./nl-be": 285,
+	"./nl-be.js": 285,
+	"./nl.js": 284,
+	"./nn": 286,
+	"./nn.js": 286,
+	"./pa-in": 287,
+	"./pa-in.js": 287,
+	"./pl": 288,
+	"./pl.js": 288,
+	"./pt": 289,
+	"./pt-br": 290,
+	"./pt-br.js": 290,
+	"./pt.js": 289,
+	"./ro": 291,
+	"./ro.js": 291,
+	"./ru": 292,
+	"./ru.js": 292,
+	"./sd": 293,
+	"./sd.js": 293,
+	"./se": 294,
+	"./se.js": 294,
+	"./si": 295,
+	"./si.js": 295,
+	"./sk": 296,
+	"./sk.js": 296,
+	"./sl": 297,
+	"./sl.js": 297,
+	"./sq": 298,
+	"./sq.js": 298,
+	"./sr": 299,
+	"./sr-cyrl": 300,
+	"./sr-cyrl.js": 300,
+	"./sr.js": 299,
+	"./ss": 301,
+	"./ss.js": 301,
+	"./sv": 302,
+	"./sv.js": 302,
+	"./sw": 303,
+	"./sw.js": 303,
+	"./ta": 304,
+	"./ta.js": 304,
+	"./te": 305,
+	"./te.js": 305,
+	"./tet": 306,
+	"./tet.js": 306,
+	"./th": 307,
+	"./th.js": 307,
+	"./tl-ph": 308,
+	"./tl-ph.js": 308,
+	"./tlh": 309,
+	"./tlh.js": 309,
+	"./tr": 310,
+	"./tr.js": 310,
+	"./tzl": 311,
+	"./tzl.js": 311,
+	"./tzm": 312,
+	"./tzm-latn": 313,
+	"./tzm-latn.js": 313,
+	"./tzm.js": 312,
+	"./uk": 314,
+	"./uk.js": 314,
+	"./ur": 315,
+	"./ur.js": 315,
+	"./uz": 316,
+	"./uz-latn": 317,
+	"./uz-latn.js": 317,
+	"./uz.js": 316,
+	"./vi": 318,
+	"./vi.js": 318,
+	"./x-pseudo": 319,
+	"./x-pseudo.js": 319,
+	"./yo": 320,
+	"./yo.js": 320,
+	"./zh-cn": 321,
+	"./zh-cn.js": 321,
+	"./zh-hk": 322,
+	"./zh-hk.js": 322,
+	"./zh-tw": 323,
+	"./zh-tw.js": 323
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -615,18 +735,18 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 425;
+webpackContext.id = 427;
 
 /***/ }),
 
-/***/ 447:
+/***/ 449:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OrdersComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(36);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -719,21 +839,21 @@ OrdersComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'orders',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/orders/orders.html"*/'<ion-row class="orders-header margin-top-10">\n	<ion-col col-5 text-center class="orders-label">\n		<span>Pedidos</span>\n	</ion-col>\n	<ion-col col-7>\n		<fieldset (click)="filter($event)">\n		<legend>Filtros</legend>\n		<div [class]="cssStatusCircle"></div>\n		<span>\n			{{status}} <ion-icon name="ios-arrow-down"></ion-icon>\n		</span>\n		</fieldset>\n	</ion-col>\n</ion-row>\n<div class="orders-items">\n	<ion-row class="orders" *ngFor="let order of orders">\n		<ion-col class="order">\n			<ion-row>\n			<ion-col class="order-text">	\n				Ordem\n			</ion-col>\n			<div [class]="cssStatusBox" ></div>\n			</ion-row>\n			<ion-row>\n			<ion-col col-7 class="order-number no-padding-top">	\n				{{order.number}}\n			</ion-col>\n			<ion-col col-5 text-right class="order-actions no-padding-top">	\n				<ion-icon name="netfoods-edit"></ion-icon>\n				<ion-icon name="netfoods-trash"></ion-icon>\n			</ion-col>\n			</ion-row>\n			<ion-row>\n			<ion-col class="no-padding-top">	\n				<span class="order-label">Valor</span><br/>\n				<span class="order-value">{{order.value}}</span>\n			</ion-col>\n			<ion-col class="no-padding-top">	\n				<span class="order-label">Data</span><br/>\n				<span class="order-value">{{order.date}}</span>\n			</ion-col>\n			</ion-row>\n			<ion-row>\n			<ion-col class="no-padding-top">	\n				<span class="order-label">{{order.type_label}}</span><br/>\n				<span class="order-value">{{order.providers}}</span>\n			</ion-col>\n			</ion-row>\n			<ion-row>\n			<ion-col class="order-information">\n				<ion-icon *ngIf="order.type_payment == \'card\'" name="ios-card"></ion-icon>\n				<ion-icon *ngIf="order.type_payment == \'code\'" name="md-barcode"></ion-icon>\n				<ion-icon *ngIf="order.hasMessage" name="ios-chatboxes-outline" class="message-red"></ion-icon>\n			</ion-col>\n			<ion-col text-right class="order-details">	\n				<span>Mais Detalhes</span> \n				<ion-icon name="ios-arrow-forward"></ion-icon>\n			</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</div>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/orders/orders.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* PopoverController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* PopoverController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]])
 ], OrdersComponent);
 
 //# sourceMappingURL=orders.js.map
 
 /***/ }),
 
-/***/ 448:
+/***/ 450:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeaderComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(36);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -786,20 +906,20 @@ HeaderComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'header',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/header/header.html"*/'<ion-grid>\n	<ion-row>\n		<ion-col col-2 class="col-logo">\n			<img src="assets/img/logo-white.png" />\n		</ion-col>\n		<ion-col col-4>\n			<ion-item>        \n				<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n				<ion-input clearInput type="text"></ion-input>\n			</ion-item>\n		</ion-col>\n		<ion-col no-padding col-4>\n			<ion-row>\n				<ion-col text-right col-10 (click)="showUserOptions($event)">\n					<button class="button-user" ion-button clear>\n						Catherine Ramos\n						<ion-icon class="arrow-user" name="ios-arrow-down"></ion-icon>              \n					</button>\n				</ion-col>\n				<ion-col text-left no-padding col-2>\n					<img src="../assets/img/user.png" class="img-user" />\n				</ion-col>\n			</ion-row>\n		</ion-col>\n		<ion-col text-center col-2>\n			<button id="c-button--slide-right" class="notification-button" ion-button clear>\n				<ion-icon name="netfoods-notifications">\n					<ion-badge class="notifications-badge badge-blue">3</ion-badge>\n				</ion-icon>              \n			</button>\n			<button class="notification-button" (click)="showShoppingCart($event)" ion-button clear>\n				<ion-icon name="ios-cart-outline">\n					<ion-badge class="notifications-badge badge-green badge-cart-header">17</ion-badge>\n				</ion-icon>              \n			</button>\n		</ion-col>\n	</ion-row>\n</ion-grid>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/header/header.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* PopoverController */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* PopoverController */]])
 ], HeaderComponent);
 
 //# sourceMappingURL=header.js.map
 
 /***/ }),
 
-/***/ 449:
+/***/ 451:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SidemenuComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -833,128 +953,21 @@ SidemenuComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'sidemenu',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/sidemenu/sidemenu.html"*/'<ion-col class="menu" no-padding col-2>\n	<ion-list>\n		<ion-item (click)="go(\'dashboard\')" class="current" [class.current]="sidemenu == \'dashboard\'" text-wrap>\n			<ion-icon name="netfoods-dashboard"></ion-icon> <span>Dashboard</span>\n		</ion-item>\n		<ion-item (click)="go(\'market\')" [class.current]="sidemenu == \'market\'" text-wrap>\n			<ion-icon name="netfoods-cart"></ion-icon> <span>Mercado</span>\n		</ion-item>\n		<ion-item (click)="go(\'fast_buy\')" [class.current]="sidemenu == \'fast_buy\'" text-wrap>\n			<ion-icon name="netfoods-fast-buy"></ion-icon> <span>Compra Rápida</span>\n		</ion-item>\n		<ion-item (click)="go(\'orders\')" [class.current]="sidemenu == \'orders\'" text-wrap>\n			<ion-icon name="netfoods-orders"></ion-icon> <span>Pedidos</span>\n		</ion-item>\n		<ion-item (click)="go(\'providers\')" [class.current]="sidemenu == \'providers\'" text-wrap>\n			<ion-icon name="netfoods-restaurant"></ion-icon> <span>Fornecedores</span>\n		</ion-item>\n		<ion-item (click)="go(\'messages\')" [class.current]="sidemenu == \'messages\'" text-wrap>\n			<ion-icon name="netfoods-message"></ion-icon> <span>Mensagens</span>\n			<ion-badge class="badge-blue">3</ion-badge>\n		</ion-item>\n		<ion-item (click)="go(\'settings\')" [class.current]="sidemenu == \'settings\'" text-wrap>\n			<ion-icon name="netfoods-settings"></ion-icon> <span>Configurações</span>\n		</ion-item>\n	</ion-list>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/sidemenu/sidemenu.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]])
 ], SidemenuComponent);
 
 //# sourceMappingURL=sidemenu.js.map
 
 /***/ }),
 
-/***/ 45:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PopoverComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the PopoverComponent component.
- *
- * See https://angular.io/api/core/Component for more info on Angular
- * Components.
- */
-var PopoverComponent = (function () {
-    function PopoverComponent(params, events, viewCtrl) {
-        this.params = params;
-        this.events = events;
-        this.viewCtrl = viewCtrl;
-        this.shopping_cart = [{
-                name: "Açaí Orgânico c/ Guaraná",
-                code: "1009072",
-                group: "Grupo PA",
-                current_value: 18.90,
-                previous_value: 19.90,
-                average_value: 19.50,
-                group_value: 17.90,
-                arrow: "down",
-                image: "../assets/img/acai.jpg"
-            },
-            {
-                name: "Snack Orgânico s/ Casca",
-                code: "1022429",
-                group: "Grupo PA",
-                current_value: 8.90,
-                previous_value: 9.90,
-                average_value: 9.50,
-                group_value: 17.90,
-                arrow: "down",
-                image: "../assets/img/bio2snack.jpg"
-            },
-            {
-                name: "Bebida Orgânica de Arroz Amêndoa",
-                code: "1041755",
-                group: "Grupo PA",
-                current_value: 18.90,
-                previous_value: 17.90,
-                average_value: 17.50,
-                group_value: 17.90,
-                arrow: "up",
-                image: "../assets/img/bebida_organica.jpg"
-            },
-            {
-                name: "Ovos Vermelho G/ Orgânicos",
-                code: "3182840",
-                group: "Grupo PA",
-                current_value: 7.90,
-                previous_value: 9.90,
-                average_value: 9.50,
-                group_value: 17.90,
-                arrow: "down",
-                image: "../assets/img/ovos_organico.png"
-            },
-            {
-                name: "Vinho Argentino T/ Orgânico",
-                code: "1009072",
-                group: "Grupo PA",
-                current_value: 78.90,
-                previous_value: 77.90,
-                average_value: 75.50,
-                group_value: 17.90,
-                arrow: "up",
-                image: "../assets/img/vinho_tinto.jpg"
-            }];
-        this.options = this.params.get("menu");
-        this.type = this.params.get("type");
-        this.name = this.params.get("name");
-    }
-    PopoverComponent.prototype.selectOption = function (option) {
-        if (this.type == 'orders') {
-            this.events.publish('option', option.name);
-            this.viewCtrl.dismiss();
-        }
-    };
-    return PopoverComponent;
-}());
-PopoverComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'popover',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/popover/popover.html"*/'<ion-list *ngIf="type == \'orders\'">\n	<ion-item (click)="selectOption(option)" class="item-menu-popover" *ngFor="let option of options">\n		<div *ngIf="type == \'orders\'" [class]="option.css"></div> \n		{{option.name}}\n	</ion-item>\n</ion-list>\n<ion-list class="popover-user" *ngIf="type == \'user\'">\n	<ion-item class="popover-name-user">\n		{{name}}\n	</ion-item>\n	<ion-item class="item-menu-popover popover-icons">\n		<ion-icon name="netfoods-account"></ion-icon>\n		Minha Conta\n	</ion-item>\n	<ion-item class="item-menu-popover popover-icons popover-icons-big">\n		<ion-icon name="ios-headset-outline"></ion-icon>\n		Suporte\n	</ion-item>\n	<ion-item class="item-menu-popover popover-icons popover-icons-big padding-bottom-8">\n		<ion-icon name="ios-log-out"></ion-icon>\n		Sair\n	</ion-item>\n</ion-list>\n<div class="popover-cart" *ngIf="type == \'cart\'">\n	<ion-row>\n		<ion-col class="popover-cart-title">Meu Carrinho (5 Itens)</ion-col>\n	</ion-row>\n	<ion-row class="step-subtotal">\n		<ion-col>\n			<span class="step-subtotal-supplier">Multifoods</span>\n			<span class="step-subtotal-quantity">3 itens</span>\n		</ion-col>\n		<ion-col class="step-subtotal-price">\n			R$ 617,90\n		</ion-col>\n	</ion-row>\n	<ion-row class="product-list step-product-list">\n		<ion-col *ngFor="let item of shopping_cart" class="product-box step-product-box">\n			<ion-row>\n				<ion-col class="no-padding center-image" col-1>\n					<img [src]="item.image" />\n				</ion-col>\n				<ion-col>\n					<ion-row>\n						<ion-col class="product-name" title="{{item.name}}">\n							{{item.name}}\n						</ion-col>			\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-current-value no-padding-bottom">{{item.current_value | currency: \'BRL\': true}} <span>p/ unidade</span></ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="product-cart-quantity no-padding">\n					<ion-row>\n						<ion-col class="popover-quantity no-padding">\n							<span class="product-quantity">\n								<ion-icon name="md-remove"></ion-icon>\n								<span>01</span>\n								<ion-icon name="md-add" class="icon-plus"></ion-icon>\n							</span>\n							<span class="product-cart">\n								<ion-icon name="netfoods-trash"></ion-icon>\n							</span>\n						</ion-col>\n					</ion-row>\n					<ion-row *ngIf="source == \'dashboard\'">\n						<ion-col>\n							<span class="product-price-history">\n								Ver Histórico de Preço\n							</span>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n	<ion-row class="step-total padding-left-10">\n		<ion-col>\n			<ion-row>\n				<ion-col class="step-subtotal-supplier">\n					Multifoods\n				</ion-col>\n				<ion-col class="step-total-text" text-right>\n					valor total do pedido\n				</ion-col>\n			</ion-row>\n			<ion-row>\n				<ion-col class="step-subtotal-quantity no-padding-top">\n					2 fornecedores\n				</ion-col>\n				<ion-col class="step-total-price no-padding-top" text-right>\n					R$ 617,90\n				</ion-col>\n			</ion-row>\n			<ion-row>\n				<ion-col text-center>\n					<button ion-button full icon-start class="button-order">\n						<ion-icon name="cart"></ion-icon>\n						Efetuar Pedido\n					</button>\n				</ion-col>\n			</ion-row>\n			<ion-row>\n				<ion-col class="step-save-order " text-center>\n					Visualizar Pedido\n				</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</div>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/popover/popover.html"*/
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ViewController */]])
-], PopoverComponent);
-
-//# sourceMappingURL=popover.js.map
-
-/***/ }),
-
-/***/ 450:
+/***/ 452:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DashboardComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(36);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1268,22 +1281,21 @@ DashboardComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'dashboard',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/dashboard/dashboard.html"*/'<ion-col class="content" id="contentDashboard" col-10>\n	<ion-row class="content-dashboard">\n		<ion-col class="content-center" col-9>\n			<ion-row class="statistics">\n				<ion-col class="statistics-box">\n					<ion-row>\n						<ion-col class="statistics-label">\n							Pedidos em Aberto\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="statistics-number no-padding-top">\n							150\n						</ion-col>\n						<ion-col class="img-chart">\n							<img src="../assets/img/chart1.png" />\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="statistics-details">\n							<span>Mais Detalhes</span> \n							<ion-icon name="ios-arrow-forward"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="statistics-box">\n					<ion-row>\n						<ion-col class="statistics-label">\n							Total de Pedidos\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="statistics-number no-padding-top">\n							1274\n						</ion-col>\n						<ion-col class="img-chart">\n							<img src="../assets/img/chart2.png" />\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="statistics-details">\n							<span>Mais Detalhes</span> \n							<ion-icon name="ios-arrow-forward"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="statistics-box">\n					<ion-row>\n						<ion-col class="statistics-label">\n							Total em Compras\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="statistics-number no-padding-top">\n							R$ 950k\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="statistics-details">\n							<span>Mais Detalhes</span> \n							<ion-icon name="ios-arrow-forward"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="statistics-box">\n					<ion-row>\n						<ion-col class="statistics-label">\n							Fornecedores\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="statistics-number no-padding-top">\n							748\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="statistics-details">\n							<span>Mais Detalhes</span> \n							<ion-icon name="ios-arrow-forward"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n			<ion-row class="charts">\n				<ion-col class="charts-box no-margin" col-8>\n					<ion-row>\n						<ion-col class="charts-label" col-8>\n							Vendas\n						</ion-col>\n						<ion-col class="margin-right-12">\n							<fieldset>\n								<legend>Filtros</legend>\n								<span>\n									Semestre <ion-icon name="ios-arrow-down"></ion-icon>\n								</span>\n							</fieldset>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col>\n							<canvas baseChart width="400" height="230"\n								[datasets]="lineChartData"\n								[labels]="lineChartLabels"\n								[options]="lineChartOptions"\n								[colors]="lineChartColors"\n								[legend]="lineChartLegend"\n								[chartType]="lineChartType"\n								(chartHover)="chartHovered($event)"\n								(chartClick)="chartClicked($event)">\n							</canvas>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="charts-details">\n							<span>Mais Detalhes</span> \n							<ion-icon name="ios-arrow-forward"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="charts-box no-margin" col-4>\n					<ion-row>\n						<ion-col class="charts-label" col-12>\n							Por Fornecedor\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col>\n							<canvas baseChart width="150" height="190"\n								[datasets]="barChartData"\n								[labels]="barChartLabels"\n								[options]="barChartOptions"\n								[colors]="barChartColors"\n								[legend]="barChartLegend"\n								[chartType]="barChartType"\n								(chartHover)="chartHovered($event)"\n								(chartClick)="chartClicked($event)">\n							</canvas>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="charts-details">\n							<span>Mais Detalhes</span> \n							<ion-icon name="ios-arrow-forward"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n			<ion-row class="products">\n				<ion-col class="products-box no-hover">\n					<products [products]="products" source="dashboard" name="Produtos Mais Comprados"></products>\n				</ion-col>\n			</ion-row>\n			<ion-row class="reports">\n				<ion-col class="reports-box no-hover">\n					<suppliers [suppliers]="suppliers"></suppliers>\n				</ion-col>\n				<ion-col class="reports-box no-hover no-chart-view">\n					<div class="no-chart-monitoring">\n						<div class="text-no-chart">\n							<span>Desculpe, nenhum dado está disponível atualmente!</span>\n						</div>\n					</div>\n					<div class="content-chart">\n						<ion-row>\n							<ion-col class="reports-label no-padding-bottom" col-10>\n								Acompanhamento\n							</ion-col>\n							<ion-col class="reports-icon" col-2>\n								<ion-icon name="ios-more" (click)="presentPopover($event)"></ion-icon>\n							</ion-col>\n						</ion-row>\n						<ion-row>\n							<ion-col class="reports-label no-padding-top">Gasto x Orçamento</ion-col>\n						</ion-row>\n						<ion-row class="loading-bar">\n							<ion-col class="no-padding-right" col-10>\n								<div class="loading-bar-done"></div>\n							</ion-col>\n							<ion-col class="no-padding-left" col-2>\n								<div class="loading-bar-no-done"></div>\n							</ion-col>\n						</ion-row>\n						<ion-row class="monitoring">\n							<ion-col>\n								<span class="monitoring-label">Custo Planejado</span>\n								<span class="monitoring-value-plan">R$45.5k</span>\n							</ion-col>\n							<ion-col text-right>\n								<span class="monitoring-label">Custo realizado</span>\n								<span class="monitoring-value-realized">R$40.5k</span>\n							</ion-col>\n						</ion-row>\n						<ion-row>\n							<ion-col>\n								<canvas baseChart height="300"\n									[datasets]="radarChartData"\n									[labels]="radarChartLabels"\n									[options]="radarChartOptions"\n									[colors]="radarChartColors"\n									[chartType]="radarChartType"\n									(chartHover)="chartHovered($event)"\n									(chartClick)="chartClicked($event)">\n								</canvas>\n							</ion-col>\n						</ion-row>\n						<ion-row>\n							<ion-col class="monitoring-number" text-center>\n								R$ 5k <ion-icon name="md-arrow-round-down"></ion-icon>\n							</ion-col>\n						</ion-row>\n					</div>\n				</ion-col>\n				<ion-col class="reports-box no-hover">\n					<activities [activities]="activities"></activities>\n				</ion-col>\n			</ion-row>\n		</ion-col>\n		<ion-col class="content-right">\n			<orders [orders]="orders"></orders>\n		</ion-col>\n	</ion-row>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/dashboard/dashboard.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* PopoverController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* PopoverController */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* PopoverController */]])
 ], DashboardComponent);
 
-var _a;
 //# sourceMappingURL=dashboard.js.map
 
 /***/ }),
 
-/***/ 451:
+/***/ 453:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SuppliersComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(36);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1328,21 +1340,21 @@ SuppliersComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'suppliers',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/suppliers/suppliers.html"*/'<ion-row>\n	<ion-col class="reports-label">\n		Fornecedores\n	</ion-col>\n</ion-row>\n<ion-row class="report" *ngFor="let supplier of suppliers">\n	<ion-col class="report-box">\n		<ion-row>\n			<ion-col class="report-label">\n				{{supplier.name}}\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col>\n				<span class="report-label-text">Valor Gasto</span>\n				<span class="report-number">{{supplier.value_expense}}</span>\n			</ion-col>\n			<ion-col>\n				<span class="report-label-text">Último Pedido</span>\n				<span class="report-number">{{supplier.last_order}}</span>\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col>\n				<span class="report-label-text">Marketshare</span>\n				<span class="report-number">{{supplier.marketshare}}</span>\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col text-right class="report-details">\n				<span>Acessar Loja</span> \n				<ion-icon name="ios-arrow-forward"></ion-icon>\n			</ion-col>\n		</ion-row>\n	</ion-col>\n</ion-row>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/suppliers/suppliers.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* PopoverController */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* PopoverController */]])
 ], SuppliersComponent);
 
 //# sourceMappingURL=suppliers.js.map
 
 /***/ }),
 
-/***/ 452:
+/***/ 454:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActivitiesComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_popover__ = __webpack_require__(36);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1388,21 +1400,21 @@ ActivitiesComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'activities',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/activities/activities.html"*/'<ion-row>\n	<ion-col class="reports-label">\n		Atividades\n	</ion-col>\n</ion-row>\n<ion-row>\n	<ion-col class="reports-date">Hoje, {{date | date: \'dd\'}} de {{date | date: \'MMMM\'}}</ion-col>\n</ion-row>\n<ion-row class="activities" *ngFor="let activity of activities">\n	<ion-col class="activities-box">\n		<ion-row>\n			<ion-col>\n				<span class="activities-label-text">{{activity.name}}</span>\n				<span class="activities-subtitle">ID: {{activity.id}}</span>\n			</ion-col>\n			<ion-col text-right>\n				<span class="activities-label-value">{{activity.value}}</span>\n				<ion-icon class="down" *ngIf="activity.arrow == \'down\'" name="md-arrow-round-down"></ion-icon>\n				<ion-icon class="up" *ngIf="activity.arrow == \'up\'" name="md-arrow-round-up"></ion-icon>\n				<span class="activities-subtitle">{{activity.date}}</span>\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col text-right class="activities-details">\n				<span>Mais Detalhes</span> \n				<ion-icon name="ios-arrow-forward"></ion-icon>\n			</ion-col>\n		</ion-row>\n	</ion-col>\n</ion-row>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/activities/activities.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* PopoverController */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* PopoverController */]])
 ], ActivitiesComponent);
 
 //# sourceMappingURL=activities.js.map
 
 /***/ }),
 
-/***/ 453:
+/***/ 455:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductsComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__ = __webpack_require__(324);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__ = __webpack_require__(107);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1481,20 +1493,41 @@ ProductsComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'products',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products/products.html"*/'<ion-row [class.padding-top-7]="source == \'market\'">\n	<ion-col class="products-label" [class.padding-left-5]="source == \'fast_buy\'" [class.step-title]="source == \'fast_buy\'" col-6>\n		{{name}}\n	</ion-col>\n	<ion-col [class.col-4]="source == \'dashboard\'" *ngIf="source != \'fast_buy\'">\n		<ion-item class="products-search">        \n			<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>\n		</ion-item>\n	</ion-col>\n	<ion-col col-2 *ngIf="source == \'dashboard\'">\n		<fieldset>\n			<legend>Filtros</legend>\n			<span>\n				Semana <ion-icon name="ios-arrow-down"></ion-icon>\n			</span>\n		</fieldset>\n	</ion-col>\n</ion-row>\n<ion-row *ngIf="source == \'fast_buy\'">\n	<ion-col class="step-subtitle">Selecione a quantidade e adicione a seu carrinho</ion-col>\n</ion-row>\n<ion-row *ngIf="source == \'fast_buy\'">\n	<ion-col class="no-padding-top">\n		<ion-item class="products-search">        \n			<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n			<ion-input clearInput [ngModel]="inputItem" (ngModelChange)="getItems($event)" placeholder="Buscar"></ion-input>\n		</ion-item>\n	</ion-col>\n</ion-row>\n<ion-row>\n	<ion-col class="quantity-total" [class.step-quantity]="source == \'fast_buy\'">\n		<span *ngIf="qtd_items == 1">{{qtd_items}} produto encontrado</span>\n		<span *ngIf="qtd_items > 1">{{qtd_items}} produtos encontrados</span>\n		<span *ngIf="!qtd_items">Nenhum produto encontrado!</span>\n	</ion-col>\n</ion-row>\n<div class="products-offers-day" [class.step-suppliers]="source == \'fast_buy\'">\n	<ion-row class="product-list" *ngFor="let product of items">\n		<ion-col class="product-box">\n			<ion-row>\n				<ion-col class="cursor-pointer center-image" col-2 [class.column-1]="source == \'dashboard\'" (click)="getProduct()">\n					<img [src]="product.image" />\n				</ion-col>\n				<ion-col class="cursor-pointer" [class.col-4]="source == \'dashboard\'" (click)="getProduct()">\n					<ion-row>\n						<ion-col class="product-name" tooltip="{{product.name}}" positionV="bottom" arrow event="hover">\n							{{product.name}}\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col *ngIf="source == \'dashboard\'" class="product-code">Cód.: {{product.code}}</ion-col>\n						<ion-col *ngIf="source == \'market\' || source == \'fast_buy\'" class="product-current-value">{{product.current_value | currency: \'BRL\': true}} <span>p/ unidade</span></ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col *ngIf="source == \'dashboard\'" class="product-group">{{product.group}}</ion-col>\n						<ion-col *ngIf="source == \'market\' || source == \'fast_buy\'" class="product-group-value">{{product.group_value | currency: \'BRL\': true}} <span>p/ caixa c/ 10 uni.</span></ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col *ngIf="source == \'dashboard\'" col-2>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Atual</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Anterior</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-right class="product-label">Valor Médio</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col *ngIf="source == \'dashboard\'" col-2>\n					<ion-row>\n						<ion-col class="product-current-value down no-padding-top"\n						[class.down]="product.arrow == \'down\'" [class.up]="product.arrow == \'up\'">\n							{{product.current_value | currency: \'BRL\': true}} \n							<ion-icon *ngIf="product.arrow == \'down\'" name="md-arrow-round-down"></ion-icon>\n							<ion-icon *ngIf="product.arrow == \'up\'" name="md-arrow-round-up"></ion-icon>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-previous-value">{{product.previous_value | currency: \'BRL\': true}}</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="product-average-value">{{product.average_value | currency: \'BRL\': true}}</ion-col>\n					</ion-row>\n				</ion-col>\n				<ion-col class="product-cart-quantity">\n					<ion-row>\n						<ion-col>\n							<span class="product-quantity">\n								<ion-icon name="md-remove"></ion-icon>\n								<span>01</span>\n								<ion-icon name="md-add" class="icon-plus"></ion-icon>\n							</span>\n							<span class="product-cart" [class.product-has-item-single]="hasItem(product)" (click)="addItem(product)">\n								<ion-icon *ngIf="!hasItem(product)" name="cart"></ion-icon> \n								<ion-icon *ngIf="hasItem(product)" name="netfoods-trash"></ion-icon>\n							</span>\n						</ion-col>\n					</ion-row>\n					<ion-row *ngIf="source == \'dashboard\'">\n						<ion-col>\n							<span class="product-price-history">\n								Ver Histórico de Preço\n							</span>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</div>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products/products.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */], __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__["a" /* ShoppingCartProvider */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */], __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__["a" /* ShoppingCartProvider */]])
 ], ProductsComponent);
 
 //# sourceMappingURL=products.js.map
 
 /***/ }),
 
-/***/ 454:
+/***/ 457:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CartItem; });
+var CartItem = (function () {
+    function CartItem(Item, quantity) {
+        if (quantity === void 0) { quantity = 1; }
+        this.Item = Item;
+        this.quantity = quantity;
+    }
+    CartItem.prototype.value = function () {
+        return this.Item.unit_value * this.quantity;
+    };
+    return CartItem;
+}());
+
+//# sourceMappingURL=cart-item.model.js.map
+
+/***/ }),
+
+/***/ 458:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MarketComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1769,28 +1802,27 @@ var MarketComponent = (function () {
     return MarketComponent;
 }());
 __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Slides */]),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Slides */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Slides */]) === "function" && _a || Object)
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Slides */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Slides */])
 ], MarketComponent.prototype, "slides", void 0);
 MarketComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'market',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/market/market.html"*/'<ion-col class="content market" id="contentMarket" no-padding col-10>\n	<submenu></submenu>\n\n	<div *ngIf="market_content == \'home\'" no-padding>\n		<ion-row class="market-content">\n			<ion-col col-7 class="padding-top-10">\n				<ion-row>\n					<ion-col class="market-title">\n						Ofertas da Semana\n					</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="padding-top-35">\n						<ion-slides>\n							<ion-slide *ngFor="let slide of images">\n								<img [src]="slide.image">\n							</ion-slide>\n						</ion-slides>\n					</ion-col>\n				</ion-row>\n			</ion-col>\n			<ion-col col-5>\n				<ion-row class="products no-margin-top">\n					<ion-col class="products-box no-hover" no-padding>\n						<products [products]="products" source="market" name="Ofertas do Dia"></products>\n					</ion-col>\n				</ion-row>\n			</ion-col>\n		</ion-row>\n		\n		<products-list [products_list]="recommended_products" type="recommended-products" name="Produtos Recomendados"></products-list>\n	\n		<featured-suppliers [featured_suppliers]="featured_suppliers"></featured-suppliers>\n	\n		<products-list [products_list]="top_selling_products" type="top-selling-products" name="Produtos Mais Vendidos"></products-list>\n	</div>\n\n	<div *ngIf="market_content == \'category\'">\n		<category [category]="submenu"></category>\n	</div>\n\n	<div class="product" *ngIf="market_content == \'product\'">\n		<product [product]="product"></product>\n	</div>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/market/market.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]])
 ], MarketComponent);
 
-var _a, _b;
 //# sourceMappingURL=market.js.map
 
 /***/ }),
 
-/***/ 455:
+/***/ 459:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SubmenuComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1864,21 +1896,21 @@ SubmenuComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'submenu',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/submenu/submenu.html"*/'<ion-row class="submenu">\n	<ion-col *ngFor="let item of items" (click)="go(item, $event)" [class.current]="submenu.type == item.type">\n		<ion-icon [name]="item.icon"></ion-icon>\n		{{item.name}}\n	</ion-col>\n</ion-row>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/submenu/submenu.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]])
 ], SubmenuComponent);
 
 //# sourceMappingURL=submenu.js.map
 
 /***/ }),
 
-/***/ 456:
+/***/ 460:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductsListComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__ = __webpack_require__(324);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__ = __webpack_require__(107);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1945,35 +1977,14 @@ ProductsListComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'products-list',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products-list/products-list.html"*/'<ion-row class="margin-left-8">\n	<ion-col [class.padding-top-35]="type == \'top-selling-products\'" class="market-title">\n		{{name}}\n	</ion-col>\n</ion-row>\n\n<ion-row class="products-list-list">\n	<ion-col col-2 class="products-list" [class.col-half-offset]="i % 5 !== 0" *ngFor="let product_list of products_list; let i = index">\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-group" col-10>\n				<ion-icon name="netfoods-box"></ion-icon> \n				<span class="products-list-group-text">Caixa c/ 10 uni.</span>\n			</ion-col>\n			<ion-col class="products-icon-heart" text-right>\n				<ion-icon name="netfoods-heart"></ion-icon>\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col text-center>\n				<img [src]="product_list.image">\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-group-name no-padding-top">\n				{{product_list.group}}\n			</ion-col>\n		</ion-row>\n		<ion-row class="cursor-pointer" (click)="getProduct()">\n			<ion-col class="products-list-type">\n				<span tooltip="{{product_list.name}}" positionV="bottom" arrow event="hover">{{product_list.name}}</span>\n				<span>{{product_list.group | uppercase}} {{product_list.size}}</span>\n			</ion-col>\n		</ion-row>\n		<ion-row class="padding-top-10">\n			<ion-col class="products-list-group-value">{{product_list.group_value | currency: \'BRL\': true}} <span>p/ caixa c/ 10 uni.</span></ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-current-value">{{product_list.unit_value | currency: \'BRL\': true}} <span>p/ unidade</span></ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col class="products-list-quantity-label">\n				<span class="products-list-quantity">\n					<ion-icon name="md-remove"></ion-icon>\n					<span>01</span>\n					<ion-icon name="md-add" class="icon-plus"></ion-icon>\n				</span>\n				<span class="products-list-cart" [class.product-has-item]="hasItem(product_list)" (click)="addItem(product_list)">\n					<ion-icon *ngIf="!hasItem(product_list)" name="cart"></ion-icon> \n					<ion-icon *ngIf="hasItem(product_list)" name="netfoods-trash"></ion-icon>\n					{{labelProduct(product_list)}}\n				</span>\n			</ion-col>\n		</ion-row>\n	</ion-col>\n</ion-row>\n'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/products-list/products-list.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* Events */], __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__["a" /* ShoppingCartProvider */]])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */], __WEBPACK_IMPORTED_MODULE_2__providers_shopping_cart_shopping_cart__["a" /* ShoppingCartProvider */]])
 ], ProductsListComponent);
 
 //# sourceMappingURL=products-list.js.map
 
 /***/ }),
 
-/***/ 458:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CartItem; });
-var CartItem = (function () {
-    function CartItem(Item, quantity) {
-        if (quantity === void 0) { quantity = 1; }
-        this.Item = Item;
-        this.quantity = quantity;
-    }
-    CartItem.prototype.value = function () {
-        return this.Item.unit_value * this.quantity;
-    };
-    return CartItem;
-}());
-
-//# sourceMappingURL=cart-item.model.js.map
-
-/***/ }),
-
-/***/ 459:
+/***/ 461:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2015,7 +2026,7 @@ FeaturedSuppliersComponent = __decorate([
 
 /***/ }),
 
-/***/ 460:
+/***/ 462:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2053,7 +2064,7 @@ SubmenuPopoverComponent = __decorate([
 
 /***/ }),
 
-/***/ 461:
+/***/ 463:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2150,7 +2161,7 @@ ProductComponent = __decorate([
 
 /***/ }),
 
-/***/ 462:
+/***/ 464:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2189,7 +2200,7 @@ RatingComponent = __decorate([
 
 /***/ }),
 
-/***/ 463:
+/***/ 465:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2451,12 +2462,14 @@ CategoryComponent = __decorate([
 
 /***/ }),
 
-/***/ 464:
+/***/ 466:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FastBuyComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_shopping_cart_shopping_cart__ = __webpack_require__(469);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2467,6 +2480,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
 /**
  * Generated class for the FastBuyComponent component.
  *
@@ -2474,7 +2489,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Components.
  */
 var FastBuyComponent = (function () {
-    function FastBuyComponent() {
+    function FastBuyComponent(navCtrl) {
+        this.navCtrl = navCtrl;
         this.suppliers = [{
                 id: 1,
                 name: "Pão de Açucar",
@@ -2637,18 +2653,65 @@ var FastBuyComponent = (function () {
             this.items_quantity = this.items.length;
         }
     };
+    FastBuyComponent.prototype.openShoppingCart = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages_shopping_cart_shopping_cart__["a" /* ShoppingCartPage */]);
+    };
     return FastBuyComponent;
 }());
 FastBuyComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'fast-buy',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/'<ion-col class="content fast-buy" id="contentFastBuy" no-padding col-10>\n	<ion-row class="fast-buy-content">\n		<ion-col col-3>\n			<div class="step">\n				<ion-row>\n					<ion-col class="step-title">Passo 1</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="step-subtitle">Selecione o Fornecedor</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="no-padding-top">\n						<ion-item class="products-search">        \n							<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n							<ion-input clearInput [ngModel]="inputSupplier" (ngModelChange)="getSupplier($event)" placeholder="Buscar"></ion-input>\n						</ion-item>\n					</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="step-quantity">\n						<span *ngIf="items_quantity">{{items_quantity}} </span>\n						<span *ngIf="items_quantity == 1">fornecedor encontrado</span>\n						<span *ngIf="items_quantity > 1">fornecedores encontrados</span>\n						<span *ngIf="items_quantity == 0"> Nenhum fornecedor encontrado!</span>\n					</ion-col>\n				</ion-row>\n				<ion-row class="step-suppliers">\n					<ion-col>\n						<ion-row class="step-supplier" *ngFor="let supplier of items">\n							<ion-col col-5><img [src]="supplier.image"></ion-col>\n							<ion-col col-7 class="step-supplier-name">{{supplier.name}}</ion-col>\n						</ion-row>\n					</ion-col>\n				</ion-row>\n			</div>\n		</ion-col>\n		<ion-col>\n			<div class="step">\n				<ion-row>\n					<ion-col class="products-box" no-padding>\n						<products [products]="products" source="fast_buy" name="Passo 2"></products>\n					</ion-col>\n				</ion-row>\n			</div>\n		</ion-col>\n		<ion-col col-4 class="step-3">\n			<ion-row class="margin-left-10">\n				<ion-col class="step-title">Passo 3</ion-col>\n			</ion-row>\n			<ion-row class="margin-left-10">\n				<ion-col class="step-subtitle">Confirme seu Pedido</ion-col>\n			</ion-row>\n			<ion-row class="step-subtotal margin-left-15">\n				<ion-col>\n					<span class="step-subtotal-supplier">Multifoods</span>\n					<span class="step-subtotal-quantity">3 itens</span>\n				</ion-col>\n				<ion-col class="step-subtotal-price">\n					R$ 617,90\n				</ion-col>\n			</ion-row>\n			<ion-row class="product-list margin-left-10 step-product-list">\n				<ion-col *ngFor="let item of shopping_cart" class="product-box step-product-box">\n					<ion-row>\n						<ion-col col-2>\n							<img [src]="item.image" />\n						</ion-col>\n						<ion-col>\n							<ion-row>\n								<ion-col class="product-name" tooltip="{{item.name}}" positionV="bottom" arrow event="hover">\n									{{item.name}}\n								</ion-col>			\n							</ion-row>\n							<ion-row>\n								<ion-col class="product-current-value no-padding-bottom">{{item.current_value | currency: \'BRL\': true}} <span>p/ unidade</span></ion-col>\n							</ion-row>\n							<ion-row>\n								<ion-col class="step-product-quantity">Qtd: 10</ion-col>\n							</ion-row>\n						</ion-col>\n						<ion-col col-2 class="step-product-remove">\n							<ion-icon name="netfoods-trash"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n			<ion-row class="step-total padding-left-10">\n				<ion-col>\n					<ion-row>\n						<ion-col class="step-subtotal-supplier">\n							Multifoods\n						</ion-col>\n						<ion-col class="step-total-text" text-right>\n							valor total do pedido\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="step-subtotal-quantity no-padding-top">\n							2 fornecedores\n						</ion-col>\n						<ion-col class="step-total-price no-padding-top" text-right>\n							R$ 617,90\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-center>\n							<button ion-button full icon-start class="button-order">\n								<ion-icon name="cart"></ion-icon>\n								Efetuar Pedido\n							</button>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="step-save-order " text-center>\n							Salvar Pedido\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/
+        selector: 'fast-buy',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/'<ion-col class="content fast-buy" id="contentFastBuy" no-padding col-10>\n	<ion-row class="fast-buy-content">\n		<ion-col col-3>\n			<div class="step">\n				<ion-row>\n					<ion-col class="step-title">Passo 1</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="step-subtitle">Selecione o Fornecedor</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="no-padding-top">\n						<ion-item class="products-search">        \n							<ion-label> <ion-icon name="search"></ion-icon></ion-label>\n							<ion-input clearInput [ngModel]="inputSupplier" (ngModelChange)="getSupplier($event)" placeholder="Buscar"></ion-input>\n						</ion-item>\n					</ion-col>\n				</ion-row>\n				<ion-row>\n					<ion-col class="step-quantity">\n						<span *ngIf="items_quantity">{{items_quantity}} </span>\n						<span *ngIf="items_quantity == 1">fornecedor encontrado</span>\n						<span *ngIf="items_quantity > 1">fornecedores encontrados</span>\n						<span *ngIf="items_quantity == 0"> Nenhum fornecedor encontrado!</span>\n					</ion-col>\n				</ion-row>\n				<ion-row class="step-suppliers">\n					<ion-col>\n						<ion-row class="step-supplier" *ngFor="let supplier of items">\n							<ion-col col-5><img [src]="supplier.image"></ion-col>\n							<ion-col col-7 class="step-supplier-name">{{supplier.name}}</ion-col>\n						</ion-row>\n					</ion-col>\n				</ion-row>\n			</div>\n		</ion-col>\n		<ion-col>\n			<div class="step">\n				<ion-row>\n					<ion-col class="products-box" no-padding>\n						<products [products]="products" source="fast_buy" name="Passo 2"></products>\n					</ion-col>\n				</ion-row>\n			</div>\n		</ion-col>\n		<ion-col col-4 class="step-3">\n			<ion-row class="margin-left-10">\n				<ion-col class="step-title">Passo 3</ion-col>\n			</ion-row>\n			<ion-row class="margin-left-10">\n				<ion-col class="step-subtitle">Confirme seu Pedido</ion-col>\n			</ion-row>\n			<ion-row class="step-subtotal margin-left-15">\n				<ion-col>\n					<span class="step-subtotal-supplier">Multifoods</span>\n					<span class="step-subtotal-quantity">3 itens</span>\n				</ion-col>\n				<ion-col class="step-subtotal-price">\n					R$ 617,90\n				</ion-col>\n			</ion-row>\n			<ion-row class="product-list margin-left-10 step-product-list">\n				<ion-col *ngFor="let item of shopping_cart" class="product-box step-product-box">\n					<ion-row>\n						<ion-col col-2>\n							<img [src]="item.image" />\n						</ion-col>\n						<ion-col>\n							<ion-row>\n								<ion-col class="product-name" tooltip="{{item.name}}" positionV="bottom" arrow event="hover">\n									{{item.name}}\n								</ion-col>			\n							</ion-row>\n							<ion-row>\n								<ion-col class="product-current-value no-padding-bottom">{{item.current_value | currency: \'BRL\': true}} <span>p/ unidade</span></ion-col>\n							</ion-row>\n							<ion-row>\n								<ion-col class="step-product-quantity">Qtd: 10</ion-col>\n							</ion-row>\n						</ion-col>\n						<ion-col col-2 class="step-product-remove">\n							<ion-icon name="netfoods-trash"></ion-icon>\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n			<ion-row class="step-total padding-left-10">\n				<ion-col>\n					<ion-row>\n						<ion-col class="step-subtotal-supplier">\n							Multifoods\n						</ion-col>\n						<ion-col class="step-total-text" text-right>\n							valor total do pedido\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="step-subtotal-quantity no-padding-top">\n							2 fornecedores\n						</ion-col>\n						<ion-col class="step-total-price no-padding-top" text-right>\n							R$ 617,90\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col text-center>\n							<button ion-button full icon-start (click)="openShoppingCart()" class="button-order">\n								<ion-icon name="cart"></ion-icon>\n								Efetuar Pedido\n							</button>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="step-save-order " text-center>\n							Salvar Pedido\n						</ion-col>\n					</ion-row>\n				</ion-col>\n			</ion-row>\n		</ion-col>\n	</ion-row>\n</ion-col>'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/components/fast-buy/fast-buy.html"*/
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
 ], FastBuyComponent);
 
 //# sourceMappingURL=fast-buy.js.map
 
+/***/ }),
+
+/***/ 469:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShoppingCartPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ShoppingCartPage = (function () {
+    function ShoppingCartPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ShoppingCartPage.prototype.ionViewDidLoad = function () {
+    };
+    ShoppingCartPage.prototype.ionWillEnter = function () {
+        console.log('ionViewDidLoad ShoppingCartPage');
+    };
+    ShoppingCartPage.prototype.backButton = function () {
+        this.navCtrl.pop();
+    };
+    return ShoppingCartPage;
+}());
+ShoppingCartPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'page-shopping-cart',template:/*ion-inline-start:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/pages/shopping-cart/shopping-cart.html"*/'<ion-header>\n  <ion-navbar hideBackButton>\n    <ion-grid>\n      <ion-row class="shopping-cart-header">\n        <ion-col col-5 class="col-logo">\n          	<img src="assets/img/logo-white.png" />\n		</ion-col>\n		<ion-col col-3>\n			<span>Precisa de ajuda? (11) 3090-7650</span>\n		</ion-col>\n		<ion-col text-right>\n			<span>Ambiente Seguro</span>\n		</ion-col>\n		<ion-col text-right>\n			<img src="assets/img/blindado.png" />\n		</ion-col>\n      </ion-row>\n    </ion-grid>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n	<ion-grid class="shopping-cart-page" no-padding>\n		<ion-row class="sub-header">\n			<ion-col col-2>\n				<button ion-button full icon-start (click)="backButton()" class="back-order">\n					<ion-icon name="ios-arrow-back"></ion-icon>  \n					Escolher mais itens\n				</button>\n			</ion-col>\n			<ion-col text-right>\n				<span class="total-text">Total do Pedido</span>\n				<span class="total-number">R$ 2.528,20</span>\n			</ion-col>\n			<ion-col col-2 text-right class="shopping-cart-button-order">\n				<button ion-button full icon-start class="button-order">\n					<ion-icon name="cart"></ion-icon>\n					Efetuar Pedido\n				</button>\n			</ion-col>\n		</ion-row>\n		<ion-row>\n			<ion-col col-3>\n				<div class="shopping-cart-message">\n					<ion-row>\n						<ion-col class="message-title">Carrinho</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col class="message-text">\n							<p>\n								Confirme as quantidades solicitadas em seu carrinho, e se os seus pedidos atingem o \n								mínimo de vendas do Fornecedor.\n							</p>\n							<p>\n								* Produtos vendidos por quilo, podem sofrer variação no preço final. Os fornecedores da nossa\n								plataforma vendem produtos de forma transparente, a quantidade que você paga é a quantidade que\n								você recebe!\n							</p>\n							<p>\n								A responsabilidade da entrega e da qualidade do produto é do Fornecedor. A Netfoods fica a \n								disposição para analisar todos os casos solitados através do email netfoods@netfoods.com.br ou pelo\n								telefone (11) 3090-7650.\n							</p>\n						</ion-col>\n					</ion-row>\n					<ion-row>\n						<ion-col>\n							<button ion-button full icon-start class="save-order">\n								Salvar Lista de Pedidos\n							</button>\n						</ion-col>\n					</ion-row>\n				</div>\n			</ion-col>\n			<ion-col class="shopping-cart-content">\n				\n			</ion-col>\n		</ion-row>\n	</ion-grid>	\n</ion-content>\n'/*ion-inline-end:"/Users/lucas/Documents/sites/netfoods/netfoods-frontend/src/pages/shopping-cart/shopping-cart.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], ShoppingCartPage);
+
+//# sourceMappingURL=shopping-cart.js.map
+
 /***/ })
 
-},[325]);
+},[327]);
 //# sourceMappingURL=main.js.map

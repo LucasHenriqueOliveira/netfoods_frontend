@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { NavParams, Events, ViewController } from 'ionic-angular';
+import { NavParams, Events, ViewController, App } from 'ionic-angular';
+import { ShoppingCartPage } from '../../pages/shopping-cart/shopping-cart';
 
 /**
  * Generated class for the PopoverComponent component.
@@ -73,7 +74,7 @@ export class PopoverComponent {
 	type: string
 	name: string
 	
-	constructor(private params: NavParams, public events: Events, public viewCtrl: ViewController) {
+	constructor(private params: NavParams, public events: Events, public viewCtrl: ViewController, public app: App) {
 		this.options = this.params.get("menu");
 		this.type = this.params.get("type");
 		this.name = this.params.get("name");
@@ -84,6 +85,12 @@ export class PopoverComponent {
 			this.events.publish('option', option.name);
 			this.viewCtrl.dismiss();
 		}
+	}
+
+	openShoppingCart() {
+		this.viewCtrl.dismiss().then(() => {
+			this.app.getRootNav().push(ShoppingCartPage);
+		});
 	}
 
 }

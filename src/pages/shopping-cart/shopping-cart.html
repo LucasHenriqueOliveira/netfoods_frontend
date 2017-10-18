@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-navbar hideBackButton>
+    <ion-grid>
+      <ion-row class="shopping-cart-header">
+        <ion-col col-5 class="col-logo">
+          	<img src="assets/img/logo-white.png" />
+		</ion-col>
+		<ion-col col-3>
+			<span>Precisa de ajuda? (11) 3090-7650</span>
+		</ion-col>
+		<ion-col text-right>
+			<span>Ambiente Seguro</span>
+		</ion-col>
+		<ion-col text-right>
+			<img src="assets/img/blindado.png" />
+		</ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+	<ion-grid class="shopping-cart-page" no-padding>
+		<ion-row class="sub-header">
+			<ion-col col-2>
+				<button ion-button full icon-start (click)="backButton()" class="back-order">
+					<ion-icon name="ios-arrow-back"></ion-icon>  
+					Escolher mais itens
+				</button>
+			</ion-col>
+			<ion-col text-right>
+				<span class="total-text">Total do Pedido</span>
+				<span class="total-number">R$ 2.528,20</span>
+			</ion-col>
+			<ion-col col-2 text-right class="shopping-cart-button-order">
+				<button ion-button full icon-start class="button-order">
+					<ion-icon name="cart"></ion-icon>
+					Efetuar Pedido
+				</button>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col col-3>
+				<div class="shopping-cart-message">
+					<ion-row>
+						<ion-col class="message-title">Carrinho</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col class="message-text">
+							<p>
+								Confirme as quantidades solicitadas em seu carrinho, e se os seus pedidos atingem o 
+								mínimo de vendas do Fornecedor.
+							</p>
+							<p>
+								* Produtos vendidos por quilo, podem sofrer variação no preço final. Os fornecedores da nossa
+								plataforma vendem produtos de forma transparente, a quantidade que você paga é a quantidade que
+								você recebe!
+							</p>
+							<p>
+								A responsabilidade da entrega e da qualidade do produto é do Fornecedor. A Netfoods fica a 
+								disposição para analisar todos os casos solitados através do email netfoods@netfoods.com.br ou pelo
+								telefone (11) 3090-7650.
+							</p>
+						</ion-col>
+					</ion-row>
+					<ion-row>
+						<ion-col>
+							<button ion-button full icon-start class="save-order">
+								Salvar Lista de Pedidos
+							</button>
+						</ion-col>
+					</ion-row>
+				</div>
+			</ion-col>
+			<ion-col class="shopping-cart-content">
+				
+			</ion-col>
+		</ion-row>
+	</ion-grid>	
+</ion-content>

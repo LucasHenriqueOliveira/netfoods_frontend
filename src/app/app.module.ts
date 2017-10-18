@@ -4,6 +4,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { ShoppingCartPage } from '../pages/shopping-cart/shopping-cart';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -34,6 +35,7 @@ import { PopoverModule } from "ngx-popover";
   declarations: [
     MyApp,
     HomePage,
+    ShoppingCartPage,
     OrdersComponent,
     HeaderComponent,
     SidemenuComponent,
@@ -67,6 +69,7 @@ import { PopoverModule } from "ngx-popover";
   entryComponents: [
     MyApp,
     HomePage,
+    ShoppingCartPage,
     PopoverComponent,
     SubmenuPopoverComponent
   ],

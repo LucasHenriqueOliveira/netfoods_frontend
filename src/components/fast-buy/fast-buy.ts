@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { NavController } from 'ionic-angular';
+import { ShoppingCartPage } from '../../pages/shopping-cart/shopping-cart';
 
 /**
  * Generated class for the FastBuyComponent component.
@@ -158,7 +160,7 @@ export class FastBuyComponent {
 		image: "../assets/img/vinho_tinto.jpg"
 	}];
 
-	constructor() {
+	constructor(public navCtrl: NavController) {
 	}
 
 	ngOnInit() {
@@ -184,6 +186,10 @@ export class FastBuyComponent {
 			})
 			this.items_quantity = this.items.length;
 		}
+	}
+
+	openShoppingCart() {
+		this.navCtrl.push(ShoppingCartPage);
 	}
 
 }
