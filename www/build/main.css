@@ -27840,6 +27840,12 @@ ion-slide img {
   margin-left: -3px;
 }
 
+.product-has-item-single {
+  background-color: #A82923 !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
 .market .featured-suppliers {
   background-color: #F8F8FA;
 }

@@ -28,6 +28,7 @@ export class MarketComponent {
 	}];
 
 	products = [{
+		id: 1,
 		name: "Açaí Orgânico c/ Guaraná",
 		code: "1009072",
 		group: "Grupo PA",
@@ -39,6 +40,7 @@ export class MarketComponent {
 		image: "../assets/img/acai.jpg"
 	},
 	{
+		id: 2,
 		name: "Snack Orgânico s/ Casca",
 		code: "1022429",
 		group: "Grupo PA",
@@ -50,6 +52,7 @@ export class MarketComponent {
 		image: "../assets/img/bio2snack.jpg"
 	},
 	{
+		id: 3,
 		name: "Bebida Orgânica de Arroz Amêndoa",
 		code: "1041755",
 		group: "Grupo PA",
@@ -61,6 +64,7 @@ export class MarketComponent {
 		image: "../assets/img/bebida_organica.jpg"
 	},
 	{
+		id: 4,
 		name: "Ovos Vermelho G/ Orgânicos",
 		code: "3182840",
 		group: "Grupo PA",
@@ -72,6 +76,7 @@ export class MarketComponent {
 		image: "../assets/img/ovos_organico.png"
 	},
 	{
+		id: 5,
 		name: "Vinho Argentino T/ Orgânico",
 		code: "1009072",
 		group: "Grupo PA",

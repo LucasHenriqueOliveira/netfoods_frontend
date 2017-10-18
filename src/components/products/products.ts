@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { Events } from 'ionic-angular';
+import { ShoppingCartProvider } from '../../providers/shopping-cart/shopping-cart';
+import { Item } from '../../models/item-model';
 
 /**
  * Generated class for the ProductsComponent component.
@@ -19,7 +21,7 @@ export class ProductsComponent {
 	private items: any;
 	private qtd_items: number;
 
-	constructor(public events: Events) {
+	constructor(public events: Events, private ShoppingCartProvider: ShoppingCartProvider) {
 		
 	}
 
@@ -53,4 +55,19 @@ export class ProductsComponent {
 		}
 	}
 
+	removeItem(item: any) {
+		this.ShoppingCartProvider.removeItem(item);
+	}
+	
+	addItem(item: Item) {
+		if(!this.hasItem(item)) {
+			this.ShoppingCartProvider.addItem(item);
+		} else {
+			this.removeItem(item);
+		}
+	}
+
+	hasItem(item: Item) {
+		return this.ShoppingCartProvider.hasItem(item);
+	}
 }

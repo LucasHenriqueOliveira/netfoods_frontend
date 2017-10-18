@@ -37,7 +37,6 @@ export class ProductsListComponent {
 		} else {
 			this.removeItem(item);
 		}
-		
 	}
 
 	hasItem(item: Item) {

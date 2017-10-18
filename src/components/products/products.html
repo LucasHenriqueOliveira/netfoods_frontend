@@ -92,8 +92,9 @@
 								<span>01</span>
 								<ion-icon name="md-add" class="icon-plus"></ion-icon>
 							</span>
-							<span class="product-cart">
-								<ion-icon name="cart"></ion-icon>
+							<span class="product-cart" [class.product-has-item-single]="hasItem(product)" (click)="addItem(product)">
+								<ion-icon *ngIf="!hasItem(product)" name="cart"></ion-icon> 
+								<ion-icon *ngIf="hasItem(product)" name="netfoods-trash"></ion-icon>
 							</span>
 						</ion-col>
 					</ion-row>
